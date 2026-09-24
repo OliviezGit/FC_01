@@ -5,12 +5,7 @@
 	(uuid "08c6f33e-f86f-4617-b0fe-ce3f72994236")
 	(paper "A4")
 	(title_block
-		(title "LEVIA H7")
-		(date "2026-06-13")
-		(rev "0.1-prelayout")
-		(company "Pierluigi Colangeli, PhD")
-		(comment 1 "License: CERN-OHL-S-2.0")
-		(comment 2 "Open hardware STM32H743 flight controller")
+		(date "2026-09-24")
 	)
 	(lib_symbols
 		(symbol "BMP581:BMP581"
@@ -2636,7 +2631,7 @@
 	)
 	(text "shared with \nDPS368 sur I2C2\nBMP581 sur I2C1\ncheck I2C adress before use external pad"
 		(exclude_from_sim no)
-		(at 214.884 155.702 0)
+		(at 212.852 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2654,17 +2649,6 @@
 			)
 		)
 		(uuid "6d6269fa-a3f6-4c1c-a805-438f5fa142f8")
-	)
-	(text "SENSORS"
-		(exclude_from_sim no)
-		(at 33.02 19.05 0)
-		(effects
-			(font
-				(face "Arial Black")
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "e9ec98a3-bc65-4586-b49d-488b6af7e77a")
 	)
 	(junction
 		(at 246.38 107.95)
@@ -2737,12 +2721,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d9c7b58-6f51-4158-864b-0ee45237b899")
-	)
-	(junction
-		(at 83.82 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4da0c8f4-aca5-44eb-9151-a6d63168ddb1")
 	)
 	(junction
 		(at 111.76 129.54)
@@ -2871,22 +2849,10 @@
 		(uuid "d83485d8-00d2-4c19-a3e0-bfb77f99bb63")
 	)
 	(junction
-		(at 90.17 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8f18be0-e376-4f55-9fc5-8d55043f752b")
-	)
-	(junction
 		(at 100.33 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3b42523-8f19-41a2-9606-e646f88a615e")
-	)
-	(junction
-		(at 87.63 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea9ab10b-8ce0-4d0d-8833-65e3758dbb36")
 	)
 	(junction
 		(at 220.98 46.99)
@@ -2923,10 +2889,6 @@
 		(uuid "6186fcb0-fe3d-4125-926d-14c75dbd23a4")
 	)
 	(no_connect
-		(at 220.98 156.21)
-		(uuid "6ea76dc7-d08f-420c-a9e3-757c2a0c825e")
-	)
-	(no_connect
 		(at 154.94 48.26)
 		(uuid "72fe202d-e5b8-4466-b412-1acf1ee5355e")
 	)
@@ -2945,14 +2907,6 @@
 	(no_connect
 		(at 154.94 43.18)
 		(uuid "d1064083-8174-4ae1-baf2-7c87e5081211")
-	)
-	(no_connect
-		(at 224.79 154.94)
-		(uuid "d70a1757-a72e-40e8-969a-f6f3d6d96d68")
-	)
-	(no_connect
-		(at 224.79 157.48)
-		(uuid "de6841fe-30ca-4a8a-91eb-8361879cba37")
 	)
 	(no_connect
 		(at 261.62 58.42)
@@ -3234,16 +3188,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 147.32) (xy 83.82 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "116dabbf-9987-44ed-9300-6f624c7fbb30")
-	)
-	(wire
-		(pts
 			(xy 114.3 45.72) (xy 101.6 45.72)
 		)
 		(stroke
@@ -3271,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "1419710a-b9ce-480d-a291-9013212b60e0")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1544abbe-1b87-41d2-aeac-56392ff7b4e8")
 	)
 	(wire
 		(pts
@@ -3304,16 +3258,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 138.43) (xy 90.17 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17ec2e66-8190-48ff-8256-74bc21ac5ac6")
-	)
-	(wire
-		(pts
 			(xy 246.38 113.03) (xy 252.73 113.03)
 		)
 		(stroke
@@ -3344,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 156.21) (xy 83.82 156.21)
+			(xy 69.85 156.21) (xy 119.38 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3401,16 +3345,6 @@
 			(type default)
 		)
 		(uuid "210aa00e-1882-45b6-8122-9751aafa2669")
-	)
-	(wire
-		(pts
-			(xy 85.09 39.37) (xy 85.09 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21262509-cd38-4c45-add2-5a4cfe668c04")
 	)
 	(wire
 		(pts
@@ -3794,16 +3728,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 53.34) (xy 128.27 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "549ebd6a-c09b-4d92-a845-3ca47b972924")
-	)
-	(wire
-		(pts
 			(xy 95.25 86.36) (xy 95.25 85.09)
 		)
 		(stroke
@@ -3894,16 +3818,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 147.32) (xy 90.17 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628cad09-40bf-4fce-9e94-9ac6352d6de4")
-	)
-	(wire
-		(pts
 			(xy 207.01 54.61) (xy 207.01 60.96)
 		)
 		(stroke
@@ -3921,26 +3835,6 @@
 			(type default)
 		)
 		(uuid "66382c43-06d4-44f2-8dae-32a3998af397")
-	)
-	(wire
-		(pts
-			(xy 83.82 156.21) (xy 119.38 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "664c4bab-60a8-48e4-aad0-6f318f497591")
-	)
-	(wire
-		(pts
-			(xy 87.63 113.03) (xy 87.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66b8ea3b-e927-4a66-83c6-96911789f0d6")
 	)
 	(wire
 		(pts
@@ -3991,16 +3885,6 @@
 			(type default)
 		)
 		(uuid "7218cb45-a0f7-4a76-8efd-9169ae9ec730")
-	)
-	(wire
-		(pts
-			(xy 87.63 71.12) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7353f4f7-299d-48a4-9163-8fdc30770967")
 	)
 	(wire
 		(pts
@@ -4074,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 158.75) (xy 119.38 158.75)
+			(xy 69.85 158.75) (xy 119.38 158.75)
 		)
 		(stroke
 			(width 0)
@@ -4344,6 +4228,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 113.03) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989e91ef-e327-436b-a3ea-2b2a73bf005c")
+	)
+	(wire
+		(pts
 			(xy 123.19 41.91) (xy 128.27 41.91)
 		)
 		(stroke
@@ -4474,16 +4368,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 158.75) (xy 90.17 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ba6bb1-18bf-41e9-8101-aeb8f9ef5b30")
-	)
-	(wire
-		(pts
 			(xy 246.38 107.95) (xy 256.54 107.95)
 		)
 		(stroke
@@ -4584,16 +4468,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 135.89) (xy 87.63 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b855cc2c-81b3-4be8-af09-8714e8b202ea")
-	)
-	(wire
-		(pts
 			(xy 210.82 54.61) (xy 210.82 58.42)
 		)
 		(stroke
@@ -4601,16 +4475,6 @@
 			(type default)
 		)
 		(uuid "b917fddf-a11a-4dac-8f61-bbd85ce11496")
-	)
-	(wire
-		(pts
-			(xy 123.19 113.03) (xy 87.63 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97e2ebf-1bd1-45b9-801f-02708ef20846")
 	)
 	(wire
 		(pts
@@ -4714,16 +4578,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 138.43) (xy 87.63 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7592dfe-3ac1-4fdb-8afd-8f6f5fedd990")
-	)
-	(wire
-		(pts
 			(xy 31.75 31.75) (xy 41.91 31.75)
 		)
 		(stroke
@@ -4741,16 +4595,6 @@
 			(type default)
 		)
 		(uuid "c9a64f80-93cc-4f3c-a346-4a5ead2d847c")
-	)
-	(wire
-		(pts
-			(xy 83.82 152.4) (xy 83.82 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b47164-718c-4c3c-a766-65e1922c103d")
 	)
 	(wire
 		(pts
@@ -5104,16 +4948,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 138.43) (xy 90.17 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef0b3ec2-657f-4ef9-a031-c0b851bb1299")
-	)
-	(wire
-		(pts
 			(xy 95.25 71.12) (xy 95.25 80.01)
 		)
 		(stroke
@@ -5201,16 +5035,6 @@
 			(type default)
 		)
 		(uuid "ff0d036d-a8eb-48b3-93ef-46ef99be29b8")
-	)
-	(wire
-		(pts
-			(xy 85.09 34.29) (xy 85.09 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff6b51be-9d14-486e-a5d0-8e9230a3e19a")
 	)
 	(label "IMU3_G_CS"
 		(at 41.91 105.41 180)
@@ -5301,6 +5125,16 @@
 			(justify right bottom)
 		)
 		(uuid "38a12d27-3067-4d7b-938b-1d64b49403f3")
+	)
+	(label "SPI4.CS"
+		(at 110.49 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b836c32-e4dd-45f6-835b-435b05be4954")
 	)
 	(label "SPI1.SCLK"
 		(at 115.57 50.8 0)
@@ -5492,16 +5326,6 @@
 		)
 		(uuid "897e4209-ea03-4317-972f-b02a427a2c45")
 	)
-	(label "SPI1.CS"
-		(at 115.57 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a88811d-9cb1-438d-972f-070edbbc7fb0")
-	)
 	(label "SPI4.MOSI"
 		(at 110.49 107.95 0)
 		(effects
@@ -5511,6 +5335,16 @@
 			(justify left bottom)
 		)
 		(uuid "96096acd-fdda-4ae9-af09-97270315418b")
+	)
+	(label "SPI1.CS"
+		(at 115.57 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9723f420-4a1f-4b7f-b1d2-1ecba52bad42")
 	)
 	(label "IMU1_DRDY"
 		(at 41.91 72.39 180)
@@ -5763,83 +5597,6 @@
 		(uuid "e5ac8ecd-20b6-42ab-8396-8238a2140585")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 85.09 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "052d7189-4f6e-4619-8784-5eec9190af43")
-		(property "Reference" "#PWR094"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "+3V3_MCU"
-			(at 85.09 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8fe13729-2e13-46c7-9adb-07765d497309")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR094")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 97.79 140.97 0)
 		(mirror y)
@@ -5957,7 +5714,7 @@
 			(uuid "d710ee9f-7802-439e-8f89-d944798cbcae")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C64")
 					(unit 1)
@@ -6036,133 +5793,9 @@
 			(uuid "a3e795e1-44ae-4454-ac35-786dbbf42842")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 87.63 73.66 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15f70211-f00d-4ce1-abbd-0b0dc5823ef6")
-		(property "Reference" "R30"
-			(at 90.805 71.755 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 90.805 75.565 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4c95be0c-6229-4077-a4ec-c990cd83adf2")
-		)
-		(pin "1"
-			(uuid "093bf2f4-e83f-465e-9440-7bbd5293fc07")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6284,7 +5917,7 @@
 			(uuid "3894b947-61ab-48bf-8821-de79a7ccde0b")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R32")
 					(unit 1)
@@ -6403,7 +6036,7 @@
 			(uuid "c36899e5-25c0-4201-a434-0831d962125b")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "U3")
 					(unit 1)
@@ -6480,133 +6113,9 @@
 			(uuid "46b58890-3805-4e10-8d1e-855173194601")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 85.09 36.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e94a606-d1ec-497c-91ed-469d50d4df77")
-		(property "Reference" "R27"
-			(at 88.265 34.925 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 88.265 38.735 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 85.09 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "096f85ff-c983-4e58-a488-c415b60bece3")
-		)
-		(pin "1"
-			(uuid "7d91a26e-55cf-4475-9a07-63071d704dce")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6682,7 +6191,7 @@
 			(uuid "08864669-5a7c-4fc1-b784-50a247d87b79")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0100")
 					(unit 1)
@@ -6760,7 +6269,7 @@
 			(uuid "537bd555-8b83-4c52-97a8-aff552851511")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0141")
 					(unit 1)
@@ -6886,7 +6395,7 @@
 			(uuid "5c01ee5f-c34f-4404-bf0c-9414302fa64b")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C66")
 					(unit 1)
@@ -7010,7 +6519,7 @@
 			(uuid "740630b2-997d-48c8-9047-a4d0918a3043")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R29")
 					(unit 1)
@@ -7089,86 +6598,9 @@
 			(uuid "0fac9ab2-97c2-42c9-9b08-25786327bd41")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 87.63 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f8bee4c-889c-462c-89e3-9ebe17a42e2c")
-		(property "Reference" "#PWR098"
-			(at 87.63 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "+3V3_MCU"
-			(at 87.63 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6798f830-b706-4a5a-9827-583c7a9cfcb0")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -7243,7 +6675,7 @@
 			(uuid "ea0129f7-ad32-420b-9678-e5e28d7ef125")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR099")
 					(unit 1)
@@ -7369,7 +6801,7 @@
 			(uuid "a83de878-9f32-4456-bf62-b30914c945cc")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C50")
 					(unit 1)
@@ -7494,7 +6926,7 @@
 			(uuid "d852f992-90fa-49b4-b1a2-416a5895f32d")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C51")
 					(unit 1)
@@ -7571,7 +7003,7 @@
 			(uuid "50885fb3-ed9a-464a-bf42-b021be380fe7")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0154")
 					(unit 1)
@@ -7697,7 +7129,7 @@
 			(uuid "302f027b-c41d-4975-8153-8a054e80a3d3")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C65")
 					(unit 1)
@@ -7839,7 +7271,7 @@
 			(uuid "22f57ff2-cd9f-4b69-a412-8b9ae29c06e8")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "U16")
 					(unit 1)
@@ -7962,7 +7394,7 @@
 			(uuid "e7dbacf4-fc58-48e2-9d0b-687d550b053b")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R54")
 					(unit 1)
@@ -8050,7 +7482,7 @@
 			(uuid "2eaa3336-bd52-4359-ac3e-bdd1cecbfd47")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "J15")
 					(unit 1)
@@ -8129,7 +7561,7 @@
 			(uuid "bf29f346-c458-4a05-a897-c4f246648d7a")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0146")
 					(unit 1)
@@ -8255,7 +7687,7 @@
 			(uuid "218c7e43-b539-4240-88be-700a80539ba3")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C41")
 					(unit 1)
@@ -8334,7 +7766,7 @@
 			(uuid "4ebe0960-48ba-47e8-babc-41e85ea6a4cd")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR091")
 					(unit 1)
@@ -8413,7 +7845,7 @@
 			(uuid "acfcf0bb-fd7f-4da4-a7d5-eba743c8ba9f")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0102")
 					(unit 1)
@@ -8537,7 +7969,7 @@
 			(uuid "0d3c618e-228a-4c35-b514-d9b78cbd07d6")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "U8")
 					(unit 1)
@@ -8616,7 +8048,7 @@
 			(uuid "1a3cfb67-b505-42a0-aa22-a16c8146b4da")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0145")
 					(unit 1)
@@ -8742,7 +8174,7 @@
 			(uuid "9fc06094-6362-4611-adb8-cb8d6ba8c778")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C43")
 					(unit 1)
@@ -8821,7 +8253,7 @@
 			(uuid "dd86a883-3abe-4ad1-a804-58dc119e69ff")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR096")
 					(unit 1)
@@ -8944,7 +8376,7 @@
 			(uuid "6b5ed7b1-2167-4a3c-9b62-c8af072f4ec5")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R55")
 					(unit 1)
@@ -9021,133 +8453,9 @@
 			(uuid "19fa1fab-d410-485e-ab07-9578a36333b8")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 83.82 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98368563-13c6-4b86-9407-9c69a3fbe27c")
-		(property "Reference" "R33"
-			(at 86.995 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 86.995 151.765 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 83.82 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "748383d2-504a-4401-b384-7b0e9ca7c548")
-		)
-		(pin "1"
-			(uuid "692b5a1d-4a35-4957-8891-60360ef37afd")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9270,7 +8578,7 @@
 			(uuid "607a046f-3341-482f-955d-7bce6986847a")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C48")
 					(unit 1)
@@ -9349,7 +8657,7 @@
 			(uuid "f72fdadb-6789-4468-87b9-5c14148bee5c")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0122")
 					(unit 1)
@@ -9472,7 +8780,7 @@
 			(uuid "eddcadd3-4802-4c17-9753-5502d2189299")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R52")
 					(unit 1)
@@ -9598,133 +8906,9 @@
 			(uuid "b0d7656f-6a46-486b-8542-276a132fa688")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 90.17 144.78 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3a7ff60-a09a-4d14-bacc-4b91d7aea0d6")
-		(property "Reference" "R46"
-			(at 93.345 142.875 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 93.345 146.685 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 90.17 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a203fad9-e83e-4cef-9fe9-c9fdfb3d53ad")
-		)
-		(pin "1"
-			(uuid "1e9f0e4a-85c2-4ad1-8fb1-f5523520f487")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -9801,7 +8985,7 @@
 			(uuid "6776107d-153e-427a-81b6-1ecf7852cf31")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0108")
 					(unit 1)
@@ -9927,7 +9111,7 @@
 			(uuid "d7258ec7-5d4d-411c-89b9-1445309eb9fa")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C52")
 					(unit 1)
@@ -10005,7 +9189,7 @@
 			(uuid "64650475-40be-4aa0-a4bf-8e624d36c712")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0150")
 					(unit 1)
@@ -10165,86 +9349,9 @@
 			(uuid "0ae35823-f2e1-437c-a76a-40568e7bdf56")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 87.63 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf113dd2-f726-4467-9d4d-066f07a69116")
-		(property "Reference" "#PWR0123"
-			(at 87.63 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "+3V3_MCU"
-			(at 87.63 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67e61f87-afc4-49c3-830e-3be1876dbbbd")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -10365,7 +9472,7 @@
 			(uuid "cc5c6626-07a5-4b7f-8935-c07bde77f6b5")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R53")
 					(unit 1)
@@ -10444,7 +9551,7 @@
 			(uuid "db2f6fd7-c417-4b81-ba5c-6f97db4fc191")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0103")
 					(unit 1)
@@ -10522,7 +9629,7 @@
 			(uuid "cb29e708-b15d-4659-9647-da8ea7cfa133")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0144")
 					(unit 1)
@@ -10601,7 +9708,7 @@
 			(uuid "ee5c0755-5348-4e76-a153-fc462e414e41")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0105")
 					(unit 1)
@@ -10679,7 +9786,7 @@
 			(uuid "a9fa8b43-4de1-4ac9-a392-793535e4a24c")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0142")
 					(unit 1)
@@ -10757,7 +9864,7 @@
 			(uuid "1421ec56-6cf0-40ad-bf98-8748c531fa83")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0151")
 					(unit 1)
@@ -10863,7 +9970,7 @@
 			(uuid "3ff36bee-a68c-49ab-91e5-61c9b0f13207")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "U2")
 					(unit 1)
@@ -10942,7 +10049,7 @@
 			(uuid "9c275d87-96e6-433f-b459-02e83eb0bf3d")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0101")
 					(unit 1)
@@ -11066,7 +10173,7 @@
 			(uuid "830a322a-3613-45f3-a22b-555f29f86099")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "R31")
 					(unit 1)
@@ -11192,7 +10299,7 @@
 			(uuid "5cabe030-6228-4d7e-848d-5be513290e08")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C47")
 					(unit 1)
@@ -11280,7 +10387,7 @@
 			(uuid "f9e3ff04-e55a-40e0-9426-ea99d6d74b6c")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "J10")
 					(unit 1)
@@ -11357,7 +10464,7 @@
 			(uuid "224cd57b-9032-4542-9fd0-2202ae262fc1")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0153")
 					(unit 1)
@@ -11482,7 +10589,7 @@
 			(uuid "ae91e269-b027-4a60-a7de-2ebae268b197")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C68")
 					(unit 1)
@@ -11561,7 +10668,7 @@
 			(uuid "672f7900-24b8-4dff-a79d-d39aec3564ed")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0121")
 					(unit 1)
@@ -11640,7 +10747,7 @@
 			(uuid "5d2913a4-3094-40f6-8552-abe1586d10ef")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR090")
 					(unit 1)
@@ -11765,7 +10872,7 @@
 			(uuid "d38e8473-7702-450d-85de-23852935f9f6")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "C49")
 					(unit 1)
@@ -11844,7 +10951,7 @@
 			(uuid "312756d6-ba00-432c-ad35-7bd33653bec5")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0120")
 					(unit 1)
@@ -11923,7 +11030,7 @@
 			(uuid "55130600-fd5a-48cf-84a8-940b6fb68db7")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0147")
 					(unit 1)
@@ -12002,7 +11109,7 @@
 			(uuid "a7079306-1114-4268-a6fb-42035b4ab2c3")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR0149")
 					(unit 1)

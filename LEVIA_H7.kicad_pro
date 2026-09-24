@@ -270,7 +270,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.1-prelayout"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -837,17 +837,17 @@
     "top_level_sheets": [
       {
         "filename": "LEVIA_H7.kicad_sch",
-        "name": "LEVIA_H7",
+        "name": "H743 ARDUPILOT",
         "uuid": "6b768b36-fce6-4be0-9021-6d41bddc3a70"
       }
     ],
-    "used_designators": "#PWR13,#PWR16,#PWR18-19,#PWR24,#PWR26,#PWR66-71,#PWR90,#PWR98-99,#PWR103-111,#PWR120-123,#PWR125-155,D1,D5,U2-3,U8,U17,U20,U25-26,C47,C49-52,C55-72,JP2-3,TP20-21,FB1,R4-6,R29-33,R46-64,J2-18",
+    "used_designators": "#PWR13,#PWR16,#PWR18-19,#PWR24,#PWR26,#PWR33,#PWR36-37,#PWR40,#PWR42-43,#PWR45,#PWR47-48,#PWR66-74,#PWR90,#PWR98-99,#PWR103-111,#PWR120-123,#PWR125-155,D1,D5,U2-3,U8,U17,U20,U25-26,C17,C19,C23,C33,C47,C49-52,C55-72,JP2-3,TP11-12,TP20-21,FB1,R4-6,R10-11,R13-14,R17-18,R21-22,R29-33,R46-64,J2-18",
     "variants": []
   },
   "sheets": [
     [
       "6b768b36-fce6-4be0-9021-6d41bddc3a70",
-      "LEVIA_H7"
+      "H743 ARDUPILOT"
     ],
     [
       "020f93d0-ab76-4c08-9373-958d923a454f",
@@ -856,6 +856,10 @@
     [
       "4618509d-46d5-4b32-bd9a-2bec826ec7e9",
       "POWER"
+    ],
+    [
+      "05a39706-93dd-4215-aab0-0781f7da02e1",
+      "ANALOG_SENS"
     ],
     [
       "6670d797-9965-46e5-90bb-ab564d1e1d11",

@@ -5,12 +5,7 @@
 	(uuid "dac36f26-6ddd-4279-ab20-a26c5ba5f958")
 	(paper "A3")
 	(title_block
-		(title "LEVIA H7")
-		(date "2026-06-13")
-		(rev "0.1-prelayout")
-		(company "Pierluigi Colangeli, PhD")
-		(comment 1 "License: CERN-OHL-S-2.0")
-		(comment 2 "Open hardware STM32H743 flight controller")
+		(date "2026-09-24")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4704,17 +4699,6 @@
 		)
 		(uuid "797add32-24e1-45c4-a73f-250b47e9917b")
 	)
-	(text "MCU"
-		(exclude_from_sim no)
-		(at 22.86 19.05 0)
-		(effects
-			(font
-				(face "Arial Black")
-				(size 5.08 5.08)
-			)
-		)
-		(uuid "8a188b94-a102-4908-b1cd-b2c600ff0fe6")
-	)
 	(text "À respecter :\n\ncéramique X7R/X5R\ntension 6,3 V ou 10 V suffit\ntrès proche des broches\npiste courte et large\nne pas relier VCAP au 3V3\nne pas mettre de ferrite\nne rien alimenter depuis VCAP"
 		(exclude_from_sim no)
 		(at 112.268 188.214 0)
@@ -4934,14 +4918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f58429e8-b5b8-464a-956b-33827f7662cc")
-	)
-	(no_connect
-		(at 275.59 123.19)
-		(uuid "32c619f1-7939-4b00-8ab2-c5a64e1386dd")
-	)
-	(no_connect
-		(at 278.13 118.11)
-		(uuid "b15dcb78-8231-4e18-a87b-d3ed5c22025f")
 	)
 	(bus_entry
 		(at 36.83 93.98)
@@ -5468,16 +5444,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 139.7) (xy 289.56 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02290607-ccee-4d2f-b45f-6a88897e6ad8")
-	)
-	(wire
-		(pts
 			(xy 36.83 106.68) (xy 46.99 106.68)
 		)
 		(stroke
@@ -5495,6 +5461,16 @@
 			(type default)
 		)
 		(uuid "04109d91-1ae0-46bf-b45b-a44c716d6cfc")
+	)
+	(wire
+		(pts
+			(xy 208.28 68.58) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a62f39-d532-4d5f-a246-c3efbde5c35c")
 	)
 	(bus
 		(pts
@@ -5555,16 +5531,6 @@
 			(type default)
 		)
 		(uuid "0a75388f-b480-4b89-a7b7-f28900c59129")
-	)
-	(wire
-		(pts
-			(xy 274.32 142.24) (xy 289.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a94bca5-44c8-4d58-b780-a293abf356fd")
 	)
 	(wire
 		(pts
@@ -5666,16 +5632,6 @@
 		)
 		(uuid "163c3735-3f39-4a05-b7fd-ba9812fba90e")
 	)
-	(wire
-		(pts
-			(xy 71.12 50.8) (xy 87.63 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f416d4-f296-470e-b4b0-2ada94aa1241")
-	)
 	(bus
 		(pts
 			(xy 33.02 104.14) (xy 34.29 104.14)
@@ -5685,16 +5641,6 @@
 			(type default)
 		)
 		(uuid "1802d2a8-0ec2-4a9a-b164-e1ed80674ae2")
-	)
-	(wire
-		(pts
-			(xy 71.12 27.94) (xy 87.63 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19800200-24e2-4817-be58-50f1ec27b69d")
 	)
 	(wire
 		(pts
@@ -5818,16 +5764,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 125.73) (xy 290.83 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2730755a-5ead-4f63-8819-868d42b605fa")
-	)
-	(wire
-		(pts
 			(xy 166.37 35.56) (xy 168.91 35.56)
 		)
 		(stroke
@@ -5915,16 +5851,6 @@
 			(type default)
 		)
 		(uuid "2c39b4d9-9dd7-478d-8adf-199fd311b596")
-	)
-	(wire
-		(pts
-			(xy 274.32 170.18) (xy 289.56 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df5e70c-a64f-490f-af41-3f849da7ad09")
 	)
 	(wire
 		(pts
@@ -6366,16 +6292,6 @@
 		)
 		(uuid "5b9434c2-d1ce-441e-ae9b-631159f54c00")
 	)
-	(wire
-		(pts
-			(xy 288.29 38.1) (xy 303.53 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bedf208-742d-487d-be3c-06b347be6c58")
-	)
 	(bus
 		(pts
 			(xy 208.28 121.92) (xy 208.28 119.38)
@@ -6398,16 +6314,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 165.1) (xy 289.56 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61114824-3b89-4564-9f48-ba8e0e59c945")
-	)
-	(wire
-		(pts
 			(xy 207.01 58.42) (xy 191.77 58.42)
 		)
 		(stroke
@@ -6415,16 +6321,6 @@
 			(type default)
 		)
 		(uuid "61d00cd1-1054-40bd-b9a4-459db632c50b")
-	)
-	(wire
-		(pts
-			(xy 16.51 64.77) (xy 0 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6256ce51-b2b8-4119-8759-1b9804e4639e")
 	)
 	(wire
 		(pts
@@ -6798,26 +6694,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 157.48) (xy 289.56 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2145e9-5d95-440e-a78c-30071535670c")
-	)
-	(wire
-		(pts
-			(xy 274.32 147.32) (xy 289.56 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eaaf299-6f1f-4049-93b9-fca441686c15")
-	)
-	(wire
-		(pts
 			(xy 102.87 29.21) (xy 109.22 29.21)
 		)
 		(stroke
@@ -6928,26 +6804,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 144.78) (xy 289.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a011c6c7-2569-4cdd-b7de-b6e7e7fe47be")
-	)
-	(wire
-		(pts
-			(xy 16.51 62.23) (xy 0 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0a04fc3-366d-4fb8-94a8-e7ceb338ddd9")
-	)
-	(wire
-		(pts
 			(xy 231.14 54.61) (xy 248.92 54.61)
 		)
 		(stroke
@@ -6985,16 +6841,6 @@
 			(type default)
 		)
 		(uuid "a5eefc67-7610-4007-9c9f-7904700015de")
-	)
-	(wire
-		(pts
-			(xy 274.32 160.02) (xy 289.56 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a646a1b7-94d3-4f71-925e-726e0f32898f")
 	)
 	(wire
 		(pts
@@ -7256,16 +7102,6 @@
 		)
 		(uuid "bd2bdc44-7259-4914-9db0-d40d165df36f")
 	)
-	(wire
-		(pts
-			(xy 71.12 30.48) (xy 87.63 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd8a19d0-5e95-445c-94cf-b4d4578b4898")
-	)
 	(bus
 		(pts
 			(xy 123.19 99.06) (xy 123.19 96.52)
@@ -7368,16 +7204,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 40.64) (xy 303.53 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8afa873-4b4f-453c-adbb-bbbceed492c8")
-	)
-	(wire
-		(pts
 			(xy 97.79 64.77) (xy 97.79 63.5)
 		)
 		(stroke
@@ -7398,13 +7224,13 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 68.58) (xy 0 68.58)
+			(xy 208.28 154.94) (xy 191.77 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbac95b0-9b78-4e59-be43-101fe6816b12")
+		(uuid "cba04da4-9faf-49df-ac52-a5e8cdea456d")
 	)
 	(wire
 		(pts
@@ -7415,16 +7241,6 @@
 			(type default)
 		)
 		(uuid "ceb18801-beef-423b-804e-59aa33771cf5")
-	)
-	(wire
-		(pts
-			(xy 71.12 48.26) (xy 87.63 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cef04ca0-db84-424f-b6a2-88c1e00ba753")
 	)
 	(wire
 		(pts
@@ -7468,7 +7284,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 157.48) (xy 80.01 157.48)
+			(xy 33.02 121.92) (xy 46.99 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7508,16 +7324,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 167.64) (xy 289.56 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6ac12fc-8e7e-47dc-91f8-f3338d80cce7")
-	)
-	(wire
-		(pts
 			(xy 36.83 74.93) (xy 46.99 74.93)
 		)
 		(stroke
@@ -7525,16 +7331,6 @@
 			(type default)
 		)
 		(uuid "d7809471-b4c0-4818-81dc-27ea2e88bfbe")
-	)
-	(wire
-		(pts
-			(xy 274.32 149.86) (xy 289.56 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d801f33a-b717-4e2e-b844-d82f3069380b")
 	)
 	(bus
 		(pts
@@ -7778,16 +7574,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 162.56) (xy 289.56 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4922cdc-4566-441b-b777-9f848486a3bd")
-	)
-	(wire
-		(pts
 			(xy 66.04 104.14) (xy 67.31 104.14)
 		)
 		(stroke
@@ -7868,7 +7654,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 154.94) (xy 80.01 154.94)
+			(xy 33.02 119.38) (xy 46.99 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7995,648 +7781,6 @@
 			(type default)
 		)
 		(uuid "fc6f3a37-7e7c-4c10-9e03-6f509aa6c4ff")
-	)
-	(table
-		(column_count 4)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 24.13 10.16 20.32 35.56)
-		(row_heights 3.81 3.81 3.81 3.81)
-		(uuid "4d0c3414-f8b3-4cff-b209-780fa13f20a7")
-		(cells
-			(table_cell "I2C1_SCL"
-				(exclude_from_sim no)
-				(at 293.37 194.31 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "b5776621-0365-4272-9739-59f3b49badf1")
-			)
-			(table_cell "92"
-				(exclude_from_sim no)
-				(at 317.5 194.31 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "068970b8-391d-40af-813d-add9ec50b922")
-			)
-			(table_cell "PB6"
-				(exclude_from_sim no)
-				(at 327.66 194.31 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "e15b19f8-9be8-4261-9e10-5131843e9b68")
-			)
-			(table_cell "I2C1_SCL / ArduPilot I2C bus 1"
-				(exclude_from_sim no)
-				(at 347.98 194.31 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "a6937070-5772-4b98-bb33-5ff388ea5abe")
-			)
-			(table_cell "I2C1_SDA"
-				(exclude_from_sim no)
-				(at 293.37 198.12 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "efdf90f3-e6fa-4705-9d1f-051f711e8535")
-			)
-			(table_cell "93"
-				(exclude_from_sim no)
-				(at 317.5 198.12 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "420a6f12-3331-47c3-8993-22b08650de3a")
-			)
-			(table_cell "PB7"
-				(exclude_from_sim no)
-				(at 327.66 198.12 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "2ab31d80-d50a-45ba-81c4-633d2b637e82")
-			)
-			(table_cell "I2C1_SDA / ArduPilot I2C bus 1"
-				(exclude_from_sim no)
-				(at 347.98 198.12 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "914e998a-469e-4621-b4f6-9c06c554dfc8")
-			)
-			(table_cell "I2C2_SCL"
-				(exclude_from_sim no)
-				(at 293.37 201.93 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "63056aa8-07ee-4b71-8d44-db2acd5499c5")
-			)
-			(table_cell "46"
-				(exclude_from_sim no)
-				(at 317.5 201.93 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "f389299b-9c76-49c2-a256-484863610529")
-			)
-			(table_cell "PB10"
-				(exclude_from_sim no)
-				(at 327.66 201.93 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "5e2e383a-5b11-424b-8ffa-2d3bdc0c8218")
-			)
-			(table_cell "I2C2_SCL / ArduPilot I2C bus 0"
-				(exclude_from_sim no)
-				(at 347.98 201.93 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "321491bf-a296-4418-b82e-9502a8321d83")
-			)
-			(table_cell "I2C2_SDA"
-				(exclude_from_sim no)
-				(at 293.37 205.74 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "8614f605-dc89-4a92-9c6e-ce9e526c84bc")
-			)
-			(table_cell "47"
-				(exclude_from_sim no)
-				(at 317.5 205.74 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "14de7377-277e-40eb-832b-1ed4f4cc5166")
-			)
-			(table_cell "PB11"
-				(exclude_from_sim no)
-				(at 327.66 205.74 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "188031b6-70f2-44b9-84db-e3b569228aa0")
-			)
-			(table_cell "I2C2_SDA / ArduPilot I2C bus 0"
-				(exclude_from_sim no)
-				(at 347.98 205.74 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "5bb58bf2-d85d-432a-8e13-5ad0b0b44c2a")
-			)
-		)
-	)
-	(table
-		(column_count 4)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 24.13 10.16 20.32 35.56)
-		(row_heights 3.81 3.81 3.81 3.81 3.81)
-		(uuid "7168737b-f616-4045-a957-1ad6de13bc1c")
-		(cells
-			(table_cell "SPI1_SCK"
-				(exclude_from_sim no)
-				(at 288.29 73.66 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "95f7f012-9dd4-465c-9399-3cf9caa7ebdf")
-			)
-			(table_cell "29"
-				(exclude_from_sim no)
-				(at 312.42 73.66 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "dfd443e1-8026-46f3-8549-10d83f7e1fae")
-			)
-			(table_cell "PA5"
-				(exclude_from_sim no)
-				(at 322.58 73.66 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "d23c6bee-4013-455d-b2e4-fc28161167fd")
-			)
-			(table_cell "SPI1_SCK"
-				(exclude_from_sim no)
-				(at 342.9 73.66 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "cddb2808-ce8b-4fec-8cb4-402a11b9d32e")
-			)
-			(table_cell "SPI1_MISO"
-				(exclude_from_sim no)
-				(at 288.29 77.47 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "c12e0100-5abb-4ccc-9d32-6828547baa81")
-			)
-			(table_cell "30"
-				(exclude_from_sim no)
-				(at 312.42 77.47 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "b813bf09-5b8c-4600-a2ed-e146bf55b76e")
-			)
-			(table_cell "PA6"
-				(exclude_from_sim no)
-				(at 322.58 77.47 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "d3db394b-f7dd-4517-83af-277af5dc2ffc")
-			)
-			(table_cell "SPI1_MISO"
-				(exclude_from_sim no)
-				(at 342.9 77.47 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "c38bd562-4906-477a-978f-452171e3dd60")
-			)
-			(table_cell "SPI1_MOSI"
-				(exclude_from_sim no)
-				(at 288.29 81.28 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "13e42fcd-57de-417d-8150-283f7155ef36")
-			)
-			(table_cell "88"
-				(exclude_from_sim no)
-				(at 312.42 81.28 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "61b718a8-db4e-4b35-a81f-95bc989f6c60")
-			)
-			(table_cell "PD7"
-				(exclude_from_sim no)
-				(at 322.58 81.28 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "bbee3d28-0372-40d1-9f84-eb639032422d")
-			)
-			(table_cell "SPI1_MOSI"
-				(exclude_from_sim no)
-				(at 342.9 81.28 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "7a5b40a8-2f4b-4a49-9afe-159070bd0180")
-			)
-			(table_cell "IMU1_CS"
-				(exclude_from_sim no)
-				(at 288.29 85.09 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "f06cf7b1-eac9-4b4e-b66c-ab71a394958e")
-			)
-			(table_cell "9"
-				(exclude_from_sim no)
-				(at 312.42 85.09 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "c7ae05d4-dc2c-4512-bd1b-68662a7334b8")
-			)
-			(table_cell "PC15-OSC32_OUT"
-				(exclude_from_sim no)
-				(at 322.58 85.09 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "91d7d1f6-f730-47b6-bb04-30db8168dca6")
-			)
-			(table_cell "IMU1_CS"
-				(exclude_from_sim no)
-				(at 342.9 85.09 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "e9c9e90a-624a-4ca6-9f08-4e91d90e8c4f")
-			)
-			(table_cell "IMU1_DRDY"
-				(exclude_from_sim no)
-				(at 288.29 88.9 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-				(uuid "66f06003-de5c-4c04-aec6-6d9d81b36b14")
-			)
-			(table_cell "36"
-				(exclude_from_sim no)
-				(at 312.42 88.9 0)
-				(size 10.16 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "a6aeff6c-7b61-4149-a6d3-fc1ebfe2284b")
-			)
-			(table_cell "PB2"
-				(exclude_from_sim no)
-				(at 322.58 88.9 0)
-				(size 20.32 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-				(uuid "52f7f9a2-e85a-4768-950f-fbb7e63510bc")
-			)
-			(table_cell "GPIO / EXTI option"
-				(exclude_from_sim no)
-				(at 342.9 88.9 0)
-				(size 35.56 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.143 1.143)
-					)
-					(justify left)
-				)
-				(uuid "b9b569da-617a-49ee-9708-884c89e39fd8")
-			)
-		)
 	)
 	(table
 		(column_count 6)
@@ -17005,16 +16149,6 @@
 		)
 		(uuid "06223bb4-8604-46d2-8482-be97eb4620a3")
 	)
-	(label "SPI1.SCLK"
-		(at 303.53 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0807189d-5d65-40eb-b655-f0a10ef63d1f")
-	)
 	(label "BOOT0"
 		(at 109.22 63.5 0)
 		(effects
@@ -17026,7 +16160,7 @@
 		(uuid "0a3ca8ac-3746-4d48-90b8-2e119d1e89c3")
 	)
 	(label "IMU3_G_CS"
-		(at 80.01 157.48 180)
+		(at 46.99 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17175,16 +16309,6 @@
 		)
 		(uuid "21a6c519-e952-4610-ae0e-ec6ddbfbc319")
 	)
-	(label "GYRO1_EXTI"
-		(at 87.63 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "247ec040-c6b1-46d5-82ec-a9ede0eea876")
-	)
 	(label "UART8.TX"
 		(at 133.35 83.82 0)
 		(effects
@@ -17195,18 +16319,8 @@
 		)
 		(uuid "24aa39e8-d7f5-4523-b452-e9b9b7226cad")
 	)
-	(label "RX_PPM"
-		(at 284.48 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25fee98f-d865-46a6-a080-b97b037b3cbd")
-	)
 	(label "IMU3_A_CS"
-		(at 80.01 154.94 180)
+		(at 46.99 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17265,16 +16379,6 @@
 		)
 		(uuid "2f3ec5d0-a977-431a-8cbc-5931808e415d")
 	)
-	(label "I2C1.SDA"
-		(at 289.56 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36dbbcef-e2a7-41b6-9d30-fefa57c62ce7")
-	)
 	(label "OSC_IN"
 		(at 129.54 72.39 0)
 		(effects
@@ -17325,16 +16429,6 @@
 		)
 		(uuid "3a00a418-35d1-4f89-94f5-60a21cd78b4c")
 	)
-	(label "SPI3.MISO"
-		(at 289.56 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a6643b6-5ed6-481f-9c00-b858269a6dbe")
-	)
 	(label "SPI3.SCLK"
 		(at 49.53 160.02 180)
 		(effects
@@ -17375,26 +16469,6 @@
 		)
 		(uuid "47550e31-9792-4195-8492-4348fb156fc4")
 	)
-	(label "SPI1.CS"
-		(at 290.83 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47c66241-e11f-4df2-88a4-009091ac25f8")
-	)
-	(label "SPI3.SCLK"
-		(at 289.56 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "48939641-babb-47aa-9713-f7f54fec80fa")
-	)
 	(label "IMU3_A_CS"
 		(at 132.08 134.62 0)
 		(effects
@@ -17424,16 +16498,6 @@
 			(justify right bottom)
 		)
 		(uuid "58758480-531d-4c6c-a230-3ece1009a2d7")
-	)
-	(label "I2C1.SCL"
-		(at 289.56 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59018356-e385-464e-8fe7-54a45ddccd0e")
 	)
 	(label "SPI3.MISO"
 		(at 49.53 154.94 180)
@@ -17485,17 +16549,7 @@
 		)
 		(uuid "5feeb9f9-bf85-4997-ae56-4b781e50c0f9")
 	)
-	(label "I2C2.SDA"
-		(at 289.56 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60b5f317-ef6d-4a81-8e0f-7d770b35539e")
-	)
-	(label "ADC1_VBAT1"
+	(label "ADC_VBAT1"
 		(at 191.77 144.78 0)
 		(effects
 			(font
@@ -17504,16 +16558,6 @@
 			(justify left bottom)
 		)
 		(uuid "636c9bd9-4376-4f3a-bff2-43c5d433c186")
-	)
-	(label "SPI2.MOSI"
-		(at 289.56 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63b62539-1193-4a0b-8361-a1a4b089e9e7")
 	)
 	(label "BUZZER"
 		(at 95.25 111.76 180)
@@ -17595,16 +16639,6 @@
 		)
 		(uuid "74b82914-e614-45d1-8f5a-5040172981df")
 	)
-	(label "9V_EN"
-		(at 16.51 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "78104582-ad51-424d-b7f9-ad1635b4968e")
-	)
 	(label "SDIO.D1"
 		(at 207.01 167.64 180)
 		(effects
@@ -17614,16 +16648,6 @@
 			(justify right bottom)
 		)
 		(uuid "7acb4154-b85f-4e29-ac8e-66b976e42661")
-	)
-	(label "ADC1_RSSI"
-		(at 87.63 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b184852-0e80-4772-9430-81e1f5568d0e")
 	)
 	(label "SDIO.D2"
 		(at 207.01 170.18 180)
@@ -17685,16 +16709,6 @@
 		)
 		(uuid "82d57ca0-f2e6-4791-997e-0b0e233b0a1b")
 	)
-	(label "ADC1_AIRS"
-		(at 87.63 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "870db91f-3878-4de0-a6fa-1246601bdfbd")
-	)
 	(label "UART7.CTS"
 		(at 143.51 106.68 180)
 		(effects
@@ -17755,15 +16769,15 @@
 		)
 		(uuid "8fe25c7f-a218-4312-9c75-889dcf83a1b5")
 	)
-	(label "SPI2.SCLK"
-		(at 289.56 165.1 180)
+	(label "ADC_VBAT2"
+		(at 191.77 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "9105eb1b-9c4b-4f07-94ef-a4a63ab2e9ca")
+		(uuid "912349b5-eb0e-4f87-9401-8e6b9b8537fa")
 	)
 	(label "SPI2.SCLK"
 		(at 46.99 86.36 180)
@@ -17794,6 +16808,16 @@
 			(justify right bottom)
 		)
 		(uuid "91ae98da-fbad-42ca-9f89-cfec70d2693f")
+	)
+	(label "ADC_AIRSPEED"
+		(at 191.77 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9449c7b3-02cb-4bbe-9ce2-f4e347617552")
 	)
 	(label "UART8.TX"
 		(at 119.38 88.9 180)
@@ -17905,16 +16929,6 @@
 		)
 		(uuid "abb91b8f-b073-41f9-a39a-d4ed814acdc5")
 	)
-	(label "SPI2.CS"
-		(at 289.56 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "acc97856-14e1-4cfa-93b1-65b3249bc08a")
-	)
 	(label "SPI2.MOSI"
 		(at 46.99 83.82 180)
 		(effects
@@ -17934,16 +16948,6 @@
 			(justify right bottom)
 		)
 		(uuid "b8263b18-5644-450c-a5f7-4d0015a1ca32")
-	)
-	(label "SPI2.MISO"
-		(at 289.56 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b965e117-d7a1-44c0-a8ee-887e73008b86")
 	)
 	(label "UART3.RX"
 		(at 45.72 172.72 180)
@@ -17985,16 +16989,6 @@
 		)
 		(uuid "bdebced4-ac57-421b-bb81-718bac2ae4cb")
 	)
-	(label "GYRO1_CLKIN"
-		(at 87.63 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be290533-4224-4bb6-aa5c-e1ce18e486f3")
-	)
 	(label "IMU2_CLKIN"
 		(at 146.05 162.56 180)
 		(effects
@@ -18015,7 +17009,7 @@
 		)
 		(uuid "c8ccbaac-d431-4ba3-b871-55481e1d317b")
 	)
-	(label "ADC1_CURR1"
+	(label "ADC_CURR1"
 		(at 191.77 147.32 0)
 		(effects
 			(font
@@ -18024,16 +17018,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca375e6a-5b38-441e-8c45-837c18cefb6c")
-	)
-	(label "PIN01"
-		(at 16.51 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cbb8508d-12cb-45a1-a8f9-250b55d2b771")
 	)
 	(label "SPI4.MISO"
 		(at 35.56 57.15 0)
@@ -18074,16 +17058,6 @@
 			(justify right bottom)
 		)
 		(uuid "d4b11edc-7c16-4353-8079-8f751a069e6c")
-	)
-	(label "SPI1.MISO"
-		(at 303.53 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4cd182d-6078-4c8f-86be-10be9ced54c8")
 	)
 	(label "UART3.TX"
 		(at 140.97 147.32 180)
@@ -18185,26 +17159,6 @@
 		)
 		(uuid "f2ed9609-49f2-4a1c-9cf1-8b626c22eb5e")
 	)
-	(label "SPI3.MOSI"
-		(at 289.56 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f77cc793-862f-4b1f-ab21-eccdfad12f54")
-	)
-	(label "PIN02"
-		(at 16.51 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8da348c-bff4-4905-9d40-714560beea6f")
-	)
 	(label "I2C1.SCL"
 		(at 46.99 38.1 180)
 		(effects
@@ -18234,16 +17188,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9c61a85-4346-4d00-addf-c3f869a4c208")
-	)
-	(label "I2C2.SCL"
-		(at 289.56 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fdcac05a-aacf-48f3-b357-84d248527b22")
 	)
 	(label "SDIO.CMD"
 		(at 220.98 168.91 0)
@@ -18321,17 +17265,6 @@
 		)
 		(uuid "22fc5838-6276-4a1e-b0d2-c6dcbad62ffb")
 	)
-	(hierarchical_label "ADC_AIRS"
-		(shape input)
-		(at 71.12 27.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "26942d79-c1a2-428a-b888-14a86e23ab88")
-	)
 	(hierarchical_label "MOTOR[1..4]"
 		(shape output)
 		(at 31.75 180.34 180)
@@ -18354,6 +17287,17 @@
 		)
 		(uuid "3410bfd5-1f3f-4d03-82cb-085f5b1c08ed")
 	)
+	(hierarchical_label "ADC_AIRSPEED"
+		(shape input)
+		(at 208.28 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3511a702-1244-48fd-94fb-c29537205110")
+	)
 	(hierarchical_label "IMU1_CLKIN"
 		(shape input)
 		(at 132.08 160.02 180)
@@ -18364,17 +17308,6 @@
 			(justify right)
 		)
 		(uuid "3c553024-fa64-4999-aa61-b62c7231acef")
-	)
-	(hierarchical_label "GYRO1_CLKIN"
-		(shape input)
-		(at 71.12 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41a30bdf-6b6f-4d99-9b3a-ae7b91df10c3")
 	)
 	(hierarchical_label "IMU2_DRDY"
 		(shape output)
@@ -18431,17 +17364,6 @@
 		)
 		(uuid "843c74a5-2c6d-48c7-819e-d06c6b6f2b17")
 	)
-	(hierarchical_label "9V_EN"
-		(shape input)
-		(at 0 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e472225-a3f9-49d9-be25-1fc62863bb7e")
-	)
 	(hierarchical_label "UART1{UART}"
 		(shape input)
 		(at 226.06 78.74 0)
@@ -18452,17 +17374,6 @@
 			(justify left)
 		)
 		(uuid "97fa8f93-6e36-4f31-b5b4-b7dd0b8f4ab4")
-	)
-	(hierarchical_label "PIN02"
-		(shape input)
-		(at 0 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9cb79476-27ec-4cd0-9f90-6e05159506a6")
 	)
 	(hierarchical_label "UART4{UART}"
 		(shape input)
@@ -18488,7 +17399,7 @@
 	)
 	(hierarchical_label "IMU3_A_CS"
 		(shape input)
-		(at 66.04 154.94 180)
+		(at 33.02 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18496,17 +17407,6 @@
 			(justify right)
 		)
 		(uuid "aaf3c4ba-7b8d-466e-aa9f-d2535272727e")
-	)
-	(hierarchical_label "PIN01"
-		(shape input)
-		(at 0 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ab44dbaf-890f-4e43-9a59-172b7c90235d")
 	)
 	(hierarchical_label "SPI2{SPI}"
 		(shape input)
@@ -18518,17 +17418,6 @@
 			(justify right)
 		)
 		(uuid "ae29dadc-cb8c-4cea-9613-34d3a4904540")
-	)
-	(hierarchical_label "GYRO1_EXTI"
-		(shape input)
-		(at 71.12 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b28b167b-f309-4625-82ef-6590eb3e7710")
 	)
 	(hierarchical_label "I2C2{I2C}"
 		(shape input)
@@ -18551,17 +17440,6 @@
 			(justify right)
 		)
 		(uuid "c28afc3c-3b21-4b93-a0eb-a1a9d929da1c")
-	)
-	(hierarchical_label "ADC_RSSI"
-		(shape input)
-		(at 71.12 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9c9e0c4-b584-483a-a725-89b7a98c1a39")
 	)
 	(hierarchical_label "LED_STRIP"
 		(shape input)
@@ -18598,7 +17476,7 @@
 	)
 	(hierarchical_label "IMU3_G_CS"
 		(shape input)
-		(at 66.04 157.48 180)
+		(at 33.02 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18639,6 +17517,17 @@
 			(justify left)
 		)
 		(uuid "f6e28cec-cd3c-4baa-b4f2-8528bddef6e6")
+	)
+	(hierarchical_label "ADC_VBAT2"
+		(shape input)
+		(at 208.28 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8f21460-e5ee-411b-b091-ead2fa694942")
 	)
 	(hierarchical_label "UART3{UART}"
 		(shape input)
@@ -18768,7 +17657,7 @@
 			(uuid "20cb4489-d3f6-4147-9b39-32665f7ec4c1")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C11")
 					(unit 1)
@@ -18894,7 +17783,7 @@
 			(uuid "8dab7456-bacc-4afa-aa5c-ce1525c8a178")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "R3")
 					(unit 1)
@@ -18971,7 +17860,7 @@
 			(uuid "12e09a5e-882b-4068-8fd4-a1dc756511b3")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR09")
 					(unit 1)
@@ -19096,7 +17985,7 @@
 			(uuid "93ee1b0e-fe98-4429-9e41-c23fbbdf808a")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C9")
 					(unit 1)
@@ -19174,7 +18063,7 @@
 			(uuid "b438df0c-efb9-4fb0-b861-0f696a603aaf")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "TP03")
 					(unit 1)
@@ -19251,7 +18140,7 @@
 			(uuid "876c8c5c-a4af-474e-992d-036758846ca0")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR018")
 					(unit 1)
@@ -19329,7 +18218,7 @@
 			(uuid "474daa4c-d925-48a3-9a5a-9c4964143cc3")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR025")
 					(unit 1)
@@ -19407,7 +18296,7 @@
 			(uuid "89daff2a-52fb-4cc7-9396-3b1df1c04d45")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR026")
 					(unit 1)
@@ -19530,7 +18419,7 @@
 			(uuid "a65dfb8a-fefc-40cf-ae98-36f7baf89440")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "R7")
 					(unit 1)
@@ -19653,7 +18542,7 @@
 			(uuid "dcb5ba4e-fcd0-4a7a-b619-09306579f4f0")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "R5")
 					(unit 1)
@@ -19778,7 +18667,7 @@
 			(uuid "07268b22-2970-4be2-bb4e-cbb850284cda")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C56")
 					(unit 1)
@@ -19855,7 +18744,7 @@
 			(uuid "769f5621-68e5-4566-9990-d031d166bc73")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR011")
 					(unit 1)
@@ -19932,7 +18821,7 @@
 			(uuid "9df40eb4-37e6-45af-826b-60944e61dd7c")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR010")
 					(unit 1)
@@ -20009,7 +18898,7 @@
 			(uuid "f4bf8ec6-4745-4774-8af0-63bee67fc0f9")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR017")
 					(unit 1)
@@ -20134,7 +19023,7 @@
 			(uuid "a178a410-b442-47f3-b54f-1b231508f57d")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C6")
 					(unit 1)
@@ -20259,7 +19148,7 @@
 			(uuid "7ed552c6-4dc5-46af-a1bf-2a55a6a38ebb")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C61")
 					(unit 1)
@@ -20384,7 +19273,7 @@
 			(uuid "38018794-e55b-4272-9510-c3f68a6ccb2f")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C8")
 					(unit 1)
@@ -20509,7 +19398,7 @@
 			(uuid "255e68ac-6089-4d8f-b2bc-ca38f4184841")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C3")
 					(unit 1)
@@ -20634,7 +19523,7 @@
 			(uuid "3ad1fc68-71a2-4e8c-a760-6df34edec406")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C58")
 					(unit 1)
@@ -20762,7 +19651,7 @@
 			(uuid "1412f02d-d126-44be-ab30-e18e8d3f4ed1")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "Y1")
 					(unit 1)
@@ -20899,7 +19788,7 @@
 			(uuid "ff00f901-532e-479a-a877-158372a166be")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "D1")
 					(unit 1)
@@ -21024,7 +19913,7 @@
 			(uuid "3189c823-31d2-415c-b4dc-be4393c7775b")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C4")
 					(unit 1)
@@ -21101,7 +19990,7 @@
 			(uuid "1f7ee840-84f5-418b-bbd1-ff9f1089e392")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR016")
 					(unit 1)
@@ -21179,7 +20068,7 @@
 			(uuid "be0c22fc-50ae-4f4c-9ab6-3764ef0b0f26")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR022")
 					(unit 1)
@@ -21304,7 +20193,7 @@
 			(uuid "dea97a54-9128-4752-8570-20557c724497")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C2")
 					(unit 1)
@@ -21429,7 +20318,7 @@
 			(uuid "2dedae05-07b4-4e28-9eef-eb0f556d5838")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C5")
 					(unit 1)
@@ -21554,7 +20443,7 @@
 			(uuid "dce482df-5614-482b-80cd-37a0d38d5e0d")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C60")
 					(unit 1)
@@ -21631,7 +20520,7 @@
 			(uuid "6d6128e5-cca7-4dcf-9ec2-19a813d7ddb8")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR021")
 					(unit 1)
@@ -21754,7 +20643,7 @@
 			(uuid "059667fe-fbab-4a6e-9ba6-f953e6580d22")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "R6")
 					(unit 1)
@@ -21879,7 +20768,7 @@
 			(uuid "0edc0fa1-44e5-48e8-bcee-2209159a5dd6")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C55")
 					(unit 1)
@@ -21957,7 +20846,7 @@
 			(uuid "61a90edb-b96c-4465-99da-3d21ae316f54")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "TP02")
 					(unit 1)
@@ -22082,7 +20971,7 @@
 			(uuid "77755bd3-a224-43ab-8ae4-906098fdcd8e")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C59")
 					(unit 1)
@@ -22159,7 +21048,7 @@
 			(uuid "d993dafc-f96a-4bfd-a70e-3a68b814f29e")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR019")
 					(unit 1)
@@ -22284,7 +21173,7 @@
 			(uuid "ee742629-af60-494f-b98f-3bb0771e8c8b")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "C57")
 					(unit 1)
@@ -22362,7 +21251,7 @@
 			(uuid "c780940d-cebe-42b2-90fb-2fae6979b8b2")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR024")
 					(unit 1)
@@ -22739,7 +21628,7 @@
 			(uuid "7ccdcbdc-843b-4db4-83bc-c4be7f59b623")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "U25")
 					(unit 1)
@@ -22819,7 +21708,7 @@
 			(uuid "f929b4fe-1c0e-4cac-995c-b30b7733f53f")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "JP2")
 					(unit 1)
@@ -22897,7 +21786,7 @@
 			(uuid "ea7dc914-561c-41e5-b36a-53b6167d7461")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "TP04")
 					(unit 1)
@@ -23021,7 +21910,7 @@
 			(uuid "3fc6f013-c09f-43b3-84e5-365e34cb1cda")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "FB1")
 					(unit 1)
@@ -23144,7 +22033,7 @@
 			(uuid "ea875708-f354-40b8-817b-cfcc7e80517e")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "R4")
 					(unit 1)
@@ -23221,7 +22110,7 @@
 			(uuid "a8aa40d6-3bf6-4508-acf1-3e207d556eb0")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR013")
 					(unit 1)
@@ -23299,7 +22188,7 @@
 			(uuid "3f3597c3-6531-44ee-a28d-ad8626e42f53")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "TP01")
 					(unit 1)
@@ -23376,7 +22265,7 @@
 			(uuid "b077c495-5121-4d90-aa20-84a504bdb6e9")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR015")
 					(unit 1)
@@ -23453,7 +22342,7 @@
 			(uuid "0138add7-0ce0-46eb-98fe-cabf345dd70f")
 		)
 		(instances
-			(project "LEVIA_H7"
+			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
 					(reference "#PWR027")
 					(unit 1)
