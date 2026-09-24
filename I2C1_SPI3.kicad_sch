@@ -154,243 +154,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:ZX-SH1.0-4PWT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZX-SH1.0-4PWT"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C7430446.pdf"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Megastar(兆星)"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ZX-SH1.0-4PWT"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C7430446"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ZX-SH1.0-4PWT_0_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 5.08 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -8.89 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -8.89 90)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:ZX-SH1.0-6PWT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1889,40 +1652,16 @@
 		(uuid "8befd795-9de4-4bca-81bd-94f7236268e6")
 	)
 	(junction
-		(at 82.55 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16fa1770-0f21-4a40-9684-c0fdbf38577d")
-	)
-	(junction
 		(at 49.53 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35849811-321f-4397-9e8c-f7ed25830e00")
 	)
 	(junction
-		(at 49.53 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dffcdde-0829-42b4-ad2d-1e057ac5932b")
-	)
-	(junction
-		(at 90.17 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac716cef-e8fd-4101-aaba-128444a7ba48")
-	)
-	(junction
 		(at 146.05 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2202c24-7dc0-486b-a2c6-c94c3237edb7")
-	)
-	(junction
-		(at 49.53 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c56a5035-9ee7-4f81-b65f-943db81bee88")
 	)
 	(junction
 		(at 138.43 77.47)
@@ -1938,24 +1677,6 @@
 			(type default)
 		)
 		(uuid "4f06b04e-5955-480a-a29a-03e0ba8f68c6")
-	)
-	(bus_entry
-		(at 31.75 34.29)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cc2dd9a-9ca3-49da-b0f7-f7ac25043da8")
-	)
-	(bus_entry
-		(at 31.75 36.83)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f3e572a-739f-4d49-8302-d02ff7cfb239")
 	)
 	(bus_entry
 		(at 31.75 46.99)
@@ -1993,16 +1714,6 @@
 		)
 		(uuid "f35445b8-afef-4339-a70f-a05641338383")
 	)
-	(bus
-		(pts
-			(xy 29.21 34.29) (xy 29.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011349be-9c29-45e9-8335-23f5a856d3be")
-	)
 	(wire
 		(pts
 			(xy 138.43 77.47) (xy 146.05 77.47)
@@ -2012,36 +1723,6 @@
 			(type default)
 		)
 		(uuid "033e776b-5b54-4e72-85e2-a8c2697d32ca")
-	)
-	(wire
-		(pts
-			(xy 68.58 63.5) (xy 83.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e6201a9-de36-473c-b3d2-f8a0d47ae39c")
-	)
-	(wire
-		(pts
-			(xy 22.86 64.77) (xy 35.56 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c4d2ab4-a07d-485f-9e72-c33767ddd448")
-	)
-	(wire
-		(pts
-			(xy 22.86 67.31) (xy 35.56 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c6cb60b-01a3-4469-875c-5f40df0b6d75")
 	)
 	(wire
 		(pts
@@ -2095,26 +1776,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 54.61) (xy 82.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48762c4f-6942-4bf4-9c8a-5de179582c64")
-	)
-	(wire
-		(pts
-			(xy 49.53 67.31) (xy 49.53 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a5358fd-db11-40e9-a33e-29687ec8d464")
-	)
-	(wire
-		(pts
 			(xy 138.43 77.47) (xy 138.43 78.74)
 		)
 		(stroke
@@ -2122,16 +1783,6 @@
 			(type default)
 		)
 		(uuid "4d17da5c-3f2f-4b9d-b3ae-c94cb68d2400")
-	)
-	(wire
-		(pts
-			(xy 40.64 67.31) (xy 49.53 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514eb5f4-0c10-4155-97e5-c9fe0ddc2de8")
 	)
 	(wire
 		(pts
@@ -2155,26 +1806,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 66.04) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ebd1a6f-c90f-4d72-99d0-0eb697ebb00e")
-	)
-	(wire
-		(pts
-			(xy 31.75 36.83) (xy 41.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6912489d-6f01-4982-a738-559b053aa06c")
-	)
-	(wire
-		(pts
 			(xy 22.86 73.66) (xy 35.56 73.66)
 		)
 		(stroke
@@ -2195,16 +1826,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 72.39) (xy 92.71 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e380953-ed89-42d7-89d6-0d7602ee2ecf")
-	)
-	(wire
-		(pts
 			(xy 146.05 77.47) (xy 148.59 77.47)
 		)
 		(stroke
@@ -2212,26 +1833,6 @@
 			(type default)
 		)
 		(uuid "7609b949-ebba-4c81-9e2f-8e4848960872")
-	)
-	(wire
-		(pts
-			(xy 90.17 71.12) (xy 90.17 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7f5e0e-d32b-4e8a-9880-ed38561ef1c5")
-	)
-	(bus
-		(pts
-			(xy 27.94 31.75) (xy 29.21 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803f41fe-a419-4cc5-b5b5-efe85b2e0a9a")
 	)
 	(bus
 		(pts
@@ -2315,36 +1916,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 71.12) (xy 92.71 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d342bb5-3623-4cf4-b478-becd9a926f3c")
-	)
-	(wire
-		(pts
-			(xy 82.55 73.66) (xy 82.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eee645a-d800-422a-9aa9-a99fa0aae2e4")
-	)
-	(wire
-		(pts
-			(xy 40.64 64.77) (xy 49.53 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0903b11-805e-4151-b9ae-07ef37035e12")
-	)
-	(wire
-		(pts
 			(xy 22.86 71.12) (xy 35.56 71.12)
 		)
 		(stroke
@@ -2352,16 +1923,6 @@
 			(type default)
 		)
 		(uuid "a3e9a554-e535-408a-b54d-cdd6802f11da")
-	)
-	(wire
-		(pts
-			(xy 31.75 34.29) (xy 41.91 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3583bb6-7748-474f-9c7a-3ae0d9acad84")
 	)
 	(wire
 		(pts
@@ -2375,23 +1936,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 67.31) (xy 49.53 64.77)
+			(xy 49.53 64.77) (xy 49.53 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bb24aa16-898c-45c9-82d0-0fba993e54fd")
-	)
-	(wire
-		(pts
-			(xy 83.82 60.96) (xy 82.55 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3ba5d96-9083-4b32-b918-1ed4d4d87acf")
 	)
 	(wire
 		(pts
@@ -2405,16 +1956,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 72.39) (xy 82.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d39bf060-1aab-4ea7-b0f0-741e89b8992d")
-	)
-	(wire
-		(pts
 			(xy 125.73 68.58) (xy 139.7 68.58)
 		)
 		(stroke
@@ -2425,16 +1966,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 58.42) (xy 83.82 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea091e10-fd82-4aab-9227-5ac418e78bc4")
-	)
-	(wire
-		(pts
 			(xy 49.53 73.66) (xy 49.53 71.12)
 		)
 		(stroke
@@ -2442,16 +1973,6 @@
 			(type default)
 		)
 		(uuid "eaab93ce-d8fb-48ec-94dd-df3739717633")
-	)
-	(wire
-		(pts
-			(xy 82.55 60.96) (xy 82.55 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23182e0-21b8-48fc-9cfc-e8378ad9d7b6")
 	)
 	(label "SPI3.CS2"
 		(at 41.91 44.45 180)
@@ -2493,16 +2014,6 @@
 		)
 		(uuid "3c6ea34c-09a8-4bae-9090-05b718947bf2")
 	)
-	(label "I2C1.SDA"
-		(at 68.58 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40dff9cc-9856-4f08-b047-e0513d52a674")
-	)
 	(label "SPI3.CS1"
 		(at 125.73 71.12 0)
 		(effects
@@ -2522,16 +2033,6 @@
 			(justify left bottom)
 		)
 		(uuid "55eabd38-b221-4060-b782-a818980876f6")
-	)
-	(label "I2C1.SDA"
-		(at 41.91 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "797a8dbc-51ff-4296-b037-8b7391198194")
 	)
 	(label "SPI3.SCLK"
 		(at 125.73 63.5 0)
@@ -2563,46 +2064,6 @@
 		)
 		(uuid "a78721aa-7e4a-4e6f-a488-7de515e21a21")
 	)
-	(label "I2C1.SCL"
-		(at 68.58 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0c849e7-88d8-4296-a19e-ffff16e2ae5f")
-	)
-	(label "I2C1.SCL"
-		(at 41.91 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9cd3fdb-2ab4-4f3c-96e4-085141b837e3")
-	)
-	(label "I2C1.SDA"
-		(at 22.86 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1524991-aae5-48f1-9051-3cdb96cbae4c")
-	)
-	(label "I2C1.SCL"
-		(at 22.86 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf3fe0c-260e-48de-9fba-9697749b56f4")
-	)
 	(label "SPI3.CS1"
 		(at 41.91 41.91 180)
 		(effects
@@ -2633,17 +2094,6 @@
 			(justify right)
 		)
 		(uuid "4f28f205-194b-4700-909c-2c67ea46b020")
-	)
-	(hierarchical_label "I2C1{I2C}"
-		(shape bidirectional)
-		(at 27.94 31.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "daf859e9-4854-4d61-8934-4d7a4ec0ef3e")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -2803,267 +2253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 38.1 67.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3003f16d-e130-4a2d-871e-174acf4ec609")
-		(property "Reference" "R31"
-			(at 34.29 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 43.18 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 38.1 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25900"
-			(at 38.1 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 38.1 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF4701TCE"
-			(at 38.1 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 38.1 67.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "50f548f0-8486-4475-bc2f-d0b1527c02fd")
-		)
-		(pin "1"
-			(uuid "5b6078ab-40ea-46b4-bf8c-07da49dff40b")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:ZX-SH1.0-4PWT")
-		(at 88.9 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58174644-db4d-464b-a687-e854fb38da4c")
-		(property "Reference" "U18"
-			(at 85.09 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZX-SH1.0-4PWT"
-			(at 95.25 63.4999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:CONN-SMD_4P-P1.00_MEGASTAR_ZX-SH1.0-4PWT"
-			(at 88.9 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7430446.pdf"
-			(at 88.9 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Megastar(兆星)"
-			(at 88.9 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ZX-SH1.0-4PWT"
-			(at 88.9 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C7430446"
-			(at 88.9 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7430446"
-			(at 88.9 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c3ef7a7-ab08-47ca-b86c-a9e085c13212")
-		)
-		(pin "3"
-			(uuid "875b4cb9-3d6f-421c-8796-e536286c7e8c")
-		)
-		(pin "4"
-			(uuid "0b5fe31c-d754-4564-8276-7aa57b37b240")
-		)
-		(pin "5"
-			(uuid "f29c26f7-97b0-496d-9297-19c4e1494031")
-		)
-		(pin "1"
-			(uuid "949f01de-1327-4ecf-97a3-40ca583996b2")
-		)
-		(pin "6"
-			(uuid "be420d23-ab36-4afe-9742-2a997c32003a")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
-					(reference "U18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 138.43 78.74 0)
 		(unit 1)
@@ -3212,129 +2401,6 @@
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
 					(reference "#SYM8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 38.1 64.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6d635dd-0ce1-4d07-9cff-c671b1769dfb")
-		(property "Reference" "R30"
-			(at 34.29 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 43.18 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 38.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 38.1 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25900"
-			(at 38.1 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25900"
-			(at 38.1 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF4701TCE"
-			(at 38.1 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 38.1 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "039f4402-ce1e-4734-a635-9b1a47a4f383")
-		)
-		(pin "1"
-			(uuid "fdcfaf42-bb65-473b-a5be-d16375baf162")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3557,162 +2623,6 @@
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
 					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf852507-f90d-4a8a-a6a0-d779b56f0162")
-		(property "Reference" "#PWR0106"
-			(at 82.55 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0efcafef-8260-4e1f-9f9c-2380bdd480c6")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6f77e64-7f80-4369-9701-de3ff6c72715")
-		(property "Reference" "#PWR0105"
-			(at 82.55 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "+5V_SYS"
-			(at 82.55 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4211db1e-2039-48ca-af2d-227d39d190e3")
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/63f0a0da-13f8-4f9f-a395-c486a2aaa319"
-					(reference "#PWR0105")
 					(unit 1)
 				)
 			)

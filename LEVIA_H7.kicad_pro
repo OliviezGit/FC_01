@@ -841,7 +841,7 @@
         "uuid": "6b768b36-fce6-4be0-9021-6d41bddc3a70"
       }
     ],
-    "used_designators": "D5",
+    "used_designators": "#PWR13,#PWR16,#PWR18-19,#PWR24,#PWR26,#PWR66-68,#PWR98-99,#PWR103,#PWR109-111,#PWR125-151,D1,D5,U2,U8,U17,U20,U25-26,C49,C51-52,C55-69,JP2-3,TP20-21,FB1,R4-6,R50-55,J2-15",
     "variants": []
   },
   "sheets": [
@@ -858,12 +858,8 @@
       "POWER"
     ],
     [
-      "47de0915-ef49-4d44-8a64-cfdc704dbfa8",
-      "RC INPUT"
-    ],
-    [
       "6670d797-9965-46e5-90bb-ab564d1e1d11",
-      "ANALOG VTX"
+      "UART_I2C"
     ],
     [
       "339be1e4-df07-445e-a0aa-e25cab3c571c",
@@ -872,14 +868,6 @@
     [
       "bf018276-fa9c-49d5-a874-63f27855288e",
       "SENSORS"
-    ],
-    [
-      "63f0a0da-13f8-4f9f-a395-c486a2aaa319",
-      "I2C1|SPI3"
-    ],
-    [
-      "d502a7f7-d1fe-4e26-830a-09f99790de5a",
-      "DIGITAL VTX"
     ],
     [
       "40acc3ff-a355-41ce-95b6-fe5d468e4bb9",
@@ -892,10 +880,6 @@
     [
       "647d5d7a-ea7f-42b5-bbeb-8045c387a5e2",
       "MOTORS[1-4]"
-    ],
-    [
-      "8ca90a2c-e0e4-42bc-a785-b72a7bf551d7",
-      "MOTORS[5-8]"
     ]
   ],
   "text_variables": {},

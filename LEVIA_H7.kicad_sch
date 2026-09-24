@@ -2582,7 +2582,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "492e09e9-ef33-466f-93c7-52d984ac1cd2")
+		(uuid "382b2ca0-57e3-4228-9300-6829466aff15")
+	)
+	(bus
+		(pts
+			(xy 170.18 73.66) (xy 187.96 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f18587a-181a-458d-9320-7d1c9d57a991")
 	)
 	(wire
 		(pts
@@ -2593,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "4d442380-f6d5-4663-9549-8afcae1a62cc")
+	)
+	(bus
+		(pts
+			(xy 170.18 71.12) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7857dd-ed39-41e6-81a8-c92e2761fc0a")
 	)
 	(wire
 		(pts
@@ -2744,6 +2764,16 @@
 		)
 		(uuid "9dfc00f2-2111-4b42-ba4f-d83b1d225bd6")
 	)
+	(bus
+		(pts
+			(xy 170.18 68.58) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eceef14-c401-4dc0-a866-5315f119f237")
+	)
 	(wire
 		(pts
 			(xy 53.34 76.2) (xy 53.34 77.47)
@@ -2763,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "a41a6a9a-cbc3-4617-8760-4989b13451ba")
-	)
-	(bus
-		(pts
-			(xy 187.96 50.8) (xy 170.18 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a58340b1-8782-43bd-812a-c3b48e84bc0c")
 	)
 	(bus
 		(pts
@@ -2806,16 +2826,6 @@
 	)
 	(bus
 		(pts
-			(xy 187.96 81.28) (xy 170.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8d09cd-4140-46db-b884-29103265fed5")
-	)
-	(bus
-		(pts
 			(xy 101.6 133.35) (xy 120.65 133.35)
 		)
 		(stroke
@@ -2844,6 +2854,26 @@
 		)
 		(uuid "bdd49415-0242-4aae-bf17-b44596c48582")
 	)
+	(bus
+		(pts
+			(xy 170.18 63.5) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcd175b-8123-44ff-987b-71063e459a55")
+	)
+	(bus
+		(pts
+			(xy 170.18 76.2) (xy 187.96 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ec5702-aec8-4115-9772-19ce2d1c4bf4")
+	)
 	(wire
 		(pts
 			(xy 66.04 48.26) (xy 69.85 48.26)
@@ -2853,16 +2883,6 @@
 			(type default)
 		)
 		(uuid "c3b15b5d-ebe5-4df5-a564-3ed00c2b1f10")
-	)
-	(bus
-		(pts
-			(xy 170.18 68.58) (xy 187.96 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c553393d-e836-4136-b06f-4ffebec1d1b9")
 	)
 	(wire
 		(pts
@@ -2883,16 +2903,6 @@
 			(type default)
 		)
 		(uuid "c7b4c76f-a35c-4899-be9d-449287f6d729")
-	)
-	(bus
-		(pts
-			(xy 170.18 114.3) (xy 187.96 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c82748f2-2734-4582-9e9a-1a85fdf80cb8")
 	)
 	(wire
 		(pts
@@ -2934,16 +2944,6 @@
 		)
 		(uuid "d067e3b0-db34-4f1c-a7d8-f758ea1633e9")
 	)
-	(bus
-		(pts
-			(xy 170.18 116.84) (xy 187.96 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d403ee8a-3893-40d0-9cd7-f3b886cbc089")
-	)
 	(wire
 		(pts
 			(xy 101.6 90.17) (xy 120.65 90.17)
@@ -2963,16 +2963,6 @@
 			(type default)
 		)
 		(uuid "ddb98bb2-501d-461b-baba-641250f3f5be")
-	)
-	(bus
-		(pts
-			(xy 170.18 83.82) (xy 187.96 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df6e411a-8bb5-48c8-8200-97d97d8c0f37")
 	)
 	(wire
 		(pts
@@ -2994,16 +2984,6 @@
 		)
 		(uuid "e9882f91-1a97-4dfd-952f-70edc5a712f3")
 	)
-	(bus
-		(pts
-			(xy 187.96 53.34) (xy 170.18 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb624e1a-8c01-44b0-a593-bbbea3022b48")
-	)
 	(wire
 		(pts
 			(xy 101.6 111.76) (xy 120.65 111.76)
@@ -3013,26 +2993,6 @@
 			(type default)
 		)
 		(uuid "ebaae693-e65e-4b1f-bc11-455840778fd4")
-	)
-	(wire
-		(pts
-			(xy 170.18 119.38) (xy 187.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1fa86a-233c-43ea-96f3-303f04f46551")
-	)
-	(bus
-		(pts
-			(xy 101.6 146.05) (xy 120.65 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53794f6-635e-4e74-8737-68e0f3e83777")
 	)
 	(label "USB_OTG_P.DP"
 		(at 95.25 55.88 0)
@@ -3064,7 +3024,7 @@
 		)
 		(uuid "be9283ca-5ade-460f-8234-aa5f08d534fa")
 	)
-	(label "USB_OTG_P.DN"
+	(label "USB_OTG_P.DM"
 		(at 95.25 58.42 0)
 		(effects
 			(font
@@ -4696,16 +4656,6 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C1{I2C}" input
-			(at 170.18 50.8 0)
-			(uuid "7ac5c00e-e203-432e-be07-ccf3466cfc68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C2{I2C}" input
 			(at 120.65 102.87 180)
 			(uuid "72f701a5-7ec2-4f09-a3b9-33f519a7b95c")
@@ -4736,26 +4686,6 @@
 				(justify left)
 			)
 		)
-		(pin "SPI2{SPI}" input
-			(at 170.18 81.28 0)
-			(uuid "61d30990-5cca-4be5-868c-b641f63d3a60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI3{SPI}" input
-			(at 170.18 53.34 0)
-			(uuid "2586ae36-3b06-4965-b84f-8a16e9360113")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SPI4{SPI}" input
 			(at 120.65 115.57 180)
 			(uuid "4379778d-e5f2-43de-9d27-2c7492e82965")
@@ -4766,24 +4696,14 @@
 				(justify left)
 			)
 		)
-		(pin "UART1{UART}" input
-			(at 170.18 83.82 0)
-			(uuid "d7f1c06d-4c34-402f-9579-7e85bf853d13")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "UART2{UART}" input
-			(at 120.65 66.04 180)
+			(at 170.18 66.04 0)
 			(uuid "7296d87c-1016-4f22-b64a-dc2703bebcec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "UART3{UART}" input
@@ -4796,29 +4716,9 @@
 				(justify right)
 			)
 		)
-		(pin "UART4{UART}" input
-			(at 170.18 66.04 0)
+		(pin "UART1{UART}" input
+			(at 170.18 63.5 0)
 			(uuid "162b97d6-d3de-4d6e-8ed5-b0af71692460")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UART6{UART}" input
-			(at 120.65 146.05 180)
-			(uuid "ca5dd82c-3452-4f6f-b0ab-e02dade7fca4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART7{UART}" input
-			(at 170.18 116.84 0)
-			(uuid "3fdb7953-3dea-4857-90d5-7976a1bc97da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,16 +4749,6 @@
 		(pin "ADC_CURR1" input
 			(at 170.18 101.6 0)
 			(uuid "a60adae8-6f6c-4f64-bc87-e4416a2538df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ADC_CURR2" input
-			(at 170.18 119.38 0)
-			(uuid "6e0769c5-831a-4249-a408-36e6261f0bb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4996,16 +4886,6 @@
 				(justify right)
 			)
 		)
-		(pin "MOTOR[5..8]" output
-			(at 170.18 114.3 0)
-			(uuid "7f4d2a34-25bd-4e3e-ac04-a6faacf1831c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "9V_EN" input
 			(at 120.65 90.17 180)
 			(uuid "5f02480b-8434-48b3-a6f6-2028c03e9df1")
@@ -5024,6 +4904,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "UART4{UART}" input
+			(at 170.18 71.12 0)
+			(uuid "9eb014a9-9cce-4378-a0df-4d83dda22b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART7{UART}" input
+			(at 170.18 76.2 0)
+			(uuid "f69f59c2-d660-4f46-9f7a-ef8b33c7bad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART6{UART}" input
+			(at 170.18 73.66 0)
+			(uuid "eb4e01e1-69d1-4e6b-b479-33e9f4ffd0ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI2{SPI}" input
+			(at 170.18 90.17 0)
+			(uuid "19e179e9-25eb-4238-babc-d098fd0ac81c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -5236,130 +5156,6 @@
 		)
 	)
 	(sheet
-		(at 78.74 142.24)
-		(size 22.86 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "47de0915-ef49-4d44-8a64-cfdc704dbfa8")
-		(property "Sheetname" "RC INPUT"
-			(at 78.74 141.5284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "RC_INPUT.kicad_sch"
-			(at 78.74 150.4446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "UART6{UART}" bidirectional
-			(at 101.6 146.05 0)
-			(uuid "82410839-3576-43d7-ba0b-a64a1a61b7c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 46.99)
-		(size 22.86 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "63f0a0da-13f8-4f9f-a395-c486a2aaa319")
-		(property "Sheetname" "I2C1|SPI3"
-			(at 187.96 46.2784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "I2C1|SPI3.kicad_sch"
-			(at 187.96 57.7346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "I2C1{I2C}" bidirectional
-			(at 187.96 50.8 180)
-			(uuid "3f0b3937-0d47-4135-a3e6-afd07419de74")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SPI3{SPI}" bidirectional
-			(at 187.96 53.34 180)
-			(uuid "5d79ab83-c4ad-4f68-90c5-a358b402e6f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 187.96 92.71)
 		(size 22.86 12.7)
 		(exclude_from_sim no)
@@ -5437,8 +5233,8 @@
 		)
 	)
 	(sheet
-		(at 187.96 77.47)
-		(size 22.86 10.16)
+		(at 187.96 60.96)
+		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5452,8 +5248,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6670d797-9965-46e5-90bb-ab564d1e1d11")
-		(property "Sheetname" "ANALOG VTX"
-			(at 187.96 76.7584 0)
+		(property "Sheetname" "UART_I2C"
+			(at 187.96 60.2484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5463,75 +5259,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ANALOG_VTX.kicad_sch"
-			(at 187.96 88.2146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SPI2{SPI}" input
-			(at 187.96 81.28 180)
-			(uuid "c3555c60-555e-466d-8543-bd1a8618dff3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART1{UART}" bidirectional
-			(at 187.96 83.82 180)
-			(uuid "2a140cf9-e6a8-4bf6-87f8-d3337ee9d88b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 110.49)
-		(size 22.86 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "8ca90a2c-e0e4-42bc-a785-b72a7bf551d7")
-		(property "Sheetname" "MOTORS[5-8]"
-			(at 187.96 109.7784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOTORS[5-8].kicad_sch"
-			(at 187.96 123.7746 0)
+		(property "Sheetfile" "UART_I2C.kicad_sch"
+			(at 187.96 79.3246 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5543,8 +5272,8 @@
 			)
 		)
 		(pin "UART7{UART}" input
-			(at 187.96 116.84 180)
-			(uuid "e119cb89-a2c1-4c27-b0f7-8db6bbac2513")
+			(at 187.96 76.2 180)
+			(uuid "840b97b1-aa8b-4609-a22e-2e0629966f69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5552,9 +5281,9 @@
 				(justify left)
 			)
 		)
-		(pin "ADC_CURR2" output
-			(at 187.96 119.38 180)
-			(uuid "bcd05727-bf0e-4d72-a4bd-3c4017e883eb")
+		(pin "UART1{UART}" input
+			(at 187.96 63.5 180)
+			(uuid "a237e87f-e67a-4bea-954d-baec42222078")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,9 +5291,39 @@
 				(justify left)
 			)
 		)
-		(pin "MOTOR[5..8]" input
-			(at 187.96 114.3 180)
-			(uuid "136a2c96-7e9e-481b-a62f-6fbf7de1f776")
+		(pin "UART2{UART}" input
+			(at 187.96 66.04 180)
+			(uuid "bc6084b9-be1b-4f01-989b-4e2dfcc289b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART3{UART}" input
+			(at 187.96 68.58 180)
+			(uuid "864c7962-c581-4b3b-aa46-9ab58e8a65ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART4{UART}" input
+			(at 187.96 71.12 180)
+			(uuid "6fcb4ebc-b5a7-4db3-8cd4-f7153d3e1544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART6{UART}" input
+			(at 187.96 73.66 180)
+			(uuid "76e38374-0caa-4cdd-b8d9-079f1963e382")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5334,7 @@
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "13")
+					(page "5")
 				)
 			)
 		)
@@ -5689,77 +5448,20 @@
 				(justify right)
 			)
 		)
-		(instances
-			(project "LEVIA_H7"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 187.96 62.23)
-		(size 22.86 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "d502a7f7-d1fe-4e26-830a-09f99790de5a")
-		(property "Sheetname" "DIGITAL VTX"
-			(at 187.96 61.5184 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "I2C1{I2C}" bidirectional
+			(at 101.6 100.33 0)
+			(uuid "ab3cd260-90cd-460c-9ccd-9612ded84e25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DIGITAL_VTX.kicad_sch"
-			(at 187.96 72.9746 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "UART3{UART}" input
-			(at 187.96 68.58 180)
-			(uuid "c7d118a3-fbb2-496a-aef3-a0b1b9c61b36")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART4{UART}" input
-			(at 187.96 66.04 180)
-			(uuid "a6070f82-3efe-4461-9a54-612f6c52d9b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
 			(project "LEVIA_H7"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "9")
+					(page "7")
 				)
 			)
 		)
