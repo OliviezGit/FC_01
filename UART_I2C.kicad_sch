@@ -2782,7 +2782,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 74.93 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2793,7 +2793,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 74.93 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2804,7 +2804,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 74.93 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2815,7 +2815,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 74.93 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2825,6 +2825,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 74.422 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "0e440dd2-7885-4712-8917-def5fa1c547c")
@@ -2905,7 +2968,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 95.25 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -2916,7 +2979,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 95.25 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -2927,7 +2990,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 95.25 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -2938,7 +3001,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 95.25 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -2948,6 +3011,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 93.726 74.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "eb1b0f33-9db0-4cdf-b8d2-b5071b4e0fed")
@@ -3030,6 +3156,48 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Status" "TBD: connector not physically selected"
+			(at 137.16 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 137.16 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 137.16 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "TBD"
+			(at 137.16 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+			(at 137.16 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Generic KiCad connector"
+			(at 137.16 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "3"
 			(uuid "4f638d06-abb4-448e-90c0-f705613ed7cc")
@@ -3116,7 +3284,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 95.25 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3127,7 +3295,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 95.25 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3138,7 +3306,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 95.25 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3149,7 +3317,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 95.25 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3159,6 +3327,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 93.472 84.836 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "97bcab2b-b817-4ff0-855c-c6332cf476ca")
@@ -3239,7 +3470,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 170.18 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -3250,7 +3481,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 170.18 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -3261,7 +3492,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 170.18 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -3272,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -3282,6 +3513,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 168.656 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "da563bf3-df1e-4506-be53-6c1abe2ce415")
@@ -3362,7 +3656,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 143.51 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3373,7 +3667,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 143.51 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3384,7 +3678,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 143.51 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3395,7 +3689,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 143.51 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3405,6 +3699,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 143.002 55.118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "16fecb5e-caa3-4313-881f-aa931df37481")
@@ -3563,7 +3920,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 76.2 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -3574,7 +3931,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 76.2 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -3585,7 +3942,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 76.2 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -3596,7 +3953,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -3606,6 +3963,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 75.692 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "845564b1-a14c-4990-b847-9590cbf7982f")
@@ -3688,6 +4108,48 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Status" "TBD: connector not physically selected"
+			(at 157.48 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 157.48 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 157.48 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "TBD"
+			(at 157.48 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+			(at 157.48 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Generic KiCad connector"
+			(at 157.48 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "3"
 			(uuid "5d2a7149-ddfb-4f2f-a2ad-dfe88f7101f6")
@@ -3776,7 +4238,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 149.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3787,7 +4249,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 149.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3798,7 +4260,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 149.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3809,7 +4271,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 149.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3819,6 +4281,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "ef519ba8-d066-425b-ac06-a5f4175cb33a")
@@ -3899,7 +4431,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 95.25 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3910,7 +4442,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 95.25 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3921,7 +4453,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 95.25 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3932,7 +4464,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 95.25 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3942,6 +4474,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 93.218 90.932 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "55f45ef3-16d6-4904-aa93-593f696a554e")
@@ -4102,6 +4697,48 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Status" "TBD: connector not physically selected"
+			(at 90.17 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 90.17 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 90.17 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "TBD"
+			(at 90.17 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+			(at 90.17 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Generic KiCad connector"
+			(at 90.17 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "3"
 			(uuid "8132c060-ffd1-485a-a000-34ee2260f2a3")
@@ -4347,6 +4984,48 @@
 				)
 			)
 		)
+		(property "DigiKey Status" "TBD: connector not physically selected"
+			(at 184.15 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 184.15 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 184.15 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "TBD"
+			(at 184.15 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+			(at 184.15 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Generic KiCad connector"
+			(at 184.15 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
 		(pin "3"
 			(uuid "ef30e80c-12dd-4478-8602-df1c84818a84")
 		)
@@ -4434,7 +5113,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C45783"
+		(property "LCSC Part" ""
 			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +5124,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C45783"
+		(property "LCSC" ""
 			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4456,7 +5135,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226MAQNNNE"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4467,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Murata Electronics"
 			(at 57.15 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4477,6 +5156,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "490-18663-1-ND"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "10 µF ±10%, 50 V, X5R, 0805"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.28"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0805 (2012)"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 58.42 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "061316c6-8bf8-49ce-8c8a-6be32de60f08")
@@ -4713,7 +5462,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 123.19 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -4724,7 +5473,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 123.19 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -4735,7 +5484,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 123.19 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -4746,7 +5495,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 123.19 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -4756,6 +5505,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 122.682 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "15b9c4ba-d2e0-41b9-80bd-f384037f6e3a")
@@ -4838,7 +5650,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4849,7 +5661,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4860,7 +5672,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4871,7 +5683,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4881,6 +5693,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 73.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "6886f537-abd5-4213-9c0d-ea8e8df568d5")
@@ -5195,7 +6077,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 123.19 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -5206,7 +6088,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 123.19 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -5217,7 +6099,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 123.19 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -5228,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 123.19 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -5238,6 +6120,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 121.666 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "9a197d7c-a68c-4a27-9655-ebdaa85e0ce2")
@@ -5396,7 +6341,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 74.93 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -5407,7 +6352,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 74.93 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -5418,7 +6363,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 74.93 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -5429,7 +6374,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 74.93 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -5439,6 +6384,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 73.406 62.992 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "84456b0a-37b0-4ef9-bd55-1a950cc002f6")
@@ -5519,7 +6527,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 143.51 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5530,7 +6538,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 143.51 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5541,7 +6549,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 143.51 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5552,7 +6560,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 143.51 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -5562,6 +6570,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 141.986 61.722 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "f63291f9-738d-43e4-834f-a3048157ec3e")
@@ -5798,7 +6869,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 95.25 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5809,7 +6880,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 95.25 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5820,7 +6891,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 95.25 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5831,7 +6902,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 95.25 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5841,6 +6912,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 93.726 80.518 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "9ff269e0-7f39-42db-b5da-868f80bf6cce")
@@ -6001,7 +7135,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 123.19 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6012,7 +7146,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 123.19 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +7157,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 123.19 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6034,7 +7168,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 123.19 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6044,6 +7178,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 124.46 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "c9880665-a6bd-47b3-8b89-7526b2b0b563")
@@ -6205,6 +7409,48 @@
 				)
 			)
 		)
+		(property "DigiKey Status" "TBD: connector not physically selected"
+			(at 90.17 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 90.17 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 90.17 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "TBD"
+			(at 90.17 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+			(at 90.17 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Generic KiCad connector"
+			(at 90.17 25.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
 		(pin "3"
 			(uuid "1369f26d-bff5-4e81-b896-ee96c65955e0")
 		)
@@ -6290,7 +7536,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 170.18 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -6301,7 +7547,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 170.18 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -6312,7 +7558,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 170.18 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -6323,7 +7569,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 170.18 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -6333,6 +7579,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 169.672 25.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "f7ad379c-d758-4c7e-a028-5cc62b468a42")
@@ -6415,6 +7724,48 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Status" "TBD: connector not physically selected"
+			(at 110.49 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 110.49 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 110.49 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "TBD"
+			(at 110.49 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+			(at 110.49 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Generic KiCad connector"
+			(at 110.49 81.2799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "5"
 			(uuid "b52821c0-9a3f-45f2-a64f-95bb681ae794")
@@ -6587,7 +7938,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6598,7 +7949,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6609,7 +7960,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +7971,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 55.88 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6630,6 +7981,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 57.15 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "f73f9553-d9d0-46ae-88ca-bd6635168cfd")
@@ -6710,7 +8131,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 76.2 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -6721,7 +8142,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 76.2 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -6732,7 +8153,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-07200RL"
 			(at 76.2 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -6743,7 +8164,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 76.2 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -6753,6 +8174,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 74.676 32.512 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "63f4b5a7-56dc-4288-a29b-edbc229fecab")
@@ -6913,7 +8397,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6924,7 +8408,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6935,7 +8419,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6946,7 +8430,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 102.87 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6956,6 +8440,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 104.14 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "e187df3c-4bd4-40ec-a112-2306c8cecaff")
