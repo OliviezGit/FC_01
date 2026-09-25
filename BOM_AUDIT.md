@@ -83,3 +83,11 @@ A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execu
 - L1 and L2 now use `H743_Custom:L_Coilcraft_XGL4020`.
 - Land pattern follows Coilcraft XGL4020 Document 1529-3 (rev. 2026-02-19): pad size 0.98 x 3.40 mm, pad centers at +/-1.185 mm.
 - Pad 1 is the marked/start terminal; in the current POWER schematic, L1.1 = SW_5V and L2.1 = SW_9V, which follows Coilcraft's recommendation to connect the high-dv/dt node to the start/short lead for lowest EMI.
+
+## D4 5 V OR-ing diode update
+
+- D4 changed from 1N5819HW-7-F (1 A) to **Nexperia PMEG4030ER,115**.
+- Rating: 40 V, 3 A average forward current, Vf max 0.54 V @ 3 A.
+- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:D_SOD-123W`.
+- DigiKey P/N: `1727-5313-1-ND`; qty-1 price recorded at 0.51 EUR on 2026-09-25.
+- D5 remains 1N5819HW-7-F on the USB branch.
