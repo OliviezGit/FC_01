@@ -88,7 +88,7 @@ A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execu
 
 - D4 changed from 1N5819HW-7-F (1 A) to **Nexperia PMEG4030ER,115**.
 - Rating: 40 V, 3 A average forward current, Vf max 0.54 V @ 3 A.
-- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:D_SOD-123W`. This is not the exact same body/land pattern as SOD-123, so PCB synchronization is required.
+- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:Nexperia_CFP3_SOD-123W`. This is not the same land pattern as SOD-123; the PCB D4 footprint was synchronized to the official KiCad Nexperia CFP3/SOD-123W land pattern (pads centered at ±1.4 mm, 1.2 x 1.2 mm).
 - DigiKey P/N: `1727-5313-1-ND`; qty-1 price recorded at 0.51 EUR on 2026-09-25.
 - DigiKey CT reference for D4: **1727-5313-1-ND**; verified product page: PMEG4030ER,115 / 40 V / 3 A / SOD-123W.
 - D5 remains 1N5819HW-7-F on the USB branch.
