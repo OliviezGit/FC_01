@@ -3906,7 +3906,16 @@
 				(justify right)
 			)
 		)
-		
+		(pin "LED_STRIP" input
+			(at 120.65 71.12 180)
+			(uuid "8c3488f1-1576-4791-b070-9fb4e3e75177")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "CAN1{CAN}" input
 			(at 170.18 91.44 0)
 			(uuid "0e584401-90b5-41dc-b67d-d42c8dac69dd")
