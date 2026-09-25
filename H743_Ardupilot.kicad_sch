@@ -3816,7 +3816,7 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C2{I2C}" input
+		(pin "I2C2{I2C}" bidirectional
 			(at 120.65 81.28 180)
 			(uuid "72f701a5-7ec2-4f09-a3b9-33f519a7b95c")
 			(effects
@@ -3836,7 +3836,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI1{SPI}" input
+		(pin "SPI1{SPI}" bidirectional
 			(at 120.65 85.09 180)
 			(uuid "96d8d736-8f4b-48bf-8a07-a45b6276aa25")
 			(effects
@@ -3846,7 +3846,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI4{SPI}" input
+		(pin "SPI4{SPI}" bidirectional
 			(at 120.65 93.98 180)
 			(uuid "4379778d-e5f2-43de-9d27-2c7492e82965")
 			(effects
@@ -3986,7 +3986,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI2{SPI}" input
+		(pin "SPI2{SPI}" bidirectional
 			(at 120.65 100.33 180)
 			(uuid "19e179e9-25eb-4238-babc-d098fd0ac81c")
 			(effects
@@ -3996,7 +3996,7 @@
 				(justify left)
 			)
 		)
-		(pin "I2C1{I2C}" input
+		(pin "I2C1{I2C}" bidirectional
 			(at 120.65 78.74 180)
 			(uuid "254bdf99-7c41-4526-9578-f25a747d248f")
 			(effects
@@ -4006,7 +4006,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMU1_CLKIN" input
+		(pin "IMU1_DRDY" input
 			(at 120.65 87.63 180)
 			(uuid "c74c1460-d2f7-4681-9274-2f1a92524a83")
 			(effects
@@ -4016,7 +4016,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMU2_CLKIN" input
+		(pin "IMU1_CLKIN" output
 			(at 120.65 90.17 180)
 			(uuid "966e9317-e1b9-4f3a-a8b8-61fb09a1c9df")
 			(effects
@@ -4026,7 +4026,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMU2_DRDY" output
+		(pin "IMU2_DRDY" input
 			(at 120.65 96.52 180)
 			(uuid "62ea5030-ed1e-499b-80d2-1ba305e8a196")
 			(effects
@@ -4036,7 +4036,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMU3_A_CS" input
+		(pin "IMU3_A_CS" output
 			(at 120.65 109.22 180)
 			(uuid "68ab515d-ce2e-42cd-9f46-e34d874046a6")
 			(effects
@@ -4046,7 +4046,7 @@
 				(justify left)
 			)
 		)
-		(pin "IMU3_G_CS" input
+		(pin "IMU3_G_CS" output
 			(at 120.65 111.76 180)
 			(uuid "d179e53f-fad6-4a0f-9c5e-d6c2cd5b5638")
 			(effects
@@ -4056,7 +4056,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI3{SPI}" input
+		(pin "SPI3{SPI}" bidirectional
 			(at 120.65 106.68 180)
 			(uuid "9892af16-b1e5-4ebc-8b92-1d6b42dc0641")
 			(effects
