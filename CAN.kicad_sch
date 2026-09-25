@@ -735,7 +735,7 @@
 					)
 				)
 			)
-			(property "Description" "SOT-23 Dual bidirectional TVS diode for CAN bus protection, 24V, 230W, Alternate KiCAD Library"
+			(property "Description" "SOT-23 Dual bidirectional TVS diode for CAN bus protection, 24V, 230W, alternate KiCad library"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1725,7 +1725,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "CAN-FD ALTERNATIVES\n\n! TO BE TESTED !\n\nTJA1051TK/3,118:	C124020\nSIT1051TK/3:		C1121846\n"
+	(text_box "CAN-FD ALTERNATIVES\n\n! TO BE VALIDATED !\n\nTJA1051TK/3,118:	C124020\nSIT1051TK/3:		C1121846\n"
 		(exclude_from_sim no)
 		(at 83.82 88.9 0)
 		(size 33.02 12.6999)
