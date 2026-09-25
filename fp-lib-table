@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "H743_Custom") (type "KiCad") (uri "${KIPRJMOD}/extralib/footprints.pretty") (options "") (descr "H743_Ardupilot project-local custom footprints"))
+)
