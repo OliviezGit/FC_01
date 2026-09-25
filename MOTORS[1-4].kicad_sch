@@ -3,8 +3,9 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "913a5d6e-0ed5-435d-9e8d-bff528a75fbd")
-	(paper "A5")
+	(paper "A3")
 	(title_block
+		(title "H743_ARDUPILOT")
 		(date "2026-09-24")
 	)
 	(lib_symbols
