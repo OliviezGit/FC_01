@@ -74,7 +74,7 @@ The unit-price field exists for all rows. Exact qty-1 prices were populated wher
 - 3 x 220 ohm resistors RC0402FR-07220RL
 - 18 x 200 ohm resistors RC0402FR-07200RL
 - 1 x 12.4 kohm resistor RC0402FR-0712K4L
-- 2 x Coilcraft XGL4020-222MEC inductors
+- 2 x Coilcraft XGL4030-332MEC inductors (3.3 µH)
 
 No price was invented for these rows.
 
@@ -82,10 +82,13 @@ No price was invented for these rows.
 
 A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execution environment.
 
-## XGL4020 footprint correction
+## XGL4030 inductor / footprint correction
 
-- L1 and L2 now use `H743_Custom:L_Coilcraft_XGL4020` (exact project-local XGL4020 land pattern).
-- Land pattern follows Coilcraft XGL4020 Document 1529-3 (rev. 2026-02-19): pad size 0.98 x 3.40 mm, pad centers at +/-1.185 mm.
+- 6S ripple recheck at 25.2 V and ~2 MHz drove the change from 2.2 µH to 3.3 µH.
+- XGL4020-332MEC was rejected for the 9 V / 3 A rail because its saturation margin was too small; XGL4030-332MEC provides higher saturation-current margin.
+
+- L1 and L2 use `H743_Custom:L_Coilcraft_XGL4030` with Coilcraft XGL4030-332MEC, 3.3 µH.
+- XGL4030 recommended land pattern uses 0.98 x 3.40 mm pads with centers at +/-1.185 mm; project-local footprint updated accordingly.
 - Pad 1 is the marked/start terminal; in the current POWER schematic, L1.1 = SW_5V and L2.1 = SW_9V, which follows Coilcraft's recommendation to connect the high-dv/dt node to the start/short lead for lowest EMI.
 
 ## D4 5 V OR-ing diode update
