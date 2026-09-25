@@ -1343,63 +1343,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "10 kΩ ±1%, 0402"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / family verified"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 102.87 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "19639c5b-21b8-4026-9f88-a69460d6a98c")
@@ -1610,63 +1646,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "10 kΩ ±1%, 0402"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / family verified"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 71.12 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "3d12755f-725c-4354-a59f-e5450578425a")
@@ -1798,70 +1870,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 125.73 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "eb59bb83-8b47-4983-b665-d75d3c079d84")
@@ -2071,63 +2183,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "10 kΩ ±1%, 0402"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / family verified"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 102.87 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "48a5a79b-3131-4840-a84d-03d4a31380dc")
@@ -2259,70 +2407,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 93.98 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "00082281-64f7-4f25-a2a6-760739fc227b")
@@ -2454,70 +2642,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 62.23 74.9362 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "3b3c10b4-0914-44c7-8edf-65cf64e5a604")
@@ -2884,63 +3112,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "1 kΩ ±1%, 0402"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / family verified"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 71.12 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "76dd24da-c4cf-41ca-9338-761f7766ee99")
@@ -3073,63 +3337,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "1 kΩ ±1%, 0402"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / family verified"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 134.62 74.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "7ebcca6d-7312-406d-a01f-5348ca87f215")
@@ -3496,63 +3796,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "20 kΩ ±1%, 0402"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / family verified"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 134.62 67.3099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "3adf436c-95c7-420a-b3f8-95c4d8d81d12")
@@ -3716,42 +4052,66 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" ""
 			(at 109.22 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 109.22 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "TBD"
 			(at 109.22 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "BLOCKING: no footprint assigned"
 			(at 109.22 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "Generic KiCad connector"
 			(at 109.22 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
 			(uuid "c2f73649-b35a-42bb-82c1-e445acc195d7")

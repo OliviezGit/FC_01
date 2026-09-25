@@ -1116,170 +1116,773 @@
 			(embedded_fonts no)
 		)
 		(symbol "H743_Ardupilot:ICM-45686"
-  (exclude_from_sim no)
- (in_bom yes)
- (on_board yes)
- (in_pos_files yes)
- (duplicate_pin_numbers_are_jumpers no)
- (property "Reference" "U"
-  (at 0 17.78 0)
-  
-  (effects (font (size 1.27 1.27)))
- )
- (property "Value" "ICM-45686"
-  (at 0 15.24 0)
-  
-  (effects (font (size 1.27 1.27)))
- )
- (property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
-  (at 0 -23.876 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
-  (at 0 -26.416 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "Description" "SmartMotion 6-axis MEMS IMU; accelerometer + gyroscope; I2C, I3C and SPI; 14-LGA 2.5x3.0 mm"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "Manufacturer" "TDK InvenSense"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "MPN" "ICM-45686"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "DigiKey Product ID" "24374985"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "DigiKey Part Number" "1428-ICM-45686CT-ND"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "CAD Symbol Source" "https://app.ultralibrarian.com/details/928788AC-7FD4-11F0-B69D-024899F9DFE1/TDK/ICM-45686"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "Package" "14-VFLGA / 14-LGA, 2.5x3.0x0.81 mm"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (property "ki_keywords" "IMU accelerometer gyroscope ICM45686 TDK InvenSense"
-  (at 0 0 0)
-  (hide yes)
-  (effects (font (size 1.27 1.27)))
- )
- (symbol "ICM-45686_0_1"
-  (rectangle
-   (start -10.16 13.97)
-   (end 10.16 -13.97)
-   (stroke (width 0) (type default))
-   (fill (type background))
-  )
-  (pin power_in line
-  (at -12.7 11.43 0)
-  (length 2.54)
-  (name "VDD" (effects (font (size 1.016 1.016))))
-  (number "8" (effects (font (size 1.016 1.016))))
- )
-  (pin power_in line
-  (at -12.7 8.89 0)
-  (length 2.54)
-  (name "VDDIO" (effects (font (size 1.016 1.016))))
-  (number "5" (effects (font (size 1.016 1.016))))
- )
-  (pin output line
-  (at -12.7 3.81 0)
-  (length 2.54)
-  (name "INT1" (effects (font (size 1.016 1.016))))
-  (number "4" (effects (font (size 1.016 1.016))))
- )
-  (pin bidirectional line
-  (at -12.7 1.27 0)
-  (length 2.54)
-  (name "INT2/FSYNC/CLKIN" (effects (font (size 1.016 1.016))))
-  (number "9" (effects (font (size 1.016 1.016))))
- )
-  (pin bidirectional line
-  (at -12.7 -3.81 0)
-  (length 2.54)
-  (name "SDO/AD0" (effects (font (size 1.016 1.016))))
-  (number "1" (effects (font (size 1.016 1.016))))
- )
-  (pin bidirectional line
-  (at -12.7 -6.35 0)
-  (length 2.54)
-  (name "SDI/SDIO/SDA" (effects (font (size 1.016 1.016))))
-  (number "14" (effects (font (size 1.016 1.016))))
- )
-  (pin input line
-  (at -12.7 -8.89 0)
-  (length 2.54)
-  (name "SCLK/SCL" (effects (font (size 1.016 1.016))))
-  (number "13" (effects (font (size 1.016 1.016))))
- )
-  (pin input line
-  (at -12.7 -11.43 0)
-  (length 2.54)
-  (name "CS" (effects (font (size 1.016 1.016))))
-  (number "12" (effects (font (size 1.016 1.016))))
- )
-  (pin power_in line
-  (at 0 -16.51 90)
-  (length 2.54)
-  (name "GND" (effects (font (size 1.016 1.016))))
-  (number "6" (effects (font (size 1.016 1.016))))
- )
-  (pin bidirectional line
-  (at 12.7 -8.89 180)
-  (length 2.54)
-  (name "AUX_SDIO/SDI" (effects (font (size 1.016 1.016))))
-  (number "2" (effects (font (size 1.016 1.016))))
- )
-  (pin input line
-  (at 12.7 -11.43 180)
-  (length 2.54)
-  (name "AUX_SCLK" (effects (font (size 1.016 1.016))))
-  (number "3" (effects (font (size 1.016 1.016))))
- )
-  (pin passive line
-  (at 12.7 -6.35 180)
-  (length 2.54)
-  (name "RESV" (effects (font (size 1.016 1.016))))
-  (number "7" (effects (font (size 1.016 1.016))))
- )
-  (pin input line
-  (at 12.7 -3.81 180)
-  (length 2.54)
-  (name "AUX_CS" (effects (font (size 1.016 1.016))))
-  (number "10" (effects (font (size 1.016 1.016))))
- )
-  (pin output line
-  (at 12.7 -1.27 180)
-  (length 2.54)
-  (name "AUX_SDO" (effects (font (size 1.016 1.016))))
-  (number "11" (effects (font (size 1.016 1.016))))
- )
- )
- (embedded_fonts no)
- )
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ICM-45686"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+				(at 0 -23.876 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
+				(at 0 -26.416 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SmartMotion 6-axis MEMS IMU; accelerometer + gyroscope; I2C, I3C and SPI; 14-LGA 2.5x3.0 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TDK InvenSense"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "ICM-45686"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Product ID" "24374985"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "1428-ICM-45686CT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "CAD Symbol Source" "https://app.ultralibrarian.com/details/928788AC-7FD4-11F0-B69D-024899F9DFE1/TDK/ICM-45686"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "14-VFLGA / 14-LGA, 2.5x3.0x0.81 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IMU accelerometer gyroscope ICM45686 TDK InvenSense"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICM-45686_0_1"
+				(rectangle
+					(start -10.16 13.97)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "SDO/AD0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "AUX_SDIO/SDI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "AUX_SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -16.51 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "INT2/FSYNC/CLKIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "AUX_CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "AUX_SDO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "SCLK/SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "SDI/SDIO/SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "H743_Ardupilot:LSM6DSV16X"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U3"
+				(at 2.1433 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LSM6DSV16X"
+				(at 2.1433 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+				(at -10.16 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/LSM6DSV16X.pdf"
+				(at 2.54 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6-axis IMU with SPI/I2C/I3C primary interface, auxiliary interface, Qvar and embedded sensor fusion"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Accelerometer Gyroscope MEMS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LGA*3x2.5mm*P0.5mm*LayoutBorder3x4y*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LSM6DSV16X_0_1"
+				(rectangle
+					(start 11.43 11.43)
+					(end -11.43 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LSM6DSV16X_1_1"
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 3.81)
+					(name "SDO/SA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 3.81)
+					(name "SDx/AH1/Qvar1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 3.81)
+					(name "SCx/AH2/Qvar2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 7.62 180)
+					(length 3.81)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 3.81)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 3.81)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 3.81)
+					(name "OCS_Aux"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 10.16 0)
+					(length 3.81)
+					(name "SDO_Aux"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 3.81)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 3.81)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 3.81)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Motion:BMI088"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1655,360 +2258,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "H743_Ardupilot:LSM6DSV16X"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U3"
-				(at 2.1433 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LSM6DSV16X"
-				(at 2.1433 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
-				(at -10.16 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/LSM6DSV16X.pdf"
-				(at 2.54 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "6-axis IMU with SPI/I2C/I3C primary interface, auxiliary interface, Qvar and embedded sensor fusion"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Accelerometer Gyroscope MEMS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LGA*3x2.5mm*P0.5mm*LayoutBorder3x4y*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LSM6DSV16X_0_1"
-				(rectangle
-					(start 11.43 11.43)
-					(end -11.43 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LSM6DSV16X_1_1"
-				(pin bidirectional line
-					(at -15.24 7.62 0)
-					(length 3.81)
-					(name "SDO/SA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
-					(length 3.81)
-					(name "SDx/AH1/Qvar1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 2.54 0)
-					(length 3.81)
-					(name "SCx/AH2/Qvar2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 7.62 180)
-					(length 3.81)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 3.81)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 3.81)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 5.08 180)
-					(length 3.81)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 3.81)
-					(name "OCS_Aux"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 10.16 0)
-					(length 3.81)
-					(name "SDO_Aux"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -7.62 0)
-					(length 3.81)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 -5.08 0)
-					(length 3.81)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
-					(length 3.81)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2891,7 +3140,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 43.18) (xy 111.76 39.37)
+			(xy 111.76 43.18) (xy 111.76 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2971,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 43.18) (xy 111.76 43.18)
+			(xy 100.33 43.18) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +3230,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 101.6 45.72)
+			(xy 114.3 45.72) (xy 100.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 39.37) (xy 128.27 39.37)
+			(xy 123.19 38.1) (xy 128.27 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3971,7 +4220,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 118.11 39.37)
+			(xy 111.76 38.1) (xy 118.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3991,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 41.91) (xy 128.27 41.91)
+			(xy 123.19 40.64) (xy 128.27 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4501,7 +4750,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 41.91) (xy 114.3 45.72)
+			(xy 114.3 40.64) (xy 114.3 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4751,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 114.3 41.91)
+			(xy 118.11 40.64) (xy 114.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4850,7 +5099,7 @@
 		(uuid "2102f59d-6705-4d40-98db-980d490e6025")
 	)
 	(label "IMU1_CLKIN"
-		(at 101.6 45.72 0)
+		(at 100.33 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5160,7 +5409,7 @@
 		(uuid "97395013-ccc5-4dcb-ac0b-d769eb614a9f")
 	)
 	(label "IMU1_DRDY"
-		(at 101.6 43.18 0)
+		(at 100.33 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5516,70 +5765,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "4.7 µF ±20%, 10 V, X5R, 0402"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "1eddbc20-6adb-4e06-afb8-4a9c1a1004d8")
@@ -5677,7 +5966,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 120.65 39.37 90)
+		(at 120.65 38.1 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -5688,7 +5977,7 @@
 		(dnp no)
 		(uuid "16329792-8f24-4c8c-bffa-24241fef4594")
 		(property "Reference" "R28"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5698,7 +5987,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 115.824 40.132 90)
+			(at 115.824 38.862 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5708,7 +5997,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +6008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +6019,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5741,7 +6030,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +6041,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +6052,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-070RL"
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +6063,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 120.65 39.37 0)
+			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5785,67 +6074,103 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402JR-070RL"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "0 Ω jumper, 0402 (1005), thick film"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 115.824 38.1 90)
+			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "fa5fc59e-c098-4817-8d56-12f6e60fa756")
@@ -5935,84 +6260,132 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "MPN" "LSM6DSV16XTR"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Part Number" "497-LSM6DSV16XTRCT-ND"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/LSM6DSV16XTR/16841485"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "6-axis accel + gyro, I2C/SPI/I3C, LGA-14 2.5x3.0 mm"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "4.92"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "LGA-14 2.5x3.0 mm P0.5"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK: KiCad LGA-14 3x2.5 P0.5"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "Embedded H743_Ardupilot symbol + KiCad footprint"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "b8efdd1c-1bf3-4596-92a7-c4188c879dd6")
@@ -6414,70 +6787,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "691a7d17-dde6-458a-9711-d41dd57f0568")
@@ -6496,7 +6909,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 120.65 41.91 90)
+		(at 120.65 40.64 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -6507,7 +6920,7 @@
 		(dnp no)
 		(uuid "2ce82424-5508-4904-af44-a33e6db7d65f")
 		(property "Reference" "R29"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6517,7 +6930,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 123.952 42.926 90)
+			(at 123.952 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6527,7 +6940,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6538,7 +6951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6549,7 +6962,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6560,7 +6973,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6571,7 +6984,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6582,7 +6995,7 @@
 			)
 		)
 		(property "MPN" "RC0402JR-070RL"
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6593,7 +7006,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 120.65 41.91 0)
+			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6604,67 +7017,103 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402JR-070RL"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "0 Ω jumper, 0402 (1005), thick film"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 124.46 41.148 90)
+			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "d19628a6-8804-49ab-8837-a70dd9e5611d")
@@ -6953,70 +7402,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "d4925d41-5591-4cb1-9379-9a3b308ba7cc")
@@ -7148,70 +7637,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "0a8f1b6b-a06b-40a0-a4b4-b93fdcc78372")
@@ -7421,70 +7950,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "d3098b4f-84fc-4465-bece-531439f076c6")
@@ -7615,63 +8184,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "Digital pressure sensor, I2C/SPI, 1.7–3.6 V, PG-VLGA-8"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "2.31"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "PG-VLGA-8 2.5x2.0 mm"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK by dimensions; final land-pattern overlay recommended"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "EasyEDA external"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "7039eb43-d025-4a70-a410-b21ab7f065d3")
@@ -7819,63 +8424,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "4.7 kΩ ±1%, 0.063 W, 0402"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "e9fa144c-0661-4974-b6c8-12dd2e8cd6ae")
@@ -7964,42 +8605,66 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" ""
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "TBD"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "BLOCKING: no footprint assigned"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "Generic KiCad connector"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
 			(uuid "eeb4c7ed-6eec-46e1-be59-17383e58a62b")
@@ -8217,70 +8882,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "4.7 µF ±20%, 10 V, X5R, 0402"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "1472832f-706a-4d3b-a517-7239a98644e0")
@@ -8527,77 +9232,121 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "MPN" "BMI088"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMI088/8634936"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "6-axis accel + gyro, I2C/SPI, LGA-16 4.5x3.0 mm"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "5.07"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active; no stock at audit"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "LGA-16 4.5x3.0 mm P0.5"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK: KiCad Bosch LGA-16"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad Sensor_Motion"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "5"
 			(uuid "9c794f00-a4b3-40e3-9d28-2c108e36fb0a")
@@ -8851,70 +9600,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "c1c1eba3-b799-4e27-b7cd-c3cb48412cb3")
@@ -9123,63 +9912,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "4.7 kΩ ±1%, 0.063 W, 0402"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "dd9d6e1a-7d71-4363-8880-caf430e9315c")
@@ -9388,70 +10213,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "20d60543-debb-4779-9082-c24b5d172662")
@@ -9663,70 +10528,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "26c3e0dd-c566-4023-b3e2-da3e9c363656")
@@ -9938,70 +10843,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "f1c2461c-5646-4ade-a098-09b5c01d01e4")
@@ -10091,376 +11036,6 @@
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "ICM-45686")
-		(lib_id "H743_Ardupilot:ICM-45686")
-		(at 140.97 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bd498c23-92c1-41fb-8db1-d2a442ae4c9a")
-		(property "Reference" "U7"
-			(at 140.97 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "ICM-45686"
-			(at 140.97 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
-			(at 140.97 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
-			(at 140.97 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SmartMotion 6-axis MEMS IMU; accelerometer + gyroscope; I2C, I3C and SPI; 14-LGA 2.5x3.0 mm"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TDK InvenSense"
-			(at 140.97 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ICM-45686"
-			(at 140.97 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22459454"
-			(at 140.97 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22459454"
-			(at 140.97 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" "1428-ICM-45686CT-ND"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Specs" "6-axis accel + gyro, I2C/I3C/SPI, LGA-14 3.0x2.5 mm"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Unit Price EUR" "4.60"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Price Qty" "1 CT"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Price Checked" "2026-09-25"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Status" "Active; no stock at audit"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Package" "14-VFLGA / 14-LGA, 2.5x3.0x0.81 mm"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Footprint Audit" "Package dimensions confirmed from DigiKey/TDK; current footprint 3.0x2.5 mm P0.5 retained pending independent pad-land overlay"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Library Audit" "Project-local H743_Ardupilot symbol; pinout from TDK datasheet; CAD source cross-check Ultra Librarian"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Product ID" "24374985"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey TR Part Number" "1428-ICM-45686TR-ND"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Digi-Reel Part Number" "1428-ICM-45686DKR-ND"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey EDA Models URL" "https://www.digikey.com/en/models/24374985"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "CAD Symbol Source" "https://app.ultralibrarian.com/details/928788AC-7FD4-11F0-B69D-024899F9DFE1/TDK/ICM-45686"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "CAD Symbol Verification" "Pinout cross-checked against TDK DS-000577 Rev 1.0; Ultra Librarian symbol marked Built & Verified"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Description" "IMU ACCEL GYRO 6 AXIS"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Detailed Description" "Accelerometer, Gyroscope, 6 Axis Sensor I2C, I3C, SPI Output"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Series" "SmartMotion"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Package Case" "14-VFLGA"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Supplier Device Package" "14-LGA (2.5x3)"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Mounting" "Surface Mount"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Part Status" "Active"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Standard Lead Time" "45 Weeks"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey Stock" "0"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey MSL" "1 (Unlimited)"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey RoHS" "RoHS 3 Compliant"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey REACH" "Not Affected"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey ECCN" "EAR99"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey HTSUS" "8542.39.0070"
-			(at 140.97 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(pin "10"
-			(uuid "2b2cb527-4933-4182-80ca-40695af07288")
-		)
-		(pin "3"
-			(uuid "3891dd83-5aa3-433c-92eb-6b3f8dc29071")
-		)
-		(pin "6"
-			(uuid "76086164-d1c0-4210-8e4e-ea717d8abebc")
-		)
-		(pin "9"
-			(uuid "8b2f8ad0-dfc6-4904-96c9-67caf4e7c531")
-		)
-		(pin "12"
-			(uuid "8205fd87-c8e8-4b8a-b3d0-fa7b88abb53a")
-		)
-		(pin "11"
-			(uuid "90009b36-ca23-41db-9bd3-24dfac4f6b38")
-		)
-		(pin "5"
-			(uuid "67f0c2f0-66c8-4d3a-ab25-5f260f5b390e")
-		)
-		(pin "1"
-			(uuid "24796aea-8c64-4de1-9378-18084d8c70bc")
-		)
-		(pin "14"
-			(uuid "1ebfcdfb-4b7b-44e4-965d-208093e2acc6")
-		)
-		(pin "4"
-			(uuid "758c1b0e-2aed-4e9c-8303-aeae2b61ab6d")
-		)
-		(pin "13"
-			(uuid "fd447b91-959a-4cff-9bce-207b0a95dbdf")
-		)
-		(pin "2"
-			(uuid "de4b8634-0a42-435a-b07d-b4d52571e2b5")
-		)
-		(pin "8"
-			(uuid "bc260b14-3ce7-479d-84ab-db55e6a10ef8")
-		)
-		(pin "7"
-			(uuid "0ae35823-f2e1-437c-a76a-40568e7bdf56")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -10930,84 +11505,132 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "MPN" "BMP581"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Part Number" "828-BMP581CT-ND"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMP581/16036134"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "Pressure 30–125 kPa, I2C/SPI, 1.65–3.6 V, 10-LGA 2x2 mm"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "2.63"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / in stock at audit"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "10-LGA 2.0x2.0 mm"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK: Bosch recommended land pattern corrected 2026-09-25"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "Project BMP581 symbol + H743_Custom footprint"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "32b306e8-fe82-4e26-9c66-2aaed6d8a86b")
@@ -11241,63 +11864,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "0 Ω jumper, 0402 (1005), thick film"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "3a8e1ab3-3f5d-4f72-bc62-ff2395bbece6")
@@ -11430,70 +12089,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "4.7 µF ±20%, 10 V, X5R, 0402"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "1f8578a7-2d2b-4284-ba70-78b96748029b")
@@ -11582,42 +12281,66 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" ""
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "TBD"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "BLOCKING: no footprint assigned"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "Generic KiCad connector"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
 			(uuid "37b968a6-9634-4b6c-9187-91a0562dd4e8")
@@ -11832,70 +12555,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "f38178d9-6e62-405f-8fb2-7360cce11194")
@@ -12071,6 +12834,199 @@
 		)
 	)
 	(symbol
+		(lib_id "H743_Ardupilot:ICM-45686")
+		(at 140.97 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1219903-570a-48be-8e2f-c25749e2d41c")
+		(property "Reference" "U7"
+			(at 140.97 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICM-45686"
+			(at 140.97 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+			(at 140.97 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
+			(at 140.97 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SmartMotion 6-axis MEMS IMU; accelerometer + gyroscope; I2C, I3C and SPI; 14-LGA 2.5x3.0 mm"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ICM-45686"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Product ID" "24374985"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "1428-ICM-45686CT-ND"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CAD Symbol Source" "https://app.ultralibrarian.com/details/928788AC-7FD4-11F0-B69D-024899F9DFE1/TDK/ICM-45686"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "14-VFLGA / 14-LGA, 2.5x3.0x0.81 mm"
+			(at 140.97 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "0c4998ef-ade1-4d00-8031-4609dec3c9fa")
+		)
+		(pin "13"
+			(uuid "ae146012-212f-466c-8891-cc9b14ae319d")
+		)
+		(pin "9"
+			(uuid "01894a8f-7449-4a5b-9b56-ad4933d07d39")
+		)
+		(pin "12"
+			(uuid "d8ece2e3-aee2-4400-b11d-7d4f0d4aa254")
+		)
+		(pin "10"
+			(uuid "2c63ab44-fdb7-4a53-b58f-4fee812634d8")
+		)
+		(pin "14"
+			(uuid "e59223d5-8621-4f8c-a58f-6c4736a3ac14")
+		)
+		(pin "5"
+			(uuid "a3fe5ee7-35f4-42c6-9e1b-3da808a6913c")
+		)
+		(pin "7"
+			(uuid "7586d7a5-b3f2-4926-8b5d-08cd9a3a8622")
+		)
+		(pin "8"
+			(uuid "c37d7497-6ca2-47bc-acb5-ce6b8e4ec24f")
+		)
+		(pin "11"
+			(uuid "775ff767-7e93-4da6-9f58-3cb528bb4572")
+		)
+		(pin "3"
+			(uuid "185a77cc-d7a0-4d5b-9dd2-cda5c088373c")
+		)
+		(pin "2"
+			(uuid "38fcd5d6-2405-4ef3-8ad9-caa1fff28803")
+		)
+		(pin "4"
+			(uuid "010661b9-8fed-4bc8-96e1-c8b6221d0e56")
+		)
+		(pin "1"
+			(uuid "193b1867-f94b-469e-a9dc-afc683d58db4")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 210.82 87.63 0)
 		(unit 1)
@@ -12185,70 +13141,110 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "388d8d3c-9897-4fde-b308-505b080bd2b4")

@@ -1396,63 +1396,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / DigiKey family verified"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 97.155 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "18da1281-9e16-4c75-84fa-10d1fa906995")
@@ -1660,63 +1696,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "1K ±1%, 0402 (1005), thick film"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active / DigiKey family verified"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 85.09 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
 			(uuid "fbb4785a-e5c8-48c0-ba7b-15e234010687")
@@ -1930,63 +2002,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "N-MOSFET 30 V, 5.7 A, SOT-23-3, RDS(on) 26.5 mΩ max @10 V"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" "0.45"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "Active"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "SOT-23-3"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "OK"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "KiCad standard"
 			(at 107.95 60.9599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "f016382d-4c06-4409-bacb-522b518ef948")
@@ -2122,63 +2230,99 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Specs" "SH 1.0 mm, 3-pin right-angle SMD"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Unit Price EUR" ""
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Price Qty" ""
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Price Checked" "2026-09-25"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "DigiKey Status" "No exact DigiKey listing; supplier/LCSC part retained"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Package" "SH1.0 3P right-angle SMD"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint Audit" "CHECK supplier drawing vs EasyEDA footprint"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Library Audit" "EasyEDA external"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "0c15a680-495f-4c3b-a53b-6d8cdc8cd131")
