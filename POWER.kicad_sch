@@ -4325,7 +4325,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819HW-7-F"
+		(property "Value" "PMEG4030ER,115"
 			(at 170.18 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123W"
 			(at 170.18 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4346,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG4030ER.pdf"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4390,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N5819HW-7-F"
+		(property "MPN" "PMEG4030ER,115"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4401,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diodes Incorporated"
+		(property "Manufacturer" "Nexperia"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4412,7 +4412,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "1N5819HW-FDICT-ND"
+		(property "DigiKey Part Number" "1727-5313-1-ND"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/nexperia-usa-inc/PMEG4030ER-115/2676789"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4434,7 +4434,7 @@
 				)
 			)
 		)
-		(property "DigiKey Specs" "Schottky, 40 V, 1 A, SOD-123"
+		(property "DigiKey Specs" "Schottky rectifier, 40 V, 3 A average, Vf max 0.54 V @ 3 A, SOD-123W / CFP3"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +4445,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" "0.27"
+		(property "DigiKey Unit Price EUR" "0.51"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4478,7 +4478,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Active; in stock at audit"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4489,7 +4489,7 @@
 				)
 			)
 		)
-		(property "Package" "SOD-123"
+		(property "Package" "CFP3 / SOD-123W, 2.6 x 1.7 x 1.0 mm"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +4500,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "OK: KiCad SOD-123W matches Nexperia CFP3/SOD123W package class"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4511,7 +4511,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "KiCad standard diode symbol + KiCad standard SOD-123W footprint"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
