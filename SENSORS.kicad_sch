@@ -1115,7 +1115,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICM-42688-P_1"
+		(symbol "H743_Ardupilot:ICM-45686"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1131,7 +1131,7 @@
 					)
 				)
 			)
-			(property "Value" "ICM-42688-P"
+			(property "Value" "ICM-45686"
 				(at 0 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1152,7 +1152,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C1850418.pdf"
+			(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
 				(at 0 -26.416 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1163,7 +1163,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "High-performance 6-axis MEMS IMU, 14-pin LGA, SPI/I2C/I3C host interface"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1185,7 +1185,7 @@
 					)
 				)
 			)
-			(property "MPN" "ICM-42688-P"
+			(property "MPN" "ICM-45686"
 				(at 0 -31.496 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1196,7 +1196,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C1850418"
+			(property "LCSC Part" ""
 				(at 0 -34.036 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1218,7 +1218,7 @@
 					)
 				)
 			)
-			(symbol "ICM-42688-P_1_0_1"
+			(symbol "ICM-45686_0_1"
 				(rectangle
 					(start -10.16 13.97)
 					(end 10.16 -13.97)
@@ -1230,10 +1230,10 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 -8.89 180)
 					(length 2.54)
-					(name "RESV"
+					(name "AUX1_SDIO/AUX1_SDI/MAS_DA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1248,10 +1248,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -11.43 180)
 					(length 2.54)
-					(name "RESV"
+					(name "AUX1_SCLK/MAS_CLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1266,7 +1266,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 8.89 0)
 					(length 2.54)
 					(name "VDDIO"
@@ -1284,7 +1284,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -16.51 90)
 					(length 2.54)
 					(name "GND"
@@ -1302,7 +1302,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "RESV"
@@ -1320,7 +1320,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 11.43 0)
 					(length 2.54)
 					(name "VDD"
@@ -1338,10 +1338,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -3.81 180)
 					(length 2.54)
-					(name "RESV"
+					(name "AUX1_CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1356,10 +1356,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 -1.27 180)
 					(length 2.54)
-					(name "RESV"
+					(name "AUX1_SDO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1375,11 +1375,11 @@
 					)
 				)
 			)
-			(symbol "ICM-42688-P_1_1_1"
-				(pin unspecified line
+			(symbol "ICM-45686_1_1"
+				(pin bidirectional line
 					(at -12.7 -3.81 0)
 					(length 2.54)
-					(name "SDO"
+					(name "AP_SDO/AP_AD0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1394,10 +1394,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at -12.7 2.54 0)
 					(length 2.54)
-					(name "INT1"
+					(name "INT1/INT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1412,10 +1412,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -12.7 0 0)
 					(length 2.54)
-					(name "CLKIN"
+					(name "INT2/FSYNC/CLKIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1430,10 +1430,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 -11.43 0)
 					(length 2.54)
-					(name "CS"
+					(name "AP_CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,10 +1448,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 -8.89 0)
 					(length 2.54)
-					(name "SCLK"
+					(name "AP_SCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1466,10 +1466,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at -12.7 -6.35 0)
 					(length 2.54)
-					(name "SDI"
+					(name "AP_SDA/AP_SDIO/AP_SDI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1872,7 +1872,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Motion:LSM6DSM"
+		(symbol "H743_Ardupilot:LSM6DSV16X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1923,7 +1923,7 @@
 					)
 				)
 			)
-			(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope, with auxiliary SPI, 1.71V to 3.6V VCC"
+			(property "Description" "6-axis IMU with SPI/I2C/I3C primary interface, auxiliary interface, Qvar and embedded sensor fusion"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1956,7 +1956,7 @@
 					)
 				)
 			)
-			(symbol "LSM6DSM_0_1"
+			(symbol "LSM6DSV16X_0_1"
 				(rectangle
 					(start 11.43 11.43)
 					(end -11.43 -11.43)
@@ -1969,7 +1969,7 @@
 					)
 				)
 			)
-			(symbol "LSM6DSM_1_1"
+			(symbol "LSM6DSV16X_1_1"
 				(pin bidirectional line
 					(at -15.24 7.62 0)
 					(length 3.81)
@@ -1991,7 +1991,7 @@
 				(pin bidirectional line
 					(at -15.24 5.08 0)
 					(length 3.81)
-					(name "SDX"
+					(name "SDx/AH1/Qvar1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2006,10 +2006,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 2.54 0)
 					(length 3.81)
-					(name "SCX"
+					(name "SCx/AH2/Qvar2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2078,7 +2078,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -15.24 90)
 					(length 3.81)
 					(hide yes)
@@ -2118,7 +2118,7 @@
 				(pin output line
 					(at 15.24 5.08 180)
 					(length 3.81)
-					(name "INT2"
+					(name "MDRDY/INT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2133,7 +2133,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -15.24 0 0)
 					(length 3.81)
 					(name "OCS_Aux"
@@ -5937,7 +5937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Motion:LSM6DSM")
+		(lib_id "H743_Ardupilot:LSM6DSV16X")
 		(at 138.43 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -9086,8 +9086,8 @@
 		)
 	)
 	(symbol
-		(lib_name "ICM-42688-P_1")
-		(lib_id "EasyEDA:ICM-42688-P")
+		(lib_name "ICM-45686")
+		(lib_id "H743_Ardupilot:ICM-45686")
 		(at 140.97 41.91 0)
 		(unit 1)
 		(body_style 1)
