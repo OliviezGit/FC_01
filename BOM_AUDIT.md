@@ -52,9 +52,9 @@ Each purchasable component now carries, when applicable:
 ## Remaining footprint / mechanical checks
 
 ### Blocking
-- ANALOG_SENS J1: generic connector, no footprint.
-- UART_I2C J2-J7: generic connectors, no footprints.
-- SENSORS J8/J9: generic connectors, no footprints.
+- J1/J2/J3/J5/J6/J7/J8/J9: resolved as project-local 1x4 solder-pad arrays, 2.54 mm pitch, 1.00 x 1.00 mm square SMD pads, no holes and no paste.
+- J4: resolved as project-local 1x6 solder-pad array, 2.54 mm pitch, 1.00 x 1.00 mm square SMD pads, no holes and no paste.
+- J12: resolved as project-local 1x3 solder-pad array, 2.54 mm pitch, 1.00 x 1.00 mm square SMD pads, no holes and no paste.
 
 ### Needs final land-pattern verification
 - POWER U12 LMR43620R5RPER: current EasyEDA footprint name is 2.1 x 2.1 mm; compare pad geometry to TI RPE land pattern.
@@ -99,3 +99,13 @@ A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execu
 - DigiKey P/N: `1727-5313-1-ND`; qty-1 price recorded at 0.51 EUR on 2026-09-25.
 - DigiKey CT reference for D4: **1727-5313-1-ND**; verified product page: PMEG4030ER,115 / 40 V / 3 A / SOD-123W.
 - D5 remains 1N5819HW-7-F on the USB branch.
+
+
+## Matek-style solder-pad arrays
+
+- Project-local footprints added:
+  - `H743_Custom:SolderPadArray_1x03_P2.54mm_1x1mm`
+  - `H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm`
+  - `H743_Custom:SolderPadArray_1x06_P2.54mm_1x1mm`
+- Copper pads are 1.00 x 1.00 mm square on 2.54 mm centers.
+- These are SMD solder pads only: no drill and no paste aperture. The footprint can be flipped to the PCB bottom side when required.
