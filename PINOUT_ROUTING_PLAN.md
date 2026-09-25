@@ -55,7 +55,7 @@ Goal: keep the custom FC as close as practical to the official `MatekH743` targe
 | Buzzer | PA15 | LOCKED | buzzer transistor |
 | LED0 | PE3 | LOCKED | status LED |
 | LED1 | PE4 | LOCKED | status LED |
-| LED strip | PA8 | LOCKED | WS2812 / output to dedicated TP5 1x1 mm solder pad |
+| LED strip | PA8 | LOCKED | WS2812 / output |
 | ADC VBAT1 | PC0 | LOCKED | battery voltage |
 | ADC CURR1 | PC1 | LOCKED | battery current |
 | ADC VBAT2 | PA4 | LOCKED | second voltage |
@@ -124,14 +124,6 @@ Priority:
 5. place 3V3_MCU and 3V3_SENS LDOs near the loads they serve, downstream of the noisy buck section.
 
 ## Changes applied on 2026-09-25
-
-- rebuilt the MCU net assignments against STM32H743VIT6 physical pins and ArduPilot Copter 4.7.1 MatekH743/MatekH743-bdshot mapping;
-- corrected LED_STRIP to PA8 / PWM13 / GPIO62 and added dedicated TP5 physical solder pad;
-- corrected SDMMC, SPI1/2/3/4, I2C1/2, CAN1, UART1/2/3/4/6/7/8, SWD, USB, motors 1-4, buzzer, status LEDs and ADC net placement around U2;
-- corrected HSE routing so PH0/PH1 are no longer shorted and map to OSC_IN/OSC_OUT;
-- corrected MCU core support nets for VBAT, VDD, VSS, VDDA, VSSA, VREF+, VCAP, NRST and BOOT0;
-- removed obsolete top-level LED_STRIP hierarchy pin because LED_STRIP is now a local physical output pad;
-- post-change automated connectivity audit: 65/65 locked/custom signal assignments matched, with zero duplicated critical nets.
 
 - removed the incorrect PA7 -> SPI1.MOSI connection;
 - SPI1 MOSI now remains only on PD7;
