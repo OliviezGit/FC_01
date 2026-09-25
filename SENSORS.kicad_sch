@@ -8567,7 +8567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 255.27 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -8600,7 +8600,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8633,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8644,7 +8644,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8655,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -12243,7 +12243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 213.36 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12276,7 +12276,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12309,7 +12309,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12320,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +12331,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
