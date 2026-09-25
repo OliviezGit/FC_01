@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123W"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 170.18 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -4500,7 +4500,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: KiCad SOD-123W matches Nexperia CFP3/SOD123W package class"
+		(property "Footprint Audit" "OK: official KiCad Nexperia_CFP3_SOD-123W footprint matches Nexperia CFP3/SOD123W"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
