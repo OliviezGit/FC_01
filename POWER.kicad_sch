@@ -2489,6 +2489,16 @@
 		)
 		(uuid "c7653822-f899-4267-b27a-6790f5e58ce7")
 	)
+	(text "Ajouter 100 kΩ entre DJI_EN et +3V3_MCU est la bonne conception."
+		(exclude_from_sim no)
+		(at 83.82 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee54764d-c8c0-4bf9-8ee2-2d590d2fb208")
+	)
 	(text_box "+3V3 - MCU"
 		(exclude_from_sim no)
 		(at 198.12 44.45 0)
@@ -2702,6 +2712,12 @@
 		(uuid "c07c17d5-0c78-4e5d-96d4-bb32475afd2b")
 	)
 	(junction
+		(at 68.58 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38983c1-b076-4d22-b15e-b88fcb65dbfc")
+	)
+	(junction
 		(at 158.75 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2832,16 +2848,6 @@
 			(type default)
 		)
 		(uuid "14594b94-9fca-4f3b-8e8b-595078b0eebb")
-	)
-	(wire
-		(pts
-			(xy 53.34 119.38) (xy 63.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a835971-58ce-4846-8352-8414473204dc")
 	)
 	(wire
 		(pts
@@ -3185,6 +3191,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 116.84) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647c2fee-ae07-4d04-8cb3-411f6c925131")
+	)
+	(wire
+		(pts
 			(xy 69.85 121.92) (xy 72.39 121.92)
 		)
 		(stroke
@@ -3365,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 81.28 116.84)
+			(xy 46.99 116.84) (xy 68.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3412,6 +3428,16 @@
 			(type default)
 		)
 		(uuid "873a9183-b5f3-4b70-a83c-90161134ab9e")
+	)
+	(wire
+		(pts
+			(xy 68.58 116.84) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac88f79-7aef-4022-b47a-d50c546ec89b")
 	)
 	(wire
 		(pts
@@ -4073,16 +4099,6 @@
 		)
 		(uuid "ffb67a18-e4f0-466e-85f1-1a37425da15a")
 	)
-	(label "DJI_EN"
-		(at 72.39 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "222975a5-0e02-439a-a576-100a8914b857")
-	)
 	(label "SW_9V"
 		(at 111.76 119.38 0)
 		(effects
@@ -4092,16 +4108,6 @@
 			(justify left bottom)
 		)
 		(uuid "6822942e-21f1-4a11-9d45-edd62a8dfb90")
-	)
-	(label "9V_EN"
-		(at 53.34 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "720e5900-4eb5-4566-85c5-531902e1d3f4")
 	)
 	(label "SW_5V"
 		(at 109.22 64.77 0)
@@ -7260,129 +7266,6 @@
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/4618509d-46d5-4b32-bd9a-2bec826ec7e9"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 66.04 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c708938-7831-4879-b51e-c55148d4dedf")
-		(property "Reference" "R8"
-			(at 62.23 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 69.85 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 66.04 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 66.04 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 66.04 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402WGF1002TCE"
-			(at 66.04 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 66.04 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b548114-8960-487d-9af5-526f5c85d1f9")
-		)
-		(pin "1"
-			(uuid "cfe6b55e-abeb-4764-948c-19674c8712de")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/4618509d-46d5-4b32-bd9a-2bec826ec7e9"
-					(reference "R8")
 					(unit 1)
 				)
 			)

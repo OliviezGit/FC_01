@@ -2182,16 +2182,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 90.17) (xy 120.65 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d881af62-0a88-49ad-95c2-8a61007faed6")
-	)
-	(wire
-		(pts
 			(xy 101.6 111.76) (xy 120.65 111.76)
 		)
 		(stroke
@@ -3956,16 +3946,6 @@
 				(justify right)
 			)
 		)
-		(pin "9V_EN" input
-			(at 120.65 90.17 180)
-			(uuid "5f02480b-8434-48b3-a6f6-2028c03e9df1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_OTG_P{USB}" input
 			(at 120.65 53.34 180)
 			(uuid "c99b10ea-ebb8-48fd-9bea-fd603446a396")
@@ -4311,63 +4291,6 @@
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
 					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 78.74 86.36)
-		(size 22.86 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4618509d-46d5-4b32-bd9a-2bec826ec7e9")
-		(property "Sheetname" "POWER"
-			(at 78.74 85.6484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "POWER.kicad_sch"
-			(at 78.74 94.5646 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "9V_EN" input
-			(at 101.6 90.17 0)
-			(uuid "f81898c2-c914-4cdf-91cd-b1d5a3671c11")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
-					(page "3")
 				)
 			)
 		)

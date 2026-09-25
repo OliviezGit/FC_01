@@ -5575,16 +5575,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 93.98) (xy 146.05 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f348537-23cd-4bcf-b4ec-c494ad6abf00")
-	)
-	(wire
-		(pts
 			(xy 231.14 176.53) (xy 220.98 176.53)
 		)
 		(stroke
@@ -16489,16 +16479,6 @@
 			(justify left bottom)
 		)
 		(uuid "496c6a6d-17c1-43a0-8f91-b668616957a9")
-	)
-	(label "9V_EN"
-		(at 135.89 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4dd006fe-9e9a-437a-83e6-a9bd44d6193d")
 	)
 	(label "USB_OTG_P.DP"
 		(at 207.01 88.9 0)
