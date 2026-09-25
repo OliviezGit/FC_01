@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "08c6f33e-f86f-4617-b0fe-ce3f72994236")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "H743_ARDUPILOT")
 		(date "2026-09-24")
@@ -5619,7 +5619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07de426b-f783-4479-bd5b-1a8abadec74a")
-		(property "Reference" "C64"
+		(property "Reference" "C29"
 			(at 102.87 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5727,7 +5727,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C64")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5746,7 +5746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a22572a-63d2-4491-a8dc-59d9574a47c4")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR064"
 			(at 109.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5806,7 +5806,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0104")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5824,7 +5824,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16329792-8f24-4c8c-bffa-24241fef4594")
-		(property "Reference" "R32"
+		(property "Reference" "R28"
 			(at 115.824 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,7 +5930,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -5948,7 +5948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18c90c3b-947e-4211-87a4-7fdeb7fc2ef5")
-		(property "Reference" "U3"
+		(property "Reference" "U6"
 			(at 140.5733 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,7 +6049,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "U3")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6066,7 +6066,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0c2135-394c-406f-a250-09668356ea60")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR069"
 			(at 123.19 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6126,7 +6126,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0155")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22ccc4ca-48e1-4908-ac2a-9b3a73c1f632")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR080"
 			(at 223.52 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6204,7 +6204,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0100")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -6222,7 +6222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2386e190-718f-4434-b476-1d8fdd8f3ca9")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR076"
 			(at 207.01 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6282,7 +6282,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0141")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -6300,7 +6300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "265132dc-2069-4f1e-a4b3-26c4a300acf3")
-		(property "Reference" "C66"
+		(property "Reference" "C35"
 			(at 118.11 139.6938 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6408,7 +6408,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C66")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -6436,7 +6436,7 @@
 				)
 			)
 		)
-		(property "Value" "0R DNP"
+		(property "Value" "0R"
 			(at 123.952 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6551,7 +6551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cf5a5b2-d0ec-48cd-85e1-e5cefab9e5dd")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR071"
 			(at 138.43 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6611,7 +6611,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0106")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6628,7 +6628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3120e68d-b3c8-4c88-b97d-3a2c0c1c640e")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR074"
 			(at 205.74 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6688,7 +6688,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR099")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a1ec30b-1a58-4229-b6ca-3c33568e85c5")
-		(property "Reference" "C50"
+		(property "Reference" "C31"
 			(at 107.95 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6814,7 +6814,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C50")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -6831,7 +6831,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b398112-3597-4e19-a703-283707f25c33")
-		(property "Reference" "C51"
+		(property "Reference" "C39"
 			(at 265.43 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6939,7 +6939,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C51")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6956,7 +6956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c4a5d7c-39a6-4d48-be23-3d783e283e83")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR068"
 			(at 120.65 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7016,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0154")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7034,7 +7034,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "437b64fa-52e6-4660-843a-d57ab5acbe5a")
-		(property "Reference" "C65"
+		(property "Reference" "C32"
 			(at 110.49 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7142,7 +7142,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C65")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -7160,7 +7160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4489dc2d-adb0-4ba2-9036-e88d332c9244")
-		(property "Reference" "U16"
+		(property "Reference" "U9"
 			(at 250.19 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7284,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "U16")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -7301,7 +7301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e82147e-7946-4186-bdc3-ff7a77dbd6b7")
-		(property "Reference" "R54"
+		(property "Reference" "R31"
 			(at 204.724 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,7 +7407,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R54")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -7425,7 +7425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52200b60-77dc-4dcd-89f4-289011318bb3")
-		(property "Reference" "J15"
+		(property "Reference" "J9"
 			(at 257.81 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7495,7 +7495,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "J15")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7514,7 +7514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5977cc53-bfc7-4b30-a09b-34731a45b548")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR073"
 			(at 196.85 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7574,7 +7574,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0146")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7592,7 +7592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5eaba5aa-0bfd-41ed-9c4c-49dfc8aec7d6")
-		(property "Reference" "C41"
+		(property "Reference" "C27"
 			(at 97.79 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7700,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C41")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -7719,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "616cfd86-01df-402a-b596-492487c4ab8d")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR059"
 			(at 92.71 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7779,7 +7779,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR091")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7798,7 +7798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f83a14-235f-4486-af4d-c070e3989c64")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR084"
 			(at 250.19 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7858,7 +7858,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0102")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -7876,7 +7876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6847de59-e0c5-4687-a9f6-2e16b79a97c6")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 136.7633 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7982,7 +7982,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8001,7 +8001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d69070b-78ea-45ac-a847-b74fc517be43")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR086"
 			(at 264.16 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8061,7 +8061,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0145")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e5defae-fc5d-4a6c-b8a9-79a9ed22659a")
-		(property "Reference" "C43"
+		(property "Reference" "C30"
 			(at 105.41 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,7 +8187,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C43")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f298c11-7484-4657-87b4-e1f45d0b13d2")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR072"
 			(at 140.97 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8266,7 +8266,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR096")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -8283,7 +8283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77680d84-b5e2-473a-9274-9cac926bf107")
-		(property "Reference" "R55"
+		(property "Reference" "R32"
 			(at 213.106 53.594 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8389,7 +8389,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R55")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -8406,7 +8406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79a3dec1-62f0-4bb8-8059-e11f3c254952")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR075"
 			(at 207.01 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8466,7 +8466,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0148")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -8483,7 +8483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae59cf9-98d4-47ba-b457-6970e87cd108")
-		(property "Reference" "C48"
+		(property "Reference" "C38"
 			(at 224.79 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8591,7 +8591,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C48")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -8610,7 +8610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a99922be-063e-4d08-b39b-ac7b0aae0b2c")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR067"
 			(at 119.38 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +8670,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0122")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8688,7 +8688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b210234b-7f42-4ad0-8d21-bcb3efa794fd")
-		(property "Reference" "C45"
+		(property "Reference" "C33"
 			(at 113.03 34.2838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,7 +8796,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C45")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8815,7 +8815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d50eb8-0bf2-407a-8ee0-daa6f8969101")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR061"
 			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8875,7 +8875,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0108")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8893,7 +8893,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5392b19-688a-46a9-8c2a-8b80e396bf61")
-		(property "Reference" "C52"
+		(property "Reference" "C34"
 			(at 115.57 81.2738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,7 +9001,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C52")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f90e7a-e5a7-4515-9b4c-8cc77109db1f")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR082"
 			(at 248.92 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9079,7 +9079,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0150")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9097,7 +9097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd498c23-92c1-41fb-8db1-d2a442ae4c9a")
-		(property "Reference" "U14"
+		(property "Reference" "U7"
 			(at 140.97 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9128,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1850418.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22459454.pdf"
 			(at 140.97 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9161,7 +9161,7 @@
 				)
 			)
 		)
-		(property "MPN" "ICM-42688-P"
+		(property "MPN" "ICM-45686"
 			(at 140.97 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9172,7 +9172,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1850418"
+		(property "LCSC Part" "C22459454"
 			(at 140.97 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9183,7 +9183,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1850418"
+		(property "LCSC" "C22459454"
 			(at 140.97 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9239,7 +9239,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "U14")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9258,7 +9258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1905406-5e06-437d-a19c-1b15db6d2b18")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR060"
 			(at 95.25 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9318,7 +9318,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0103")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9336,7 +9336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3e224e5-091b-43ed-81cc-84c9aae8d641")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR085"
 			(at 264.16 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9396,7 +9396,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0144")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -9415,7 +9415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51ce283-b91f-4ccd-8f69-c2b908776285")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR062"
 			(at 100.33 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9475,7 +9475,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0105")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -9493,7 +9493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d584500d-d364-468a-bc9b-f8f2088101aa")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR077"
 			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9553,7 +9553,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0142")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -9571,7 +9571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d88eac05-5293-48da-a865-7647012b5c66")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR083"
 			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9631,7 +9631,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0151")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -9649,7 +9649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2bdcb34-86e9-4e42-a7b5-348af6945b0a")
-		(property "Reference" "U2"
+		(property "Reference" "U8"
 			(at 226.06 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +9737,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "U2")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6096eb7-88f5-4070-ae8d-3544320e128c")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR081"
 			(at 223.52 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9816,7 +9816,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0101")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -9834,7 +9834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6c8518d-40c7-4c63-8560-3dc4d3640e4b")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 156.972 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9940,7 +9940,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -9958,7 +9958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7b2d785-764b-466a-9505-ea1751a55e67")
-		(property "Reference" "C47"
+		(property "Reference" "C28"
 			(at 100.33 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10066,7 +10066,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C47")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -10084,7 +10084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8a6c110-8004-4e1e-97d6-f1e6d03bdc6b")
-		(property "Reference" "J10"
+		(property "Reference" "J8"
 			(at 215.9 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +10154,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "J10")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10171,7 +10171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebe86f70-bac0-45b9-83a5-f6d3c341e426")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR066"
 			(at 118.11 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10231,7 +10231,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0153")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10248,7 +10248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed262bc7-7b03-4ad7-a3d4-9c8a2db7ab55")
-		(property "Reference" "C68"
+		(property "Reference" "C37"
 			(at 222.25 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,7 +10356,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C68")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10375,7 +10375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f07e8f11-04ad-40a1-9ef9-3e024991338b")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR070"
 			(at 132.08 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -10435,7 +10435,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0121")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -10454,7 +10454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0c3f38a-3d17-4a76-8f16-7fe8d84a4bf2")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR063"
 			(at 106.68 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10514,7 +10514,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR090")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10531,7 +10531,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f46be183-f529-4ae2-ae50-ebbcb2cc16ca")
-		(property "Reference" "C49"
+		(property "Reference" "C36"
 			(at 207.264 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,7 +10639,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "C49")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -10658,7 +10658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd871504-b093-405c-8256-a2581be95f80")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR065"
 			(at 111.76 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10718,7 +10718,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0120")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe77582b-1927-46dc-bb3c-828b1bf6116a")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR078"
 			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -10797,7 +10797,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0147")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -10816,7 +10816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe79f37a-cec7-42b0-aba7-7964a69b80d9")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR079"
 			(at 220.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10876,7 +10876,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/bf018276-fa9c-49d5-a874-63f27855288e"
-					(reference "#PWR0149")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
