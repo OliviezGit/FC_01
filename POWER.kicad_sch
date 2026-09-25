@@ -5214,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
+		(property "Footprint" "H743_Custom:L_Coilcraft_XGL4020"
 			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Package" "XGL4020, 4x4x2.1 mm"
+		(property "Package" "XGL4020, 4.0x4.0x2.1 mm"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5368,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK: current footprint is XAL4030-family; exact XGL4020 pad overlay required"
+		(property "Footprint Audit" "OK: exact Coilcraft XGL4020 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5379,7 +5379,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard footprint reused"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -12047,7 +12047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
+		(property "Footprint" "H743_Custom:L_Coilcraft_XGL4020"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12190,7 +12190,7 @@
 				)
 			)
 		)
-		(property "Package" "XGL4020, 4x4x2.1 mm"
+		(property "Package" "XGL4020, 4.0x4.0x2.1 mm"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12201,7 +12201,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK: current footprint is XAL4030-family; exact XGL4020 pad overlay required"
+		(property "Footprint Audit" "OK: exact Coilcraft XGL4020 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12212,7 +12212,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard footprint reused"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
