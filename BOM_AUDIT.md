@@ -56,7 +56,6 @@ Each purchasable component now carries, when applicable:
 
 ### Needs final land-pattern verification
 - POWER U12 LMR43620R5RPER: current EasyEDA footprint name is 2.1 x 2.1 mm; compare pad geometry to TI RPE land pattern.
-- POWER L1/L2 XGL4020-222MEC: schematic currently references an XAL4030-family KiCad footprint; exact XGL4020 land-pattern overlay is required.
 - MICRO_SD J10 TF-028-H265: compare EasyEDA footprint with HANBO mechanical drawing.
 - BUZZER U10 ZX-SH1.0-3PWT: compare supplier drawing with EasyEDA footprint.
 - MCU D1 RGB LED: compare supplier drawing with EasyEDA footprint.
@@ -78,3 +77,9 @@ No price was invented for these rows.
 ## Tool limitation
 
 A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execution environment.
+
+## XGL4020 footprint correction
+
+- L1 and L2 now use `H743_Custom:L_Coilcraft_XGL4020`.
+- Land pattern follows Coilcraft XGL4020 Document 1529-3 (rev. 2026-02-19): pad size 0.98 x 3.40 mm, pad centers at +/-1.185 mm.
+- Pad 1 is the marked/start terminal; in the current POWER schematic, L1.1 = SW_5V and L2.1 = SW_9V, which follows Coilcraft's recommendation to connect the high-dv/dt node to the start/short lead for lowest EMI.
