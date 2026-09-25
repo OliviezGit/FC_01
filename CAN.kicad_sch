@@ -3544,7 +3544,7 @@
 				)
 			)
 		)
-		(property "Description" "SOT-23 Dual bidirectional TVS diode for CAN bus protection, 24V, 230W, Alternate KiCAD Library"
+		(property "Description" "SOT-23 Dual bidirectional TVS diode for CAN bus protection, 24V, 230W, Alternate KiCad Library"
 			(at 130.81 85.09 0)
 			(hide yes)
 			(show_name no)
