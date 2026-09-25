@@ -28,7 +28,7 @@ Review the design independently before manufacturing or using it in an aircraft.
 * microSD interface for onboard logging
 * Analog video interface with AT7456E-compatible OSD
 * Digital VTX connector for DJI O3/O4-class systems
-* CAN interface with selectable 120 Ω termination
+* CAN interface without onboard termination
 * Dedicated RC input connector
 * External I²C and SPI expansion connectors
 * Two ESC connectors with current sensing and telemetry inputs
@@ -73,8 +73,8 @@ The power architecture, schematic implementation, PCB placement, mechanical desi
 LEVIA H7 uses separate power domains for flight-control electronics and external video equipment.
 
 * 5V_SYS supplies the onboard 3.3 V regulators and external low-voltage peripherals.
-* 3V3_MCU supplies the STM32H743 and digital logic.
-* 3V3_SENS provides a separate supply for onboard sensors.
+* `+3V3_MCU` supplies the STM32H743 and MCU-side digital logic.
+* `+3V3_SENS` provides a separate low-noise supply for onboard sensors.
 * 9V is intended for digital video transmitters.
 * USB VBUS can power the system through diode OR-ing for configuration and debugging.
 
