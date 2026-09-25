@@ -5204,7 +5204,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 140.97 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "H743_Custom:L_Coilcraft_XGL4020"
+		(property "Footprint" "H743_Custom:L_Coilcraft_XGL4030"
 			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5225,7 +5225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4020/xgl4020-222/"
+		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4030/xgl4030-332/"
 			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5269,7 +5269,7 @@
 				)
 			)
 		)
-		(property "MPN" "XGL4020-222MEC"
+		(property "MPN" "XGL4030-332MEC"
 			(at 140.97 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -5291,7 +5291,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4020-222MEC"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4030-332MEC"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5302,7 +5302,7 @@
 				)
 			)
 		)
-		(property "DigiKey Specs" "2.2 µH, ±20%, Irms 8.9 A, Isat 6.2 A typ listing, DCR 21.5 mΩ max, 4.0x4.0x2.1 mm"
+		(property "DigiKey Specs" "3.3 µH, ±20%, Irms 7.5 A, Isat 5.3 A (30% L drop), DCR 21.9 mΩ max, 4.0x4.0x3.1 mm"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Package" "XGL4020, 4.0x4.0x2.1 mm"
+		(property "Package" "XGL4030, 4.0x4.0x3.1 mm"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5368,7 +5368,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: exact Coilcraft XGL4020 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
+		(property "Footprint Audit" "OK: Coilcraft XGL4030 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -12037,7 +12037,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "3.3u"
 			(at 129.54 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "H743_Custom:L_Coilcraft_XGL4020"
+		(property "Footprint" "H743_Custom:L_Coilcraft_XGL4030"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12058,7 +12058,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4020/xgl4020-222/"
+		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4030/xgl4030-332/"
 			(at 129.54 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12102,7 +12102,7 @@
 				)
 			)
 		)
-		(property "MPN" "XGL4020-222MEC"
+		(property "MPN" "XGL4030-332MEC"
 			(at 129.54 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -12124,7 +12124,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4020-222MEC"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4030-332MEC"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12135,7 +12135,7 @@
 				)
 			)
 		)
-		(property "DigiKey Specs" "2.2 µH, ±20%, Irms 8.9 A, Isat 6.2 A typ listing, DCR 21.5 mΩ max, 4.0x4.0x2.1 mm"
+		(property "DigiKey Specs" "3.3 µH, ±20%, Irms 7.5 A, Isat 5.3 A (30% L drop), DCR 21.9 mΩ max, 4.0x4.0x3.1 mm"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12190,7 +12190,7 @@
 				)
 			)
 		)
-		(property "Package" "XGL4020, 4.0x4.0x2.1 mm"
+		(property "Package" "XGL4030, 4.0x4.0x3.1 mm"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12201,7 +12201,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: exact Coilcraft XGL4020 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
+		(property "Footprint Audit" "OK: Coilcraft XGL4030 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
