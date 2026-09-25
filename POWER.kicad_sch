@@ -4357,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Description" "40V 600mV@1A 1A SOD-123 Schottky Barrier Diodes, SOD-123"
+		(property "Description" "Schottky rectifier 40 V, 3 A average, Vf max 0.54 V @ 3 A, Nexperia CFP3 / SOD-123W"
 			(at 170.18 60.96 0)
 			(hide yes)
 			(show_name no)
