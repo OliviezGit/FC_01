@@ -59,7 +59,9 @@ Each purchasable component now carries, when applicable:
 - MICRO_SD J10 TF-028-H265: compare EasyEDA footprint with HANBO mechanical drawing.
 - BUZZER U10 ZX-SH1.0-3PWT: compare supplier drawing with EasyEDA footprint.
 - MCU D1 RGB LED: compare supplier drawing with EasyEDA footprint.
-- MCU JP1: footprint library _pico is not stored in this repository.
+- MCU JP1: footprint library `_pico` is not stored in this repository.
+- Top-level H1-H4 mounting-hole footprints also reference the unresolved `_pico` library.
+- MCU TP1-TP4 still have no PCB footprint assigned.
 - MCU TP1-TP4: test-point symbols currently have no schematic footprint assigned.
 
 ## Price coverage
@@ -80,7 +82,7 @@ A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execu
 
 ## XGL4020 footprint correction
 
-- L1 and L2 now use `H743_Custom:L_Coilcraft_XGL4020`.
+- L1 and L2 now use `H743_Custom:L_Coilcraft_XGL4020` (exact project-local XGL4020 land pattern).
 - Land pattern follows Coilcraft XGL4020 Document 1529-3 (rev. 2026-02-19): pad size 0.98 x 3.40 mm, pad centers at +/-1.185 mm.
 - Pad 1 is the marked/start terminal; in the current POWER schematic, L1.1 = SW_5V and L2.1 = SW_9V, which follows Coilcraft's recommendation to connect the high-dv/dt node to the start/short lead for lowest EMI.
 
@@ -88,7 +90,7 @@ A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execu
 
 - D4 changed from 1N5819HW-7-F (1 A) to **Nexperia PMEG4030ER,115**.
 - Rating: 40 V, 3 A average forward current, Vf max 0.54 V @ 3 A.
-- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:Nexperia_CFP3_SOD-123W`. This is not the same land pattern as SOD-123; the PCB D4 footprint was synchronized to the official KiCad Nexperia CFP3/SOD-123W land pattern (pads centered at ±1.4 mm, 1.2 x 1.2 mm).
+- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:Nexperia_CFP3_SOD-123W`. This is not the same land pattern as SOD-123. The schematic is corrected; the current legacy PCB file still contains the old D4 SOD-123 footprint and must be synchronized before routing.
 - DigiKey P/N: `1727-5313-1-ND`; qty-1 price recorded at 0.51 EUR on 2026-09-25.
 - DigiKey CT reference for D4: **1727-5313-1-ND**; verified product page: PMEG4030ER,115 / 40 V / 3 A / SOD-123W.
 - D5 remains 1N5819HW-7-F on the USB branch.
