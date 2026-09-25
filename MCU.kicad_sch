@@ -5507,6 +5507,27 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 142.24) (xy 146.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06ef1d9-3d3c-4b7b-ae54-fbe4d78272a1")
+	)
+	(wire
+		(pts
+			(xy 191.77 182.88) (xy 207.01 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb22ff6-6b15-4bdb-9ca7-4a9db54353f1")
+	)
+
+	(wire
+		(pts
 			(xy 109.22 29.21) (xy 115.57 29.21)
 		)
 		(stroke
@@ -16382,6 +16403,37 @@
 			)
 		)
 	)
+	(label "SPI1.MOSI"
+		(at 135.89 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea4761a2-5a77-4dcc-a435-12bde0f2ce11")
+	)
+	(label "SPI1.CS"
+		(at 207.01 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89ee68c1-324e-4659-b463-0f52b89a4101")
+	)
+	(label "VDDA"
+		(at 109.22 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "329610dc-0e41-4b18-9cc6-7d2f4e19f310")
+	)
+
 	(label "SPI3.CS2"
 		(at 46.99 93.98 180)
 		(effects
