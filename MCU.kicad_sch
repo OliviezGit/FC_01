@@ -9618,17 +9618,7 @@
 		)
 		(uuid "09c05395-ab6d-46be-9925-7cc93c52a952")
 	)
-	(hierarchical_label "IMU1_DRDY"
-		(shape input)
-		(at 77.47 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11e97f6c-b11c-43ab-9a1d-3a0516d3f0ae")
-	)
+	
 	(hierarchical_label "BUZZER"
 		(shape input)
 		(at 69.85 161.29 180)
@@ -9662,17 +9652,7 @@
 		)
 		(uuid "207d5dca-d233-4ff2-895e-c06ef0a7945f")
 	)
-	(hierarchical_label "ADC_CURR1"
-		(shape input)
-		(at 208.28 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22fc5838-6276-4a1e-b0d2-c6dcbad62ffb")
-	)
+	
 	(hierarchical_label "SPI1{SPI}"
 		(shape bidirectional)
 		(at 264.16 68.58 180)
@@ -9695,17 +9675,7 @@
 		)
 		(uuid "2a1866af-8058-4c2a-be72-2d171d580db1")
 	)
-	(hierarchical_label "ADC_AIRSPEED"
-		(shape input)
-		(at 208.28 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3511a702-1244-48fd-94fb-c29537205110")
-	)
+	
 	(hierarchical_label "SPI1{SPI}"
 		(shape bidirectional)
 		(at 33.02 54.61 180)
@@ -9717,50 +9687,10 @@
 		)
 		(uuid "3655e3a7-31c0-4e99-84fb-0c6c774584c4")
 	)
-	(hierarchical_label "IMU1_CLKIN"
-		(shape output)
-		(at 33.02 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3a65131d-8462-4f22-9ab3-f64bc72bd7b1")
-	)
-	(hierarchical_label "IMU1_CLKIN"
-		(shape output)
-		(at 132.08 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c553024-fa64-4999-aa61-b62c7231acef")
-	)
-	(hierarchical_label "IMU2_DRDY"
-		(shape input)
-		(at 31.75 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3d82cc1f-a936-4465-9f36-20c1a987a449")
-	)
-	(hierarchical_label "IMU1_DRDY"
-		(shape input)
-		(at 132.08 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ec7ae92-6de5-4663-80d4-e512cc096d4e")
-	)
+	
+	
+	
+	
 	(hierarchical_label "I2C1{I2C}"
 		(shape bidirectional)
 		(at 33.02 35.56 180)
@@ -9827,28 +9757,8 @@
 		)
 		(uuid "a6361994-a45d-4552-8533-c553a77ba891")
 	)
-	(hierarchical_label "IMU2_DRDY"
-		(shape input)
-		(at 213.36 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6368ebf-6f62-47cd-ac74-7e9f13009b4c")
-	)
-	(hierarchical_label "IMU1_DRDY"
-		(shape input)
-		(at 33.02 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa9ba1ce-b0b9-404e-a4a5-43d08a7d9110")
-	)
+	
+	
 	(hierarchical_label "IMU3_A_CS"
 		(shape output)
 		(at 30.48 119.38 180)
@@ -9938,17 +9848,7 @@
 		)
 		(uuid "d8fea5d0-078b-425b-997b-c74ea2e586aa")
 	)
-	(hierarchical_label "IMU1_CLKIN"
-		(shape output)
-		(at 77.47 185.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dad8ac05-2d82-4029-9032-1b6c5b9d1da5")
-	)
+	
 	(hierarchical_label "UART7{UART}"
 		(shape input)
 		(at 121.92 96.52 180)
@@ -9960,28 +9860,8 @@
 		)
 		(uuid "dead0487-9f4a-4379-8102-190cc03d44a4")
 	)
-	(hierarchical_label "ADC_VBAT1"
-		(shape input)
-		(at 208.28 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6e28cec-cd3c-4baa-b4f2-8528bddef6e6")
-	)
-	(hierarchical_label "ADC_VBAT2"
-		(shape input)
-		(at 208.28 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f8f21460-e5ee-411b-b091-ead2fa694942")
-	)
+	
+	
 	(hierarchical_label "UART3{UART}"
 		(shape input)
 		(at 31.75 170.18 180)
@@ -9992,6 +9872,83 @@
 			(justify right)
 		)
 		(uuid "ff1ab143-ca7b-4dfb-b0a9-4d3b89b07aab")
+	)
+	(hierarchical_label "ADC_CURR1"
+		(shape input)
+		(at 191.77 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22fc5838-6276-4a1e-b0d2-c6dcbad62ffb")
+	)
+	(hierarchical_label "ADC_AIRSPEED"
+		(shape input)
+		(at 191.77 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3511a702-1244-48fd-94fb-c29537205110")
+	)
+	(hierarchical_label "ADC_VBAT1"
+		(shape input)
+		(at 191.77 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6e28cec-cd3c-4baa-b4f2-8528bddef6e6")
+	)
+	(hierarchical_label "ADC_VBAT2"
+		(shape input)
+		(at 191.77 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8f21460-e5ee-411b-b091-ead2fa694942")
+	)
+	(hierarchical_label "IMU1_DRDY"
+		(shape input)
+		(at 146.05 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11e97f6c-b11c-43ab-9a1d-3a0516d3f0ae")
+	)
+	(hierarchical_label "IMU1_CLKIN"
+		(shape output)
+		(at 146.05 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a65131d-8462-4f22-9ab3-f64bc72bd7b1")
+	)
+	(hierarchical_label "IMU2_DRDY"
+		(shape input)
+		(at 191.77 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d82cc1f-a936-4465-9f36-20c1a987a449")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
