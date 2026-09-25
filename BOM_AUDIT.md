@@ -36,6 +36,8 @@ Each purchasable component now carries, when applicable:
 
 ## Main corrections
 
+- Sensor power-domain synchronization: onboard sensor VDD and VDDIO rails are now both supplied from `+3V3_SENS` (ICM-45686, LSM6DSV16X, BMI088, BMP581 and DPS368); no onboard sensor VDDIO remains on `+3V3_MCU`.
+
 - Incorrect resistor MPN/value mappings were replaced by value-correct YAGEO RC0402-family parts.
 - Logic-domain 100 nF capacitors were normalized to 16 V X7R parts.
 - POWER-sheet 100 nF capacitors were normalized to 50 V X7R parts.
