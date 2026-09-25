@@ -2630,17 +2630,6 @@
 		)
 		(uuid "1ffc6e08-7733-4804-95fb-96ad7ea35e85")
 	)
-	(text "shared with \nDPS368 sur I2C2\nBMP581 sur I2C1\ncheck I2C adress before use external pad"
-		(exclude_from_sim no)
-		(at 212.852 155.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cf65f35-de31-42c8-b3d3-75574d0cfe78")
-	)
 	(text "I2C_2"
 		(exclude_from_sim no)
 		(at 257.048 147.066 0)
