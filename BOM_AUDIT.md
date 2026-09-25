@@ -41,7 +41,7 @@ Each purchasable component now carries, when applicable:
 - POWER-sheet 100 nF capacitors were normalized to 50 V X7R parts.
 - 22 µF / 0805 power capacitors were normalized to active 25 V X5R metadata.
 - CAN U3 metadata now matches the actual NXP TJA1051TK/3,118 device and records DigiKey Last-Time-Buy status.
-- D4/D5 metadata was normalized to active 1N5819HW-7-F, 40 V / 1 A / SOD-123.
+- D5 metadata remains normalized to active 1N5819HW-7-F, 40 V / 1 A / SOD-123. D4 was subsequently upgraded to PMEG4030ER,115 (40 V / 3 A / SOD-123W).
 - BMP581 uses project-local footprint alias H743_Custom:QFN10_BMP581_BOS.
 - A project fp-lib-table was added for extralib/footprints.pretty.
 - BMP581 symbol-library datasheet and footprint fields were corrected.
@@ -88,6 +88,7 @@ A full KiCad ERC/DRC was not run because kicad-cli is not installed in the execu
 
 - D4 changed from 1N5819HW-7-F (1 A) to **Nexperia PMEG4030ER,115**.
 - Rating: 40 V, 3 A average forward current, Vf max 0.54 V @ 3 A.
-- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:D_SOD-123W`.
+- Package: **CFP3 / SOD-123W**; schematic footprint: `Diode_SMD:D_SOD-123W`. This is not the exact same body/land pattern as SOD-123, so PCB synchronization is required.
 - DigiKey P/N: `1727-5313-1-ND`; qty-1 price recorded at 0.51 EUR on 2026-09-25.
+- DigiKey CT reference for D4: **1727-5313-1-ND**; verified product page: PMEG4030ER,115 / 40 V / 3 A / SOD-123W.
 - D5 remains 1N5819HW-7-F on the USB branch.
