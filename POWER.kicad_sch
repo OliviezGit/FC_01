@@ -5291,7 +5291,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4030-332MEC"
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/coilcraft/XGL4030-332MEC/12714440"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -12124,7 +12124,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4030-332MEC"
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/coilcraft/XGL4030-332MEC/12714440"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
