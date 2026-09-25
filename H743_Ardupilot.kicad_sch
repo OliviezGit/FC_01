@@ -4239,6 +4239,53 @@
 		)
 	)
 	(sheet
+		(at 29.21 113.03)
+		(size 40.64 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "35dc580c-330e-4c18-9b1d-970b7f83579d")
+		(property "Sheetname" "ANALOG_SENS"
+			(at 29.21 112.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ANALOG_SENS.kicad_sch"
+			(at 29.21 150.4446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 187.96 113.03)
 		(size 22.86 7.62)
 		(exclude_from_sim no)
