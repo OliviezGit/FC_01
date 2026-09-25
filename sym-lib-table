@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/extralib/2026-09-23_19-44-17.kicad_sym") (options "") (descr ""))
+	(lib (name "H743_Ardupilot") (type "KiCad") (uri "${KIPRJMOD}/extralib/H743_Ardupilot.kicad_sym") (options "") (descr "Project-local verified symbols"))
 )
