@@ -5535,6 +5535,17 @@
 		)
 		(uuid "04a62f39-d532-4d5f-a246-c3efbde5c35c")
 	)
+	(wire
+		(pts
+			(xy 231.14 62.23) (xy 248.92 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5aff01-a743-4fc0-9bd5-000000000501")
+	)
+
 	(bus
 		(pts
 			(xy 106.68 124.46) (xy 106.68 121.92)
@@ -6587,16 +6598,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 76.2) (xy 142.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71311334-05d7-4fe4-bac9-47236aeae708")
-	)
-	(wire
-		(pts
 			(xy 168.91 48.26) (xy 168.91 35.56)
 		)
 		(stroke
@@ -6684,16 +6685,6 @@
 			(type default)
 		)
 		(uuid "7f0ccbb3-920b-46be-b615-d2ea42412fd6")
-	)
-	(wire
-		(pts
-			(xy 143.51 177.8) (xy 143.51 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f16b58c-8606-4464-9260-c505c0f37f37")
 	)
 	(bus
 		(pts
@@ -6987,16 +6978,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 170.18) (xy 146.05 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9fe27f7c-0c7f-4fde-98d6-211ef2b20864")
-	)
-	(wire
-		(pts
 			(xy 231.14 54.61) (xy 248.92 54.61)
 		)
 		(stroke
@@ -7057,16 +7038,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 73.66) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a912b27b-0b83-4147-8c62-02d0243c6c78")
-	)
-	(wire
-		(pts
 			(xy 130.81 139.7) (xy 146.05 139.7)
 		)
 		(stroke
@@ -7104,16 +7075,6 @@
 			(type default)
 		)
 		(uuid "ac165803-2770-4814-a6a5-07ff74f0f850")
-	)
-	(wire
-		(pts
-			(xy 143.51 167.64) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af73e130-1c9c-4003-bc89-8129234b4715")
 	)
 	(wire
 		(pts
@@ -7544,16 +7505,6 @@
 			(type default)
 		)
 		(uuid "cf8b7268-a099-4f48-9655-da2028dffa4b")
-	)
-	(wire
-		(pts
-			(xy 143.51 170.18) (xy 143.51 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfbb69e4-13da-48b2-957b-7e0a34ad9e97")
 	)
 	(wire
 		(pts
@@ -8085,7 +8036,7 @@
 		)
 		(uuid "017fd311-dbb5-435d-9904-f5de5c7934a4")
 	)
-	(label "UART7.TX"
+	(label "SPI1.MOSI"
 		(at 142.24 101.6 180)
 		(effects
 			(font
@@ -8105,7 +8056,7 @@
 		)
 		(uuid "0410387b-7f61-4964-a0e0-ad4c6bd4770c")
 	)
-	(label "LED_STRIP"
+	(label "SDIO.D0"
 		(at 191.77 78.74 0)
 		(effects
 			(font
@@ -8135,7 +8086,7 @@
 		)
 		(uuid "0bb14d6b-9f17-4789-a2c3-949d0d23c3d7")
 	)
-	(label "CAN1.RX"
+	(label "IMU1_DRDY"
 		(at 133.35 124.46 0)
 		(effects
 			(font
@@ -8155,7 +8106,7 @@
 		)
 		(uuid "0f06782b-0c13-4800-acc7-76a9062f84ed")
 	)
-	(label "I2C2.SCL"
+	(label "I2C1.SCL"
 		(at 191.77 127 0)
 		(effects
 			(font
@@ -8165,7 +8116,7 @@
 		)
 		(uuid "0ff86ced-da8e-46fa-8d99-e41f78e6cc1d")
 	)
-	(label "CAN1.SILENT"
+	(label "SPI4.SCLK"
 		(at 123.19 129.54 180)
 		(effects
 			(font
@@ -8175,7 +8126,7 @@
 		)
 		(uuid "10d3a740-a86a-4439-b19d-1ca6559341c6")
 	)
-	(label "UART4.TX"
+	(label "I2C1.SDA"
 		(at 195.58 124.46 0)
 		(effects
 			(font
@@ -8185,7 +8136,7 @@
 		)
 		(uuid "1326a468-0933-4b24-a8cd-9273b339d624")
 	)
-	(label "UART2.RX"
+	(label "UART7.CTS"
 		(at 140.97 137.16 180)
 		(effects
 			(font
@@ -8195,7 +8146,7 @@
 		)
 		(uuid "145871b0-779c-4fb4-875d-6183f952dd78")
 	)
-	(label "UART2.TX"
+	(label "UART7.RTS"
 		(at 140.97 139.7 180)
 		(effects
 			(font
@@ -8225,7 +8176,7 @@
 		)
 		(uuid "18bde9bd-06d9-49a9-891b-c733466de081")
 	)
-	(label "UART7.RTS"
+	(label "UART2.RX"
 		(at 143.51 104.14 180)
 		(effects
 			(font
@@ -8235,7 +8186,7 @@
 		)
 		(uuid "18e968e5-21c8-4b6b-9912-07fbff632fb6")
 	)
-	(label "SDIO.CMD"
+	(label "SPI4.MISO"
 		(at 130.81 129.54 0)
 		(effects
 			(font
@@ -8245,7 +8196,7 @@
 		)
 		(uuid "1b576902-17f1-4956-a3d4-b38787496950")
 	)
-	(label "IMU2_DRDY"
+	(label "SPI2.MISO"
 		(at 191.77 106.68 0)
 		(effects
 			(font
@@ -8275,7 +8226,7 @@
 		)
 		(uuid "2032d927-5dd9-46e1-9d16-96245e51b6d5")
 	)
-	(label "BUZZER"
+	(label "ADC_CURR1"
 		(at 207.01 96.52 180)
 		(effects
 			(font
@@ -8285,7 +8236,7 @@
 		)
 		(uuid "203ff3a8-be54-4602-a657-67bd8cfdbd68")
 	)
-	(label "UART8.TX"
+	(label "IMU1_CLKIN"
 		(at 133.35 83.82 0)
 		(effects
 			(font
@@ -8305,7 +8256,7 @@
 		)
 		(uuid "260bbed4-9757-48ef-bbe8-a770765901f1")
 	)
-	(label "UART1.TX"
+	(label "UART6.TX"
 		(at 212.09 83.82 0)
 		(effects
 			(font
@@ -8315,7 +8266,7 @@
 		)
 		(uuid "2b1f5ce7-a564-4c76-aabe-9774e81467a6")
 	)
-	(label "SPI4.SCLK"
+	(label "CAN1.SILENT"
 		(at 146.05 111.76 180)
 		(effects
 			(font
@@ -8345,7 +8296,7 @@
 		)
 		(uuid "2f0b2c44-1ef1-4a41-9c0c-37d3c6c681b2")
 	)
-	(label "SDIO.D0"
+	(label "LED_STRIP"
 		(at 207.01 165.1 180)
 		(effects
 			(font
@@ -8375,7 +8326,7 @@
 		)
 		(uuid "38a95bc0-42f4-4651-b15a-42af5eef38b9")
 	)
-	(label "MOTOR4"
+	(label "SPI1.CS"
 		(at 207.01 60.96 180)
 		(effects
 			(font
@@ -8385,7 +8336,7 @@
 		)
 		(uuid "38f445ae-146d-4151-9131-9e41f013c9e4")
 	)
-	(label "SDIO.D3"
+	(label "SPI1.SCLK"
 		(at 207.01 172.72 180)
 		(effects
 			(font
@@ -8395,17 +8346,8 @@
 		)
 		(uuid "39aa1991-568f-4e16-b90f-a2ad2b2ec575")
 	)
-	(label "UART8.RX"
-		(at 133.35 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39dbccd7-4ad4-4a7c-9d5c-4291c900b2ac")
-	)
-	(label "SPI2.CS"
+	
+	(label "SPI3.MISO"
 		(at 203.2 132.08 180)
 		(effects
 			(font
@@ -8415,7 +8357,7 @@
 		)
 		(uuid "39e67295-e0f2-4cfb-905a-e7ca5e450416")
 	)
-	(label "SPI3.MISO"
+	(label "SPI2.CS"
 		(at 209.55 111.76 180)
 		(effects
 			(font
@@ -8475,7 +8417,7 @@
 		)
 		(uuid "47550e31-9792-4195-8492-4348fb156fc4")
 	)
-	(label "IMU3_A_CS"
+	(label "SPI4.CS"
 		(at 132.08 134.62 0)
 		(effects
 			(font
@@ -8485,7 +8427,7 @@
 		)
 		(uuid "496c6a6d-17c1-43a0-8f91-b668616957a9")
 	)
-	(label "I2C1.SCL"
+	(label "I2C2.SCL"
 		(at 191.77 116.84 0)
 		(effects
 			(font
@@ -8495,7 +8437,7 @@
 		)
 		(uuid "4d6d90f4-bbc2-493c-aea4-32f3cbdb2eb4")
 	)
-	(label "USB_OTG_P.DP"
+	(label "ADC_AIRSPEED"
 		(at 207.01 88.9 0)
 		(effects
 			(font
@@ -8505,7 +8447,7 @@
 		)
 		(uuid "4fbb0592-b055-43e7-91f4-79a2885cba86")
 	)
-	(label "SPI3.MOSI"
+	(label "I2C2.SDA"
 		(at 209.55 114.3 180)
 		(effects
 			(font
@@ -8545,7 +8487,7 @@
 		)
 		(uuid "5f47492b-74ac-42b1-8f09-4755b7fdddaa")
 	)
-	(label "IMU1_DRDY"
+	(label "CAN1.RX"
 		(at 146.05 119.38 180)
 		(effects
 			(font
@@ -8635,7 +8577,7 @@
 		)
 		(uuid "72ba2cd0-c390-4195-9547-c8752b5b48aa")
 	)
-	(label "SPI4.CS"
+	(label "IMU3_A_CS"
 		(at 146.05 109.22 180)
 		(effects
 			(font
@@ -8645,17 +8587,8 @@
 		)
 		(uuid "7619f1f1-2e24-4c7d-b735-f03707d6b7b1")
 	)
-	(label "SDIO.D1"
-		(at 207.01 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7acb4154-b85f-4e29-ac8e-66b976e42661")
-	)
-	(label "SDIO.D2"
+	
+	(label "SPI1.MISO"
 		(at 207.01 170.18 180)
 		(effects
 			(font
@@ -8665,7 +8598,7 @@
 		)
 		(uuid "7cb069e7-46b7-438c-a859-fc33bf03f089")
 	)
-	(label "SDIO.CK"
+	(label "ADC_VBAT2"
 		(at 207.01 175.26 180)
 		(effects
 			(font
@@ -8715,7 +8648,7 @@
 		)
 		(uuid "8783aec5-fb1c-49fc-8c13-3989c9b781d2")
 	)
-	(label "UART7.CTS"
+	(label "UART2.TX"
 		(at 143.51 106.68 180)
 		(effects
 			(font
@@ -8725,7 +8658,7 @@
 		)
 		(uuid "87b0e9b3-a334-4655-9a16-aed7f2596c53")
 	)
-	(label "SPI1.CS"
+	(label "MOTOR4"
 		(at 207.01 182.88 0)
 		(effects
 			(font
@@ -8735,7 +8668,7 @@
 		)
 		(uuid "89ee68c1-324e-4659-b463-0f52b89a4101")
 	)
-	(label "SPI3.SCLK"
+	(label "SPI2.SCLK"
 		(at 209.55 109.22 180)
 		(effects
 			(font
@@ -8755,7 +8688,7 @@
 		)
 		(uuid "8d6e6286-bd11-4807-87f6-54ee4fb3acc8")
 	)
-	(label "UART1.RX"
+	(label "UART6.RX"
 		(at 212.09 81.28 0)
 		(effects
 			(font
@@ -8785,7 +8718,7 @@
 		)
 		(uuid "8fe25c7f-a218-4312-9c75-889dcf83a1b5")
 	)
-	(label "ADC_VBAT2"
+	(label "SDIO.CK"
 		(at 191.77 68.58 0)
 		(effects
 			(font
@@ -8825,7 +8758,7 @@
 		)
 		(uuid "930b6239-86bb-4a88-ba3d-8749f7fc17a9")
 	)
-	(label "ADC_AIRSPEED"
+	(label "USB_OTG_P.DP"
 		(at 191.77 154.94 0)
 		(effects
 			(font
@@ -8835,7 +8768,7 @@
 		)
 		(uuid "9449c7b3-02cb-4bbe-9ce2-f4e347617552")
 	)
-	(label "UART8.TX"
+	(label "IMU1_CLKIN"
 		(at 119.38 88.9 180)
 		(effects
 			(font
@@ -8845,7 +8778,7 @@
 		)
 		(uuid "94d81e51-03e8-4846-bd1b-badaaa70cbfa")
 	)
-	(label "SPI1.SCLK"
+	(label "SDIO.D3"
 		(at 207.01 71.12 180)
 		(effects
 			(font
@@ -8865,7 +8798,7 @@
 		)
 		(uuid "95953217-b018-4d2c-8dfd-428b6c9d3c9f")
 	)
-	(label "UART6.TX"
+	(label "UART1.TX"
 		(at 198.12 162.56 0)
 		(effects
 			(font
@@ -8875,27 +8808,9 @@
 		)
 		(uuid "9a513b00-7754-438e-8cbc-7ef4c76211d7")
 	)
-	(label "UART8.RX"
-		(at 119.38 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ba1904f-673c-4197-bce4-6495510dc4e0")
-	)
-	(label "USB_OTG_P.DM"
-		(at 207.01 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ec1ef17-b4b1-4809-beee-dc062bcbbd9b")
-	)
-	(label "CAN1.RX"
+	
+	
+	(label "IMU1_DRDY"
 		(at 120.65 124.46 180)
 		(effects
 			(font
@@ -8905,7 +8820,7 @@
 		)
 		(uuid "a020d9f1-46db-4522-be7a-1facdc6a5d4b")
 	)
-	(label "IMU1_CLKIN"
+	(label "UART8.TX"
 		(at 146.05 160.02 180)
 		(effects
 			(font
@@ -8925,7 +8840,7 @@
 		)
 		(uuid "a486868f-ae2f-4f9a-b8a1-6ce962fb9f76")
 	)
-	(label "SPI2.MISO"
+	(label "IMU2_DRDY"
 		(at 203.2 137.16 180)
 		(effects
 			(font
@@ -8935,7 +8850,7 @@
 		)
 		(uuid "a58276ff-6d45-4c7e-8181-ac1e1d8a9892")
 	)
-	(label "SPI4.MOSI"
+	(label "CAN1.TX"
 		(at 146.05 116.84 180)
 		(effects
 			(font
@@ -8955,7 +8870,7 @@
 		)
 		(uuid "a5fb60d0-5e16-47eb-ae18-dcf84a87e82c")
 	)
-	(label "CAN1.SILENT"
+	(label "SPI4.SCLK"
 		(at 133.35 132.08 0)
 		(effects
 			(font
@@ -8985,7 +8900,7 @@
 		)
 		(uuid "aa96c7b7-5b66-41d6-90e9-c3b2727f5b2c")
 	)
-	(label "UART7.RX"
+	(label "UART3.TX"
 		(at 142.24 99.06 180)
 		(effects
 			(font
@@ -8995,7 +8910,7 @@
 		)
 		(uuid "abb91b8f-b073-41f9-a39a-d4ed814acdc5")
 	)
-	(label "SPI2.MOSI"
+	(label "MOTOR2"
 		(at 203.2 139.7 180)
 		(effects
 			(font
@@ -9035,16 +8950,7 @@
 		)
 		(uuid "b8263b18-5644-450c-a5f7-4d0015a1ca32")
 	)
-	(label "LED1"
-		(at 135.89 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba065238-6740-4524-90b1-ed2e74d94486")
-	)
+	
 	(label "UART3.RX"
 		(at 45.72 172.72 180)
 		(effects
@@ -9065,7 +8971,7 @@
 		)
 		(uuid "ba9069f8-22de-4e5e-adba-303671cffdda")
 	)
-	(label "SPI1.MISO"
+	(label "SDIO.D2"
 		(at 207.01 73.66 180)
 		(effects
 			(font
@@ -9135,7 +9041,7 @@
 		)
 		(uuid "c8ccbaac-d431-4ba3-b871-55481e1d317b")
 	)
-	(label "ADC_CURR1"
+	(label "BUZZER"
 		(at 191.77 147.32 0)
 		(effects
 			(font
@@ -9155,26 +9061,8 @@
 		)
 		(uuid "cf784621-4167-4348-b175-18eeeda77d51")
 	)
-	(label "SWDIO"
-		(at 207.01 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d13d2b94-055d-479d-a6f6-fb664e3af677")
-	)
-	(label "SWCLK"
-		(at 207.01 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1e214d8-85a5-4827-a8e7-a26575c7283b")
-	)
+	
+	
 	(label "LED0"
 		(at 86.36 143.51 180)
 		(effects
@@ -9185,7 +9073,7 @@
 		)
 		(uuid "d4b11edc-7c16-4353-8079-8f751a069e6c")
 	)
-	(label "I2C1.SDA"
+	(label "UART4.TX"
 		(at 191.77 119.38 0)
 		(effects
 			(font
@@ -9195,16 +9083,7 @@
 		)
 		(uuid "d7d9da63-6446-45f8-bb16-5ecbf9827e1c")
 	)
-	(label "UART3.TX"
-		(at 140.97 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d98aa571-30ad-4320-8694-148e500d29f6")
-	)
+	
 	(label "SPI4.CS"
 		(at 45.72 105.41 180)
 		(effects
@@ -9215,7 +9094,7 @@
 		)
 		(uuid "da63cc97-6a15-450a-9914-c7f0f3159f62")
 	)
-	(label "MOTOR2"
+	(label "SPI2.MOSI"
 		(at 207.01 104.14 180)
 		(effects
 			(font
@@ -9225,16 +9104,7 @@
 		)
 		(uuid "dd137895-3d22-4a3a-a63d-26fef5c77819")
 	)
-	(label "LED0"
-		(at 135.89 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de022710-492f-43bd-993c-2142a78e8eda")
-	)
+	
 	(label "SDIO.D0"
 		(at 220.98 171.45 0)
 		(effects
@@ -9255,7 +9125,7 @@
 		)
 		(uuid "e5dcb18c-c9f4-4ba3-b3f0-514f0e2904d2")
 	)
-	(label "SPI2.SCLK"
+	(label "SPI3.SCLK"
 		(at 203.2 134.62 180)
 		(effects
 			(font
@@ -9275,17 +9145,8 @@
 		)
 		(uuid "e84c59b6-d553-4491-877d-2726013b4887")
 	)
-	(label "IMU3_G_CS"
-		(at 134.62 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e89f6164-9675-4149-91dc-58b5d1816984")
-	)
-	(label "SPI1.MOSI"
+	
+	(label "UART7.TX"
 		(at 135.89 142.24 180)
 		(effects
 			(font
@@ -9295,7 +9156,7 @@
 		)
 		(uuid "ea4761a2-5a77-4dcc-a435-12bde0f2ce11")
 	)
-	(label "CAN1.TX"
+	(label "SPI4.MOSI"
 		(at 133.35 127 0)
 		(effects
 			(font
@@ -9315,7 +9176,7 @@
 		)
 		(uuid "ee53bdfb-7246-458c-af4c-ca605875bc22")
 	)
-	(label "CAN1.TX"
+	(label "SPI4.MOSI"
 		(at 120.65 127 180)
 		(effects
 			(font
@@ -9325,7 +9186,7 @@
 		)
 		(uuid "eed2faa3-f1c0-4e36-ab73-8c026cfaef8d")
 	)
-	(label "SPI4.MISO"
+	(label "SDIO.CMD"
 		(at 146.05 114.3 180)
 		(effects
 			(font
@@ -9335,7 +9196,7 @@
 		)
 		(uuid "f0a22284-b339-4fc2-8e5d-3de0df622711")
 	)
-	(label "UART3.RX"
+	(label "UART7.RX"
 		(at 140.97 144.78 180)
 		(effects
 			(font
@@ -9345,7 +9206,7 @@
 		)
 		(uuid "f1af759e-d080-41f3-a457-f2289d3f1108")
 	)
-	(label "UART6.RX"
+	(label "UART1.RX"
 		(at 198.12 160.02 0)
 		(effects
 			(font
@@ -9385,7 +9246,7 @@
 		)
 		(uuid "f9c61a85-4346-4d00-addf-c3f869a4c208")
 	)
-	(label "I2C2.SDA"
+	(label "SPI3.MOSI"
 		(at 191.77 129.54 0)
 		(effects
 			(font
@@ -9405,6 +9266,336 @@
 		)
 		(uuid "ff3997ce-a466-4baa-8114-11a3b23a8a94")
 	)
+	(label "IMU3_G_CS"
+		(at 146.05 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4477dff5-a743-4fc0-9bd5-4477dff54477")
+	)
+
+	(label "LED0"
+		(at 146.05 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a03d21d6-a743-4fc0-9bd5-a03d21d6a03d")
+	)
+
+	(label "LED1"
+		(at 146.05 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1cad828-a743-4fc0-9bd5-b1cad828b1ca")
+	)
+
+	(label "ADC_VBAT1"
+		(at 191.77 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb82c797-a743-4fc0-9bd5-bb82c797bb82")
+	)
+
+	(label "MOTOR3"
+		(at 191.77 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "538ceb5c-a743-4fc0-9bd5-538ceb5c538c")
+	)
+
+	(label "MOTOR1"
+		(at 191.77 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "caf2ab65-a743-4fc0-9bd5-caf2ab65caf2")
+	)
+
+	(label "UART3.RX"
+		(at 146.05 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64a99993-a743-4fc0-9bd5-64a9999364a9")
+	)
+
+	(label "SDIO.D1"
+		(at 191.77 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d232eb03-a743-4fc0-9bd5-d232eb03d232")
+	)
+
+	(label "USB_OTG_P.DM"
+		(at 191.77 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68af33cd-a743-4fc0-9bd5-68af33cd68af")
+	)
+
+	(label "SWDIO"
+		(at 191.77 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c36ab9ba-a743-4fc0-9bd5-c36ab9bac36a")
+	)
+
+	(label "SWCLK"
+		(at 191.77 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "beeec3a9-a743-4fc0-9bd5-beeec3a9beee")
+	)
+
+	(label "UART8.RX"
+		(at 146.05 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57904c54-a743-4fc0-9bd5-57904c545790")
+	)
+
+	(label "OSC_IN"
+		(at 146.05 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34400-a743-4fc0-9bd5-000000000120")
+	)
+
+	(label "OSC_OUT"
+		(at 146.05 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34401-a743-4fc0-9bd5-000000000130")
+	)
+
+	(label "NRST"
+		(at 146.05 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34402-a743-4fc0-9bd5-000000000140")
+	)
+
+	(label "BOOT0"
+		(at 146.05 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34403-a743-4fc0-9bd5-000000000940")
+	)
+
+	(label "+3V3_MCU"
+		(at 161.29 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34404-a743-4fc0-9bd5-000000000006")
+	)
+
+	(label "VDDA"
+		(at 146.05 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34405-a743-4fc0-9bd5-000000000020")
+	)
+
+	(label "VDDA"
+		(at 176.53 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34406-a743-4fc0-9bd5-000000000021")
+	)
+
+	(label "GND"
+		(at 171.45 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34407-a743-4fc0-9bd5-000000000019")
+	)
+
+	(label "VCAP"
+		(at 146.05 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34408-a743-4fc0-9bd5-000000000048")
+	)
+
+	(label "VCAP"
+		(at 146.05 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3b34409-a743-4fc0-9bd5-000000000073")
+	)
+
+	(label "VCAP"
+		(at 130.81 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34410-a743-4fc0-9bd5-000000000777")
+	)
+
+	(label "+3V3_MCU"
+		(at 163.83 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34511-a743-4fc0-9bd5-000000000011")
+	)
+
+	(label "+3V3_MCU"
+		(at 166.37 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34527-a743-4fc0-9bd5-000000000027")
+	)
+
+	(label "+3V3_MCU"
+		(at 168.91 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34550-a743-4fc0-9bd5-000000000050")
+	)
+
+	(label "+3V3_MCU"
+		(at 171.45 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34575-a743-4fc0-9bd5-000000000075")
+	)
+
+	(label "+3V3_MCU"
+		(at 173.99 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b345100-a743-4fc0-9bd5-000000000100")
+	)
+
+	(label "GND"
+		(at 168.91 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b34699-a743-4fc0-9bd5-000000000999")
+	)
+
+	(label "LED_STRIP"
+		(at 231.14 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed5aff02-a743-4fc0-9bd5-000000000502")
+	)
+
 	(hierarchical_label "SPI3{SPI}"
 		(shape bidirectional)
 		(at 33.02 88.9 180)
@@ -9702,17 +9893,7 @@
 		)
 		(uuid "c28afc3c-3b21-4b93-a0eb-a1a9d929da1c")
 	)
-	(hierarchical_label "LED_STRIP"
-		(shape input)
-		(at 201.93 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc84b199-6dc2-420b-8df0-ffc881eaaeb6")
-	)
+	
 	(hierarchical_label "USB_OTG_P{USB}"
 		(shape input)
 		(at 233.68 91.44 0)
@@ -13832,84 +14013,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 130.81 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ce4900-6b09-4311-8477-96b5b1d1fb61")
-		(property "Reference" "#PWR017"
-			(at 130.81 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCAP"
-			(at 130.81 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 130.81 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be0c22fc-50ae-4f4c-9ab6-3764ef0b0f26")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
+	
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 102.87 26.67 0)
@@ -15929,6 +16033,162 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.92 62.23 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed5a0000-a743-4fc0-9bd5-000000000001")
+		(property "Reference" "TP5"
+			(at 248.158 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_STRIP"
+			(at 253.746 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "H743_Custom:SolderPadArray_1x01_P2.54mm_1x1mm"
+			(at 248.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 248.92 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Status" "PCB feature / no purchased component"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Unit Price EUR" "0"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Price Qty" "N/A"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "PCB test pad"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Audit" "TBD: no footprint assigned"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Library Audit" "KiCad TestPoint symbol"
+			(at 248.158 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed5a0001-a743-4fc0-9bd5-000000000002")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H743VITx")
 		(at 168.91 121.92 0)
