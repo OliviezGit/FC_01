@@ -4480,6 +4480,52 @@
 		)
 	)
 	(sheet
+		(at 38.1 114.3)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "851fa2f3-92dd-4902-8f45-dbdbad026d1d")
+		(property "Sheetname" "POWER"
+			(at 38.1 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 38.1 142.8246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 83.82 77.47)
 		(size 22.86 36.83)
 		(exclude_from_sim no)
