@@ -3196,7 +3196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -3229,7 +3229,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 137.16 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -3262,7 +3262,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 137.16 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3273,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 137.16 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 137.16 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -4316,7 +4316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 154.94 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -4349,7 +4349,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 157.48 54.6099 0)
 			(hide yes)
 			(show_name no)
@@ -4382,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 157.48 54.6099 0)
 			(hide yes)
 			(show_name no)
@@ -4393,7 +4393,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 157.48 54.6099 0)
 			(hide yes)
 			(show_name no)
@@ -4404,7 +4404,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 157.48 54.6099 0)
 			(hide yes)
 			(show_name no)
@@ -5005,7 +5005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 87.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5038,7 +5038,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 90.17 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -5071,7 +5071,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 90.17 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -5082,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 90.17 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -5093,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 90.17 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +5315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 181.61 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5348,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 184.15 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -5381,7 +5381,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 184.15 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 184.15 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -5403,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 184.15 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8064,7 +8064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 			(at 87.63 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8097,7 +8097,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 90.17 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8130,7 +8130,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x4, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 90.17 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8141,7 +8141,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 90.17 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +8152,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 90.17 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8440,7 +8440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x06_P2.54mm_1x1mm"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8473,7 +8473,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "TBD: connector not physically selected"
+		(property "DigiKey Status" "PCB feature / no purchased component"
 			(at 110.49 81.2799 0)
 			(hide yes)
 			(show_name no)
@@ -8506,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Package" "TBD"
+		(property "Package" "Solder pad array 1x6, P2.54 mm, 1.00x1.00 mm SMD"
 			(at 110.49 81.2799 0)
 			(hide yes)
 			(show_name no)
@@ -8517,7 +8517,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: no footprint assigned"
+		(property "Footprint Audit" "OK: 6 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
 			(at 110.49 81.2799 0)
 			(hide yes)
 			(show_name no)
@@ -8528,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Generic KiCad connector"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 110.49 81.2799 0)
 			(hide yes)
 			(show_name no)
