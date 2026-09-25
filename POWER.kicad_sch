@@ -5518,14 +5518,14 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 160.02 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 160.02 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5978,14 +5978,14 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 48.26 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6173,14 +6173,14 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 115.57 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 115.57 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -6661,14 +6661,14 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7200,14 +7200,14 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 118.11 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 118.11 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -12009,14 +12009,14 @@
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 48.26 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 48.26 63.5 0)
 			(hide yes)
 			(show_name no)
