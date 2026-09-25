@@ -1445,7 +1445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "H743_Custom:SolderPadArray_1x03_P2.54mm_1x1mm"
 			(at 142.24 52.07 0)
 			(hide yes)
 			(show_name no)
