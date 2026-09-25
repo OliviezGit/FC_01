@@ -18168,7 +18168,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C12530"
+		(property "LCSC Part" ""
 			(at 137.16 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18179,7 +18179,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" ""
 			(at 137.16 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18190,7 +18190,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A225MQ5NSNC"
+		(property "MPN" "C1005X5R1C225M050BC"
 			(at 137.16 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18201,7 +18201,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 137.16 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18211,6 +18211,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "445-9076-1-ND"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=C1005X5R1C225M050BC"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.27"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active upgrade"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 138.43 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "15ae3176-0762-4cce-83d4-705982f7281f")
@@ -18294,7 +18364,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18305,7 +18375,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18316,7 +18386,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18327,7 +18397,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 97.79 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18337,6 +18407,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-0710KL"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "10 kΩ ±1%, 0402"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / family verified"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 100.33 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "23a74286-0b90-40cd-98b7-6a0a953e2ee8")
@@ -18496,7 +18629,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 121.92 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -18507,7 +18640,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 121.92 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -18518,7 +18651,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 121.92 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -18529,7 +18662,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 121.92 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -18539,6 +18672,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 123.19 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "32686bd6-c654-4952-ac27-e8f52e848263")
@@ -18620,6 +18823,55 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Status" "PCB feature / no purchased component"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "N/A"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "PCB test pad"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "TBD: no footprint assigned"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad TestPoint symbol"
+			(at 247.396 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "b438df0c-efb9-4fb0-b861-0f696a603aaf")
@@ -18930,7 +19182,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25741"
+		(property "LCSC Part" ""
 			(at 240.03 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -18941,7 +19193,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC" ""
 			(at 240.03 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -18952,7 +19204,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1003TCE"
+		(property "MPN" "RC0402FR-07100KL"
 			(at 240.03 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -18963,7 +19215,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 240.03 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -18973,6 +19225,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07100KL"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 kΩ ±1%, 0402"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / family verified"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 236.22 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "f39bfcfb-a6a5-40bc-9315-d7a4cf7ec5cc")
@@ -19053,7 +19368,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25091"
+		(property "LCSC Part" ""
 			(at 73.66 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -19064,7 +19379,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "LCSC" ""
 			(at 73.66 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -19075,7 +19390,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2200TCE"
+		(property "MPN" "RC0402FR-07220RL"
 			(at 73.66 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -19086,7 +19401,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 73.66 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -19096,6 +19411,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07220RL"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "220 Ω ±1%, 0402"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / family verified"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 69.85 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "0b8a0422-f343-4db0-a6d0-4eb62f103e2f")
@@ -19178,7 +19556,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19189,7 +19567,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19200,7 +19578,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19211,7 +19589,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19221,6 +19599,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 134.62 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "6f1f378e-647c-475b-b745-8026c8118591")
@@ -19534,7 +19982,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 115.57 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19545,7 +19993,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 115.57 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19556,7 +20004,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 115.57 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19567,7 +20015,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 115.57 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19577,6 +20025,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 116.84 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "18fe537a-bf32-4fcf-ba2a-731716eccdec")
@@ -19659,7 +20177,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19670,7 +20188,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19681,7 +20199,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19692,7 +20210,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -19702,6 +20220,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 133.604 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "10b055e2-4808-4389-82e4-add1e0354a51")
@@ -19784,7 +20372,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C12530"
+		(property "LCSC Part" ""
 			(at 130.81 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19795,7 +20383,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC" ""
 			(at 130.81 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19806,7 +20394,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL05A225MQ5NSNC"
+		(property "MPN" "C1005X5R1C225M050BC"
 			(at 130.81 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19817,7 +20405,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "TDK"
 			(at 130.81 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19827,6 +20415,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "445-9076-1-ND"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=C1005X5R1C225M050BC"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.27"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active upgrade"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 132.08 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "4557906c-0e9a-496e-9c3b-edcc617b3e1e")
@@ -19909,7 +20567,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C52923"
+		(property "LCSC Part" ""
 			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19920,7 +20578,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC" ""
 			(at 189.23 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -19952,6 +20610,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1445-1-ND"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=CL05A105KA5NQNC"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "1 µF ±10%, 25 V, X5R, 0402"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.16"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 190.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "832da2fe-61d6-4b7d-81cc-2e4465af476d")
@@ -20034,7 +20762,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20045,7 +20773,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20056,7 +20784,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20067,7 +20795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 146.05 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20077,6 +20805,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "ff3cd46d-d4ff-482c-ab7d-a9639f1da704")
@@ -20159,7 +20957,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
+		(property "Manufacturer" "Murata Electronics"
 			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -20202,6 +21000,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=CSTNE8M00GH5C000R0"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "8 MHz CERALOCK, built-in 33 pF, 3-SMD 3.2x1.3 mm"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.26"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "3-SMD 3.2x1.3 mm"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK by package geometry"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "External EasyEDA footprint"
+			(at 118.11 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "3ed0333c-95ad-4ebd-9b90-d64cffe648d4")
@@ -20287,7 +21148,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "EVERLIGHT(亿光)"
+		(property "Manufacturer" "Everlight Electronics"
 			(at 63.5 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -20330,6 +21191,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=19-337%2FR6GHBHC-M01%2F2T"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "RGB LED, 6-pin SMD 1.6x1.6 mm class"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "No exact DigiKey listing confirmed; LCSC source retained"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "6-SMD RGB LED 1.6x1.6 mm"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "CHECK supplier drawing before release"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "Embedded symbol + EasyEDA footprint"
+			(at 63.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "f211b42b-d29f-4bc8-b00a-aaee372e0152")
@@ -20424,7 +21348,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 109.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20435,7 +21359,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 109.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20446,7 +21370,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 109.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20457,7 +21381,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 109.22 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20467,6 +21391,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 110.49 25.4062 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "179dc927-25f0-4349-8ffa-72dc6da5a3b7")
@@ -20704,7 +21698,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23733"
+		(property "LCSC Part" ""
 			(at 102.87 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20715,7 +21709,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23733"
+		(property "LCSC" ""
 			(at 102.87 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -20747,6 +21741,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1482-1-ND"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "4.7 µF ±20%, 10 V, X5R, 0402"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active; no stock at audit"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 104.14 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "ae875c34-417e-40f8-9c84-c544b31fd3dd")
@@ -20829,7 +21893,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20840,7 +21904,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20851,7 +21915,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20862,7 +21926,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20872,6 +21936,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 196.85 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "568199c2-7883-4b9b-b7d7-873309dd3fcc")
@@ -20954,7 +22088,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 109.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20965,7 +22099,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 109.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20976,7 +22110,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 109.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20987,7 +22121,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 109.22 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -20997,6 +22131,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 110.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "568b261a-e176-4f03-88c8-988219fe27b9")
@@ -21154,7 +22358,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25091"
+		(property "LCSC Part" ""
 			(at 73.66 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21165,7 +22369,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "LCSC" ""
 			(at 73.66 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21176,7 +22380,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2200TCE"
+		(property "MPN" "RC0402FR-07220RL"
 			(at 73.66 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21187,7 +22391,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 73.66 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -21197,6 +22401,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07220RL"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "220 Ω ±1%, 0402"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / family verified"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 69.85 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "6bb68e0a-82b5-43e9-9226-d0a70c8eb7e2")
@@ -21279,7 +22546,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 127 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21290,7 +22557,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 127 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21301,7 +22568,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 127 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21312,7 +22579,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 127 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21322,6 +22589,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 128.27 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "83deb63e-cf1c-4a13-a2e4-344a4c41f974")
@@ -21404,6 +22741,55 @@
 				)
 			)
 		)
+		(property "DigiKey Status" "PCB feature / no purchased component"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "N/A"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "PCB test pad"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "TBD: no footprint assigned"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad TestPoint symbol"
+			(at 247.904 53.594 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
 		(pin "1"
 			(uuid "61a90edb-b96c-4465-99da-3d21ae316f54")
 		)
@@ -21482,7 +22868,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 152.4 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21493,7 +22879,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 152.4 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21504,7 +22890,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 152.4 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21515,7 +22901,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 152.4 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21525,6 +22911,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 153.67 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "642ce096-41f8-4ad1-8bc4-322413e88e98")
@@ -21684,7 +23140,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" ""
 			(at 139.7 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21695,7 +23151,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC" ""
 			(at 139.7 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21706,7 +23162,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM022R60J104KE15D"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 139.7 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21717,7 +23173,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 139.7 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -21727,6 +23183,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "1276-1001-1-ND"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 140.97 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "4fe55350-5f85-4bce-8fb1-f710628a1270")
@@ -21844,7 +23370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32H743VITx"
+		(property "Value" "STM32H743VIT6"
 			(at 173.5933 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21888,6 +23414,90 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "MPN" "STM32H743VIT6"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Part Number" "497-17720-ND"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/stmicroelectronics/STM32H743VIT6/7809237"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "Cortex-M7 480 MHz, 2 MB Flash, 1 MB RAM, LQFP-100 14x14 P0.5"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "14.27"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "LQFP-100 14x14 mm P0.5"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 173.5933 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "12"
 			(uuid "986da24e-6a04-4065-91e0-61803772b390")
@@ -22263,6 +23873,55 @@
 				)
 			)
 		)
+		(property "DigiKey Status" "PCB feature / no purchased component"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "N/A"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "PCB solder jumper"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "CHECK: _pico footprint library not present in repository"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "External unresolved footprint library"
+			(at 90.17 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
 		(pin "2"
 			(uuid "618fe304-7486-4f34-a7ea-6631817f2dea")
 		)
@@ -22344,6 +24003,55 @@
 				)
 			)
 		)
+		(property "DigiKey Status" "PCB feature / no purchased component"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "N/A"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "PCB test pad"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "TBD: no footprint assigned"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad TestPoint symbol"
+			(at 247.396 58.674 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
 		(pin "1"
 			(uuid "ea7dc914-561c-41e5-b36a-53b6167d7461")
 		)
@@ -22421,7 +24129,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C127281"
+		(property "LCSC Part" ""
 			(at 195.58 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -22432,7 +24140,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127281"
+		(property "LCSC" ""
 			(at 195.58 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -22443,7 +24151,7 @@
 				)
 			)
 		)
-		(property "MPN" "FCM1608KF-601T02"
+		(property "MPN" "BLM15AG601SN1D"
 			(at 195.58 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -22454,7 +24162,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TAI-TECH"
+		(property "Manufacturer" "Murata Electronics"
 			(at 195.58 27.94 90)
 			(hide yes)
 			(show_name no)
@@ -22464,6 +24172,76 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Part Number" "490-1006-1-ND"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/BLM15AG601SN1D/584217"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "600 Ω @100 MHz, 300 mA, 0402"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 194.31 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "fcefb842-7f1c-4c58-9518-0faa90523479")
@@ -22544,7 +24322,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25091"
+		(property "LCSC Part" ""
 			(at 73.66 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -22555,7 +24333,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "LCSC" ""
 			(at 73.66 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -22566,7 +24344,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2200TCE"
+		(property "MPN" "RC0402FR-07220RL"
 			(at 73.66 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -22577,7 +24355,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 73.66 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -22587,6 +24365,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07220RL"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "220 Ω ±1%, 0402"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / family verified"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005)"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "1e84985e-5ae4-467b-bf88-c65e6f83d7ff")
@@ -22745,6 +24586,55 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey Status" "PCB feature / no purchased component"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "N/A"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "PCB test pad"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "TBD: no footprint assigned"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad TestPoint symbol"
+			(at 248.158 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "3f3597c3-6531-44ee-a28d-ad8626e42f53")
