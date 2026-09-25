@@ -2459,25 +2459,55 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PIN-TO-PIN COMPATIBLE WITH 4A/6A VERSIONS LIKE LMR60440-Q1"
+	(text "+9V - DJI VIDEO TX"
 		(exclude_from_sim no)
-		(at 96.52 146.05 0)
+		(at 144.78 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "0d0b600d-1c6d-486c-9821-e58d2235e9dd")
+		(uuid "04d7e3a7-6f29-482b-9480-dcb2bd916bcf")
+	)
+	(text "3V3 Sens"
+		(exclude_from_sim no)
+		(at 255.016 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08f8bc7c-c1dd-4801-95fe-634e36be6965")
 	)
 	(text "< 2MHz - CONSTANT SW"
 		(exclude_from_sim no)
-		(at 96.52 132.08 0)
+		(at 104.14 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "7f865757-b8eb-4624-a657-14bb11079871")
+	)
+	(text "+Ext 5v power supply"
+		(exclude_from_sim no)
+		(at 147.828 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9eed77f-cfad-43c4-b293-0d69f62b43a5")
+	)
+	(text "+3V3 MCU"
+		(exclude_from_sim no)
+		(at 251.206 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf3d7073-a9a2-4dc5-9681-1a533e5fe31d")
 	)
 	(text "UP TO 6S 36V"
 		(exclude_from_sim no)
@@ -2488,96 +2518,6 @@
 			)
 		)
 		(uuid "c7653822-f899-4267-b27a-6790f5e58ce7")
-	)
-	(text "Ajouter 100 kΩ entre DJI_EN et +3V3_MCU est la bonne conception."
-		(exclude_from_sim no)
-		(at 83.82 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ee54764d-c8c0-4bf9-8ee2-2d590d2fb208")
-	)
-	(text_box "+3V3 - MCU"
-		(exclude_from_sim no)
-		(at 198.12 44.45 0)
-		(size 72.39 46.99)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "189bc424-0597-454a-8d03-4cc7bb88f33b")
-	)
-	(text_box "+5V - MCU + SENSORS VIA LDOs"
-		(exclude_from_sim no)
-		(at 22.86 44.45 0)
-		(size 166.37 46.99)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "1afdeb42-3fec-42b9-a9eb-f49aa26f232b")
-	)
-	(text_box "+3V3 - SENSORS"
-		(exclude_from_sim no)
-		(at 198.12 101.6 0)
-		(size 72.39 46.99)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c243fde7-b2a4-418c-b40c-438437b2464c")
-	)
-	(text_box "+9V - DJI VIDEO TX"
-		(exclude_from_sim no)
-		(at 22.86 101.6 0)
-		(size 166.37 46.99)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "dab37001-c7d0-46f3-babf-e7d8b3dfdec7")
 	)
 	(junction
 		(at 46.99 60.96)
@@ -2604,7 +2544,7 @@
 		(uuid "257dc4ac-b8c6-44e0-8845-b850097a95a1")
 	)
 	(junction
-		(at 153.67 116.84)
+		(at 161.29 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29ea37be-59fb-4013-aa31-cbc93bbfbe2f")
@@ -2622,7 +2562,7 @@
 		(uuid "47d03c56-5a98-4eb3-8bfc-d43a9758e260")
 	)
 	(junction
-		(at 148.59 116.84)
+		(at 156.21 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dbbaa89-bdb4-43fe-99d4-419364177bb2")
@@ -2640,7 +2580,7 @@
 		(uuid "5729afb6-8946-4075-894b-5177de8a6d5f")
 	)
 	(junction
-		(at 139.7 116.84)
+		(at 147.32 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ba6fc1c-9066-4ddf-8b41-947fd97da395")
@@ -2658,7 +2598,7 @@
 		(uuid "854c0fd2-408d-4409-92de-35eb531c9198")
 	)
 	(junction
-		(at 125.73 116.84)
+		(at 133.35 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8822d241-00f5-4dd5-a863-e1c1d362297d")
@@ -2670,19 +2610,19 @@
 		(uuid "9557e777-9b3f-4a81-8b47-ac7b03d8b091")
 	)
 	(junction
-		(at 153.67 127)
+		(at 161.29 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "970fabc7-14d5-4ba4-b7d6-71e884ad04d6")
 	)
 	(junction
-		(at 41.91 127)
+		(at 49.53 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a85420b3-eabe-4be5-a611-4e677ec4c05d")
 	)
 	(junction
-		(at 77.47 127)
+		(at 85.09 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a91dfb70-ab87-47e6-9d68-d5a7a66a286c")
@@ -2694,7 +2634,7 @@
 		(uuid "a99d5430-bdc0-4e7c-94b8-056f42a7ce3a")
 	)
 	(junction
-		(at 158.75 127)
+		(at 166.37 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac6bba79-134b-465d-8074-1ddc169c16da")
@@ -2712,13 +2652,13 @@
 		(uuid "c07c17d5-0c78-4e5d-96d4-bb32475afd2b")
 	)
 	(junction
-		(at 68.58 116.84)
+		(at 76.2 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c38983c1-b076-4d22-b15e-b88fcb65dbfc")
 	)
 	(junction
-		(at 158.75 116.84)
+		(at 166.37 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8458315-e551-4021-aef2-049865599d86")
@@ -2766,19 +2706,19 @@
 		(uuid "f48c405f-a9f4-4dbc-9c98-11b8ae2f89f1")
 	)
 	(junction
-		(at 46.99 116.84)
+		(at 54.61 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f48f71da-9bec-4b64-965a-c2233d8449cf")
 	)
 	(junction
-		(at 139.7 124.46)
+		(at 147.32 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb380baa-62a3-454a-a57f-b80759ef5fab")
 	)
 	(junction
-		(at 41.91 116.84)
+		(at 49.53 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffdec3d0-8858-454e-83b6-af326815cd95")
@@ -2821,7 +2761,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 139.7 118.11)
+			(xy 147.32 120.65) (xy 147.32 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 132.08) (xy 139.7 130.81)
+			(xy 147.32 135.89) (xy 147.32 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2931,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 124.46) (xy 139.7 124.46)
+			(xy 119.38 128.27) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2941,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 119.38) (xy 41.91 116.84)
+			(xy 49.53 123.19) (xy 49.53 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2991,7 +2931,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 127) (xy 158.75 127)
+			(xy 161.29 130.81) (xy 166.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3001,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 127) (xy 153.67 127)
+			(xy 156.21 130.81) (xy 161.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3011,7 +2951,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 124.46) (xy 41.91 127)
+			(xy 49.53 128.27) (xy 49.53 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3031,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 139.7 116.84)
+			(xy 144.78 120.65) (xy 147.32 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3041,7 +2981,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 116.84) (xy 148.59 119.38)
+			(xy 156.21 120.65) (xy 156.21 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3091,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 121.92) (xy 81.28 121.92)
+			(xy 85.09 125.73) (xy 88.9 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3141,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 116.84) (xy 116.84 116.84)
+			(xy 119.38 120.65) (xy 124.46 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3191,7 +3131,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 81.28 116.84)
+			(xy 76.2 120.65) (xy 88.9 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3201,7 +3141,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 121.92) (xy 72.39 121.92)
+			(xy 77.47 125.73) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3281,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 116.84) (xy 153.67 119.38)
+			(xy 161.29 120.65) (xy 161.29 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3301,7 +3241,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 148.59 116.84)
+			(xy 147.32 120.65) (xy 156.21 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3311,7 +3251,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 116.84) (xy 153.67 116.84)
+			(xy 166.37 120.65) (xy 161.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3361,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 124.46) (xy 77.47 124.46)
+			(xy 88.9 128.27) (xy 85.09 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3381,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 68.58 116.84)
+			(xy 54.61 120.65) (xy 76.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3391,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 127) (xy 77.47 127)
+			(xy 88.9 130.81) (xy 85.09 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3431,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 68.58 119.38)
+			(xy 76.2 120.65) (xy 76.2 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3441,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 124.46) (xy 139.7 125.73)
+			(xy 147.32 128.27) (xy 147.32 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 124.46) (xy 148.59 127)
+			(xy 156.21 128.27) (xy 156.21 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3471,7 +3411,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 115.57) (xy 41.91 116.84)
+			(xy 49.53 119.38) (xy 49.53 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3491,7 +3431,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 46.99 119.38)
+			(xy 54.61 120.65) (xy 54.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3541,7 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 119.38) (xy 125.73 119.38)
+			(xy 119.38 123.19) (xy 133.35 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 116.84) (xy 46.99 116.84)
+			(xy 49.53 120.65) (xy 54.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 127) (xy 46.99 127)
+			(xy 49.53 130.81) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3581,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 116.84) (xy 158.75 119.38)
+			(xy 166.37 120.65) (xy 166.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 124.46) (xy 77.47 127)
+			(xy 85.09 128.27) (xy 85.09 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 116.84) (xy 153.67 116.84)
+			(xy 156.21 120.65) (xy 161.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 127) (xy 77.47 128.27)
+			(xy 85.09 130.81) (xy 85.09 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 115.57) (xy 158.75 116.84)
+			(xy 166.37 119.38) (xy 166.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3751,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 134.62) (xy 77.47 133.35)
+			(xy 85.09 138.43) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3761,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 127) (xy 113.03 134.62)
+			(xy 120.65 130.81) (xy 120.65 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 127) (xy 158.75 124.46)
+			(xy 166.37 130.81) (xy 166.37 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3901,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 116.84) (xy 129.54 116.84)
+			(xy 133.35 120.65) (xy 137.16 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 119.38) (xy 125.73 116.84)
+			(xy 133.35 123.19) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3941,7 +3881,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 124.46) (xy 153.67 127)
+			(xy 161.29 128.27) (xy 161.29 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4001,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 119.38) (xy 81.28 119.38)
+			(xy 76.2 123.19) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 139.7 124.46)
+			(xy 147.32 127) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 127) (xy 113.03 127)
+			(xy 119.38 130.81) (xy 120.65 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4061,7 +4001,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 116.84) (xy 125.73 116.84)
+			(xy 129.54 120.65) (xy 133.35 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4071,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 124.46) (xy 46.99 127)
+			(xy 54.61 128.27) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4090,7 +4030,7 @@
 		(uuid "ffb67a18-e4f0-466e-85f1-1a37425da15a")
 	)
 	(label "SW_9V"
-		(at 111.76 119.38 0)
+		(at 119.38 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4677,7 +4617,7 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
-		(at 41.91 115.57 0)
+		(at 49.53 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4687,7 +4627,7 @@
 		(dnp no)
 		(uuid "110a36ed-02e8-4201-b6fb-c1f1904d1ff2")
 		(property "Reference" "#PWR031"
-			(at 41.91 119.38 0)
+			(at 49.53 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4638,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 40.64 110.49 0)
+			(at 48.26 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4709,7 +4649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 115.57 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 115.57 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAA\""
-			(at 41.91 115.57 0)
+			(at 49.53 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4755,7 +4695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 127 0)
+		(at 166.37 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4766,7 +4706,7 @@
 		(fields_autoplaced yes)
 		(uuid "11259c5c-ced1-4aa3-bc6b-17095128a972")
 		(property "Reference" "#PWR050"
-			(at 158.75 133.35 0)
+			(at 166.37 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4777,7 +4717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 132.08 0)
+			(at 166.37 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4787,7 +4727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 127 0)
+			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,7 +4738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 127 0)
+			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4809,7 +4749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 127 0)
+			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5184,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 133.35 116.84 90)
+		(at 140.97 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5255,7 +5195,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a2849ed-6542-4d9f-b790-3a35bd0beb4d")
 		(property "Reference" "L2"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5265,7 +5205,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 133.35 114.3 90)
+			(at 140.97 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5275,7 +5215,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4030-XXX"
-			(at 133.35 116.84 0)
+			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5286,7 +5226,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4020/xgl4020-222/"
-			(at 133.35 116.84 0)
+			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5297,7 +5237,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 133.35 116.84 0)
+			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5308,7 +5248,7 @@
 			)
 		)
 		(property "LCSC" "C6012410"
-			(at 133.35 116.84 0)
+			(at 140.97 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5319,7 +5259,7 @@
 			)
 		)
 		(property "LCSC Part" "C6012410"
-			(at 133.35 116.84 90)
+			(at 140.97 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5330,7 +5270,7 @@
 			)
 		)
 		(property "MPN" "XGL4020-222MEC"
-			(at 133.35 116.84 90)
+			(at 140.97 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5281,7 @@
 			)
 		)
 		(property "Manufacturer" "Coilcraft"
-			(at 133.35 116.84 90)
+			(at 140.97 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,7 +5292,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=XGL4020-222MEC"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,7 +5303,7 @@
 			)
 		)
 		(property "DigiKey Specs" "2.2 µH, ±20%, Irms 8.9 A, Isat 6.2 A typ listing, DCR 21.5 mΩ max, 4.0x4.0x2.1 mm"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5374,7 +5314,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5385,7 +5325,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" ""
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5336,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5347,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active; price not confirmed"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5358,7 @@
 			)
 		)
 		(property "Package" "XGL4020, 4x4x2.1 mm"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,7 +5369,7 @@
 			)
 		)
 		(property "Footprint Audit" "CHECK: current footprint is XAL4030-family; exact XGL4020 pad overlay required"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5380,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard footprint reused"
-			(at 133.35 111.76 90)
+			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,7 +5485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 158.75 121.92 0)
+		(at 166.37 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5555,7 +5495,7 @@
 		(dnp no)
 		(uuid "42ffc2e8-ec24-4e13-ad6b-231ffab18f91")
 		(property "Reference" "C54"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5566,7 +5506,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 160.02 124.46 0)
+			(at 167.64 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,7 +5517,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +5528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5539,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5610,7 +5550,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5621,7 +5561,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5632,7 +5572,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5643,7 +5583,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 158.75 121.92 0)
+			(at 166.37 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5594,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-10672-1-ND"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,7 +5605,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/GCM155R71H104KE02D/5251433"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +5616,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 50 V, X7R, 0402 (1005)"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5627,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +5638,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5709,7 +5649,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5720,7 +5660,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active; 50 V selected for power-domain margin"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5731,7 +5671,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5742,7 +5682,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5753,7 +5693,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 160.02 119.38 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5780,7 +5720,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 139.7 128.27 0)
+		(at 147.32 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5790,7 +5730,7 @@
 		(dnp no)
 		(uuid "444f2884-1329-4f2b-ae2b-3d66ce936a82")
 		(property "Reference" "R48"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5801,7 +5741,7 @@
 			)
 		)
 		(property "Value" "12.4K"
-			(at 140.97 129.54 0)
+			(at 148.59 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5812,7 +5752,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,7 +5763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,7 +5774,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5845,7 +5785,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5856,7 +5796,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5867,7 +5807,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0712K4L"
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,7 +5818,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 139.7 128.27 0)
+			(at 147.32 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5889,7 +5829,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-0712K4L"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5900,7 +5840,7 @@
 			)
 		)
 		(property "DigiKey Specs" "12.4K ±1%, 0402 (1005), thick film"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5911,7 +5851,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +5862,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" ""
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +5873,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5944,7 +5884,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active / DigiKey family verified"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5955,7 +5895,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5966,7 +5906,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5977,7 +5917,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 140.97 127 0)
+			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,7 +5944,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 69.85 121.92 90)
+		(at 77.47 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6014,7 +5954,7 @@
 		(dnp no)
 		(uuid "498d0b4d-0c86-4899-95e4-65c136a18c68")
 		(property "Reference" "#PWR034"
-			(at 73.66 121.92 0)
+			(at 81.28 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,7 +5965,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 64.77 121.92 90)
+			(at 72.39 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6035,7 +5975,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 121.92 0)
+			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6046,7 +5986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 121.92 0)
+			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6057,7 +5997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 69.85 121.92 0)
+			(at 77.47 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +6021,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 46.99 121.92 0)
+		(at 54.61 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6091,7 +6031,7 @@
 		(dnp no)
 		(uuid "4b97b508-d289-4442-84a5-c3bf6527f08b")
 		(property "Reference" "C45"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6102,7 +6042,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 48.26 124.46 0)
+			(at 55.88 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6113,7 +6053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6135,7 +6075,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +6086,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +6097,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6108,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6119,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 46.99 121.92 0)
+			(at 54.61 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6190,7 +6130,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-10672-1-ND"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6201,7 +6141,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/GCM155R71H104KE02D/5251433"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6212,7 +6152,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 50 V, X7R, 0402 (1005)"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,7 +6163,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,7 +6174,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,7 +6185,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6196,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active; 50 V selected for power-domain margin"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6267,7 +6207,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6278,7 +6218,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,7 +6229,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 48.26 119.38 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +7059,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 134.62 0)
+		(at 120.65 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7130,7 +7070,7 @@
 		(fields_autoplaced yes)
 		(uuid "5570c4e2-3978-4a96-bfe1-a302240f5beb")
 		(property "Reference" "#PWR041"
-			(at 113.03 140.97 0)
+			(at 120.65 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7141,7 +7081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 139.7 0)
+			(at 120.65 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7151,7 +7091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 134.62 0)
+			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +7102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 134.62 0)
+			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +7113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 134.62 0)
+			(at 120.65 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7197,7 +7137,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 77.47 130.81 180)
+		(at 85.09 134.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7207,7 +7147,7 @@
 		(dnp no)
 		(uuid "55ccc75f-e12e-4452-95c1-4120c08372ad")
 		(property "Reference" "R46"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7218,7 +7158,7 @@
 			)
 		)
 		(property "Value" "16.5k"
-			(at 83.82 132.08 0)
+			(at 91.44 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7229,7 +7169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7240,7 +7180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7251,7 +7191,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7262,7 +7202,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7273,7 +7213,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,7 +7224,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0716K5L"
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7295,7 +7235,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 77.47 130.81 0)
+			(at 85.09 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7306,7 +7246,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-0716K5L"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7317,7 +7257,7 @@
 			)
 		)
 		(property "DigiKey Specs" "16.5k ±1%, 0402 (1005), thick film"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7328,7 +7268,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7339,7 +7279,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7350,7 +7290,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7301,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active / DigiKey family verified"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7372,7 +7312,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7383,7 +7323,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7394,7 +7334,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 82.55 129.54 0)
+			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7499,7 +7439,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 119.38 116.84 90)
+		(at 127 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7509,7 +7449,7 @@
 		(dnp no)
 		(uuid "5c99ce1b-8c47-4dd9-a0a0-c2e1785bb688")
 		(property "Reference" "C48"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7520,7 +7460,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 124.46 115.57 90)
+			(at 132.08 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7531,7 +7471,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 119.38 116.84 0)
+			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +7482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 116.84 0)
+			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7553,7 +7493,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 119.38 116.84 0)
+			(at 127 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7564,7 +7504,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 119.38 116.84 90)
+			(at 127 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7575,7 +7515,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 119.38 116.84 90)
+			(at 127 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7586,7 +7526,7 @@
 			)
 		)
 		(property "MPN" "GCM155R71H104KE02D"
-			(at 119.38 116.84 90)
+			(at 127 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7597,7 +7537,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 119.38 116.84 90)
+			(at 127 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +7548,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-10672-1-ND"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7559,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/GCM155R71H104KE02D/5251433"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,7 +7570,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 50 V, X7R, 0402 (1005)"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,7 +7581,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7652,7 +7592,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +7603,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7674,7 +7614,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active; 50 V selected for power-domain margin"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,7 +7625,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,7 +7636,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7707,7 +7647,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 118.11 115.57 90)
+			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +7830,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 132.08 0)
+		(at 147.32 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7901,7 +7841,7 @@
 		(fields_autoplaced yes)
 		(uuid "61f1785f-e6e2-4367-bc71-add8aea70e3a")
 		(property "Reference" "#PWR044"
-			(at 139.7 138.43 0)
+			(at 147.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7912,7 +7852,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 137.16 0)
+			(at 147.32 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7922,7 +7862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 132.08 0)
+			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7933,7 +7873,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 132.08 0)
+			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +7884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 132.08 0)
+			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8360,7 +8300,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 134.62 0)
+		(at 85.09 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8371,7 +8311,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c61a7ce-95f1-4b7b-aed5-cacc0982db6f")
 		(property "Reference" "#PWR038"
-			(at 77.47 140.97 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8382,7 +8322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 139.7 0)
+			(at 85.09 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8392,7 +8332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 134.62 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8403,7 +8343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 134.62 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 134.62 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8438,7 +8378,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 74.93 121.92 270)
+		(at 82.55 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8448,7 +8388,7 @@
 		(dnp no)
 		(uuid "6d05d758-b55b-4693-88f3-7bee3be02c2e")
 		(property "Reference" "R45"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8458,7 +8398,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 78.74 120.65 90)
+			(at 86.36 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8468,7 +8408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 74.93 121.92 0)
+			(at 82.55 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8479,7 +8419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 121.92 0)
+			(at 82.55 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8490,7 +8430,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 74.93 121.92 0)
+			(at 82.55 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8501,7 +8441,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 74.93 121.92 90)
+			(at 82.55 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8512,7 +8452,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 74.93 121.92 90)
+			(at 82.55 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8523,7 +8463,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 74.93 121.92 90)
+			(at 82.55 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +8474,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 74.93 121.92 90)
+			(at 82.55 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8545,7 +8485,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07100KL"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8556,7 +8496,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100K ±1%, 0402 (1005), thick film"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8567,7 +8507,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8578,7 +8518,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,7 +8529,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8600,7 +8540,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active / DigiKey family verified"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +8551,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8622,7 +8562,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +8573,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 71.12 120.65 90)
+			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9354,7 +9294,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:LMR604303SRAKRQ1")
-		(at 96.52 121.92 0)
+		(at 104.14 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9365,7 +9305,7 @@
 		(fields_autoplaced yes)
 		(uuid "913cde3f-342f-4446-9209-24dbbf818b8a")
 		(property "Reference" "U13"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9375,7 +9315,7 @@
 			)
 		)
 		(property "Value" "LMR604303SRAKRQ1"
-			(at 96.52 111.76 0)
+			(at 104.14 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9385,7 +9325,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:WQFN-9_L2.5-W2.0_RAK0009A"
-			(at 96.52 134.62 0)
+			(at 104.14 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9396,7 +9336,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf"
-			(at 96.52 137.16 0)
+			(at 104.14 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9407,7 +9347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 121.92 0)
+			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9418,7 +9358,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 96.52 139.7 0)
+			(at 104.14 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9429,7 +9369,7 @@
 			)
 		)
 		(property "MPN" "LMR604303SRAKRQ1"
-			(at 96.52 142.24 0)
+			(at 104.14 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +9380,7 @@
 			)
 		)
 		(property "LCSC Part" "C49292342"
-			(at 96.52 144.78 0)
+			(at 104.14 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,7 +9391,7 @@
 			)
 		)
 		(property "LCSC" "C49292342"
-			(at 96.52 121.92 0)
+			(at 104.14 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9462,7 +9402,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "296-LMR604303SRAKRQ1CT-ND"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9473,7 +9413,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/texas-instruments/LMR604303SRAKRQ1/26812419"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9484,7 +9424,7 @@
 			)
 		)
 		(property "DigiKey Specs" "3–36 V automotive synchronous buck, 3 A, 9-WQFN-HR 2.5x2 mm"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9495,7 +9435,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "2.20"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9446,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9457,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9528,7 +9468,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active / AEC-Q100"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9539,7 +9479,7 @@
 			)
 		)
 		(property "Package" "9-WQFN-HR 2.5x2.0 mm"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9550,7 +9490,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK by package name/dimensions; final overlay recommended"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9561,7 +9501,7 @@
 			)
 		)
 		(property "Library Audit" "EasyEDA external"
-			(at 96.52 109.22 0)
+			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10380,7 +10320,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 139.7 120.65 0)
+		(at 147.32 124.46 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -10391,7 +10331,7 @@
 		(dnp no)
 		(uuid "a11815d5-2a4b-440b-960b-0c2f4b2a8d67")
 		(property "Reference" "R47"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10402,7 +10342,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 140.97 121.92 0)
+			(at 148.59 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10413,7 +10353,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10424,7 +10364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10435,7 +10375,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10446,7 +10386,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +10397,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,7 +10408,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10419,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 139.7 120.65 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10490,7 +10430,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07100KL"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10501,7 +10441,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100K ±1%, 0402 (1005), thick film"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +10452,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,7 +10463,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10534,7 +10474,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +10485,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active / DigiKey family verified"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10496,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +10507,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10578,7 +10518,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 140.97 119.38 0)
+			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11999,7 +11939,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 127 0)
+		(at 49.53 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12010,7 +11950,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf72730a-9509-4ed9-bbaf-8d24a786a12e")
 		(property "Reference" "#PWR032"
-			(at 41.91 133.35 0)
+			(at 49.53 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12021,7 +11961,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 132.08 0)
+			(at 49.53 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12031,7 +11971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 127 0)
+			(at 49.53 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12042,7 +11982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 127 0)
+			(at 49.53 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12053,7 +11993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 127 0)
+			(at 49.53 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12456,7 +12396,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 148.59 121.92 0)
+		(at 156.21 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12466,7 +12406,7 @@
 		(dnp no)
 		(uuid "da82fc26-9ae5-4155-84fc-bead646a7340")
 		(property "Reference" "C51"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12477,7 +12417,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 149.86 124.46 0)
+			(at 157.48 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12488,7 +12428,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12499,7 +12439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12510,7 +12450,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12521,7 +12461,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12532,7 +12472,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12543,7 +12483,7 @@
 			)
 		)
 		(property "MPN" "CL21A226MAYNNNE"
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12554,7 +12494,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 148.59 121.92 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12565,7 +12505,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-CL21A226MAYNNNECT-ND"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12516,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL21A226MAYNNNE/10479857"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12587,7 +12527,7 @@
 			)
 		)
 		(property "DigiKey Specs" "22 µF ±20%, 25 V, X5R, 0805"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12598,7 +12538,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.27"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12609,7 +12549,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12620,7 +12560,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12631,7 +12571,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12642,7 +12582,7 @@
 			)
 		)
 		(property "Package" "0805 (2012), max H 1.45 mm"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12653,7 +12593,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK copper land class; verify height clearance"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12664,7 +12604,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 149.86 119.38 0)
+			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12691,7 +12631,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 41.91 121.92 0)
+		(at 49.53 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12701,7 +12641,7 @@
 		(dnp no)
 		(uuid "daac25cf-d82d-4b19-b43d-59d19a16b92f")
 		(property "Reference" "C43"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12712,7 +12652,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 43.18 124.4538 0)
+			(at 50.8 128.2638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12723,7 +12663,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12734,7 +12674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12745,7 +12685,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12756,7 +12696,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12767,7 +12707,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12778,7 +12718,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR61H106KE43L"
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12789,7 +12729,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 41.91 121.92 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +12740,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "490-18663-1-ND"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12811,7 +12751,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,7 +12762,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10 µF ±10%, 50 V, X5R, 0805"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +12773,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.28"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12844,7 +12784,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,7 +12795,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12866,7 +12806,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12877,7 +12817,7 @@
 			)
 		)
 		(property "Package" "0805 (2012)"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12888,7 +12828,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12899,7 +12839,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 43.18 119.3738 0)
+			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +12866,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 158.75 115.57 0)
+		(at 166.37 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12937,7 +12877,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd875adf-c90f-491b-9c8d-c3b93c3f6162")
 		(property "Reference" "#PWR049"
-			(at 158.75 119.38 0)
+			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,7 +12888,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 158.75 110.49 0)
+			(at 166.37 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12958,7 +12898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 115.57 0)
+			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12969,7 +12909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 115.57 0)
+			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12980,7 +12920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 158.75 115.57 0)
+			(at 166.37 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13395,7 +13335,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 153.67 121.92 0)
+		(at 161.29 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13405,7 +13345,7 @@
 		(dnp no)
 		(uuid "f77783d8-fd27-45f3-8006-0639943b7eb9")
 		(property "Reference" "C53"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13416,7 +13356,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 154.94 124.46 0)
+			(at 162.56 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13427,7 +13367,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13438,7 +13378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13449,7 +13389,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13460,7 +13400,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,7 +13411,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13482,7 +13422,7 @@
 			)
 		)
 		(property "MPN" "CL21A226MAYNNNE"
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13493,7 +13433,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 153.67 121.92 0)
+			(at 161.29 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13444,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-CL21A226MAYNNNECT-ND"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +13455,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL21A226MAYNNNE/10479857"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13526,7 +13466,7 @@
 			)
 		)
 		(property "DigiKey Specs" "22 µF ±20%, 25 V, X5R, 0805"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13537,7 +13477,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.27"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13548,7 +13488,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13559,7 +13499,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13570,7 +13510,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13581,7 +13521,7 @@
 			)
 		)
 		(property "Package" "0805 (2012), max H 1.45 mm"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,7 +13532,7 @@
 			)
 		)
 		(property "Footprint Audit" "OK copper land class; verify height clearance"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,7 +13543,7 @@
 			)
 		)
 		(property "Library Audit" "KiCad standard"
-			(at 154.94 119.38 0)
+			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

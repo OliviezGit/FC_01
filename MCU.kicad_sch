@@ -16472,6 +16472,16 @@
 		)
 		(uuid "0f06782b-0c13-4800-acc7-76a9062f84ed")
 	)
+	(label "I2C2.SCL"
+		(at 191.77 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ff86ced-da8e-46fa-8d99-e41f78e6cc1d")
+	)
 	(label "CAN1.SILENT"
 		(at 123.19 129.54 180)
 		(effects
@@ -16621,6 +16631,16 @@
 			(justify left bottom)
 		)
 		(uuid "2b1f5ce7-a564-4c76-aabe-9774e81467a6")
+	)
+	(label "SPI4.SCLK"
+		(at 146.05 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c07b6bc-efab-4b2f-8d37-3140886b9488")
 	)
 	(label "LED1"
 		(at 86.36 153.67 180)
@@ -16782,6 +16802,16 @@
 		)
 		(uuid "496c6a6d-17c1-43a0-8f91-b668616957a9")
 	)
+	(label "I2C1.SCL"
+		(at 191.77 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d6d90f4-bbc2-493c-aea4-32f3cbdb2eb4")
+	)
 	(label "USB_OTG_P.DP"
 		(at 207.01 88.9 0)
 		(effects
@@ -16921,6 +16951,16 @@
 			(justify right bottom)
 		)
 		(uuid "72ba2cd0-c390-4195-9547-c8752b5b48aa")
+	)
+	(label "SPI4.CS"
+		(at 146.05 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7619f1f1-2e24-4c7d-b735-f03707d6b7b1")
 	)
 	(label "SDIO.D1"
 		(at 207.01 167.64 180)
@@ -17212,6 +17252,16 @@
 		)
 		(uuid "a58276ff-6d45-4c7e-8181-ac1e1d8a9892")
 	)
+	(label "SPI4.MOSI"
+		(at 146.05 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5c1f8ef-70a6-4b22-90b0-62d00d7f50c5")
+	)
 	(label "UART4.RX"
 		(at 195.58 121.92 0)
 		(effects
@@ -17452,6 +17502,16 @@
 		)
 		(uuid "d4b11edc-7c16-4353-8079-8f751a069e6c")
 	)
+	(label "I2C1.SDA"
+		(at 191.77 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7d9da63-6446-45f8-bb16-5ecbf9827e1c")
+	)
 	(label "UART3.TX"
 		(at 140.97 147.32 180)
 		(effects
@@ -17582,6 +17642,16 @@
 		)
 		(uuid "eed2faa3-f1c0-4e36-ab73-8c026cfaef8d")
 	)
+	(label "SPI4.MISO"
+		(at 146.05 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0a22284-b339-4fc2-8e5d-3de0df622711")
+	)
 	(label "UART3.RX"
 		(at 140.97 144.78 180)
 		(effects
@@ -17632,86 +17702,6 @@
 		)
 		(uuid "f9c61a85-4346-4d00-addf-c3f869a4c208")
 	)
-	(label "SDIO.CMD"
-		(at 220.98 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff3997ce-a466-4baa-8114-11a3b23a8a94")
-	)
-	(label "SPI4.CS"
-		(at 146.05 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7619f1f1-2e24-4c7d-b735-f03707d6b7b1")
-	)
-	(label "SPI4.SCLK"
-		(at 146.05 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2c07b6bc-efab-4b2f-8d37-3140886b9488")
-	)
-	(label "SPI4.MISO"
-		(at 146.05 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0a22284-b339-4fc2-8e5d-3de0df622711")
-	)
-	(label "SPI4.MOSI"
-		(at 146.05 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5c1f8ef-70a6-4b22-90b0-62d00d7f50c5")
-	)
-	(label "I2C1.SCL"
-		(at 191.77 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d6d90f4-bbc2-493c-aea4-32f3cbdb2eb4")
-	)
-	(label "I2C1.SDA"
-		(at 191.77 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7d9da63-6446-45f8-bb16-5ecbf9827e1c")
-	)
-	(label "I2C2.SCL"
-		(at 191.77 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ff86ced-da8e-46fa-8d99-e41f78e6cc1d")
-	)
 	(label "I2C2.SDA"
 		(at 191.77 129.54 0)
 		(effects
@@ -17721,6 +17711,16 @@
 			(justify left bottom)
 		)
 		(uuid "fc37bcb8-a8ca-41af-80c6-620c003ff3dd")
+	)
+	(label "SDIO.CMD"
+		(at 220.98 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff3997ce-a466-4baa-8114-11a3b23a8a94")
 	)
 	(hierarchical_label "SPI3{SPI}"
 		(shape bidirectional)
