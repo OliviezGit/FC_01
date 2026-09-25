@@ -6460,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_SENS"
+		(property "Value" "+3V3_MCU"
 			(at 129.032 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7231,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_SENS"
+		(property "Value" "+3V3_MCU"
 			(at 211.582 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7779,7 +7779,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_SENS"
+		(property "Value" "+3V3_MCU"
 			(at 126.492 68.072 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +10043,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_SENS"
+		(property "Value" "+3V3_MCU"
 			(at 212.852 38.862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12385,7 +12385,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3_SENS"
+		(property "Value" "+3V3_MCU"
 			(at 123.952 21.082 0)
 			(show_name no)
 			(do_not_autoplace no)
