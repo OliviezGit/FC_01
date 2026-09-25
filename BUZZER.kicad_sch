@@ -1347,7 +1347,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" ""
 			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1358,7 +1358,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" ""
 			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1369,7 +1369,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1002TCE"
+		(property "MPN" "RC0402FR-0710KL"
 			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1380,7 +1380,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 93.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1390,6 +1390,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-0710KL"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 97.155 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "18da1281-9e16-4c75-84fa-10d1fa906995")
@@ -1548,7 +1611,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C11702"
+		(property "LCSC Part" ""
 			(at 88.9 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -1559,7 +1622,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" ""
 			(at 88.9 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -1570,7 +1633,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF1001TCE"
+		(property "MPN" "RC0402FR-071KL"
 			(at 88.9 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -1581,7 +1644,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "YAGEO"
 			(at 88.9 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -1591,6 +1654,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-071KL"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "1K ±1%, 0402 (1005), thick film"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.09"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active / DigiKey family verified"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "0402 (1005 Metric)"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 85.09 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "2"
 			(uuid "fbb4785a-e5c8-48c0-ba7b-15e234010687")
@@ -1732,7 +1858,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://aosmd.com/res/data_sheets/AO3400A.pdf"
 			(at 106.68 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1788,7 +1914,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Alpha & Omega Semicon"
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
 			(at 101.6 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1798,6 +1924,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "N-MOSFET 30 V, 5.7 A, SOT-23-3, RDS(on) 26.5 mΩ max @10 V"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" "0.45"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" "1 CT"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "Active"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "SOT-23-3"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "OK"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "KiCad standard"
+			(at 107.95 60.9599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "f016382d-4c06-4409-bacb-522b518ef948")
@@ -1884,7 +2073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Megastar(兆星)"
+		(property "Manufacturer" "Megastar"
 			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1927,6 +2116,69 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "DigiKey URL" ""
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Specs" "SH 1.0 mm, 3-pin right-angle SMD"
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Unit Price EUR" ""
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Price Qty" ""
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Price Checked" "2026-09-25"
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey Status" "No exact DigiKey listing; supplier/LCSC part retained"
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Package" "SH1.0 3P right-angle SMD"
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint Audit" "CHECK supplier drawing vs EasyEDA footprint"
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Library Audit" "EasyEDA external"
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(pin "1"
 			(uuid "0c15a680-495f-4c3b-a53b-6d8cdc8cd131")
