@@ -1405,7 +1405,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:WQFN-9_L2.5-W2.0_RAK0009A"
+			(property "Footprint" "H743_Custom:TI_RAK0009A_WQFN-HR-9_2.5x2.0mm"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5057,7 +5057,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
 			(at 237.49 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9555,7 +9555,73 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK by package name/dimensions; final overlay recommended"
+		(property "TI Product URL" "https://www.ti.com/product/LMR60430-Q1/part-details/LMR604303SRAKRQ1"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TI Datasheet PDF" "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Texas-Instruments/LMR604303SRAKRQ1"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C49292342.html"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Source URL" "https://github.com/beaked99/air-scales/blob/ab5531a3598be3d716514b864d2fc2af20bb4d99/hardware/LMR604xx/footprints.pretty/RAK0009A-MFG.kicad_mod"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Source" "Public KiCad RAK0009A implementation normalized into project-local H743_Custom library"
+			(at 104.14 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Audit" "OK: project-local native KiCad footprint for TI RAK0009A WQFN-HR-9 2.5x2.0 mm, sourced from a public KiCad implementation and checked against TI package geometry"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
