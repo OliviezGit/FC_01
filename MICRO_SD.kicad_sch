@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK DIMENSIONAL: footprint cross-checked against Amphenol drawing 10067099 Rev H and official STEP; verify only final board-side orientation/3D placement before fabrication"
+		(property "Footprint Audit" "BLOCKING - DO NOT USE: custom footprint contains dimensional interpretation errors versus Amphenol drawing 10067099 Rev H; must be rebuilt from recommended PCB layout"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
