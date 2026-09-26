@@ -921,6 +921,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 74.93) (xy 50.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa497a7-776a-4315-a12e-b1baf7154707")
+	)
+	(wire
+		(pts
 			(xy 24.13 33.02) (xy 34.29 33.02)
 		)
 		(stroke
@@ -928,6 +938,16 @@
 			(type default)
 		)
 		(uuid "3927c102-b0d5-4296-aa59-1a42c5027052")
+	)
+	(wire
+		(pts
+			(xy 38.1 74.93) (xy 25.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a1cf35-26b7-4bc8-b649-32eb3a84f855")
 	)
 	(wire
 		(pts
@@ -971,6 +991,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 82.55) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a16a889a-d705-4e47-b880-63b9ef961d6f")
+	)
+	(wire
+		(pts
 			(xy 135.89 49.53) (xy 135.89 62.23)
 		)
 		(stroke
@@ -1011,6 +1041,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 80.01) (xy 54.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba41a0d5-695b-4d09-ba65-bbdbe1d94b9d")
+	)
+	(wire
+		(pts
 			(xy 93.98 62.23) (xy 93.98 63.5)
 		)
 		(stroke
@@ -1041,7 +1081,27 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 62.23) (xy 86.36 62.23)
+			(xy 53.34 77.47) (xy 54.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b7253f-4024-4fda-9c11-b15400aecd1a")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 53.34 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a9d00e-c399-4448-b1a8-8e854dc60e42")
+	)
+	(wire
+		(pts
+			(xy 41.91 62.23) (xy 86.36 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1058,6 +1118,16 @@
 			(type default)
 		)
 		(uuid "fb4899f2-2d13-4db4-9939-3a6ca7ff40cf")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc90052f-fb8c-4e95-9e05-28ebf098f934")
 	)
 	(wire
 		(pts
@@ -1079,6 +1149,16 @@
 		)
 		(uuid "216de4d7-d46d-413f-8ab0-7848b6440c92")
 	)
+	(label "LED_STRIP"
+		(at 46.99 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25b0047a-bf55-4e12-8efc-2c5961319dd2")
+	)
 	(label "BUZZ_PAD-"
 		(at 120.65 54.61 0)
 		(effects
@@ -1098,6 +1178,28 @@
 			(justify left bottom)
 		)
 		(uuid "e70bc6d7-c020-456e-ba62-64eb29f74c00")
+	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 41.91 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45289c0a-1c5d-4118-bb94-9af6c0d077a4")
+	)
+	(hierarchical_label "LED_STRIP"
+		(shape input)
+		(at 25.4 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93d6f6e6-68b7-4662-869c-020515e29b65")
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
@@ -1122,7 +1224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11656cd9-c59e-43fd-a96d-32a9974ae58a")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0120"
 			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1182,7 +1284,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
-					(reference "#PWR0118")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -1423,7 +1525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "415e843e-e89a-4c1e-a312-ae3655b4a86c")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 144.78 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,7 +1592,85 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
-					(reference "J10")
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc0b3ec-2ca3-4b9b-b7a3-d3e35b4713af")
+		(property "Reference" "#PWR0116"
+			(at 50.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "+5V_SYS"
+			(at 50.8 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fdf5b29-5fa6-4016-a9fe-5feb45776020")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -1508,7 +1688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c0ba985-8930-4d69-a128-aca2fa36d04a")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0118"
 			(at 104.14 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1568,7 +1748,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
-					(reference "#PWR0116")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -1808,7 +1988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8638582b-59ae-4559-b308-856bd8953416")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0119"
 			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -1868,7 +2048,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
-					(reference "#PWR0117")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -2100,6 +2280,169 @@
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ced44dcb-d3a7-4d78-99fd-b65d37e940c7")
+		(property "Reference" "#PWR0117"
+			(at 53.34 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83752d03-6345-4a66-ad57-d2005985dd0e")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 59.69 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc42a6b5-e270-4036-afb7-5c3f42c47063")
+		(property "Reference" "J10"
+			(at 62.23 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 62.23 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "H743_Custom:SolderPadArray_1x03_P2.54mm_1x1mm"
+			(at 59.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "336e78e8-fc60-4246-a966-a8268111cc04")
+		)
+		(pin "2"
+			(uuid "88a5d50c-9d42-4838-891b-c22cd02ba366")
+		)
+		(pin "3"
+			(uuid "788e2231-ec8c-456e-bf61-bcfd2bd60fae")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/40acc3ff-a355-41ce-95b6-fe5d468e4bb9"
+					(reference "J10")
 					(unit 1)
 				)
 			)

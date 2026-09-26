@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "BMP581") (type "KiCad") (uri "${KIPRJMOD}/extralib/2026-09-23_19-44-17.kicad_sym") (options "") (descr ""))
 	(lib (name "H743_Ardupilot") (type "KiCad") (uri "${KIPRJMOD}/extralib/H743_Ardupilot.kicad_sym") (options "") (descr "Project-local verified symbols"))
+	(lib (name "H743_Custom") (type "KiCad") (uri "${KIPRJMOD}/extralib/footprints.pretty") (options "") (descr ""))
 )

@@ -1780,6 +1780,16 @@
 		)
 		(uuid "2f590b7f-2958-4cf2-afce-341bda7c49dd")
 	)
+	(wire
+		(pts
+			(xy 170.18 106.68) (xy 187.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3269c652-ac9f-435a-8b93-74ca2daf79d0")
+	)
 	(bus
 		(pts
 			(xy 170.18 91.44) (xy 187.96 91.44)
@@ -3917,13 +3927,13 @@
 			)
 		)
 		(pin "LED_STRIP" input
-			(at 120.65 71.12 180)
+			(at 170.18 106.68 0)
 			(uuid "8c3488f1-1576-4791-b070-9fb4e3e75177")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "CAN1{CAN}" input
@@ -4250,7 +4260,7 @@
 	)
 	(sheet
 		(at 187.96 100.33)
-		(size 22.86 7.62)
+		(size 22.86 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4276,7 +4286,7 @@
 			)
 		)
 		(property "Sheetfile" "BUZZER.kicad_sch"
-			(at 187.96 108.5346 0)
+			(at 187.96 109.8046 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,6 +4300,16 @@
 		(pin "BUZZER" input
 			(at 187.96 104.14 180)
 			(uuid "568387c6-d887-474b-b4cc-47657c13c605")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_STRIP" input
+			(at 187.96 106.68 180)
+			(uuid "550b57f4-f08c-4211-8bfa-69f0be27a50e")
 			(effects
 				(font
 					(size 1.27 1.27)
