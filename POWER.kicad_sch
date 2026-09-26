@@ -1134,7 +1134,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:VQFN-9_L2.1-W2.1-P0.50-TL"
+			(property "Footprint" "H743_Custom:TI_RPE0009B_VQFN-HR-9_2x2mm"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4257,7 +4257,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6599,7 +6599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:VQFN-9_L2.1-W2.1-P0.50-TL"
+		(property "Footprint" "H743_Custom:TI_RPE0009B_VQFN-HR-9_2x2mm"
 			(at 96.52 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6764,7 +6764,73 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK: current EasyEDA footprint named 2.1x2.1; compare to TI RPE land pattern"
+		(property "TI Product URL" "https://www.ti.com/product/LMR43620/part-details/LMR43620R5RPER"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TI Datasheet PDF" "https://www.ti.com/lit/ds/symlink/lmr43620.pdf"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/Texas-Instruments/LMR43620R5RPER"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC URL" "https://www.lcsc.com/product-detail/C32712896.html"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey EDA Model URL" "https://www.digikey.com/en/models/20414090"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Source" "Ultra Librarian archive supplied for LMR43620R5RPER; normalized to native KiCad custom pads"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Audit" "OK: project-local native KiCad footprint derived from supplied Ultra Librarian RPE0009A-MFG data and checked against TI RPE VQFN-HR 9-pin geometry"
 			(at 96.52 52.07 0)
 			(hide yes)
 			(show_name no)
