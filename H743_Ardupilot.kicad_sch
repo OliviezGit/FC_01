@@ -3341,7 +3341,7 @@
 				)
 			)
 		)
-		(property "Value" "HC-TYPE-C-16P-01M"
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 53.34 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3352,7 +3352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:USB-C-SMD_HCTL_HC-TYPE-C-16P-01M"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500"
 			(at 53.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3363,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JAE%20Electronics_01282020_DX07.pdf"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3678,7 +3678,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USBLC6-2P6"
+		(property "Value" "Power_Protection:USBLC6-2P6"
 			(at 91.8211 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3690,7 +3690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:SOT-666-6_L1.6-W1.2-P0.50-LS1.6-BL"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
 			(at 91.186 62.611 0)
 			(hide yes)
 			(show_name no)
@@ -3703,7 +3703,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00050750.pdf"
 			(at 91.186 64.516 0)
 			(hide yes)
 			(show_name no)
@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2682291"
+		(property "mouser" "511-USBLC6-2P6"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3737,7 +3737,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2682291"
+		(property "LCSC" ""
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3748,7 +3748,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPUSBLC6-2P6"
+		(property "MPN" ""
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3759,7 +3759,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TECH PUBLIC"
+		(property "Manufacturer" ""
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
