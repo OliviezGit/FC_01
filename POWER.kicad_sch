@@ -9390,7 +9390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:WQFN-9_L2.5-W2.0_RAK0009A"
+		(property "Footprint" "H743_Custom:TI_RAK0009A_WQFN-HR-9_2.5x2.0mm"
 			(at 104.14 138.43 0)
 			(hide yes)
 			(show_name no)
