@@ -4920,6 +4920,62 @@
 		(color 0 0 0 0)
 		(uuid "f58429e8-b5b8-464a-956b-33827f7662cc")
 	)
+	(no_connect
+		(at 146.05 93.98)
+		(uuid "0bdae1e1-4a18-4b61-adc4-addddc914df7")
+	)
+	(no_connect
+		(at 191.77 63.5)
+		(uuid "19d4ed91-95cc-4b33-9fe5-c0cafdf2db56")
+	)
+	(no_connect
+		(at 146.05 157.48)
+		(uuid "1ee3a435-a585-403f-954a-2900d70dac87")
+	)
+	(no_connect
+		(at 191.77 149.86)
+		(uuid "27a123f2-bcd2-4215-ab38-8b96bbcc3348")
+	)
+	(no_connect
+		(at 191.77 66.04)
+		(uuid "435ad30e-156c-47a7-af85-d7a3c98638ff")
+	)
+	(no_connect
+		(at 146.05 149.86)
+		(uuid "61ad62fd-4f17-4a67-970b-c1f1960765ff")
+	)
+	(no_connect
+		(at 191.77 180.34)
+		(uuid "638f5342-b3c6-4efb-8c9d-a20e1b932992")
+	)
+	(no_connect
+		(at 191.77 152.4)
+		(uuid "87ef1c68-6549-4204-b601-840ddfe5784a")
+	)
+	(no_connect
+		(at 191.77 157.48)
+		(uuid "8e228804-ff8c-4c55-9819-9af12521086c")
+	)
+	(no_connect
+		(at 146.05 96.52)
+		(uuid "b6cd7515-cfda-4f19-b4af-6076864a43d1")
+	)
+	(no_connect
+		(at 146.05 154.94)
+		(uuid "b8b645f0-c3b9-4d7a-bc0c-14f760925319")
+	)
+	(no_connect
+		(at 146.05 152.4)
+		(uuid "bfb80416-30f4-407c-aaca-3aa50759622f")
+	)
+	(no_connect
+		(at 191.77 76.2)
+		(uuid "e20cd1f4-f061-4333-9414-3df8e8fae2be")
+	)
+	(no_connect
+		(at 146.05 162.56)
+		(uuid "fc7cdec1-dc41-4828-a460-3939dcf168a0")
+	)
 	(bus_entry
 		(at 33.02 102.87)
 		(size 2.54 2.54)
@@ -7365,16 +7421,6 @@
 		)
 		(uuid "be07467c-1d2a-4ece-a6b7-69360636600c")
 	)
-	(wire
-		(pts
-			(xy 247.65 96.52) (xy 257.81 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf329a4e-5282-459b-9e95-1dc1e98df213")
-	)
 	(bus
 		(pts
 			(xy 127 142.24) (xy 128.27 142.24)
@@ -8725,16 +8771,6 @@
 		)
 		(uuid "87b0e9b3-a334-4655-9a16-aed7f2596c53")
 	)
-	(label "SPI1.CS"
-		(at 207.01 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89ee68c1-324e-4659-b463-0f52b89a4101")
-	)
 	(label "SPI3.SCLK"
 		(at 209.55 109.22 180)
 		(effects
@@ -9154,6 +9190,16 @@
 			(justify right bottom)
 		)
 		(uuid "cf784621-4167-4348-b175-18eeeda77d51")
+	)
+	(label "SPI1.CS"
+		(at 207.01 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cfe0eb9b-6d07-4d23-899c-ad8b3f6a1621")
 	)
 	(label "SWDIO"
 		(at 207.01 91.44 180)
