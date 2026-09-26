@@ -10091,6 +10091,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10316,6 +10322,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10389,6 +10401,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -10628,6 +10646,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10783,6 +10807,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10856,6 +10886,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -10938,6 +10974,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11012,6 +11054,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -11238,6 +11286,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11456,6 +11510,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "R4")
 					(unit 1)
 				)
@@ -11695,6 +11755,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11768,6 +11834,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -11849,6 +11921,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11922,6 +12000,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -12161,6 +12245,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12392,6 +12482,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "C9")
 					(unit 1)
 				)
@@ -12631,6 +12727,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12862,6 +12964,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "C14")
 					(unit 1)
 				)
@@ -13101,6 +13209,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13324,6 +13438,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -13564,6 +13684,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13799,6 +13925,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13872,6 +14004,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -13950,6 +14088,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -14189,6 +14333,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14420,6 +14570,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "C15")
 					(unit 1)
 				)
@@ -14659,6 +14815,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14732,6 +14894,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -14954,6 +15122,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "R5")
 					(unit 1)
 				)
@@ -15193,6 +15367,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15344,6 +15524,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "TP2")
 					(unit 1)
 				)
@@ -15583,6 +15769,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15656,6 +15848,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -15895,6 +16093,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15969,6 +16173,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -16482,6 +16692,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16639,6 +16855,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16790,6 +17012,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "TP4")
 					(unit 1)
 				)
@@ -17028,6 +17256,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17250,6 +17484,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17323,6 +17563,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -17482,6 +17728,12 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17555,6 +17807,12 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -17636,6 +17894,18 @@
 					(unit 1)
 				)
 			)
+			(project "MCU"
+				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
