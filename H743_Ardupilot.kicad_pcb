@@ -10487,6 +10487,12 @@
 		(path "/7e717dad-2f01-4ac9-934a-eaa7ae426bae")
 		(sheetname "/")
 		(sheetfile "H743_Ardupilot.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -10866,7 +10872,7 @@
 	(footprint "H743_Custom:L_Coilcraft_XGL4030"
 		(layer "F.Cu")
 		(uuid "47de110e-dcc8-4825-af0f-495e4f6abc33")
-		(at 192.705 126.825)
+		(at 156.685 99.05)
 		(descr "Coilcraft XGL4030 shielded power inductor; recommended land pattern for Coilcraft XGL4030 series, 4.0 x 4.0 mm body")
 		(tags "Coilcraft XGL4030 power inductor 4x4mm")
 		(property "Reference" "L2"
@@ -12217,7 +12223,7 @@
 	(footprint "Package_QFP:LQFP-100_14x14mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "4e510988-648e-410b-baf2-e56c89c8a019")
-		(at 161.255 107.255)
+		(at 131.5 87.5)
 		(descr "LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf)")
 		(tags "LQFP QFP")
 		(property "Reference" "U2"
@@ -21957,6 +21963,503 @@
 			)
 		)
 	)
+	(footprint "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500"
+		(layer "F.Cu")
+		(uuid "8a1ee0c8-1956-41b6-8655-2eb8b9273f0c")
+		(at 93.005 88.645 180)
+		(descr "USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780")
+		(tags "USB C Type-C Receptacle SMD USB 2.0")
+		(property "Reference" "USB1"
+			(at 0 -5 0)
+			(layer "F.SilkS")
+			(uuid "0292cb2a-67d8-4d56-8ac3-5d88f66a7e4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 0 5 0)
+			(layer "F.Fab")
+			(uuid "66ce26fa-c3c3-4229-875b-6e112c356091")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JAE%20Electronics_01282020_DX07.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a3c5e7d-d199-4b3a-af56-ba7459f4fb22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee61b136-8eba-47e0-a067-a8348afa7e03")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2894899"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e6a810b-933b-418e-880d-21a342f8843d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2894899"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12fd586a-674c-44ec-a138-8d3485a52a8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "HC-TYPE-C-16P-01M"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fff29137-dbc6-46a2-b654-da478e95e0e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HCTL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cde3f092-8f46-4b8d-b813-adcc25e64314")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d97ef9c6-9e0c-4565-9812-e1e6e4f0a02f")
+		(sheetname "/")
+		(sheetfile "H743_Ardupilot.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "25" "26" "27" "28" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5"
+					"B5" "A6" "B6" "A7" "B7" "A8" "B8"
+				)
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 4.58 2.76)
+			(end 4.58 3.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c48365d9-951a-4b82-ac69-962575560a81")
+		)
+		(fp_line
+			(start 4.58 -1.215)
+			(end 4.58 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "383471e2-84f8-4503-8798-573d06d045fc")
+		)
+		(fp_line
+			(start -4.58 3.71)
+			(end 4.58 3.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a0555cfa-d918-4ef5-91d7-f4783ada4b06")
+		)
+		(fp_line
+			(start -4.58 2.76)
+			(end -4.58 3.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "257ff20b-63c4-40f7-aa57-4a4864886b39")
+		)
+		(fp_line
+			(start -4.58 -1.215)
+			(end -4.58 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a88425e1-504e-4889-90fa-fffcccc8a591")
+		)
+		(fp_line
+			(start 5.47 -4.33)
+			(end 5.47 4.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ac1438bb-edc7-44ee-a10f-4fb85d713f28")
+		)
+		(fp_line
+			(start -5.47 4.1)
+			(end 5.47 4.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6a51dae8-699c-4020-bb2c-80ce95f2356a")
+		)
+		(fp_line
+			(start -5.47 -4.33)
+			(end 5.47 -4.33)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "38475115-d89c-4cc4-adc2-e1e64f787c2e")
+		)
+		(fp_line
+			(start -5.47 -4.33)
+			(end -5.47 4.1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5ceb6645-a5c6-4b4b-a6a9-5015ee3022e6")
+		)
+		(fp_line
+			(start 4.47 -3.3)
+			(end 4.47 3.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b9c6a29f-e853-4a90-9e2b-2916047d9953")
+		)
+		(fp_line
+			(start -4.47 3.6)
+			(end 4.47 3.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69f9e1be-150e-440c-90b6-7e585c73e83f")
+		)
+		(fp_line
+			(start -4.47 -3.3)
+			(end 4.47 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35c25198-cfab-4312-92e3-650e49cf2bd0")
+		)
+		(fp_line
+			(start -4.47 -3.3)
+			(end -4.47 3.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "94084e8b-6a9c-469c-809c-3dfedd28f8d2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "31988499-1356-42cd-9b58-c58ea9b60b40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -3 -1.95 180)
+			(size 0.6 0.6)
+			(drill 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3ee517d3-d58d-4c2b-b33a-0d6333a65225")
+		)
+		(pad "" smd roundrect
+			(at -1.4 1.15 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "419f708a-fa0e-4cc7-b3f7-3be43525212b")
+		)
+		(pad "" smd roundrect
+			(at 1.4 1.15 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "0c160e5c-5369-487b-81cb-6f2584c29c26")
+		)
+		(pad "" np_thru_hole oval
+			(at 3 -1.95 180)
+			(size 0.85 0.6)
+			(drill oval 0.85 0.6)
+			(layers "*.Cu" "*.Mask")
+			(uuid "01e70924-e743-42c0-ab28-e9fd755f771a")
+		)
+		(pad "A1" smd roundrect
+			(at -3.1 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_A1")
+			(pintype "passive")
+			(uuid "29f89f66-3b55-4762-97b8-edb3b51b15ef")
+		)
+		(pad "A4" smd roundrect
+			(at -2.35 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VBUS")
+			(pinfunction "VBUS_A4")
+			(pintype "passive")
+			(uuid "77fe9b36-ae41-419b-b189-64e002917803")
+		)
+		(pad "A5" smd roundrect
+			(at -1.75 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(USB1-CC1)")
+			(pinfunction "CC1_A5")
+			(pintype "bidirectional")
+			(uuid "d1616e55-f055-4440-be74-5730596bf28b")
+		)
+		(pad "A6" smd roundrect
+			(at -0.25 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/USB_OTG.DP")
+			(pinfunction "D+_A6")
+			(pintype "bidirectional")
+			(uuid "d6fd4053-3821-4aed-ad6a-0de1916ae506")
+		)
+		(pad "A7" smd roundrect
+			(at 0.75 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/USB_OTG.DN")
+			(pinfunction "D-_A7")
+			(pintype "bidirectional")
+			(uuid "118105bf-8bb4-4522-8979-28102f1295a4")
+		)
+		(pad "A8" smd roundrect
+			(at 1.75 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "unconnected-(USB1-SBU1-PadA8)")
+			(pinfunction "SBU1_A8")
+			(pintype "bidirectional+no_connect")
+			(uuid "bc351d11-baa1-4f44-8d18-6a4ae1cc0af3")
+		)
+		(pad "A9" smd roundrect
+			(at 2.35 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VBUS")
+			(pinfunction "VBUS_A9")
+			(pintype "passive")
+			(uuid "79ea9b66-8ce9-4325-b3d3-0dfe1ebef320")
+		)
+		(pad "A12" smd roundrect
+			(at 3.1 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_A12")
+			(pintype "passive")
+			(uuid "29088ee8-38d0-46d6-aa4d-e254f867939c")
+		)
+		(pad "B1" smd roundrect
+			(at 3.1 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_B1")
+			(pintype "passive")
+			(uuid "d27cf8fd-4cdf-435a-8f20-5b6ef89eb9e6")
+		)
+		(pad "B4" smd roundrect
+			(at 2.35 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VBUS")
+			(pinfunction "VBUS_B4")
+			(pintype "passive")
+			(uuid "0a105339-9226-4575-97c9-a5b12cfa535a")
+		)
+		(pad "B5" smd roundrect
+			(at 1.25 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(USB1-CC2)")
+			(pinfunction "CC2_B5")
+			(pintype "bidirectional")
+			(uuid "0ebfc70b-dbb3-4042-abcf-b5a98230e35b")
+		)
+		(pad "B6" smd roundrect
+			(at 0.25 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/USB_OTG.DP")
+			(pinfunction "D+_B6")
+			(pintype "bidirectional")
+			(uuid "b838770b-ad4b-4c7b-827b-7a0c8171b3c0")
+		)
+		(pad "B7" smd roundrect
+			(at -0.75 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/USB_OTG.DN")
+			(pinfunction "D-_B7")
+			(pintype "bidirectional")
+			(uuid "66e50bbe-121e-4c47-8424-d9619114cd6f")
+		)
+		(pad "B8" smd roundrect
+			(at -1.25 -3.05 180)
+			(size 0.27 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "unconnected-(USB1-SBU2-PadB8)")
+			(pinfunction "SBU2_B8")
+			(pintype "bidirectional+no_connect")
+			(uuid "0ca6d16e-6b2a-4900-bfe0-c0c253286f01")
+		)
+		(pad "B9" smd roundrect
+			(at -2.35 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VBUS")
+			(pinfunction "VBUS_B9")
+			(pintype "passive")
+			(uuid "9cdf8222-5aa5-475e-b83a-a2bdcd59678c")
+		)
+		(pad "B12" smd roundrect
+			(at -3.1 -3.05 180)
+			(size 0.52 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_B12")
+			(pintype "passive")
+			(uuid "8ef1f73c-8ac1-418b-b65e-9b330bd45035")
+		)
+		(pad "SH" thru_hole oval
+			(at -4.32 -2.675 180)
+			(size 1.3 2.3)
+			(drill oval 0.6 1.6)
+			(property pad_prop_mechanical)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "f72d53e3-6b1a-4399-8b23-37c3e3f31901")
+		)
+		(pad "SH" thru_hole oval
+			(at -4.32 1.15 180)
+			(size 1.3 2.6)
+			(drill oval 0.6 1.9)
+			(property pad_prop_mechanical)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e8a20e43-0c2c-43f3-94d2-a7ec080f9b43")
+		)
+		(pad "SH" thru_hole oval
+			(at 4.32 -2.675 180)
+			(size 1.3 2.3)
+			(drill oval 0.6 1.6)
+			(property pad_prop_mechanical)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "1a7d06d4-15f5-40be-8d74-412fc251dd84")
+		)
+		(pad "SH" thru_hole oval
+			(at 4.32 1.15 180)
+			(size 1.3 2.6)
+			(drill oval 0.6 1.9)
+			(property pad_prop_mechanical)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ab85a1c5-14d1-4ad7-a22a-784a8e289451")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_JAE_DX07S016JA1R1500.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8bbac1f4-f40c-4298-87b6-ea54f4f3d2db")
@@ -26644,7 +27147,7 @@
 	(footprint "H743_Custom:L_Coilcraft_XGL4030"
 		(layer "F.Cu")
 		(uuid "a81d3bb2-bc15-4ce0-965b-bb25f37843dc")
-		(at 192.705 121.275)
+		(at 156.685 93.5)
 		(descr "Coilcraft XGL4030 shielded power inductor; recommended land pattern for Coilcraft XGL4030 series, 4.0 x 4.0 mm body")
 		(tags "Coilcraft XGL4030 power inductor 4x4mm")
 		(property "Reference" "L1"
@@ -30497,6 +31000,12 @@
 		(path "/f38529e5-b1a4-42bd-9354-b44010417a33")
 		(sheetname "/")
 		(sheetfile "H743_Ardupilot.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -32030,11 +32539,11 @@
 	(footprint "H743_Custom:Amphenol_10067099-200LF_RevH"
 		(layer "F.Cu")
 		(uuid "bbc4683f-3f5d-4010-bf88-7a9c490288b0")
-		(at 130.05 87.825 180)
+		(at 80.845 103.2 -90)
 		(descr "Amphenol ICC 10067099-200LF microSD connector. Land pattern rebuilt and dimensionally checked against manufacturer drawing 10067099 Rev H, RECOMMENDED PCB LAYOUT.")
 		(tags "microSD Amphenol 10067099-200LF RevH")
 		(property "Reference" "J12"
-			(at 0.3 -1 0)
+			(at 0.3 -1 90)
 			(layer "F.SilkS")
 			(uuid "cc3bbb12-e836-4ae7-b3e6-7562b0ec7f48")
 			(effects
@@ -32045,7 +32554,7 @@
 			)
 		)
 		(property "Value" "10067099-200LF"
-			(at 0.3 6.7 0)
+			(at 0.3 6.7 90)
 			(layer "F.Fab")
 			(uuid "d5162e7b-5ae3-4f4f-96f3-8f499337802e")
 			(effects
@@ -32056,7 +32565,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.amphenol-cs.com/product/10067099200lf.html"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37e57432-4b6e-426b-b294-f6b163642745")
@@ -32067,7 +32576,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e89fcec-ef8a-4e2a-9d14-7ebd0dba6af2")
@@ -32078,7 +32587,7 @@
 			)
 		)
 		(property "Manufacturer" "Amphenol ICC (FCI)"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32091,7 +32600,7 @@
 			)
 		)
 		(property "MPN" "10067099-200LF"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32104,7 +32613,7 @@
 			)
 		)
 		(property "LCSC Part" "C5408015"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32117,7 +32626,7 @@
 			)
 		)
 		(property "LCSC" "C5408015"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32130,7 +32639,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/amphenol-icc-fci/10067099-200LF/4238739"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32143,7 +32652,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10 (8+2) positions; microSD; push-in/pull-out; right-angle SMD; H=2.65 mm; Au contacts; 1.10 mm pitch"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32156,7 +32665,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.78"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32169,7 +32678,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1 CT"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32182,7 +32691,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-25"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32195,7 +32704,7 @@
 			)
 		)
 		(property "DigiKey Status" "Active; DigiKey 609-5773-1-ND (CT), 609-5773-2-ND (TR), 609-5773-6-ND (Digi-Reel)"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32208,7 +32717,7 @@
 			)
 		)
 		(property "Package" "microSD, SMD right-angle top-mount, 10 positions (8+2), H=2.65 mm"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32221,7 +32730,7 @@
 			)
 		)
 		(property "Footprint Audit" "LAND PATTERN VERIFIED: pad geometry checked against Amphenol 10067099 Rev H recommended PCB layout; only final board orientation remains to verify"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32234,7 +32743,7 @@
 			)
 		)
 		(property "Library Audit" "H743_Custom project-local; Amphenol drawing Rev H"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32259,16 +32768,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 6 0)
-			(end 6 2.1)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "88097e81-8c97-4a08-8160-ae6858c5fa9d")
-		)
-		(fp_line
 			(start -4.2 5.5)
 			(end 4.25 5.5)
 			(stroke
@@ -32277,6 +32776,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "00910dce-d682-4642-9907-97df19df2d39")
+		)
+		(fp_line
+			(start -5.4 0)
+			(end -5.4 1.55)
+			(stroke
+				(width 0.15)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "3a32eeb8-4391-4636-9f78-7c226257471d")
 		)
 		(fp_line
 			(start -5.4 0)
@@ -32289,14 +32798,14 @@
 			(uuid "95af83d2-5457-4c7e-a1c9-06c999c96c0d")
 		)
 		(fp_line
-			(start -5.4 0)
-			(end -5.4 1.55)
+			(start 6 0)
+			(end 6 2.1)
 			(stroke
 				(width 0.15)
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3a32eeb8-4391-4636-9f78-7c226257471d")
+			(uuid "88097e81-8c97-4a08-8160-ae6858c5fa9d")
 		)
 		(fp_rect
 			(start -5.85 -0.25)
@@ -32321,7 +32830,7 @@
 			(uuid "097a2aa9-6d4b-488f-a558-667d718e448b")
 		)
 		(fp_text user "CARD ENTRY"
-			(at 0.3 5.9 0)
+			(at 0.3 5.9 90)
 			(layer "F.Fab")
 			(uuid "e77d59fd-3aca-4b66-85c0-22583eb3d4e1")
 			(effects
@@ -32332,19 +32841,19 @@
 			)
 		)
 		(pad "" smd rect
-			(at -5 3.845 180)
+			(at -5 3.845 270)
 			(size 1.2 3.79)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "227d8fa6-2eca-4e20-9e39-7ebb0d22ce81")
 		)
 		(pad "" smd rect
-			(at 5.475 3.05 180)
+			(at 5.475 3.05 270)
 			(size 1.45 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(uuid "e94f3709-6b7d-460b-9da0-34c2186ad946")
 		)
 		(pad "1" smd rect
-			(at 3.85 1.325 180)
+			(at 3.85 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MICRO_SD/SDIO.D2")
@@ -32353,7 +32862,7 @@
 			(uuid "b8f24465-a0d7-4051-ac3b-3262caf6c3cd")
 		)
 		(pad "2" smd rect
-			(at 2.75 1.325 180)
+			(at 2.75 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MICRO_SD/SDIO.D3")
@@ -32362,7 +32871,7 @@
 			(uuid "cd118420-2ed5-4894-98d2-e01c802f8f06")
 		)
 		(pad "3" smd rect
-			(at 1.65 1.325 180)
+			(at 1.65 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MICRO_SD/SDIO.CMD")
@@ -32371,7 +32880,7 @@
 			(uuid "815618ce-991a-4e9a-8754-a5878da70cd1")
 		)
 		(pad "4" smd rect
-			(at 0.55 1.325 180)
+			(at 0.55 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3V3_MCU")
@@ -32380,7 +32889,7 @@
 			(uuid "99c8e0e6-d225-473b-910b-e0d1bda3c916")
 		)
 		(pad "5" smd rect
-			(at -0.55 1.325 180)
+			(at -0.55 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MICRO_SD/SDIO.CK")
@@ -32389,7 +32898,7 @@
 			(uuid "8a1b1c17-1fe5-4752-b880-ad05e475a216")
 		)
 		(pad "6" smd rect
-			(at -1.65 1.325 180)
+			(at -1.65 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -32398,7 +32907,7 @@
 			(uuid "0794e317-84be-4456-aa8b-b48d0fc6255e")
 		)
 		(pad "7" smd rect
-			(at -2.75 1.325 180)
+			(at -2.75 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MICRO_SD/SDIO.D0")
@@ -32407,7 +32916,7 @@
 			(uuid "922af55c-061b-48e6-bbe0-6f71023102ce")
 		)
 		(pad "8" smd rect
-			(at -3.85 1.325 180)
+			(at -3.85 1.325 270)
 			(size 0.6 1.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MICRO_SD/SDIO.D1")
@@ -32416,7 +32925,7 @@
 			(uuid "ff42dda7-e0ed-461e-a1c4-b6b5e119057d")
 		)
 		(pad "9" smd rect
-			(at 4.775 5.315 180)
+			(at 4.775 5.315 270)
 			(size 0.95 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -32425,7 +32934,7 @@
 			(uuid "941c81df-466f-4370-b6b3-0b8b7a2a75f0")
 		)
 		(pad "10" smd rect
-			(at 5.7 4.3 180)
+			(at 5.7 4.3 270)
 			(size 1 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -34886,6 +35395,12 @@
 		(path "/d07af25e-7faf-4cf6-865d-4262e58231ab")
 		(sheetname "/")
 		(sheetfile "H743_Ardupilot.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -42959,7 +43474,7 @@
 	(footprint "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e0fbdfc7-994b-47d5-8415-1f5022eab560")
-		(at 136.875 107.725)
+		(at 87.85 119.15)
 		(descr "JST GH series connector, SM05B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf)")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "U8"
@@ -43959,6 +44474,12 @@
 		(path "/d25b2ad3-ed76-4039-b77f-6d5f5359ca6a")
 		(sheetname "/")
 		(sheetfile "H743_Ardupilot.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
