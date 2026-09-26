@@ -176,7 +176,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:USB-C-SMD_HCTL_HC-TYPE-C-16P-01M"
+			(property "Footprint" "H743_Custom:JAE_DX07S016JA1R1500_16P"
 				(at 0 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -198,7 +198,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board SMT, JAE DX07S016JA1R1500"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -209,7 +209,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2894899"
+			(property "JAE Series" "DX07"
 				(at 0 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3352,7 +3352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500"
+		(property "Footprint" "H743_Custom:JAE_DX07S016JA1R1500_16P"
 			(at 53.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3363,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/JAE%20Electronics_01282020_DX07.pdf"
+		(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3396,7 +3396,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2894899"
+		(property "Package" "USB Type-C receptacle, 16 contacts, right-angle SMT"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3407,7 +3407,7 @@
 				)
 			)
 		)
-		(property "MPN" "HC-TYPE-C-16P-01M"
+		(property "MPN" "DX07S016JA1R1500"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3418,7 +3418,84 @@
 				)
 			)
 		)
-		(property "Manufacturer" "HCTL"
+		(property "Manufacturer" "JAE Electronics"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JAE Product URL" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/jae-electronics/DX07S016JA1R1500/5243883"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser URL" "https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Part Number" "201-7049"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Source" "KiCad JAE DX07S016JA1R1500 footprint geometry; copied to H743_Custom and shield hold-downs renumbered 25-28 to match the existing symbol"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint Audit" "OK: JAE DX07S016JA1R1500 mechanical geometry; A/B signal pad numbers preserved; four shell pads mapped to symbol pins 25-28"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
