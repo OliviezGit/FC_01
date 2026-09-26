@@ -150,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:HC-TYPE-C-16P-01M"
+		(symbol "H743_Ardupilot:USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -166,7 +166,7 @@
 					)
 				)
 			)
-			(property "Value" "HC-TYPE-C-16P-01M"
+			(property "Value" "DX07S016JA1R1500"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -187,7 +187,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -220,7 +220,21 @@
 					)
 				)
 			)
-			(symbol "HC-TYPE-C-16P-01M_0_1"
+			(property "Manufacturer" "JAE Electronics"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "MPN" "DX07S016JA1R1500"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -421,7 +435,7 @@
 					)
 				)
 			)
-			(symbol "HC-TYPE-C-16P-01M_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_1_1"
 				(pin passive line
 					(at -7.62 -20.32 90)
 					(length 2.54)
@@ -3321,7 +3335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:HC-TYPE-C-16P-01M")
+		(lib_id "H743_Ardupilot:USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500")
 		(at 53.34 55.88 0)
 		(unit 1)
 		(body_style 1)
