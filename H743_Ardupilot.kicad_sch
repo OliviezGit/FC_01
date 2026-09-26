@@ -1820,6 +1820,16 @@
 		)
 		(uuid "3f18587a-181a-458d-9320-7d1c9d57a991")
 	)
+	(wire
+		(pts
+			(xy 90.17 38.1) (xy 90.17 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac50d96-bfaf-431d-a45a-873e46c20172")
+	)
 	(bus
 		(pts
 			(xy 170.18 58.42) (xy 187.96 58.42)
@@ -2350,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 90.17 40.64 0)
+		(at 90.17 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2361,7 +2371,7 @@
 		(fields_autoplaced yes)
 		(uuid "315082ff-bce6-428f-87a5-794ec37535c8")
 		(property "Reference" "#PWR03"
-			(at 90.17 44.45 0)
+			(at 90.17 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2372,7 +2382,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 90.17 35.56 0)
+			(at 90.17 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2382,7 +2392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 40.64 0)
+			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2393,7 +2403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 40.64 0)
+			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2404,7 +2414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 90.17 40.64 0)
+			(at 90.17 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

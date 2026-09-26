@@ -6511,6 +6511,16 @@
 		)
 		(uuid "6850d666-448f-46ea-ab6f-2301c409e21a")
 	)
+	(wire
+		(pts
+			(xy 130.81 175.26) (xy 130.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686d532c-0a85-46c1-9299-fbd5ac5e0af6")
+	)
 	(bus
 		(pts
 			(xy 33.02 54.61) (xy 34.29 54.61)
@@ -14018,7 +14028,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 130.81 177.8 0)
+		(at 130.81 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14029,7 +14039,7 @@
 		(fields_autoplaced yes)
 		(uuid "75ce4900-6b09-4311-8477-96b5b1d1fb61")
 		(property "Reference" "#PWR017"
-			(at 130.81 181.61 0)
+			(at 130.81 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14040,7 +14050,7 @@
 			)
 		)
 		(property "Value" "VCAP"
-			(at 130.81 172.72 0)
+			(at 130.81 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14050,7 +14060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 177.8 0)
+			(at 130.81 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14061,7 +14071,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 177.8 0)
+			(at 130.81 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14072,7 +14082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 130.81 177.8 0)
+			(at 130.81 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
