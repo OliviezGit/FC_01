@@ -4081,7 +4081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:DFN-8_L3.0-W3.0-P0.65-BL-EP"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
 			(at 237.49 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4881,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:DFN-8_L3.0-W3.0-P0.65-BL-EP"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
 			(at 237.49 78.74 0)
 			(hide yes)
 			(show_name no)
