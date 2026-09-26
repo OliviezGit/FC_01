@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK FINAL: project-local footprint derived from Amphenol drawing 10067099 Rev H; pad geometry/orientation must be dimensionally cross-checked against drawing + STEP before PCB fabrication"
+		(property "Footprint Audit" "OK DIMENSIONAL: footprint cross-checked against Amphenol drawing 10067099 Rev H and official STEP; verify only final board-side orientation/3D placement before fabrication"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
