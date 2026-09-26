@@ -1010,7 +1010,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_RGB_EP"
+			(property "Value" "19-337/R6GHBHC-M01/2T"
 				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1031,7 +1031,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Everlight-Elec-19-337-R6GHBHC-M01-2T_C131204.html"
+			(property "Datasheet" "https://www.everlight-led.cn/zh/datasheet-download/item/19-337-r6ghbhc-m01-2t-2?tmpl=component&type=raw"
 				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1042,7 +1042,7 @@
 					)
 				)
 			)
-			(property "Description" "RGB LED, 6 pin package with exposed pad"
+			(property "Description" "RGB LED, independent dies, 6-SMD, 1.6x1.6x0.35 mm, 120deg, 624/525/470 nm typ."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1053,7 +1053,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "EVERLIGHT(亿光)"
+			(property "Manufacturer" "Everlight Electronics Co Ltd"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10033,7 +10033,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 138.43 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10264,7 +10264,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 100.33 66.0399 0)
 			(hide yes)
 			(show_name no)
@@ -10588,7 +10588,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 123.19 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10763,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 247.396 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -11228,7 +11228,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 236.22 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -11456,7 +11456,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 69.85 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -11697,7 +11697,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12187,7 +12187,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 116.84 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12428,7 +12428,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 133.604 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12669,7 +12669,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 132.08 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12910,7 +12910,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 190.5 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -13151,7 +13151,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 147.32 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13381,7 +13381,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 118.11 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -13482,7 +13482,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_RGB_EP"
+		(property "Value" "19-337/R6GHBHC-M01/2T"
 			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -13504,7 +13504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Everlight-Elec-19-337-R6GHBHC-M01-2T_C131204.html"
+		(property "Datasheet" "https://www.everlight-led.cn/zh/datasheet-download/item/19-337-r6ghbhc-m01-2t-2?tmpl=component&type=raw"
 			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13515,7 +13515,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, 6 pin package with exposed pad"
+		(property "Description" "RGB LED, independent dies, 6-SMD, 1.6x1.6x0.35 mm, 120deg, 624/525/470 nm typ."
 			(at 63.5 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -13581,7 +13581,7 @@
 				)
 			)
 		)
-		(property "DigiKey Specs" "RGB LED, 6-pin SMD 1.6x1.6 mm class"
+		(property "DigiKey Specs" "Exact M01 not listed on DigiKey; manufacturer specs: independent RGB, 6-SMD, 1.6x1.6x0.35 mm, 120deg, 624/525/470 nm typ., IF test 5.1/3.5/2.45 mA"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13614,7 +13614,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13625,7 +13625,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "No exact DigiKey listing confirmed; LCSC source retained"
+		(property "DigiKey Status" "Exact M01 not listed on DigiKey; no DigiKey PN or price assigned"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13636,7 +13636,7 @@
 				)
 			)
 		)
-		(property "Package" "6-SMD RGB LED 1.6x1.6 mm"
+		(property "Package" "6-SMD, 1.6x1.6x0.35 mm"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13647,7 +13647,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK supplier drawing before release"
+		(property "Footprint Audit" "CHECK: 6-SMD 1.6x1.6 mm class matches; verify pad geometry and pin numbering against Everlight M01 drawing before PCB release"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13867,7 +13867,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 110.49 25.4062 0)
 			(hide yes)
 			(show_name no)
@@ -14275,7 +14275,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 104.14 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14516,7 +14516,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14757,7 +14757,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -15068,7 +15068,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 69.85 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -15309,7 +15309,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 128.27 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15484,7 +15484,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 247.904 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -15711,7 +15711,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 153.67 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16035,7 +16035,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 140.97 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16340,7 +16340,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 173.5933 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -16808,7 +16808,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 90.17 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -16972,7 +16972,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 247.396 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -17198,7 +17198,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 194.31 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -17426,7 +17426,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 69.85 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -17684,7 +17684,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 248.158 50.8 90)
 			(hide yes)
 			(show_name no)
