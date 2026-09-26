@@ -3194,7 +3194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TF-028-H265"
+		(property "Value" "10067099-200LF"
 			(at 100.33 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,7 +3216,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/6065985.html"
+		(property "Datasheet" "https://www.amphenol-cs.com/product/10067099200lf.html"
 			(at 109.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3238,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "HANBO"
+		(property "Manufacturer" "Amphenol ICC (FCI)"
 			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "MPN" "TF-028-H265"
+		(property "MPN" "10067099-200LF"
 			(at 109.22 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3337,7 +3337,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "No exact DigiKey listing found; supplier/LCSC part retained"
+		(property "DigiKey Status" "Active; DigiKey 609-5773-1-ND (CT), 609-5773-2-ND (TR), 609-5773-6-ND (Digi-Reel)"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3348,7 +3348,7 @@
 				)
 			)
 		)
-		(property "Package" "MicroSD socket SMD H=2.65 mm"
+		(property "Package" "microSD, SMD right-angle top-mount, 10 positions (8+2), H=2.65 mm"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK EasyEDA footprint vs HANBO drawing before release"
+		(property "Footprint Audit" "BLOCKING: replace/verify current legacy footprint against exact Amphenol 10067099-200LF land pattern before PCB release"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
