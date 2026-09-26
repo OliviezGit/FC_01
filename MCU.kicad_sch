@@ -10697,7 +10697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 248.92 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -15418,7 +15418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16742,7 +16742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_pico:SolderJumper_Mini"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 90.17 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16906,7 +16906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 248.92 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -17618,7 +17618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 248.92 57.15 0)
 			(hide yes)
 			(show_name no)

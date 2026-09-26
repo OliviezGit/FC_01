@@ -2882,7 +2882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_pico:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 137.16 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -3195,7 +3195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_pico:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 129.54 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -3275,7 +3275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_pico:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 144.78 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -3611,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "_pico:MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
 			(at 152.4 161.29 0)
 			(hide yes)
 			(show_name no)
