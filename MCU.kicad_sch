@@ -8151,6 +8151,16 @@
 		)
 		(uuid "0410387b-7f61-4964-a0e0-ad4c6bd4770c")
 	)
+	(label "UART6.TX"
+		(at 196.85 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "043f7890-8049-470a-a8db-4aea8574d2c7")
+	)
 	(label "LED_STRIP"
 		(at 191.77 78.74 0)
 		(effects
@@ -8230,26 +8240,6 @@
 			(justify left bottom)
 		)
 		(uuid "1326a468-0933-4b24-a8cd-9273b339d624")
-	)
-	(label "UART2.RX"
-		(at 140.97 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "145871b0-779c-4fb4-875d-6183f952dd78")
-	)
-	(label "UART2.TX"
-		(at 140.97 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "151dcf3e-1b57-4401-8a44-0d803782bdf2")
 	)
 	(label "SPI4.MOSI"
 		(at 45.72 110.49 180)
@@ -8331,16 +8321,6 @@
 		)
 		(uuid "203ff3a8-be54-4602-a657-67bd8cfdbd68")
 	)
-	(label "UART8.TX"
-		(at 133.35 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24aa39e8-d7f5-4523-b452-e9b9b7226cad")
-	)
 	(label "IMU3_A_CS"
 		(at 44.45 119.38 180)
 		(effects
@@ -8351,15 +8331,15 @@
 		)
 		(uuid "260bbed4-9757-48ef-bbe8-a770765901f1")
 	)
-	(label "UART1.TX"
-		(at 212.09 83.82 0)
+	(label "UART8.RX"
+		(at 135.89 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2b1f5ce7-a564-4c76-aabe-9774e81467a6")
+		(uuid "2a40eb09-6221-4b2e-8636-429c67dbec4c")
 	)
 	(label "SPI4.SCLK"
 		(at 146.05 111.76 180)
@@ -8441,16 +8421,6 @@
 		)
 		(uuid "39aa1991-568f-4e16-b90f-a2ad2b2ec575")
 	)
-	(label "UART8.RX"
-		(at 133.35 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "39dbccd7-4ad4-4a7c-9d5c-4291c900b2ac")
-	)
 	(label "SPI2.CS"
 		(at 203.2 132.08 180)
 		(effects
@@ -8470,6 +8440,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a00a418-35d1-4f89-94f5-60a21cd78b4c")
+	)
+	(label "UART1.RX"
+		(at 212.09 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a0f0613-e114-413b-89f7-8ed237c33a49")
 	)
 	(label "SDIO.D3"
 		(at 220.98 179.07 0)
@@ -8500,6 +8480,16 @@
 			(justify right bottom)
 		)
 		(uuid "3f51b925-9ed6-4b99-85b3-a948f0d5d192")
+	)
+	(label "UART6.RX"
+		(at 196.85 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40182b1c-da16-49d5-a717-d19a81037f51")
 	)
 	(label "SPI1.MISO"
 		(at 46.99 59.69 180)
@@ -8791,16 +8781,6 @@
 		)
 		(uuid "8d6e6286-bd11-4807-87f6-54ee4fb3acc8")
 	)
-	(label "UART1.RX"
-		(at 212.09 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d90ae2a-b535-4a5f-8c13-0110c237aa36")
-	)
 	(label "SPI3.MOSI"
 		(at 46.99 99.06 180)
 		(effects
@@ -8901,15 +8881,15 @@
 		)
 		(uuid "95953217-b018-4d2c-8dfd-428b6c9d3c9f")
 	)
-	(label "UART6.TX"
-		(at 198.12 162.56 0)
+	(label "UART1.TX"
+		(at 212.09 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9a513b00-7754-438e-8cbc-7ef4c76211d7")
+		(uuid "959901a5-229f-40b1-bc62-60391bb1eb98")
 	)
 	(label "UART8.RX"
 		(at 119.38 86.36 180)
@@ -9161,6 +9141,16 @@
 		)
 		(uuid "c253ba97-79c0-4513-af1b-3a9226337bb3")
 	)
+	(label "UART2.RX"
+		(at 132.08 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c563f644-c686-4735-824e-088c4db6318c")
+	)
 	(label "I2C1.SDA"
 		(at 46.99 40.64 180)
 		(effects
@@ -9240,6 +9230,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7d9da63-6446-45f8-bb16-5ecbf9827e1c")
+	)
+	(label "UART2.TX"
+		(at 132.08 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97f3fd3-663a-4405-b861-3fcd0801d4c5")
 	)
 	(label "UART3.TX"
 		(at 140.97 147.32 180)
@@ -9391,15 +9391,15 @@
 		)
 		(uuid "f1af759e-d080-41f3-a457-f2289d3f1108")
 	)
-	(label "UART6.RX"
-		(at 198.12 160.02 0)
+	(label "UART8.TX"
+		(at 135.89 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f2ed9609-49f2-4a1c-9cf1-8b626c22eb5e")
+		(uuid "f4dcd902-145a-434a-b1ec-c153a0c04267")
 	)
 	(label "SPI1.SCLK"
 		(at 46.99 64.77 180)
