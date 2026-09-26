@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK FINAL: new RevH footprint rebuilt from manufacturer recommended PCB layout; verify orientation and pad mapping in PCB editor before fabrication"
+		(property "Footprint Audit" "LAND PATTERN VERIFIED: pad geometry checked against Amphenol 10067099 Rev H recommended PCB layout; only final board orientation remains to verify"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
