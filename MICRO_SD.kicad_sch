@@ -653,7 +653,7 @@
 				(pin passive line
 					(at -11.43 -21.59 90)
 					(length 3.81)
-					(name "SH"
+					(name "CD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -671,7 +671,7 @@
 				(pin passive line
 					(at -8.89 -21.59 90)
 					(length 3.81)
-					(name "SH"
+					(name "CD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1901,7 +1901,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-26"
 			(at 151.13 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -3205,7 +3205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:TF-SMD_TF-021B-H265"
+		(property "Footprint" "H743_Custom:Amphenol_10067099-200LF"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3260,7 +3260,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5310496"
+		(property "LCSC Part" "C5408015"
 			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3271,7 +3271,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5310496"
+		(property "LCSC" "C5408015"
 			(at 109.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3282,7 +3282,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" ""
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/amphenol-icc-fci/10067099-200LF/4238739"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3293,7 +3293,7 @@
 				)
 			)
 		)
-		(property "DigiKey Specs" "MicroSD push-pull socket, SMD, body height 2.65 mm, -20°C to +85°C"
+		(property "DigiKey Specs" "10 (8+2) positions; microSD; push-in/pull-out; right-angle SMD; H=2.65 mm; Au contacts; 1.10 mm pitch"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3304,7 +3304,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.78"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3315,7 +3315,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1 CT"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING: replace/verify current legacy footprint against exact Amphenol 10067099-200LF land pattern before PCB release"
+		(property "Footprint Audit" "OK: project-local footprint derived from Amphenol drawing 10067099 Rev H; verify final PCB orientation against STEP before fabrication"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3370,7 +3370,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "H743_Custom project-local; Amphenol drawing Rev H"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
