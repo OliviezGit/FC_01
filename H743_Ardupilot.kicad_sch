@@ -3374,7 +3374,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board SMT, JAE DX07S016JA1R1500"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3385,7 +3385,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2894899"
+		(property "Supplier Note" "Industrial JAE connector; use DigiKey/Mouser/RS sourcing rather than the previous HCTL/LCSC part"
 			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
