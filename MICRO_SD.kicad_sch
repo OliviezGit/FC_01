@@ -3205,7 +3205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "H743_Custom:Amphenol_10067099-200LF"
+		(property "Footprint" "H743_Custom:Amphenol_10067099-200LF_RevH"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3359,7 +3359,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "BLOCKING - DO NOT USE: custom footprint contains dimensional interpretation errors versus Amphenol drawing 10067099 Rev H; must be rebuilt from recommended PCB layout"
+		(property "Footprint Audit" "CHECK FINAL: new RevH footprint rebuilt from manufacturer recommended PCB layout; verify orientation and pad mapping in PCB editor before fabrication"
 			(at 105.41 39.37 0)
 			(hide yes)
 			(show_name no)
