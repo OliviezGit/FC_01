@@ -8321,6 +8321,16 @@
 		)
 		(uuid "203ff3a8-be54-4602-a657-67bd8cfdbd68")
 	)
+	(label "UART8.TX"
+		(at 133.35 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2607a6ce-8e6c-4386-9c1f-d234c9dd4ead")
+	)
 	(label "IMU3_A_CS"
 		(at 44.45 119.38 180)
 		(effects
@@ -8330,16 +8340,6 @@
 			(justify right bottom)
 		)
 		(uuid "260bbed4-9757-48ef-bbe8-a770765901f1")
-	)
-	(label "UART8.RX"
-		(at 135.89 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a40eb09-6221-4b2e-8636-429c67dbec4c")
 	)
 	(label "SPI4.SCLK"
 		(at 146.05 111.76 180)
@@ -8730,6 +8730,16 @@
 			(justify right bottom)
 		)
 		(uuid "80fef214-757d-4388-b0b6-0cf2830a2510")
+	)
+	(label "UART3.RX"
+		(at 139.7 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81479752-7e88-4396-bcc3-a6353dacea49")
 	)
 	(label "SPI1.CS"
 		(at 278.13 71.12 180)
@@ -9171,6 +9181,16 @@
 		)
 		(uuid "ca375e6a-5b38-441e-8c45-837c18cefb6c")
 	)
+	(label "UART8.RX"
+		(at 133.35 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbaacd0b-fe1f-4e91-aa77-d66fa0c1bd82")
+	)
 	(label "SPI2.CS"
 		(at 44.45 133.35 180)
 		(effects
@@ -9190,6 +9210,16 @@
 			(justify right bottom)
 		)
 		(uuid "cfe0eb9b-6d07-4d23-899c-ad8b3f6a1621")
+	)
+	(label "UART3.TX"
+		(at 139.7 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d09c8c57-87a4-4449-87bd-866f9f8cddda")
 	)
 	(label "SWDIO"
 		(at 207.01 91.44 180)
@@ -9240,16 +9270,6 @@
 			(justify left bottom)
 		)
 		(uuid "d97f3fd3-663a-4405-b861-3fcd0801d4c5")
-	)
-	(label "UART3.TX"
-		(at 140.97 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d98aa571-30ad-4320-8694-148e500d29f6")
 	)
 	(label "SPI4.CS"
 		(at 45.72 105.41 180)
@@ -9380,26 +9400,6 @@
 			(justify right bottom)
 		)
 		(uuid "f0a22284-b339-4fc2-8e5d-3de0df622711")
-	)
-	(label "UART3.RX"
-		(at 140.97 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1af759e-d080-41f3-a457-f2289d3f1108")
-	)
-	(label "UART8.TX"
-		(at 135.89 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4dcd902-145a-434a-b1ec-c153a0c04267")
 	)
 	(label "SPI1.SCLK"
 		(at 46.99 64.77 180)
@@ -17907,5 +17907,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
