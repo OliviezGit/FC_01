@@ -9048,7 +9048,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "00c4a38d-2757-4977-bcf1-2525bd948391")
-		(at 97.91 95.25 180)
+		(at 106.2 97.75 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R46"
@@ -10098,62 +10098,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "047073c7-f280-4094-b21a-f0beef9d807b")
-		(at 108.2 99.6 180)
+		(at 105 97.275 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R27"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "04dafd02-07e0-4c36-8574-99f7dc3a6822")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "898b95ff-f42b-4f72-8233-2df2008b6c7e")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "05375735-3306-4287-816b-ef8c2ba94a1f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2195730-8389-4759-9992-065b282e1431")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1047b799-c71a-4efe-a2e4-a963160c8ebf")
 			(effects
@@ -10161,13 +10157,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2039778d-5ae1-4be3-b0d1-ed9f65cc51cb")
 			(effects
@@ -10175,13 +10170,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e648112e-ddc9-4afb-85dc-fe545f35190e")
 			(effects
@@ -10189,13 +10183,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba42febf-f0df-434c-b2e2-f4df6c4d6071")
 			(effects
@@ -10203,13 +10196,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7347bb9e-47f3-4044-917a-867df3fa175c")
 			(effects
@@ -10217,13 +10209,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca8f975d-15b3-4bec-9e81-a7b87d23ffe8")
 			(effects
@@ -10231,13 +10222,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5d8c8581-5ddd-4bb5-a8ff-c18ab0b81951")
 			(effects
@@ -10245,13 +10235,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f35478bc-5e09-46b1-9949-408b6307a050")
 			(effects
@@ -10259,13 +10248,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "77a873c0-aa35-485e-ae12-a2d4c9b0e549")
 			(effects
@@ -10273,13 +10261,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "01261ee9-c9f7-479d-a197-240136f4ff8f")
 			(effects
@@ -10287,13 +10274,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6f8ac0f-1566-46f6-bef9-45083f91b30e")
 			(effects
@@ -10301,13 +10287,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b640c41c-682f-4897-8772-1d17336613b3")
 			(effects
@@ -10315,13 +10300,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "65b45128-6e6c-44c7-9847-39da01098c01")
 			(effects
@@ -10329,13 +10313,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a19ffdd4-e36d-4d6f-97a4-db5beb38d15d")
 			(effects
@@ -10343,7 +10326,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -10365,7 +10347,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "94f4bcaf-e09f-44b6-9650-4d999561e432")
 		)
 		(fp_line
@@ -10375,7 +10357,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "280dfd60-9e19-4b59-9014-ecac90df2b59")
 		)
 		(fp_rect
@@ -10386,7 +10368,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "8025852b-e270-4e23-bc09-24b33e50a58a")
 		)
 		(fp_rect
@@ -10397,25 +10379,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "6fac7c1e-3522-4f5c-b9ba-e57964fbc5e9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "0640e446-6576-4d32-8b06-24827d47b2c5")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART7.TX")
 			(pintype "passive")
@@ -10424,7 +10405,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J4-Pin_6)")
 			(pintype "passive")
@@ -11255,62 +11236,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "0e5d1a8e-bda2-4783-834e-e29c20d33e60")
-		(at 85.88 102.162 180)
+		(at 78.5 99.345 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R21"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "fa7f4840-1b7c-48b6-9cf2-b10108d2ee58")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "0a33fba9-a0c2-4568-bc28-3140670cedf0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f894ef88-7b84-4489-a594-6cd15cc2b652")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "26af4058-b3e6-44f0-aea4-55a326f0c706")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0d4eb24e-b31a-47da-acb2-8165d9f90dac")
 			(effects
@@ -11318,13 +11295,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d6eb1f0-31d4-452b-b0fe-4f42f4d16dfb")
 			(effects
@@ -11332,13 +11308,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "00c0e419-b335-4880-9f97-9883ebfa29e1")
 			(effects
@@ -11346,13 +11321,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed090761-8bba-42ef-9e2b-5bded2c2f785")
 			(effects
@@ -11360,13 +11334,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6a2febc-737a-4f28-8416-fa03bf179fee")
 			(effects
@@ -11374,13 +11347,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4a4d4e82-210f-49b9-993a-f96e32a6d19d")
 			(effects
@@ -11388,13 +11360,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fa2983e-e9c5-4efe-a540-2c449e7ecc14")
 			(effects
@@ -11402,13 +11373,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ceb88d5-1738-46e3-b30c-b7f8e03dac54")
 			(effects
@@ -11416,13 +11386,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0276eb2-86e9-4ce7-b5d6-c78c2349477f")
 			(effects
@@ -11430,13 +11399,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a49094b-7571-4784-8c24-4bc06e38bac5")
 			(effects
@@ -11444,13 +11412,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a34d07ce-62a2-4c9a-9dd2-5b947beab1b8")
 			(effects
@@ -11458,13 +11425,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0ee597d-011f-4a4b-abc4-2788174e5452")
 			(effects
@@ -11472,13 +11438,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ce093ce-abb2-40f1-8dc9-ea09cf19d323")
 			(effects
@@ -11486,13 +11451,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "89c2c1f9-09e2-4b53-90be-9f9203c06bca")
 			(effects
@@ -11500,7 +11464,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -11522,7 +11485,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "2fd5bac4-30a3-468e-b214-56429df882b3")
 		)
 		(fp_line
@@ -11532,7 +11495,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "eb1d32df-9687-4795-990a-ca4d7394a84c")
 		)
 		(fp_rect
@@ -11543,7 +11506,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "559b811d-6939-451a-90f7-f8534da2e2e3")
 		)
 		(fp_rect
@@ -11554,25 +11517,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "a388485a-6b5c-4eb6-8f2b-4cd14cce2429")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "489deb85-69b4-40c3-8c68-bd4afa2455da")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART4.TX")
 			(pintype "passive")
@@ -11581,7 +11543,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J3-Pin_4)")
 			(pintype "passive")
@@ -11963,7 +11925,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "105037a6-e702-4399-91de-50f69fe36ef5")
-		(at 95.755 94.865 180)
+		(at 95.6 92.3 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -16888,62 +16850,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "3350766e-d2bb-42d8-99dd-73bdfdac9d50")
-		(at 108.2 97.2 180)
+		(at 105 99.575 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "f8276bef-d6f2-4e5f-8605-4349ae1f7bfb")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "dde25978-bb99-42fa-9064-09ed7ff27f8c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "665cac50-4991-4a00-9a39-0bd81efe6831")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3d74397-31e8-4692-965b-0f05ef4fae7e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "461d7908-4cee-439a-8042-a0d5eaca9772")
 			(effects
@@ -16951,13 +16909,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "8156f934-df8f-4dc2-a549-cf7b0b736b1d")
 			(effects
@@ -16965,13 +16922,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4b666aa0-a613-46cb-bd7e-14156d473275")
 			(effects
@@ -16979,13 +16935,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "63975874-4e2b-463e-9287-3f85bcd79a1e")
 			(effects
@@ -16993,13 +16948,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "15626039-facb-4463-97be-7f5bf8d43411")
 			(effects
@@ -17007,13 +16961,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb57803a-2bed-4b2c-ad52-dc1f9f862e1d")
 			(effects
@@ -17021,13 +16974,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "674e3d4e-7ba3-428e-9b4f-6408fc77306e")
 			(effects
@@ -17035,13 +16987,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd0d459d-2374-455a-b76e-07e6700fd186")
 			(effects
@@ -17049,13 +17000,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6a8f06f-1fc2-4b8f-910c-575d035d6e2f")
 			(effects
@@ -17063,13 +17013,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9840a978-ebe8-44a2-876e-2722de997b4d")
 			(effects
@@ -17077,13 +17026,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "af561f75-e5ba-4367-a1de-ca2a691955fa")
 			(effects
@@ -17091,13 +17039,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7951bc0d-f5cd-41e2-abd7-2f7ab402b36d")
 			(effects
@@ -17105,13 +17052,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2930838-f619-468c-a194-e12c5a958590")
 			(effects
@@ -17119,13 +17065,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cf62a930-8c0d-4508-a578-23216f8caa03")
 			(effects
@@ -17133,7 +17078,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -17155,7 +17099,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "de0058bb-2c4c-4330-80a6-349594419453")
 		)
 		(fp_line
@@ -17165,7 +17109,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "11f5ff05-6ea8-47e1-bc49-bbec3600fe00")
 		)
 		(fp_rect
@@ -17176,7 +17120,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "f67c1ed8-9674-4915-b902-5555f8499d24")
 		)
 		(fp_rect
@@ -17187,25 +17131,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "eb3d384c-1afd-49b1-aff8-a3a974ae3e62")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "3f859efa-623a-4985-ad47-1af4ac31dff3")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART7.CTS")
 			(pintype "passive")
@@ -17214,7 +17157,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J4-Pin_2)")
 			(pintype "passive")
@@ -18695,62 +18638,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "431bac86-a3d5-4f93-b00c-2899683e6374")
-		(at 108.2 98.4 180)
+		(at 105 98.425 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "8cb29066-1dae-4a5a-85a5-205b3e80324b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "726a5901-46c9-4503-8942-b37bbf7c2ffc")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0458ceb-a6c7-4134-b310-db2cc3d417c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "65ad599b-c00e-4d99-8afd-902046c980b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "aef24d31-da62-4371-af82-15891923aca5")
 			(effects
@@ -18758,13 +18697,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ceb7676-8519-4602-9f58-b5f7cffe3b3a")
 			(effects
@@ -18772,13 +18710,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe6de5b3-b851-4820-a5ac-17667b3fd44d")
 			(effects
@@ -18786,13 +18723,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f2d328cb-8fb4-4cc9-817c-c2cc6abd9656")
 			(effects
@@ -18800,13 +18736,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5d61b93-2392-4afa-9fe3-64cac4d0f5c6")
 			(effects
@@ -18814,13 +18749,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5246ba1-d854-4014-85ab-a27452547cc2")
 			(effects
@@ -18828,13 +18762,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfc8bf12-2510-4c26-9938-5f00f5b3c5e0")
 			(effects
@@ -18842,13 +18775,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6e20c6a-82a1-41c3-8234-581720d0d5d1")
 			(effects
@@ -18856,13 +18788,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "254f5ef8-3526-4e7a-8ea0-f184cb5c7d9a")
 			(effects
@@ -18870,13 +18801,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "88662a30-3f47-4dac-867b-7a58a020f746")
 			(effects
@@ -18884,13 +18814,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1980ac10-ac63-4a43-bc37-765ab8979e5f")
 			(effects
@@ -18898,13 +18827,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e985eb0c-7dd2-4610-a9d3-b1f06d8f6b9f")
 			(effects
@@ -18912,13 +18840,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac5d251a-e00a-42cd-9948-c8db279f54b7")
 			(effects
@@ -18926,13 +18853,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e565bfb-df46-424b-b5d1-17d31a2086f0")
 			(effects
@@ -18940,7 +18866,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -18962,7 +18887,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "e85e1d4e-7989-4893-8965-1c08d9a226ce")
 		)
 		(fp_line
@@ -18972,7 +18897,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "85fc43c8-7717-490e-9eef-956e3e0ea16b")
 		)
 		(fp_rect
@@ -18983,7 +18908,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "d4b0d6e7-32f0-47a0-af3e-5a283e54053c")
 		)
 		(fp_rect
@@ -18994,25 +18919,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "6dc467cb-bb79-43f9-8abc-3fa3b4202061")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "a1de54f3-48d5-4d54-8569-c46fc2be5294")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART7.RX")
 			(pintype "passive")
@@ -19021,7 +18945,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J4-Pin_5)")
 			(pintype "passive")
@@ -19041,62 +18965,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "448c43bd-a349-4bf9-a275-0093bc3c033d")
-		(at 90.5 93.7 180)
+		(at 98.675 89.9 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R22"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "ccc87963-4cb8-4c18-a816-b4eebbfcfa00")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "92d829c3-3f23-44cc-8fb2-f811ef0a5750")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "32f5414f-818e-4e46-997e-65f5f08a7575")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a80f4250-0228-441d-a8bf-3f6ff3985b7d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "921082d7-928c-4eac-be54-76cab37a0384")
 			(effects
@@ -19104,13 +19024,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a10cdad0-c95c-4d3b-ae39-fc4e4a503212")
 			(effects
@@ -19118,13 +19037,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a3ceee34-17cf-4234-aa8f-096938ca4df5")
 			(effects
@@ -19132,13 +19050,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c94e9eb3-2eba-470b-a2c3-77d8fb2963ec")
 			(effects
@@ -19146,13 +19063,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "6beb298a-917a-4b5e-9e25-d0d09895a0ec")
 			(effects
@@ -19160,13 +19076,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b2fb4cd-64a7-4c2b-b995-fa3eefbc640f")
 			(effects
@@ -19174,13 +19089,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a087ab94-2551-420f-9a3b-52aeb58e891c")
 			(effects
@@ -19188,13 +19102,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "40f94b9a-e254-4247-a373-6bc5de5192c6")
 			(effects
@@ -19202,13 +19115,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "df10c571-f041-44ff-bff9-38fda441968a")
 			(effects
@@ -19216,13 +19128,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7543ca27-f2a4-4e57-9b1b-a20f739f2d61")
 			(effects
@@ -19230,13 +19141,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9321a76d-3856-40fd-974b-c14ad7d21f05")
 			(effects
@@ -19244,13 +19154,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdcfc80b-9e68-40a2-a674-379ce0c9512a")
 			(effects
@@ -19258,13 +19167,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d1bfafb-c62b-4e77-afd8-04dd0318ec57")
 			(effects
@@ -19272,13 +19180,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9a19aa2-f74e-42da-902b-6b2223176da5")
 			(effects
@@ -19286,7 +19193,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -19308,7 +19214,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "17894af8-d92d-41e5-ba83-c96dcc53c744")
 		)
 		(fp_line
@@ -19318,7 +19224,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "4b93dd65-7ef9-4473-bbb0-2ef8c251454d")
 		)
 		(fp_rect
@@ -19329,7 +19235,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "25b136bb-1703-4f47-8fd3-7ab2c892e8ad")
 		)
 		(fp_rect
@@ -19340,25 +19246,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "2f0fe287-f8ad-4cbd-9b31-4773ba581323")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "0a68829d-8733-40eb-aa89-39166eadc04d")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART1.RX")
 			(pintype "passive")
@@ -19367,7 +19272,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J2-Pin_3)")
 			(pintype "passive")
@@ -19760,62 +19665,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "49387505-30ce-496b-9055-ede22298e898")
-		(at 108.2 96 180)
+		(at 105 100.725 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "7e36f4fa-f8cc-4443-b2d5-12d4a9edc868")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "9c29f9ac-a6f0-4107-9c45-392c7659fe87")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "130e978f-419b-41be-8d81-05256f0e4277")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "83ba19f2-60e1-4093-989e-8c1f9cccaaaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e5ada643-64c5-438c-9d99-0f61d3696325")
 			(effects
@@ -19823,13 +19724,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7592cf78-0334-40a9-99df-acc79915e53b")
 			(effects
@@ -19837,13 +19737,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3723be08-ca71-4eeb-bcf0-c3999e56c524")
 			(effects
@@ -19851,13 +19750,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7325c21c-4309-4acc-a485-c5e709b5c5d1")
 			(effects
@@ -19865,13 +19763,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0947a470-3627-4de1-90e1-654dab73b60a")
 			(effects
@@ -19879,13 +19776,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2bb5d67d-2582-499b-9696-07e00e9dfd10")
 			(effects
@@ -19893,13 +19789,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c5b021e-3e40-4c83-a568-06dbee87a990")
 			(effects
@@ -19907,13 +19802,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2771c1d3-9921-42df-8dd6-ba16c348beb4")
 			(effects
@@ -19921,13 +19815,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "231ac348-9156-4a69-9e37-2df72327422f")
 			(effects
@@ -19935,13 +19828,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f72f399-bf24-4bbd-83d7-9ddfffc26f4a")
 			(effects
@@ -19949,13 +19841,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd9cfb96-dd04-4267-8c77-74d682a50967")
 			(effects
@@ -19963,13 +19854,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "63b337a5-786a-44be-a3c0-d80ac2c2b98a")
 			(effects
@@ -19977,13 +19867,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "29849340-ae1c-4318-a675-cac9542b066c")
 			(effects
@@ -19991,13 +19880,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "93631e53-1774-4652-9bd5-1dd4a2f5a215")
 			(effects
@@ -20005,7 +19893,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -20027,7 +19914,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "474da95e-9eb4-4944-8bd3-a0225a5d2b59")
 		)
 		(fp_line
@@ -20037,7 +19924,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "1842567b-0bc2-47e6-967a-d90f36925778")
 		)
 		(fp_rect
@@ -20048,7 +19935,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "cb5b0469-ebda-4efe-b293-74f58bc9b9fc")
 		)
 		(fp_rect
@@ -20059,25 +19946,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "04c976fb-7eb2-4659-adde-57a343e9a4a9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "5e24c6ce-f684-4d6e-b20f-c5e574f99d9d")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART7.RTS")
 			(pintype "passive")
@@ -20086,7 +19972,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J4-Pin_1)")
 			(pintype "passive")
@@ -22676,7 +22562,7 @@
 	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
 		(layer "B.Cu")
 		(uuid "59096d7d-0f36-46ee-a9aa-533ecfecf18f")
-		(at 100.75 93.3 -90)
+		(at 104.2 88.9 -90)
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D3"
@@ -23801,62 +23687,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "64471518-34f8-4037-a528-4cb3b10df0a4")
-		(at 108.2 110 180)
+		(at 105 111.575 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "61a0bbef-956b-4557-b187-3fad4a362c7b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "2c0ac6af-82f0-4b26-aa45-f608b745256d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e06ab988-aeaf-4094-a986-320f984bec41")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5bd0dff-69cd-4909-bd2a-be22445c0415")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e9ad5e14-49c6-4376-87e3-22817242466c")
 			(effects
@@ -23864,13 +23746,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "08af5afa-7413-4dcb-b419-1e75e2bcf9cb")
 			(effects
@@ -23878,13 +23759,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "83d3b101-a6fd-4f92-ab41-6feaf4e3f0ac")
 			(effects
@@ -23892,13 +23772,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f7cfa9a-bd3c-4027-a280-a55e1dbc22f6")
 			(effects
@@ -23906,13 +23785,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3195808d-bbca-4406-8155-0903d8abd8e2")
 			(effects
@@ -23920,13 +23798,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "97ef5d1f-2a52-49e6-bd13-b711ab965c17")
 			(effects
@@ -23934,13 +23811,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4be5f289-99a1-4531-b836-77c62e50a4a4")
 			(effects
@@ -23948,13 +23824,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3fe208a9-7df8-49c8-83cc-bff0b56e54f1")
 			(effects
@@ -23962,13 +23837,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "799848d0-2f25-49e5-804b-ddf2402616c2")
 			(effects
@@ -23976,13 +23850,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5a6654b-0951-4fa7-b3cd-f8c94e1cf122")
 			(effects
@@ -23990,13 +23863,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1a5a2ef-2d26-451d-a6cd-ea5890b8b2f4")
 			(effects
@@ -24004,13 +23876,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5414b035-100e-4e9b-b035-4926b43deffb")
 			(effects
@@ -24018,13 +23889,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfa0184e-2b77-41c8-bd1c-12dc0d48b350")
 			(effects
@@ -24032,13 +23902,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "55697619-262b-41e2-8d39-d3201316fea0")
 			(effects
@@ -24046,7 +23915,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -24068,7 +23936,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "b4658c58-bf3c-45d5-a201-a78237b69867")
 		)
 		(fp_line
@@ -24078,7 +23946,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "05b1a570-6f9b-4b7d-adc9-c521f2168e32")
 		)
 		(fp_rect
@@ -24089,7 +23957,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "14479b0b-1d6f-45bd-9ba1-330a73f9bbfd")
 		)
 		(fp_rect
@@ -24100,25 +23968,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "43a0c0e8-8ac3-40c4-bef1-49118052bbc1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "0256243c-cea3-4c36-9a7f-7b6f9e3a04be")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART3.RX")
 			(pintype "passive")
@@ -24127,7 +23994,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J7-Pin_3)")
 			(pintype "passive")
@@ -25215,7 +25082,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "73388703-f04e-416a-89f3-5ddd564418f0")
-		(at 93.732 95.025 180)
+		(at 95.6 90.2 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -26627,7 +26494,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "79aec2cd-02f1-46ca-bd8a-9eed96102c41")
-		(at 102.91 95.25 0)
+		(at 106.2 95.25 0)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R44"
@@ -29878,7 +29745,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "B.Cu")
 		(uuid "8c70f59f-c795-4b3a-8278-92d523baf655")
-		(at 97 93.1 0)
+		(at 94.8 87.7 0)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
@@ -32582,62 +32449,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "95158006-b06f-46ff-a71e-ee03f43b0a61")
-		(at 92.5 93.7 180)
+		(at 96.725 90.7 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R23"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "2e1cca80-2f63-45c3-a3ab-6fad13b35133")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "f29e5753-a36e-4e2c-9b76-b1054e992359")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8f436f0-bd4e-460e-abee-6c5dca5da810")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "eedb0e81-65dc-408c-8f29-2fd804ec372b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "45ee6f25-5805-4744-aec5-f0e2c75cfe33")
 			(effects
@@ -32645,13 +32508,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "38bebe1f-1f2e-41c4-8229-db717219a571")
 			(effects
@@ -32659,13 +32521,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ea24fec-2686-455a-9895-2ecb6d05e73c")
 			(effects
@@ -32673,13 +32534,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3f13488-5d0d-476f-a6cb-36c090226f65")
 			(effects
@@ -32687,13 +32547,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b632d7e0-559b-4264-8293-73cc9ec4d7b7")
 			(effects
@@ -32701,13 +32560,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d4da43c-f03c-4166-b80e-0f3ff5b1d402")
 			(effects
@@ -32715,13 +32573,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "95ed669b-eac2-4c57-8883-a5177cf1dc41")
 			(effects
@@ -32729,13 +32586,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "272ddc0b-3f2c-4774-8e60-81df8be076f5")
 			(effects
@@ -32743,13 +32599,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8738a4d-42d1-4c61-8817-da6b1fc3626b")
 			(effects
@@ -32757,13 +32612,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "985436be-bf95-4e47-a39b-910b2339914f")
 			(effects
@@ -32771,13 +32625,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "534677c9-432c-49fe-aeeb-32d4f4f2e05f")
 			(effects
@@ -32785,13 +32638,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3017fc40-8ff0-4a88-a627-e6c84c36d0d5")
 			(effects
@@ -32799,13 +32651,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e3f00d1-d5b8-4f19-b9b4-9eb083063056")
 			(effects
@@ -32813,13 +32664,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "646adf5b-3803-498d-ada1-361b7941f8f1")
 			(effects
@@ -32827,7 +32677,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -32849,7 +32698,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "22f203ee-41fa-41ba-981d-f19f73058936")
 		)
 		(fp_line
@@ -32859,7 +32708,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "322e5a34-e061-4230-b12d-1da201d66d5a")
 		)
 		(fp_rect
@@ -32870,7 +32719,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "37ad0d18-eeaa-4309-a231-2855e21050fa")
 		)
 		(fp_rect
@@ -32881,25 +32730,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "cd48fd2e-d323-4b15-bb69-7115f80b1474")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "17bc72b4-a563-46c2-8069-c6c81c6da5a7")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART1.TX")
 			(pintype "passive")
@@ -32908,7 +32756,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J2-Pin_4)")
 			(pintype "passive")
@@ -32928,62 +32776,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "96aef6e1-c868-4941-969f-0b5b24e40308")
-		(at 108.2 106.6 180)
+		(at 106 105.925 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R31"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "c481f70a-894b-4361-ba0e-83dc2e3b584b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "7ff45a95-564d-4fea-bc6e-dc7a806b464c")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "93f10fd7-ea8c-415f-bd30-9307f6073691")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f7359ff-559a-47d4-afd5-5258518f30c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "45dc8047-c045-463a-b175-0a2620e82ff7")
 			(effects
@@ -32991,13 +32835,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9551de4-baeb-4492-af53-927c0c8873c8")
 			(effects
@@ -33005,13 +32848,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a3f571ef-526e-462d-aa67-6641ed765284")
 			(effects
@@ -33019,13 +32861,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "33d2c45c-d67b-4098-8567-2615e1dcc5f1")
 			(effects
@@ -33033,13 +32874,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a050fb57-f4ce-4af3-a067-df7c678f453c")
 			(effects
@@ -33047,13 +32887,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "98c2079e-dd30-41af-9519-6d205b93c251")
 			(effects
@@ -33061,13 +32900,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c13d7c49-25d9-44d1-b0e3-52f33e7ee2fa")
 			(effects
@@ -33075,13 +32913,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1718a641-e2ae-478b-926e-4715ce1e2e03")
 			(effects
@@ -33089,13 +32926,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbeabf5a-6500-4bbf-8670-3ff2a2112e19")
 			(effects
@@ -33103,13 +32939,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "48d49822-97ee-4d1c-ada0-9c2f495b41fd")
 			(effects
@@ -33117,13 +32952,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e6a3bd8-756a-48f5-b4ba-fb636ada52a3")
 			(effects
@@ -33131,13 +32965,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "6dd98083-099e-43fb-b3e4-58bd4dbf375e")
 			(effects
@@ -33145,13 +32978,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "88dcc8d6-2f95-427d-b6ef-3f98954f28eb")
 			(effects
@@ -33159,13 +32991,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8760e48-c18a-4365-b42a-a6769cc8672f")
 			(effects
@@ -33173,7 +33004,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -33195,7 +33025,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "939c0b2f-ee5d-4c9a-94c1-b84f9df63f7f")
 		)
 		(fp_line
@@ -33205,7 +33035,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "f417bb6a-059e-491b-a5f6-0510cbb8eda9")
 		)
 		(fp_rect
@@ -33216,7 +33046,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "9fecdf87-bf62-4166-b97e-837974ac4fe6")
 		)
 		(fp_rect
@@ -33227,25 +33057,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "b2b9c720-1375-47b1-9e41-13a78c6f3f9b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "267f364f-b13e-414c-9c72-14ea4d78ecca")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART6.TX")
 			(pintype "passive")
@@ -33254,7 +33083,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J6-Pin_4)")
 			(pintype "passive")
@@ -36050,62 +35879,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "a86b1e79-f66e-430e-9264-8b259f0990b1")
-		(at 108.2 111.2 180)
+		(at 105 110.425 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R33"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "35ab8206-efef-4f39-a645-a9fed62e0658")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "eb3c21d8-a18e-4582-8ac6-bf8ba3e7ed61")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "75b85cf7-ab6e-4d81-983c-f02aa51dab22")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b4b51fec-9439-4f4e-bc63-0d640fab34b7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "729b7931-53b4-41a4-be35-71cd21199ebc")
 			(effects
@@ -36113,13 +35938,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e637a324-6922-4e40-8039-5c67c8a3c0a7")
 			(effects
@@ -36127,13 +35951,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2245a847-cf5f-42b8-9e9e-43028fed6ae6")
 			(effects
@@ -36141,13 +35964,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fe97305-5ae2-4e68-af90-e35ca9ac69cd")
 			(effects
@@ -36155,13 +35977,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "19f4655a-8905-4e59-ac84-0a4b11441474")
 			(effects
@@ -36169,13 +35990,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e82c1138-45c0-47c6-b5b1-f1269e8e5360")
 			(effects
@@ -36183,13 +36003,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "897fa43a-3829-4700-8b3e-de2d75487aef")
 			(effects
@@ -36197,13 +36016,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "83aab69e-6d89-4dbb-bfde-ec24e6fb7245")
 			(effects
@@ -36211,13 +36029,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c68e1bf-4e75-4f13-9980-5630ed6f4427")
 			(effects
@@ -36225,13 +36042,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "63582894-55ee-43e9-a63a-6c66f20779d3")
 			(effects
@@ -36239,13 +36055,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "19f37249-22ac-4f60-ba14-d95f47efb155")
 			(effects
@@ -36253,13 +36068,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ed55f78-1391-40c7-ba61-fc64dc331ae3")
 			(effects
@@ -36267,13 +36081,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "dc3b3e1b-71b1-432a-bf9d-85657c26617c")
 			(effects
@@ -36281,13 +36094,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d8c51e8-2327-41a4-8fe6-999c9567bd54")
 			(effects
@@ -36295,7 +36107,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -36317,7 +36128,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "26aa0809-1cc0-4273-a5fe-c7f76b8a09f4")
 		)
 		(fp_line
@@ -36327,7 +36138,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "2a9273a9-a6e1-4e43-9d5f-941c310e82bc")
 		)
 		(fp_rect
@@ -36338,7 +36149,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "d7050294-7589-4745-8a4b-0a634e8c966d")
 		)
 		(fp_rect
@@ -36349,25 +36160,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "059f4432-3f68-4c48-8c33-bdb5483392bf")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "f6a7f635-eabf-40a9-b73c-1986c7876f4c")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART3.TX")
 			(pintype "passive")
@@ -36376,7 +36186,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J7-Pin_4)")
 			(pintype "passive")
@@ -36744,7 +36554,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "B.Cu")
 		(uuid "a97b996a-babc-4df6-9f3f-03ff98f3725d")
-		(at 105.85 99.35 270)
+		(at 76.7 94.8 270)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -37104,7 +36914,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "aa27f2a6-3aa3-4fc7-98c1-f866480a7293")
-		(at 104.91 95.25 0)
+		(at 106.2 94 0)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R42"
@@ -43983,62 +43793,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "cb617769-4fb2-4d33-be07-2a3e859d7374")
-		(at 108.2 105.4 180)
+		(at 106 107.075 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R30"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "e0ab6a15-d284-422f-8aea-15da4a0b33fc")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "9266e92d-14c8-43f8-9095-d2b6564dc4da")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "731c9f04-7519-4ea9-ade7-ec7b1c492077")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "42d06b25-89a3-4326-b617-8242b91f1f92")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8004568d-ad36-431a-9f8d-37473c97995c")
 			(effects
@@ -44046,13 +43852,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "dca0ccb5-d466-4b0f-ad9c-142d22fd3ac6")
 			(effects
@@ -44060,13 +43865,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c65b2ac-fa7c-4812-9c28-9460e7798f83")
 			(effects
@@ -44074,13 +43878,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "13789eb6-0cb2-4bc6-b07e-cf6cb0df6559")
 			(effects
@@ -44088,13 +43891,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f30203fd-32ee-4cf6-a941-56294e60b53c")
 			(effects
@@ -44102,13 +43904,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "59731a2e-c583-437a-b7c2-640ba71194ab")
 			(effects
@@ -44116,13 +43917,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c7f90ac-aa7a-4c4c-9700-62c02034b355")
 			(effects
@@ -44130,13 +43930,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2915020b-fad0-42ef-96b4-4c648cc93a95")
 			(effects
@@ -44144,13 +43943,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e2014e2-efb3-4bec-aaa2-caa167bf244f")
 			(effects
@@ -44158,13 +43956,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a32f0f0f-d1e3-4571-864b-d34ca70c2098")
 			(effects
@@ -44172,13 +43969,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9aca05a4-b421-4707-8ff2-8251d032ce55")
 			(effects
@@ -44186,13 +43982,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e95475df-e6d7-4ab1-b61d-88ad01d1983e")
 			(effects
@@ -44200,13 +43995,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ac98a290-c5d1-4de0-9332-361814ece3b5")
 			(effects
@@ -44214,13 +44008,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb47faac-698d-4edd-b9e7-12a1a2496f45")
 			(effects
@@ -44228,7 +44021,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -44250,7 +44042,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "cb6c24c1-60d4-44e1-9f15-22991173d904")
 		)
 		(fp_line
@@ -44260,7 +44052,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "b57e26eb-4157-4bae-86ca-a868eb0cb085")
 		)
 		(fp_rect
@@ -44271,7 +44063,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "df1a1c81-812e-4d30-a82f-1b9840f11064")
 		)
 		(fp_rect
@@ -44282,25 +44074,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "d1192acf-f250-410f-8b3f-8e1cc3a364a3")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "e2af1367-7869-4c82-9650-86d6ec3e0589")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART6.RX")
 			(pintype "passive")
@@ -44309,7 +44100,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J6-Pin_3)")
 			(pintype "passive")
@@ -47613,7 +47404,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d38d9fd3-0431-430d-8a87-c77d64675300")
-		(at 105.91 96.5 0)
+		(at 106.2 96.5 0)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R45"
@@ -47959,7 +47750,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d4bcd376-beb0-4b72-836d-569a1eb5194b")
-		(at 102.91 94 0)
+		(at 106 91.7 0)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R41"
@@ -48303,62 +48094,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "d545d36b-7542-43d1-a3a1-d4252e0f90a1")
-		(at 108.2 101 180)
+		(at 104.6 96.175 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R28"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "8a7b2f66-ac4b-45b2-b256-07039f52ff86")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "c16bae2a-cb69-4e30-9687-adb89c75a632")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c3abfdf7-227b-4c0b-a5e0-094556cf206b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e6b84eb-c57e-473e-8ebf-101c9747540c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8d5a3cac-cc35-4558-9e10-16fef7e7d1fa")
 			(effects
@@ -48366,13 +48153,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ecf0175a-daa8-4854-9700-2e8aabc2557d")
 			(effects
@@ -48380,13 +48166,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "6331c67b-223e-4db5-ba86-833aeb2579f2")
 			(effects
@@ -48394,13 +48179,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e79d1c7f-e358-4414-b233-ec2863df139e")
 			(effects
@@ -48408,13 +48192,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "476a19a1-e557-43d2-a1d2-9d5287e0fb3f")
 			(effects
@@ -48422,13 +48205,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e84a9a2a-58ae-42b6-84dd-c37cefce1fdf")
 			(effects
@@ -48436,13 +48218,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f44af403-b662-4334-90fe-1c925c5b0f14")
 			(effects
@@ -48450,13 +48231,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "375f748e-14eb-400d-a9bd-653e26dc3d04")
 			(effects
@@ -48464,13 +48244,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa7b5a95-a83b-4c95-9612-215d3300cfa2")
 			(effects
@@ -48478,13 +48257,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5507aa60-1c37-4500-b29b-338ab67ab208")
 			(effects
@@ -48492,13 +48270,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c7a3e0c3-9ed2-4fe8-8c29-86f8b29747f4")
 			(effects
@@ -48506,13 +48283,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9248a09d-1212-4e9f-8f05-5b5d65ec5707")
 			(effects
@@ -48520,13 +48296,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6e1680b-b67f-4159-af57-c86d7f7d720f")
 			(effects
@@ -48534,13 +48309,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c72fc58b-95a2-4fa2-b9e2-ba4f0839806e")
 			(effects
@@ -48548,7 +48322,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -48570,7 +48343,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "c493872d-6779-4b3c-ba39-83ede92971ea")
 		)
 		(fp_line
@@ -48580,7 +48353,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "7985c816-a8fa-4750-80ec-063b48f67206")
 		)
 		(fp_rect
@@ -48591,7 +48364,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "60897d7e-8fce-45fd-9bb1-21f45606b5e3")
 		)
 		(fp_rect
@@ -48602,25 +48375,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "23ef3243-00da-4256-ba36-bef06a283995")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "5737f76b-9261-4273-babb-cf5f6b80a4c2")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART2.RX")
 			(pintype "passive")
@@ -48629,7 +48401,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J5-Pin_3)")
 			(pintype "passive")
@@ -49011,7 +48783,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "d82745cc-d760-49cd-ad15-835d96e6976b")
-		(at 104.91 94 0)
+		(at 106.2 92.75 0)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R43"
@@ -53243,62 +53015,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "f27e4218-0755-45ae-b505-dc8a4b57559c")
-		(at 108.2 102.2 180)
+		(at 104.6 95.025 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R29"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "a0737a90-38f2-413d-9e25-eb6b4ca5a03f")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "441d5af8-9203-47b3-848b-db3108031503")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1d342722-33cd-4d4c-b970-c6ccbf95f71a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f1893a2-0830-4358-b328-b231516eb9b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "420fc21c-4342-4b58-9675-7e1800e9bf10")
 			(effects
@@ -53306,13 +53074,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c814a2e6-6050-4b0c-ab42-c4b055d38abd")
 			(effects
@@ -53320,13 +53087,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "20c21894-b5bd-47a4-a8e4-f1f474c40b0e")
 			(effects
@@ -53334,13 +53100,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "51264cba-ccdd-46b0-8902-1b81ffacbc3a")
 			(effects
@@ -53348,13 +53113,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "63c711e4-9c66-40cc-ac21-1f5faaa8cd4d")
 			(effects
@@ -53362,13 +53126,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9524b98-69e9-4f50-b3e7-43897135533d")
 			(effects
@@ -53376,13 +53139,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "627ea583-9b95-44b8-9f47-7d0c39f87b28")
 			(effects
@@ -53390,13 +53152,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2b0bcc1-9e3a-4452-9420-078c59671556")
 			(effects
@@ -53404,13 +53165,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "74c8198f-0abe-4e50-9909-921ea21e77d4")
 			(effects
@@ -53418,13 +53178,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5d72fc90-4387-45df-8f58-f751fd2c75a5")
 			(effects
@@ -53432,13 +53191,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "afc1d735-2d93-4e81-86fe-7065666c8698")
 			(effects
@@ -53446,13 +53204,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1aab1c7-6156-4f35-81aa-82c3a9b96669")
 			(effects
@@ -53460,13 +53217,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "fad90b97-7acb-4f57-8e53-3164e38f94d4")
 			(effects
@@ -53474,13 +53230,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "624e9e9a-10d3-4567-bf4c-93ebf1f655ff")
 			(effects
@@ -53488,7 +53243,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -53510,7 +53264,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "1756c167-de66-4e23-843f-99dcd2939c69")
 		)
 		(fp_line
@@ -53520,7 +53274,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "b4ac5585-f49a-4473-a44c-881d550f71b4")
 		)
 		(fp_rect
@@ -53531,7 +53285,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "a27dbc03-bb38-4333-952f-fe02e890be15")
 		)
 		(fp_rect
@@ -53542,25 +53296,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "a67b8dc3-7c20-46ba-b200-353d7987aa64")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "12feab92-2b1f-47cd-a6f9-ab90139e9cdc")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART2.TX")
 			(pintype "passive")
@@ -53569,7 +53322,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J5-Pin_4)")
 			(pintype "passive")
@@ -55201,62 +54954,58 @@
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "fd548ca1-af7b-4cd4-b41b-76d3e90daa59")
-		(at 76.63 95.912 180)
+		(at 78.5 98.195 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "faaf177a-4cda-4740-8298-d34371d7ba09")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "200"
 			(at 0 -1.17 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "a94f48c4-c93b-44ea-8e90-72f101524413")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "edeb54a6-9263-4151-a00f-63add726471c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "89c2a32b-e8ec-4b00-b151-1cd0fc9b2269")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ea5f76e8-f1ee-40ae-9088-e1f075ca0639")
 			(effects
@@ -55264,13 +55013,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e794d85-7ce3-4e4f-aca8-f40068522f76")
 			(effects
@@ -55278,13 +55026,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e760471-461f-4b16-bd2f-3b5189b5e715")
 			(effects
@@ -55292,13 +55039,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "RC0402FR-07200RL"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0659d9e0-ba9a-4cd9-8ba2-6271ef9de9e8")
 			(effects
@@ -55306,13 +55052,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "3667ae59-a568-4a91-acbd-c6e776fc9401")
 			(effects
@@ -55320,13 +55065,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "af2b1b04-2938-4ac2-905f-8b00f8828007")
 			(effects
@@ -55334,13 +55078,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "200 ±1%, 0402 (1005), thick film"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a5c4c6b7-a0b5-4ffe-af28-adbfed700929")
 			(effects
@@ -55348,13 +55091,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "16f4600a-efc1-4886-a842-9968a7dbce1c")
 			(effects
@@ -55362,13 +55104,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "fdb0adce-943a-4fa6-9f82-e7a9f16ab8e6")
 			(effects
@@ -55376,13 +55117,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c53197e2-6eaa-44d5-acc6-f29b2b9c672c")
 			(effects
@@ -55390,13 +55130,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "eda80c16-570d-4887-8157-12ece4f34e57")
 			(effects
@@ -55404,13 +55143,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "29133181-37e5-4b9e-817a-242d0465f402")
 			(effects
@@ -55418,13 +55156,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "79954b61-b292-4538-9484-8f385a73328c")
 			(effects
@@ -55432,13 +55169,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "50438763-1e56-4a51-afec-6c2488a27c1e")
 			(effects
@@ -55446,7 +55182,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -55468,7 +55203,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "d136ada0-2fbb-41e3-96b2-f13e2e4064a9")
 		)
 		(fp_line
@@ -55478,7 +55213,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "5fb6018a-2e48-4ca2-8d49-98fdc65b34c0")
 		)
 		(fp_rect
@@ -55489,7 +55224,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "eae129be-a743-4b3f-bd6b-f6419ff956e0")
 		)
 		(fp_rect
@@ -55500,25 +55235,24 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "7879c4dc-8c7f-4715-a76c-80f4d1ff1055")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "f7e2d196-db67-43e0-9d7c-913f1bcf0f45")
 			(effects
 				(font
 					(size 0.26 0.26)
 					(thickness 0.04)
 				)
-				(justify mirror)
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/UART_I2C/UART4.RX")
 			(pintype "passive")
@@ -55527,7 +55261,7 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 180)
 			(size 0.54 0.64)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J3-Pin_3)")
 			(pintype "passive")
