@@ -4398,7 +4398,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1be25bf3-db2b-40ba-b38f-b0e3ac53e8b5")
-		(at 86.5 96 90)
+		(at 85.75 94 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -9554,7 +9554,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3eaa7f08-6894-46f6-affd-0d35fc35389c")
-		(at 85.3 96 90)
+		(at 84.5 96 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -11865,7 +11865,7 @@
 	(footprint "H743_Custom:L_Coilcraft_XGL4030"
 		(layer "F.Cu")
 		(uuid "47de110e-dcc8-4825-af0f-495e4f6abc33")
-		(at 91.6 117.6)
+		(at 92.75 115.75)
 		(descr "Coilcraft XGL4030 shielded power inductor; recommended land pattern for Coilcraft XGL4030 series, 4.0 x 4.0 mm body")
 		(tags "Coilcraft XGL4030 power inductor 4x4mm")
 		(property "Reference" "L2"
@@ -17947,7 +17947,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5afd7a83-3d80-4fd3-ac49-4d52d1c962e0")
-		(at 100.1 96 90)
+		(at 100.1 94.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C11"
@@ -20958,7 +20958,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "76327109-bce5-46ed-b90d-2bc744fadd0a")
-		(at 100.9 97 90)
+		(at 101.25 94.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -21571,7 +21571,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "78dcf5a1-1809-45b4-8af8-6a5b43eb4d35")
-		(at 84.9 114.4 90)
+		(at 83.25 114.4 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -22797,7 +22797,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8bbac1f4-f40c-4298-87b6-ea54f4f3d2db")
-		(at 85 111 90)
+		(at 84 111.25 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R10"
@@ -22857,7 +22857,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22870,7 +22870,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22883,7 +22883,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-07100KL"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22896,7 +22896,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22909,7 +22909,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-07100KL/726526"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22922,7 +22922,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100K ±1%, 0402 (1005), thick film"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22935,7 +22935,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22948,7 +22948,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22961,7 +22961,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22974,7 +22974,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -22987,7 +22987,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23000,7 +23000,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23013,7 +23013,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23026,7 +23026,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-100KLRCT-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23039,7 +23039,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-07100KL/726526"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23052,7 +23052,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23065,7 +23065,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23078,7 +23078,7 @@
 			)
 		)
 		(property "Stock_Units" "6470366"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23091,7 +23091,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23104,7 +23104,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-100KLRCT-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23117,7 +23117,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-07100KL/726526"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23130,7 +23130,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23143,7 +23143,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23156,7 +23156,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-07100KL.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23169,7 +23169,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23182,7 +23182,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-100KLRCT-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23195,7 +23195,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23208,7 +23208,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23221,7 +23221,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23234,7 +23234,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23247,7 +23247,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23260,7 +23260,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23273,7 +23273,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23286,7 +23286,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:POWER__R_Small"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23299,7 +23299,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23324,16 +23324,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1f77125d-1744-4967-8ce8-480832d7e650")
-		)
-		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
 			(stroke
@@ -23342,6 +23332,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "65da29bf-64e4-4d06-96ec-e17a03e5b67f")
+		)
+		(fp_line
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f77125d-1744-4967-8ce8-480832d7e650")
 		)
 		(fp_rect
 			(start -0.93 0.47)
@@ -23377,7 +23377,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 180)
+			(at -0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23386,7 +23386,7 @@
 			(uuid "b175d461-cc20-4e82-bae3-a16f427b2114")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 180)
+			(at 0.51 0)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -25994,7 +25994,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "9ca9b4bb-6d0c-48ba-b593-3b1489aca155")
-		(at 82 117.3 90)
+		(at 82.25 118.5 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C27"
@@ -26607,7 +26607,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9de3c5ea-cdd0-4b39-8f04-e865b33f6040")
-		(at 83.8 111 90)
+		(at 82.75 111.25 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
@@ -28831,7 +28831,7 @@
 				)
 			)
 		)
-		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/L_Coilcraft_XGL4030.kicad_mod"
+		(property "Footprint_File" "L_Coilcraft_XGL4030"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31395,7 +31395,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "adb5e897-77be-4b1a-b0b4-39579c96592f")
-		(at 87.5 94.05 90)
+		(at 86.75 94 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -39515,7 +39515,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cc5fd758-d7cb-4661-954e-47415093eb41")
-		(at 89.15 116.52)
+		(at 87.5 116.52)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C28"
@@ -46437,7 +46437,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f6b1f06f-77fc-4f0d-b112-83c89b629686")
-		(at 102.5 98.4)
+		(at 100.75 112)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
