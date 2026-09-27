@@ -2365,7 +2365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-SMD_8P-P1.00_MEGASTAR_ZX-SH1.0-8PWT"
+		(property "Footprint" "Connector_JST:JST_SH_SM09B-SRSS-TB_1x09-1MP_P1.00mm_Horizontal"
 			(at 130.81 88.9 0)
 			(hide yes)
 			(show_name no)

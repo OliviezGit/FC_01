@@ -222,17 +222,25 @@
 			)
 			(property "Manufacturer" "JAE Electronics"
 				(at 0 0 0)
-				(hide yes)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects (font (size 1.27 1.27)))
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
 			(property "MPN" "DX07S016JA1R1500"
 				(at 0 0 0)
-				(hide yes)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects (font (size 1.27 1.27)))
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
 			)
 			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
 				(rectangle
