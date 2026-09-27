@@ -196,7 +196,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -205,7 +205,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board SMT, JAE DX07S016JA1R1500"
+			(property "Description" "JAE DX07S016JA1R1500; USB Type-C USB 2.0 receptacle; 16 positions (24 = 16+8 dummy per DigiKey); on-board/right-angle, 1-row SMT + shell through-hole; shell DIP 0.9 mm; 5 A max; 48 Vrms; -40..+85 C; 10000 mating cycles. Supplier PDF: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -233,11 +233,71 @@
 				(hide yes)
 				(effects (font (size 1.27 1.27)))
 			)
+ (property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
 			(property "DigiKey URL" "https://www.digikey.com/en/products/detail/jae-electronics/DX07S016JA1R1500/5243883"
 				(at 0 0 0)
 				(hide yes)
 				(effects (font (size 1.27 1.27)))
 			)
+ (property "DigiKey Unit Price EUR" "0.86782"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "DigiKey Price Qty" "1500 (Tape & Reel)"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "Price Checked" "2026-09-27"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "Supplier PDF" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "JAE Drawing" "SJ121836 / SJ121837"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
 			(property "Mouser URL" "https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500"
 				(at 0 0 0)
 				(hide yes)
@@ -470,7 +530,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "SH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -489,7 +549,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "SH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -508,7 +568,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "SH3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -527,7 +587,45 @@
 							)
 						)
 					)
-					(number "28"
+					(number "SH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -545,7 +643,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "A1/B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -563,7 +661,7 @@
 							)
 						)
 					)
-					(number "A4"
+					(number "A4/B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -644,25 +742,6 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -20.32 90)
 					(length 2.54)
 					(hide yes)
@@ -673,26 +752,7 @@
 							)
 						)
 					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
+					(number "A12/B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,7 +771,7 @@
 							)
 						)
 					)
-					(number "B4"
+					(number "B4/A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -784,44 +844,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
