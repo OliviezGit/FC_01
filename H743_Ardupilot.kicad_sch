@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:H743_Ardupilot__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "H743_Ardupilot__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -110,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "H743_Ardupilot__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -150,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
+		(symbol "FC01_Project:H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -338,7 +338,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
+			(symbol "H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -539,7 +539,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_1_1"
+			(symbol "H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_1_1"
 				(pin passive line
 					(at 0 -20.32 90)
 					(length 2.54)
@@ -874,7 +874,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "FC01_Project:H743_Ardupilot__MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -962,7 +962,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "H743_Ardupilot__MountingHole_Pad_0_1"
 				(circle
 					(center 0 1.27)
 					(radius 1.27)
@@ -975,7 +975,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_1_1"
+			(symbol "H743_Ardupilot__MountingHole_Pad_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
@@ -997,7 +997,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:USBLC6-2P6"
+		(symbol "FC01_Project:H743_Ardupilot__USBLC6-2P6"
 			(pin_names
 				(hide yes)
 			)
@@ -1086,7 +1086,7 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2P6_0_0"
+			(symbol "H743_Ardupilot__USBLC6-2P6_0_0"
 				(circle
 					(center -1.524 0)
 					(radius 0.0001)
@@ -1154,7 +1154,7 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2P6_0_1"
+			(symbol "H743_Ardupilot__USBLC6-2P6_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 2.54 0)
@@ -1313,7 +1313,7 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2P6_1_1"
+			(symbol "H743_Ardupilot__USBLC6-2P6_1_1"
 				(rectangle
 					(start -2.54 2.794)
 					(end 2.54 -5.334)
@@ -1460,7 +1460,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:H743_Ardupilot__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1539,7 +1539,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "H743_Ardupilot__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1553,7 +1553,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "H743_Ardupilot__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1575,7 +1575,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "FC01_Project:H743_Ardupilot__VBUS"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1654,7 +1654,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_0_1"
+			(symbol "H743_Ardupilot__VBUS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1692,7 +1692,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_1_1"
+			(symbol "H743_Ardupilot__VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2371,7 +2371,7 @@
 		(uuid "cb59198b-d1ee-4427-9f7a-2019da847d5c")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 144.78 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -2449,7 +2449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "FC01_Project:H743_Ardupilot__VBUS")
 		(at 90.17 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -2527,7 +2527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 53.34 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -2604,7 +2604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 80.01 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -2682,7 +2682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:H743_Ardupilot__R_Small")
 		(at 72.39 45.72 90)
 		(unit 1)
 		(body_style 1)
@@ -2805,7 +2805,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:H743_Ardupilot__R_Small")
 		(at 72.39 48.26 90)
 		(unit 1)
 		(body_style 1)
@@ -2928,7 +2928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 137.16 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3008,7 +3008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 129.54 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -3086,7 +3086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 90.17 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -3163,7 +3163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 137.16 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -3241,7 +3241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 129.54 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3321,7 +3321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 144.78 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3401,7 +3401,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500")
+		(lib_id "FC01_Project:H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500")
 		(at 53.34 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3648,7 +3648,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: JAE DX07S016JA1R1500 mechanical geometry; A/B signal pad numbers preserved; four shell pads mapped to symbol pins 25-28"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3659,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3734,7 +3734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 152.4 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -3812,7 +3812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 152.4 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3892,7 +3892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2P6")
+		(lib_id "FC01_Project:H743_Ardupilot__USBLC6-2P6")
 		(at 90.17 55.88 0)
 		(unit 1)
 		(body_style 1)

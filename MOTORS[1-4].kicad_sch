@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:MOTORS1-4__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "MOTORS1-4__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -110,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "MOTORS1-4__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -150,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:JST_SH_SM08B_SRSS_TB_8P"
+		(symbol "FC01_Project:MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -275,7 +275,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_SM08B_SRSS_TB_8P_0_1"
+			(symbol "MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P_0_1"
 				(rectangle
 					(start -2.54 11.43)
 					(end 5.08 -11.43)
@@ -481,7 +481,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:MOTORS1-4__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -560,7 +560,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "MOTORS1-4__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -574,7 +574,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "MOTORS1-4__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -596,7 +596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VAA"
+		(symbol "FC01_Project:MOTORS1-4__VAA"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -675,7 +675,7 @@
 					)
 				)
 			)
-			(symbol "VAA_0_1"
+			(symbol "MOTORS1-4__VAA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -713,7 +713,7 @@
 					)
 				)
 			)
-			(symbol "VAA_1_1"
+			(symbol "MOTORS1-4__VAA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1310,7 +1310,7 @@
 		(uuid "beb30b95-3d79-46f8-89a0-9d283e25a3f0")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MOTORS1-4__GND")
 		(at 123.19 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -1388,7 +1388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 68.58 90)
 		(unit 1)
 		(body_style 1)
@@ -1572,7 +1572,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1583,7 +1583,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1610,7 +1610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -1794,7 +1794,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1805,7 +1805,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1832,7 +1832,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -2016,7 +2016,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -2027,7 +2027,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -2054,7 +2054,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VAA")
+		(lib_id "FC01_Project:MOTORS1-4__VAA")
 		(at 123.19 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -2132,7 +2132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -2316,7 +2316,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2327,7 +2327,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2354,7 +2354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:JST_SH_SM08B_SRSS_TB_8P")
+		(lib_id "FC01_Project:MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P")
 		(at 130.81 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -2387,7 +2387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM09B-SRSS-TB_1x09-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "H743_Custom:JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs"
 			(at 130.81 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2530,7 +2530,7 @@
 				)
 			)
 		)
-		(property "Package" "SH1.0 8P right-angle SMD"
+		(property "Package" "JST SH 8 contacts, P1.00 mm, side entry; mounting tabs pads 9/10"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2541,7 +2541,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK by package-family drawing; final overlay recommended"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)

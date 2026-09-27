@@ -3,4 +3,17 @@
   (lib (name "H743_Custom") (type "KiCad") (uri "${KIPRJMOD}/extralib/footprints.pretty") (options "") (descr "H743_Ardupilot project-local custom footprints"))
   (lib (name "USBLC6_2P6") (type "KiCad") (uri "${KIPRJMOD}/extralib/USBLC6_2P6.pretty") (options "") (descr "Project-local USBLC6-2P6 supplier footprint"))
   (lib (name "SMAJ30CA") (type "KiCad") (uri "${KIPRJMOD}/extralib/SMAJ30CA.pretty") (options "") (descr "Project-local SMAJ30CA supplier footprint"))
+  (lib (name "Capacitor_SMD") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Capacitor_SMD.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  
+  (lib (name "Diode_SMD") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Diode_SMD.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "Inductor_SMD") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Inductor_SMD.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "Jumper") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Jumper.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "MountingHole") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/MountingHole.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  
+  (lib (name "Package_LGA") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Package_LGA.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "Package_QFP") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Package_QFP.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "Package_SON") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Package_SON.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "Package_TO_SOT_SMD") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Package_TO_SOT_SMD.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "Resistor_SMD") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/Resistor_SMD.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
+  (lib (name "TestPoint") (type "KiCad") (uri "${KIPRJMOD}/extralib/vendor/TestPoint.pretty") (options "") (descr "Project snapshot; original KiCad geometry"))
 )

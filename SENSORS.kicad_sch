@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "BMP581:BMP581"
+		(symbol "FC01_Project:SENSORS__BMP581"
 			(pin_names
 				(offset 0.254)
 			)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(symbol "BMP581_0_1"
+			(symbol "SENSORS__BMP581_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -15.24)
@@ -337,7 +337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "FC01_Project:SENSORS__Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -422,7 +422,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "SENSORS__Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -553,7 +553,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DPS368XTSA1_1"
+		(symbol "FC01_Project:SENSORS__DPS368XTSA1_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -579,7 +579,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:LGA-8_L2.5-W2.0-P0.65-TR_DPS368"
+			(property "Footprint" "H743_Custom:Infineon_DPS368_PG-VLGA-8-2"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -590,7 +590,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C3232508.pdf"
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -656,7 +656,7 @@
 					)
 				)
 			)
-			(symbol "DPS368XTSA1_1_0_1"
+			(symbol "SENSORS__DPS368XTSA1_1_0_1"
 				(rectangle
 					(start -8.89 13.97)
 					(end 8.89 -6.35)
@@ -778,7 +778,7 @@
 					)
 				)
 			)
-			(symbol "DPS368XTSA1_1_1_1"
+			(symbol "SENSORS__DPS368XTSA1_1_1_1"
 				(pin unspecified line
 					(at -11.43 0 0)
 					(length 2.54)
@@ -818,7 +818,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:SENSORS__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -908,7 +908,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "SENSORS__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -934,7 +934,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "SENSORS__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -974,7 +974,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:SENSORS__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1062,7 +1062,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "SENSORS__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -1075,7 +1075,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "SENSORS__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -1115,7 +1115,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:ICM-45686"
+		(symbol "FC01_Project:SENSORS__ICM-45686"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1141,7 +1141,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+			(property "Footprint" "H743_Custom:TDK_ICM45686_LGA14_3x2.5mm"
 				(at 0 -23.876 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1262,7 +1262,7 @@
 					)
 				)
 			)
-			(symbol "ICM-45686_0_1"
+			(symbol "SENSORS__ICM-45686_0_1"
 				(rectangle
 					(start -10.16 13.97)
 					(end 10.16 -13.97)
@@ -1529,7 +1529,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:LSM6DSV16X"
+		(symbol "FC01_Project:SENSORS__LSM6DSV16X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1613,7 +1613,7 @@
 					)
 				)
 			)
-			(symbol "LSM6DSV16X_0_1"
+			(symbol "SENSORS__LSM6DSV16X_0_1"
 				(rectangle
 					(start 11.43 11.43)
 					(end -11.43 -11.43)
@@ -1626,7 +1626,7 @@
 					)
 				)
 			)
-			(symbol "LSM6DSV16X_1_1"
+			(symbol "SENSORS__LSM6DSV16X_1_1"
 				(pin bidirectional line
 					(at -15.24 7.62 0)
 					(length 3.81)
@@ -1883,7 +1883,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Motion:BMI088"
+		(symbol "FC01_Project:SENSORS__BMI088"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1964,7 +1964,7 @@
 					)
 				)
 			)
-			(symbol "BMI088_1_1"
+			(symbol "SENSORS__BMI088_1_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -2268,7 +2268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "FC01_Project:SENSORS__+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2347,7 +2347,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "SENSORS__+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2385,7 +2385,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "SENSORS__+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2407,7 +2407,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "FC01_Project:SENSORS__+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2486,7 +2486,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "SENSORS__+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2524,7 +2524,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "SENSORS__+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2546,7 +2546,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:SENSORS__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2625,7 +2625,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "SENSORS__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -2639,7 +2639,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "SENSORS__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2861,7 +2861,7 @@
 		(uuid "0d675205-54b2-46fa-a660-955e541a3e7c")
 	)
 	(no_connect
-		(at 154.94 45.72)
+		(at 153.67 45.72)
 		(uuid "0fbfa60c-9ea7-48db-ac7a-a3d0351ceefb")
 	)
 	(no_connect
@@ -2885,7 +2885,7 @@
 		(uuid "6186fcb0-fe3d-4125-926d-14c75dbd23a4")
 	)
 	(no_connect
-		(at 154.94 48.26)
+		(at 153.67 48.26)
 		(uuid "72fe202d-e5b8-4466-b412-1acf1ee5355e")
 	)
 	(no_connect
@@ -2893,15 +2893,15 @@
 		(uuid "7875ad7c-b52e-49c4-b2d0-b87c7552c9d7")
 	)
 	(no_connect
-		(at 154.94 53.34)
+		(at 153.67 53.34)
 		(uuid "796feb85-cd69-491f-8169-aa847b972f8f")
 	)
 	(no_connect
-		(at 154.94 50.8)
+		(at 153.67 50.8)
 		(uuid "bbb216f9-a17b-4622-90b7-21f015086504")
 	)
 	(no_connect
-		(at 154.94 43.18)
+		(at 153.67 43.18)
 		(uuid "d1064083-8174-4ae1-baf2-7c87e5081211")
 	)
 	(no_connect
@@ -5650,7 +5650,7 @@
 		(uuid "e5ac8ecd-20b6-42ab-8396-8238a2140585")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 97.79 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5859,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5886,7 +5886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 109.22 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -5965,7 +5965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 120.65 38.1 90)
 		(mirror x)
 		(unit 1)
@@ -6150,7 +6150,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6161,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6188,7 +6188,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:LSM6DSV16X")
+		(lib_id "FC01_Project:SENSORS__LSM6DSV16X")
 		(at 138.43 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -6365,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: KiCad LGA-14 3x2.5 P0.5"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6376,7 +6376,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Embedded H743_Ardupilot symbol + KiCad footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 123.19 127 0)
 		(unit 1)
 		(body_style 1)
@@ -6516,7 +6516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 223.52 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -6594,7 +6594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:SENSORS__+5V")
 		(at 207.01 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -6672,7 +6672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 113.03 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -6870,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6881,7 +6881,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6908,7 +6908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 120.65 40.64 90)
 		(mirror x)
 		(unit 1)
@@ -7093,7 +7093,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7104,7 +7104,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7131,7 +7131,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 138.43 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -7210,7 +7210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 205.74 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -7287,7 +7287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 102.87 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -7485,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7496,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7523,7 +7523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 264.16 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -7720,7 +7720,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +7731,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7758,7 +7758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 120.65 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -7835,7 +7835,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 105.41 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -8033,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8044,7 +8044,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8071,8 +8071,8 @@
 		)
 	)
 	(symbol
-		(lib_name "DPS368XTSA1_1")
-		(lib_id "EasyEDA:DPS368XTSA1")
+
+		(lib_id "FC01_Project:SENSORS__DPS368XTSA1_1")
 		(at 250.19 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -8102,7 +8102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LGA-8_L2.5-W2.0-P0.65-TR_DPS368"
+		(property "Footprint" "H743_Custom:Infineon_DPS368_PG-VLGA-8-2"
 			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8113,7 +8113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8256,7 +8256,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK by dimensions; final land-pattern overlay recommended"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8267,7 +8267,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8312,7 +8312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 207.01 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -8496,7 +8496,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8507,7 +8507,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8534,7 +8534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:SENSORS__Conn_01x04")
 		(at 255.27 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -8644,7 +8644,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8655,7 +8655,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8688,7 +8688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 196.85 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -8767,7 +8767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 92.71 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -8965,7 +8965,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8976,7 +8976,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9003,7 +9003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 92.71 39.37 0)
 		(mirror y)
 		(unit 1)
@@ -9082,7 +9082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 250.19 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -9161,7 +9161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Motion:BMI088")
+		(lib_id "FC01_Project:SENSORS__BMI088")
 		(at 132.08 163.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9326,7 +9326,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: KiCad Bosch LGA-16"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9337,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad Sensor_Motion"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9406,7 +9406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 264.16 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -9485,7 +9485,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 100.33 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -9683,7 +9683,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9694,7 +9694,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9721,7 +9721,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 140.97 59.69 0)
 		(mirror y)
 		(unit 1)
@@ -9800,7 +9800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 210.82 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -9984,7 +9984,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +9995,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -10022,7 +10022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 207.01 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -10099,7 +10099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 223.52 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -10296,7 +10296,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10307,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10334,7 +10334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 119.38 177.8 0)
 		(mirror y)
 		(unit 1)
@@ -10413,7 +10413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 107.95 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -10611,7 +10611,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10622,7 +10622,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10649,7 +10649,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 97.79 146.05 0)
 		(mirror y)
 		(unit 1)
@@ -10728,7 +10728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 110.49 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -10926,7 +10926,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10937,7 +10937,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10964,7 +10964,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:SENSORS__+5V")
 		(at 248.92 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -11042,7 +11042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 95.25 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -11121,7 +11121,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 264.16 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -11199,7 +11199,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 100.33 106.68 0)
 		(mirror y)
 		(unit 1)
@@ -11278,7 +11278,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 207.01 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -11356,7 +11356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 248.92 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -11434,7 +11434,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BMP581:BMP581")
+		(lib_id "FC01_Project:SENSORS__BMP581")
 		(at 205.74 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -11610,7 +11610,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: Bosch recommended land pattern corrected 2026-09-25"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11621,7 +11621,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project BMP581 symbol + H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11672,7 +11672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 223.52 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -11751,7 +11751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 158.75 97.79 90)
 		(mirror x)
 		(unit 1)
@@ -11936,7 +11936,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11947,7 +11947,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11974,7 +11974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 95.25 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -12172,7 +12172,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12183,7 +12183,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12210,7 +12210,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:SENSORS__Conn_01x04")
 		(at 213.36 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -12320,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +12331,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12364,7 +12364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 118.11 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -12441,7 +12441,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 220.98 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -12638,7 +12638,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12649,7 +12649,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12676,7 +12676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 132.08 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -12755,7 +12755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 106.68 21.59 0)
 		(mirror y)
 		(unit 1)
@@ -12834,7 +12834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:ICM-45686")
+		(lib_id "FC01_Project:SENSORS__ICM-45686")
 		(at 140.97 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -12865,7 +12865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+		(property "Footprint" "H743_Custom:TDK_ICM45686_LGA14_3x2.5mm"
 			(at 140.97 65.786 0)
 			(hide yes)
 			(show_name no)
@@ -13027,7 +13027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 210.82 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -13224,7 +13224,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13235,7 +13235,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13262,7 +13262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 111.76 127 0)
 		(mirror y)
 		(unit 1)
@@ -13341,7 +13341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 210.82 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -13420,7 +13420,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 220.98 64.77 0)
 		(mirror y)
 		(unit 1)

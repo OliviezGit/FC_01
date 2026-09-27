@@ -1,0 +1,14 @@
+{
+  "schematic_references": 156,
+  "pcb_footprints": 156,
+  "unique_manufacturer_part_numbers": 44,
+  "symbol_pin_pad_pairs": 562,
+  "errors": [],
+  "unsupported_bus_nets": [
+    "/MCU/MOTOR1",
+    "/MCU/MOTOR2",
+    "/MCU/MOTOR3",
+    "/MCU/MOTOR4"
+  ],
+  "native_ERC_DRC_run": false
+}

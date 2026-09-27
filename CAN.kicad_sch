@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "FC01_Project:CAN__Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -94,7 +94,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "CAN__Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -225,7 +225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:CAN__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -315,7 +315,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "CAN__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -341,7 +341,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "CAN__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -381,7 +381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:JST_GH_SM04B_GHS_TB_4P"
+		(symbol "FC01_Project:CAN__JST_GH_SM04B_GHS_TB_4P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -517,7 +517,7 @@
 					)
 				)
 			)
-			(symbol "JST_GH_SM04B_GHS_TB_4P_0_1"
+			(symbol "CAN__JST_GH_SM04B_GHS_TB_4P_0_1"
 				(rectangle
 					(start -2.54 6.35)
 					(end 5.08 -6.35)
@@ -651,7 +651,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:TJA1051TK-3"
+		(symbol "FC01_Project:CAN__TJA1051TK-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(symbol "TJA1051TK-3_0_1"
+			(symbol "CAN__TJA1051TK-3_0_1"
 				(rectangle
 					(start -10.16 11.43)
 					(end 10.16 -11.43)
@@ -931,7 +931,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:PESD2CAN"
+		(symbol "FC01_Project:CAN__PESD2CAN"
 			(body_styles demorgan)
 			(pin_names
 				(offset 1.016)
@@ -973,7 +973,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf"
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1006,7 +1006,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_0_1"
+			(symbol "CAN__PESD2CAN_0_1"
 				(polyline
 					(pts
 						(xy -6.35 0) (xy -3.81 0)
@@ -1078,7 +1078,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_0_2"
+			(symbol "CAN__PESD2CAN_0_2"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08)
@@ -1202,7 +1202,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_1_1"
+			(symbol "CAN__PESD2CAN_1_1"
 				(polyline
 					(pts
 						(xy -2.54 1.27) (xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27)
@@ -1350,7 +1350,7 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "A1"
+					(name "K1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1368,7 +1368,7 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "A2"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,7 +1386,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "Com"
+					(name "CC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_1_2"
+			(symbol "CAN__PESD2CAN_1_2"
 				(polyline
 					(pts
 						(xy -1.27 3.81) (xy -1.27 4.318)
@@ -1526,7 +1526,7 @@
 				(pin passive line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "A1"
+					(name "K1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1544,7 +1544,7 @@
 				(pin passive line
 					(at 0 10.16 270)
 					(length 2.54)
-					(name "A2"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1562,7 +1562,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "Com"
+					(name "CC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "FC01_Project:CAN__+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1659,7 +1659,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "CAN__+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1697,7 +1697,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "CAN__+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1719,7 +1719,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "FC01_Project:CAN__+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1798,7 +1798,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "CAN__+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1836,7 +1836,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "CAN__+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1858,7 +1858,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:CAN__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1937,7 +1937,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "CAN__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1951,7 +1951,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "CAN__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2717,7 +2717,7 @@
 		(uuid "27cc610f-5054-4a3a-9c56-348583bd314a")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:CAN__Conn_01x04")
 		(at 162.56 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -2827,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 106.6799 0)
 			(hide yes)
 			(show_name no)
@@ -2838,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 106.6799 0)
 			(hide yes)
 			(show_name no)
@@ -2871,7 +2871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:CAN__C_Small")
 		(at 69.85 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3068,7 +3068,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3106,7 +3106,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:CAN__+5V")
 		(at 69.85 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3184,7 +3184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:CAN__+5V")
 		(at 148.59 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -3262,7 +3262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 100.33 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -3340,7 +3340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 64.77 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -3418,7 +3418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:CAN__C_Small")
 		(at 64.77 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3615,7 +3615,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3626,7 +3626,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3653,7 +3653,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:CAN__+3V3")
 		(at 64.77 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3731,7 +3731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 130.81 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -3809,7 +3809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 154.94 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -3887,7 +3887,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:TJA1051TK-3")
+		(lib_id "FC01_Project:CAN__TJA1051TK-3")
 		(at 101.6 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -4127,7 +4127,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4138,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local symbol + verified JST footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4186,7 +4186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:CAN__+5V")
 		(at 152.4 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -4264,7 +4264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:PESD2CAN")
+		(lib_id "FC01_Project:CAN__PESD2CAN")
 		(at 130.81 85.09 90)
 		(unit 1)
 		(body_style 1)
@@ -4308,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf"
 			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4484,7 +4484,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4495,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Custom verified symbol + KiCad standard SOT-23 footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4525,7 +4525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:JST_GH_SM04B_GHS_TB_4P")
+		(lib_id "FC01_Project:CAN__JST_GH_SM04B_GHS_TB_4P")
 		(at 154.94 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -4701,7 +4701,7 @@
 				)
 			)
 		)
-		(property "Package" "SH1.0 4P right-angle SMD"
+		(property "Package" "JST GH 4 contacts, P1.25 mm, side entry; mounting tabs pads 5/6"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4712,7 +4712,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK against JST drawing"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4723,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local symbol + verified JST footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4762,7 +4762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 148.59 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -4840,7 +4840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:CAN__Conn_01x04")
 		(at 162.56 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -4950,7 +4950,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4961,7 +4961,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +4994,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 69.85 69.85 0)
 		(unit 1)
 		(body_style 1)

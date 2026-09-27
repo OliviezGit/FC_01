@@ -1,0 +1,227 @@
+{
+  "RC0402FR-07200RL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "CL05B104KO5NNNC": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do",
+    "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+  },
+  "GRM21BR61H106KE43L": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf",
+    "review": "Murata GRM21B: 0805/2012, 10 uF 50 V X5R. Deux bornes non polarisées; empreinte KiCad conservée, pas de qualification assemblage."
+  },
+  "SM08B-SRSS-TB(LF)(SN)": {
+    "status": "MANUFACTURER_LAND_CORRECTED",
+    "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+    "review": "JST SH SM08B-SRSS-TB, 8 contacts au pas 1.0 mm. Empreinte SM09B à 9 contacts remplacée par SM08B; tabs9/10 reliés GND selon symbole. Position et orientation PCB conservées."
+  },
+  "AP7361C-33FGE-7": {
+    "status": "MANUFACTURER_LAND_CORRECTED",
+    "source": "https://www.diodes.com/assets/Package-Files/U-DFN3030-8-Type-E.pdf",
+    "review": "AP7361C FGE = U-DFN3030-8 Type E. Pads périphériques 0.65 x 0.30, pas 0.65; EP9 1.60 x 2.35 mm. Stencil EP découpé en 4 fenêtres, couverture 64% (choix projet à qualifier). EP relié GND; pads NC conservés."
+  },
+  "PMEG4030ER,115": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://assets.nexperia.com/documents/data-sheet/PMEG4030ER.pdf",
+    "review": "Nexperia PMEG4030ER: SOD123W/CFP3, 1 cathode 2 anode. Empreinte CFP3 existante conservée."
+  },
+  "XGL4030-332MEC": {
+    "status": "DIMENSIONAL_SIGNOFF_PENDING",
+    "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4030/xgl4030-332/",
+    "review": "Coilcraft XGL4030-332MEC: corps 4 x4, 3.3uH. Empreinte existante pads0.98 x3.40, centres±1.185 conservée. PDF électrique 1575 consulté; plan mécanique/land pattern complet à confirmer avant libération."
+  },
+  "GCM155R71H104KE02D": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf",
+    "review": "Murata p.1: corps 1.0±0.05 x 0.5±0.05 mm, terminaisons 0.15–0.35 mm; 100 nF 50 V X7R. Deux bornes non polarisées."
+  },
+  "RC0402FR-0712K4L": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "LMR43620R5RPER": {
+    "status": "MANUFACTURER_LAND_REVIEWED",
+    "source": "https://www.ti.com/lit/ds/symlink/lmr43620.pdf",
+    "review": "TI LMR43620, RPE0009B, land pattern p.51 du PDF consulté: VQFN-HR 9 broches 2 x 2 mm. Polygones cuivre et stencil existants conservés; les petites tailles anchor des pads custom ne représentent pas leur surface totale."
+  },
+  "RC0402FR-0716K5L": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "CL10A475KO8NNNC": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.samsungsem.com/mlcc/CL10A475KO8NNN.do",
+    "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+  },
+  "RC0402FR-07100KL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "SMAJ30CA-13-F": {
+    "status": "MANUFACTURER_LAND_CORRECTED",
+    "source": "https://www.diodes.com/datasheet/download/SMAJ5.0A.pdf",
+    "review": "Diodes SMAJ5.0A…SMAJ170CA, SMA/DO-214AC, p.5: pads 2.50 x 1.70, centres ±2.00 mm, gap1.50, extérieur6.50. Remplace le land pattern provenant du modèle Littelfuse; MPN Diodes SMAJ30CA-13-F conservé. TVS bidirectionnelle non polarisée."
+  },
+  "LMR604303SRAKRQ1": {
+    "status": "MANUFACTURER_LAND_REVIEWED",
+    "source": "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf",
+    "review": "TI LMR60430-Q1 RevE, RAK0009A, land pattern p.44: WQFN-HR 9 broches 2.5 x 2.0 mm. Géométrie spécifique conservée; ne pas remplacer par QFN générique."
+  },
+  "RC0402FR-0710KL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "1N5819HW-7-F": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://www.diodes.com/datasheet/download/1N5819HW.pdf",
+    "review": "Diodes 1N5819HW-7-F: SOD-123, 1 cathode 2 anode. Lien datasheet corrigé (ancienne fiche Hottech 1N5819WS incorrecte)."
+  },
+  "CL10A105KB8NNNC": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do",
+    "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+  },
+  "CL21A226MAYNNNE": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do",
+    "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+  },
+  "10067099-200LF": {
+    "status": "DRAWING_REFERENCED_DIMENSIONAL_SIGNOFF_PENDING",
+    "source": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10067099.pdf",
+    "review": "Amphenol 10067099-200LF RevH: référence et dessin identifiés, empreinte locale RevH conservée. Archives fournisseur reçues contiennent modèles 3D STEP/IGS; validation dimensionnelle complète du plan constructeur encore nécessaire."
+  },
+  "CL05A105KA5NQNC": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.samsungsem.com/mlcc/CL05A105KA5NQN.do",
+    "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+  },
+  "RC0402FR-071KL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "AO3400A": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://aosmd.com/res/data_sheets/AO3400A.pdf",
+    "review": "AOS AO3400A: SOT23, 1Gate 2Source 3Drain; numérotation conservée."
+  },
+  "TJA1051TK/3,118": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
+    "review": "NXP TJA1051 Rev9 pp.4,16: TK=SOT782 HVSON8+EP; variante /3 pin5 VIO. 1TXD 2GND 3VCC 4RXD 5VIO 6CANL 7CANH 8S; EP9 GND. Corps 3 x 3, pas 0.65 mm."
+  },
+  "PESD2CANFD24V-TR": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf",
+    "review": "Nexperia PESD2CANFD24V-T: SOT23, 1K1 2K2 3CC. Noms des broches et datasheet corrigés; numéros et connexions inchangés. Les deux styles graphiques sont conservés."
+  },
+  "SM04B-GHS-TB(LF)(SN)": {
+    "status": "MANUFACTURER_LAND_REVIEWED",
+    "source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+    "review": "JST GH p.1 et plan SM04B-GHS-TB: 4 contacts au pas 1.25 mm + 2 pattes mécaniques numérotées 5/6 dans le projet et reliées GND. Métadonnée Package corrigée de SH à GH."
+  },
+  "0402WGF5101TCE": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
+    "review": "Royalohm Thick Film Chip Resistors pp.1,3: 0402 1.00±0.10 x 0.50±0.05 mm; code 5101=5.1 kohm, F=1%. Deux bornes non polarisées; pads KiCad conservés."
+  },
+  "DX07S016JA1R1500": {
+    "status": "SUPPLIER_MODEL_REVIEWED_PRIMARY_DRAWING_PENDING",
+    "source": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf",
+    "review": "JAE DX07S016JA1R1500: modèle fournisseur ZIP disponible et empreinte projet conservée. Fiche JAE consultée = résumé produit, pas plan coté complet. Groupes A1/B12, A12/B1, A4/B9, A9/B4 et shields projet à confronter au dessin de fabrication JAE avant libération."
+  },
+  "USBLC6-2P6": {
+    "status": "ALTERNATIVE_LAND_REVIEWED",
+    "source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "review": "ST DS4260 Rev7, SOT-666 et pinout: 1/6 I/O1, 2 GND, 3/4 I/O2, 5 VBUS. Modèle fournisseur conservé: pads 0.75 x 0.35, pas 0.50, centres x±0.69 mm. Diffère du land pattern conseillé ST (0.99 x 0.30, x±0.805): validation assembleur requise; aucun remplacement par SOT-23."
+  },
+  "RC0402FR-0720KL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "CL05A475MP5NRNC": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.samsungsem.com/mlcc/CL05A475MP5NRN.do",
+    "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+  },
+  "RC0402JR-070RL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "LSM6DSV16XTR": {
+    "status": "ALTERNATIVE_LAND_REVIEWED",
+    "source": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf",
+    "review": "ST LSM6DSV16X pp.9,175: LGA14 3 x 2.5 mm, pas 0.5. Numérotation et corps contrôlés, pads KiCad conservés; validation assemblage des extensions de pads requise."
+  },
+  "DPS368XTSA1": {
+    "status": "NEW_LAND_ASSEMBLY_REVIEW_REQUIRED",
+    "source": "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40",
+    "review": "Infineon DPS368 v1.1 pp.6,40–41: PG-VLGA-8-2 2.5 x 2.0, pas 0.65, rangées 1.45. Fig.18: ouvertures masque carrées 0.35, stencil circulaire diamètre 0.35. Cuivre 0.45 carré et marge masque -0.05 sont un choix projet SMD; confirmer avec assembleur. Placement à terminer."
+  },
+  "RC0402FR-074K7L": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "BMI088": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+    "review": "Bosch BMI088 pp.54–55: LGA16 4.5 x 3 mm, pas 0.5; numérotation horaire spécifique Bosch. Empreinte Bosch KiCad conservée; ne pas utiliser LGA16 générique de sens inverse."
+  },
+  "BMP581": {
+    "status": "MANUFACTURER_LAND_CORRECTED",
+    "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+    "review": "Bosch BMP581 DS004-13 pp.46,68–69: pads haut/bas corrigés à 0.300 x 0.325 mm (extension 25 um autour de la terminaison). Ouverture masque sous corps 2.2 x 2.2; recommandation Bosch sans solder mask sous capteur. Contrôle fab/assemblage nécessaire."
+  },
+  "ICM-45686": {
+    "status": "NEW_LAND_ASSEMBLY_REVIEW_REQUIRED",
+    "source": "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf",
+    "review": "TDK DS-000577 Rev1.0 pp.27–30,52–53: E=3.0 horizontal, D=2.5 vertical, pas 0.5. GND=6 et VDD=8 inchangés. Pads IPC étendus 0.625 x 0.35 dérivés du LGA14, pas un land pattern recommandé explicitement par TDK. 5 marqueurs NC réalignés sur les pins; placement PCB à terminer."
+  },
+  "C1005X5R1C225M050BC": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1C225M050BC",
+    "review": "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
+  },
+  "RC0402FR-07220RL": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+  },
+  "CSTNE8M00GH5C000R0": {
+    "status": "MANUFACTURER_LAND_REVIEWED",
+    "source": "https://www.murata.com/en/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf",
+    "review": "Murata JGC42-8858A p.3: CSTNE corps 3.2 x 1.3, pas1.2, pads0.4 x1.9 mm, pin2 GND. Empreinte locale ajoutée; placement PCB à terminer."
+  },
+  "19-337/R6GHBHC-M01/2T": {
+    "status": "MANUFACTURER_LAND_CORRECTED",
+    "source": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf",
+    "review": "Everlight DSE0007440 Rev2 p.2: 1BK 2RK 3GK 4BA 5RA 6GA. Noms corrigés sans changer numéros/fils. Corps 1.6 x 1.6; centres x±0.7, y±0.75 et 0; pads extrêmes 0.6 x 0.5, centraux 0.6 x 0.6. Placement PCB à terminer."
+  },
+  "STM32H743VIT6": {
+    "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+    "source": "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf",
+    "review": "ST DS12110: variante V=100 broches, T=LQFP, corps 14 x 14, pas 0.5 mm. Symbole MCU existant conservé, liste exhaustive des pins exportée dans PINS.csv; fonctions multiplexées/firmware hors périmètre."
+  },
+  "BLM15AG601SN1D": {
+    "status": "FAMILY_PACKAGE_REVIEWED",
+    "source": "https://www.murata.com/products/productdata/8796740059166/ENFA0018.pdf",
+    "review": "BLM15, boîtier 1005/0402, deux bornes non polarisées. Empreinte KiCad conservée; spécification de commande détaillée à confirmer avant achat."
+  },
+  "_pcb_feature": {
+    "status": "PROJECT_PCB_FEATURE",
+    "source": "Project design",
+    "review": "Pas de composant acheté: pastilles à souder, trou de montage, testpoint ou jumper. Correspondance symbole/pads contrôlée; contraintes mécaniques et usage à valider."
+  }
+}

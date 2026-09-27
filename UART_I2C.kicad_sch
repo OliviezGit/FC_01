@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "FC01_Project:UART_I2C__Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -94,7 +94,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "UART_I2C__Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -225,7 +225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "FC01_Project:UART_I2C__Conn_01x06"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -310,7 +310,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "UART_I2C__Conn_01x06_1_1"
 				(rectangle
 					(start -1.27 6.35)
 					(end 1.27 -8.89)
@@ -499,7 +499,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:UART_I2C__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -589,7 +589,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "UART_I2C__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -615,7 +615,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "UART_I2C__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -655,7 +655,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:UART_I2C__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -743,7 +743,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "UART_I2C__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -756,7 +756,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "UART_I2C__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -796,7 +796,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "FC01_Project:UART_I2C__+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -875,7 +875,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "UART_I2C__+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -913,7 +913,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "UART_I2C__+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -935,7 +935,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+9V"
+		(symbol "FC01_Project:UART_I2C__+9V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1014,7 +1014,7 @@
 					)
 				)
 			)
-			(symbol "+9V_0_1"
+			(symbol "UART_I2C__+9V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1052,7 +1052,7 @@
 					)
 				)
 			)
-			(symbol "+9V_1_1"
+			(symbol "UART_I2C__+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1074,7 +1074,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:UART_I2C__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1153,7 +1153,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "UART_I2C__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1167,7 +1167,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "UART_I2C__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2719,7 +2719,7 @@
 		(uuid "f2e097b2-bd04-4154-baf2-cd06a0b94961")
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 74.93 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -2903,7 +2903,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 74.422 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -2914,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 74.422 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -2941,7 +2941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 95.25 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.726 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -3136,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.726 74.168 90)
 			(hide yes)
 			(show_name no)
@@ -3163,7 +3163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:UART_I2C__Conn_01x04")
 		(at 134.62 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -3273,7 +3273,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 137.16 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 137.16 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -3317,7 +3317,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 95.25 86.36 90)
 		(unit 1)
 		(body_style 1)
@@ -3501,7 +3501,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.472 84.836 90)
 			(hide yes)
 			(show_name no)
@@ -3512,7 +3512,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.472 84.836 90)
 			(hide yes)
 			(show_name no)
@@ -3539,7 +3539,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 170.18 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -3723,7 +3723,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 168.656 32.512 90)
 			(hide yes)
 			(show_name no)
@@ -3734,7 +3734,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 168.656 32.512 90)
 			(hide yes)
 			(show_name no)
@@ -3761,7 +3761,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 143.51 57.15 90)
 		(unit 1)
 		(body_style 1)
@@ -3945,7 +3945,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 143.002 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -3956,7 +3956,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 143.002 55.118 90)
 			(hide yes)
 			(show_name no)
@@ -3983,7 +3983,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:UART_I2C__+5V")
 		(at 123.19 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -4061,7 +4061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 76.2 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -4245,7 +4245,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 75.692 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -4256,7 +4256,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 75.692 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -4283,7 +4283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:UART_I2C__Conn_01x04")
 		(at 154.94 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -4393,7 +4393,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 157.48 54.6099 0)
 			(hide yes)
 			(show_name no)
@@ -4404,7 +4404,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 157.48 54.6099 0)
 			(hide yes)
 			(show_name no)
@@ -4437,7 +4437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:UART_I2C__C_Small")
 		(at 149.86 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -4634,7 +4634,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 151.13 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4645,7 +4645,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 151.13 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4672,7 +4672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 95.25 88.9 90)
 		(unit 1)
 		(body_style 1)
@@ -4856,7 +4856,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.218 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -4867,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.218 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -4894,7 +4894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 175.26 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -4972,7 +4972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:UART_I2C__Conn_01x04")
 		(at 87.63 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -5082,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -5093,7 +5093,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -5126,7 +5126,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 123.19 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -5204,7 +5204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:UART_I2C__+5V")
 		(at 149.86 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -5282,7 +5282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:UART_I2C__Conn_01x04")
 		(at 181.61 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -5392,7 +5392,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 184.15 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -5403,7 +5403,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 184.15 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -5436,7 +5436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:UART_I2C__C_Small")
 		(at 57.15 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -5633,7 +5633,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5644,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 58.42 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5671,7 +5671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 72.39 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -5749,7 +5749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 149.86 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -5827,7 +5827,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 123.19 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -6011,7 +6011,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 122.682 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -6022,7 +6022,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 122.682 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -6049,7 +6049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:UART_I2C__C_Small")
 		(at 72.39 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -6246,7 +6246,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6257,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6284,7 +6284,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 81.28 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -6362,7 +6362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 81.28 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -6440,7 +6440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:UART_I2C__+5V")
 		(at 102.87 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -6518,7 +6518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 123.19 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -6702,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 121.666 32.512 90)
 			(hide yes)
 			(show_name no)
@@ -6713,7 +6713,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 121.666 32.512 90)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 101.6 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -6818,7 +6818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 74.93 60.96 90)
 		(unit 1)
 		(body_style 1)
@@ -7002,7 +7002,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 73.406 62.992 90)
 			(hide yes)
 			(show_name no)
@@ -7013,7 +7013,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 73.406 62.992 90)
 			(hide yes)
 			(show_name no)
@@ -7040,7 +7040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 143.51 59.69 90)
 		(unit 1)
 		(body_style 1)
@@ -7224,7 +7224,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 141.986 61.722 90)
 			(hide yes)
 			(show_name no)
@@ -7235,7 +7235,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 141.986 61.722 90)
 			(hide yes)
 			(show_name no)
@@ -7262,7 +7262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 102.87 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -7340,7 +7340,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 57.15 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -7418,7 +7418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 95.25 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -7602,7 +7602,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.726 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -7613,7 +7613,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 93.726 80.518 90)
 			(hide yes)
 			(show_name no)
@@ -7640,7 +7640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:UART_I2C__+5V")
 		(at 55.88 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -7718,7 +7718,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:UART_I2C__C_Small")
 		(at 123.19 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -7915,7 +7915,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7926,7 +7926,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 124.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7953,7 +7953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 148.59 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -8031,7 +8031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:UART_I2C__Conn_01x04")
 		(at 87.63 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8151,7 +8151,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 25.3999 0)
 			(hide yes)
 			(show_name no)
@@ -8184,7 +8184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 170.18 27.94 90)
 		(unit 1)
 		(body_style 1)
@@ -8368,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 169.672 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -8379,7 +8379,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 169.672 25.908 90)
 			(hide yes)
 			(show_name no)
@@ -8406,7 +8406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
+		(lib_id "FC01_Project:UART_I2C__Conn_01x06")
 		(at 107.95 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -8516,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 6 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 81.2799 0)
 			(hide yes)
 			(show_name no)
@@ -8527,7 +8527,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 81.2799 0)
 			(hide yes)
 			(show_name no)
@@ -8566,7 +8566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
+		(lib_id "FC01_Project:UART_I2C__+9V")
 		(at 78.74 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -8644,7 +8644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:UART_I2C__C_Small")
 		(at 55.88 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -8841,7 +8841,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 57.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8852,7 +8852,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 57.15 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8879,7 +8879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:UART_I2C__R_Small")
 		(at 76.2 30.48 90)
 		(unit 1)
 		(body_style 1)
@@ -9063,7 +9063,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 74.676 32.512 90)
 			(hide yes)
 			(show_name no)
@@ -9074,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 74.676 32.512 90)
 			(hide yes)
 			(show_name no)
@@ -9101,7 +9101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 55.88 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9179,7 +9179,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:UART_I2C__C_Small")
 		(at 102.87 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -9376,7 +9376,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9387,7 +9387,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9414,7 +9414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:UART_I2C__+5V")
 		(at 72.39 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -9492,7 +9492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:UART_I2C__GND")
 		(at 128.27 36.83 0)
 		(unit 1)
 		(body_style 1)

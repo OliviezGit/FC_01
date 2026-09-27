@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
+		(symbol "FC01_Project:MCU__TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "TestPoint_0_1"
+			(symbol "MCU__TestPoint_0_1"
 				(circle
 					(center 0 3.302)
 					(radius 0.762)
@@ -110,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "TestPoint_1_1"
+			(symbol "MCU__TestPoint_1_1"
 				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
@@ -132,7 +132,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:MCU__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -222,7 +222,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "MCU__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -248,7 +248,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "MCU__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -288,7 +288,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
+		(symbol "FC01_Project:MCU__FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -377,7 +377,7 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_Small_0_1"
+			(symbol "MCU__FerriteBead_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
@@ -415,7 +415,7 @@
 					)
 				)
 			)
-			(symbol "FerriteBead_Small_1_1"
+			(symbol "MCU__FerriteBead_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.27)
@@ -455,7 +455,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:MCU__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -543,7 +543,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "MCU__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -556,7 +556,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "MCU__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -596,7 +596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:Crystal_GND3_Small"
+		(symbol "FC01_Project:MCU__Crystal_GND3_Small"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -626,7 +626,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -637,7 +637,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.murata.com/en/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -648,7 +648,7 @@
 					)
 				)
 			)
-			(property "Description" "Three pin crystal, GND on pin 3, small symbol"
+			(property "Description" "Murata 3-terminal ceramic resonator; pin 1 input, pin 2 GND, pin 3 output; built-in load capacitors."
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -681,7 +681,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND3_Small_0_1"
+			(symbol "MCU__Crystal_GND3_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -0.762) (xy -1.27 0.762)
@@ -730,7 +730,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND3_Small_1_1"
+			(symbol "MCU__Crystal_GND3_Small_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
@@ -788,7 +788,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "FC01_Project:MCU__SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
 			)
@@ -876,7 +876,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "MCU__SolderJumper_2_Open_0_1"
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -950,7 +950,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "MCU__SolderJumper_2_Open_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -990,7 +990,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_RGB_EP_1"
+		(symbol "FC01_Project:MCU__LED_RGB_EP_1"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1020,7 +1020,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L1.6-W1.6-TL"
+			(property "Footprint" "H743_Custom:Everlight_19-337_1.6x1.6mm"
 				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1031,7 +1031,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.everlight-led.cn/zh/datasheet-download/item/19-337-r6ghbhc-m01-2t-2?tmpl=component&type=raw"
+			(property "Datasheet" "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf"
 				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1108,7 +1108,7 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_EP_1_0_0"
+			(symbol "MCU__LED_RGB_EP_1_0_0"
 				(text "B"
 					(at -1.905 3.81 0)
 					(effects
@@ -1134,7 +1134,7 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_EP_1_0_1"
+			(symbol "MCU__LED_RGB_EP_1_0_1"
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -1467,11 +1467,11 @@
 					)
 				)
 			)
-			(symbol "LED_RGB_EP_1_1_1"
+			(symbol "MCU__LED_RGB_EP_1_1_1"
 				(pin passive line
 					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "RK"
+					(name "BK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1489,7 +1489,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "GK"
+					(name "RK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1507,7 +1507,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "BK"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1543,7 +1543,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "GA"
+					(name "RA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 				(pin passive line
 					(at 5.08 -5.08 180)
 					(length 2.54)
-					(name "RA"
+					(name "GA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32H7:STM32H743VITx"
+		(symbol "FC01_Project:MCU__STM32H743VITx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1663,7 +1663,7 @@
 					)
 				)
 			)
-			(symbol "STM32H743VITx_0_1"
+			(symbol "MCU__STM32H743VITx_0_1"
 				(rectangle
 					(start -17.78 -66.04)
 					(end 17.78 68.58)
@@ -1676,7 +1676,7 @@
 					)
 				)
 			)
-			(symbol "STM32H743VITx_1_1"
+			(symbol "MCU__STM32H743VITx_1_1"
 				(pin bidirectional line
 					(at -22.86 35.56 0)
 					(length 5.08)
@@ -4295,7 +4295,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "FC01_Project:MCU__+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -4374,7 +4374,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "MCU__+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4412,7 +4412,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "MCU__+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4434,7 +4434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:MCU__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -4513,7 +4513,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "MCU__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -4527,7 +4527,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "MCU__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -4549,7 +4549,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
+		(symbol "FC01_Project:MCU__VDD"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -4628,7 +4628,7 @@
 					)
 				)
 			)
-			(symbol "VDD_0_1"
+			(symbol "MCU__VDD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4666,7 +4666,7 @@
 					)
 				)
 			)
-			(symbol "VDD_1_1"
+			(symbol "MCU__VDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -9873,7 +9873,7 @@
 		(uuid "ff1ab143-ca7b-4dfb-b0a9-4d3b89b07aab")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 137.16 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -10070,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 138.43 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10081,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 138.43 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10114,7 +10114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MCU__R_Small")
 		(at 97.79 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10301,7 +10301,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 100.33 66.0399 0)
 			(hide yes)
 			(show_name no)
@@ -10312,7 +10312,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 100.33 66.0399 0)
 			(hide yes)
 			(show_name no)
@@ -10345,7 +10345,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:MCU__+3V3")
 		(at 81.28 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -10428,7 +10428,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 121.92 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -10625,7 +10625,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 123.19 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10636,7 +10636,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 123.19 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -10669,7 +10669,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "FC01_Project:MCU__TestPoint")
 		(at 248.92 57.15 270)
 		(unit 1)
 		(body_style 1)
@@ -10789,7 +10789,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "TBD: no footprint assigned"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 247.396 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -10800,7 +10800,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad TestPoint symbol"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 247.396 56.134 90)
 			(hide yes)
 			(show_name no)
@@ -10830,7 +10830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 127 58.42 270)
 		(unit 1)
 		(body_style 1)
@@ -10913,7 +10913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:MCU__+3V3")
 		(at 231.14 49.53 0)
 		(unit 1)
 		(body_style 1)
@@ -10997,7 +10997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 168.91 194.31 0)
 		(unit 1)
 		(body_style 1)
@@ -11081,7 +11081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MCU__R_Small")
 		(at 240.03 49.53 90)
 		(unit 1)
 		(body_style 1)
@@ -11265,7 +11265,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 236.22 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -11276,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 236.22 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -11309,7 +11309,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MCU__R_Small")
 		(at 73.66 148.59 90)
 		(unit 1)
 		(body_style 1)
@@ -11493,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 69.85 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -11504,7 +11504,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 69.85 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -11537,7 +11537,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 133.35 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -11734,7 +11734,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11745,7 +11745,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 134.62 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11778,7 +11778,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 97.79 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -11861,7 +11861,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 118.11 74.93 0)
 		(unit 1)
 		(body_style 1)
@@ -11944,7 +11944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 189.23 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -12027,7 +12027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 115.57 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -12224,7 +12224,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 116.84 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12235,7 +12235,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 116.84 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12268,7 +12268,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 133.35 58.42 270)
 		(unit 1)
 		(body_style 1)
@@ -12465,7 +12465,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 133.604 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12476,7 +12476,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 133.604 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12509,7 +12509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 130.81 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -12706,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 132.08 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12717,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 132.08 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -12750,7 +12750,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 189.23 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -12947,7 +12947,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 190.5 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12958,7 +12958,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 190.5 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12991,7 +12991,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 146.05 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -13188,7 +13188,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 147.32 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13199,7 +13199,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 147.32 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13232,7 +13232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:Crystal_GND3_Small")
+		(lib_id "FC01_Project:MCU__Crystal_GND3_Small")
 		(at 121.92 74.93 270)
 		(unit 1)
 		(body_style 1)
@@ -13264,7 +13264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:OSC-SMD_3P-L3.2-W1.3-P1.20-L"
+		(property "Footprint" "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm"
 			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13275,7 +13275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Murata-Electronics-CSTNE8M00GH5C000R0_C341525.html"
+		(property "Datasheet" "https://www.murata.com/en/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf"
 			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13418,7 +13418,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK by package geometry"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 118.11 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -13429,7 +13429,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "External EasyEDA footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 118.11 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -13465,8 +13465,8 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_RGB_EP_1")
-		(lib_id "Device:LED_RGB_EP")
+
+		(lib_id "FC01_Project:MCU__LED_RGB_EP_1")
 		(at 63.5 148.59 0)
 		(unit 1)
 		(body_style 1)
@@ -13497,7 +13497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LED-ARRAY-SMD_6P-L1.6-W1.6-TL"
+		(property "Footprint" "H743_Custom:Everlight_19-337_1.6x1.6mm"
 			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13508,7 +13508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.everlight-led.cn/zh/datasheet-download/item/19-337-r6ghbhc-m01-2t-2?tmpl=component&type=raw"
+		(property "Datasheet" "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf"
 			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13651,7 +13651,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK: 6-SMD 1.6x1.6 mm class matches; verify pad geometry and pin numbering against Everlight M01 drawing before PCB release"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13662,7 +13662,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Embedded symbol + EasyEDA footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13707,7 +13707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 109.22 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -13904,7 +13904,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 25.4062 0)
 			(hide yes)
 			(show_name no)
@@ -13915,7 +13915,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 25.4062 0)
 			(hide yes)
 			(show_name no)
@@ -13948,7 +13948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 109.22 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -14031,7 +14031,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
+		(lib_id "FC01_Project:MCU__VDD")
 		(at 130.81 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -14115,7 +14115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 102.87 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -14312,7 +14312,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 104.14 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14323,7 +14323,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 104.14 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14356,7 +14356,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 195.58 44.45 0)
 		(unit 1)
 		(body_style 1)
@@ -14553,7 +14553,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14564,7 +14564,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 196.85 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -14597,7 +14597,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 109.22 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -14794,7 +14794,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14805,7 +14805,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 110.49 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14838,7 +14838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 130.81 185.42 0)
 		(unit 1)
 		(body_style 1)
@@ -14921,7 +14921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MCU__R_Small")
 		(at 73.66 153.67 90)
 		(unit 1)
 		(body_style 1)
@@ -15105,7 +15105,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 69.85 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -15116,7 +15116,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 69.85 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -15149,7 +15149,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 127 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -15346,7 +15346,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 128.27 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15357,7 +15357,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 128.27 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15390,7 +15390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "FC01_Project:MCU__TestPoint")
 		(at 248.92 54.61 270)
 		(unit 1)
 		(body_style 1)
@@ -15510,7 +15510,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "TBD: no footprint assigned"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 247.904 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -15521,7 +15521,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad TestPoint symbol"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 247.904 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -15551,7 +15551,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 152.4 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -15748,7 +15748,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 153.67 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15759,7 +15759,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 153.67 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15792,7 +15792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:MCU__+3V3")
 		(at 195.58 17.78 0)
 		(unit 1)
 		(body_style 1)
@@ -15875,7 +15875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:MCU__C_Small")
 		(at 139.7 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -16072,7 +16072,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 140.97 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16083,7 +16083,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 140.97 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16116,7 +16116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:MCU__+3V3")
 		(at 90.17 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -16200,7 +16200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32H7:STM32H743VITx")
+		(lib_id "FC01_Project:MCU__STM32H743VITx")
 		(at 168.91 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -16377,7 +16377,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 173.5933 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -16388,7 +16388,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 173.5933 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -16715,7 +16715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "FC01_Project:MCU__SolderJumper_2_Open")
 		(at 90.17 63.5 180)
 		(unit 1)
 		(body_style 1)
@@ -16834,7 +16834,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "CHECK: _pico footprint library not present in repository"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -16845,7 +16845,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "External unresolved footprint library"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -16878,7 +16878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "FC01_Project:MCU__TestPoint")
 		(at 248.92 59.69 270)
 		(unit 1)
 		(body_style 1)
@@ -16998,7 +16998,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "TBD: no footprint assigned"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 247.396 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -17009,7 +17009,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad TestPoint symbol"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 247.396 58.674 90)
 			(hide yes)
 			(show_name no)
@@ -17039,7 +17039,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
+		(lib_id "FC01_Project:MCU__FerriteBead_Small")
 		(at 195.58 27.94 180)
 		(unit 1)
 		(body_style 1)
@@ -17235,7 +17235,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 194.31 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -17246,7 +17246,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 194.31 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -17279,7 +17279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MCU__R_Small")
 		(at 73.66 143.51 90)
 		(unit 1)
 		(body_style 1)
@@ -17463,7 +17463,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 69.85 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -17474,7 +17474,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 69.85 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -17507,7 +17507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 57.15 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -17590,7 +17590,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
+		(lib_id "FC01_Project:MCU__TestPoint")
 		(at 248.92 52.07 270)
 		(unit 1)
 		(body_style 1)
@@ -17710,7 +17710,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "TBD: no footprint assigned"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 248.158 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -17721,7 +17721,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad TestPoint symbol"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 248.158 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -17751,7 +17751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 102.87 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -17834,7 +17834,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MCU__GND")
 		(at 243.84 59.69 0)
 		(unit 1)
 		(body_style 1)

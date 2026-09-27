@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:POWER__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -99,7 +99,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "POWER__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -125,7 +125,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "POWER__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -165,7 +165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
+		(symbol "FC01_Project:POWER__L"
 			(pin_numbers
 				(hide yes)
 			)
@@ -253,7 +253,7 @@
 					)
 				)
 			)
-			(symbol "L_0_1"
+			(symbol "POWER__L_0_1"
 				(arc
 					(start 0 2.54)
 					(mid 0.6323 1.905)
@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(symbol "L_1_1"
+			(symbol "POWER__L_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -343,7 +343,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:POWER__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -431,7 +431,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "POWER__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -444,7 +444,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "POWER__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -484,7 +484,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819WS"
+		(symbol "FC01_Project:POWER__1N5819WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -528,7 +528,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(property "Datasheet" "https://www.diodes.com/datasheet/download/1N5819HW.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -572,7 +572,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_0_1"
+			(symbol "POWER__1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -610,7 +610,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_1_1"
+			(symbol "POWER__1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -650,7 +650,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SMAJ30CA"
+		(symbol "FC01_Project:POWER__SMAJ30CA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -683,7 +683,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SMAJ30CA:SMASeries_LTF"
+			(property "Footprint" "H743_Custom:Diodes_SMA_SMAJ30CA"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -694,7 +694,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(property "Datasheet" "https://www.diodes.com/datasheet/download/SMAJ5.0A.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -738,7 +738,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ30CA_0_1"
+			(symbol "POWER__SMAJ30CA_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
@@ -788,7 +788,7 @@
 					)
 				)
 			)
-			(symbol "SMAJ30CA_1_1"
+			(symbol "POWER__SMAJ30CA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -828,7 +828,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:AP7361C-33FGE-7"
+		(symbol "FC01_Project:POWER__AP7361C-33FGE-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -854,7 +854,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
+			(property "Footprint" "H743_Custom:Diodes_U-DFN3030-8_TypeE"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -986,7 +986,7 @@
 					)
 				)
 			)
-			(symbol "AP7361C-33FGE-7_0_1"
+			(symbol "POWER__AP7361C-33FGE-7_0_1"
 				(rectangle
 					(start -10.16 6.86)
 					(end 10.16 -6.35)
@@ -1163,7 +1163,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:LMR43620R5RPER"
+		(symbol "FC01_Project:POWER__LMR43620R5RPER"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1255,7 +1255,7 @@
 					)
 				)
 			)
-			(symbol "LMR43620R5RPER_0_1"
+			(symbol "POWER__LMR43620R5RPER_0_1"
 				(rectangle
 					(start -10.16 8.89)
 					(end 10.16 -8.89)
@@ -1412,7 +1412,7 @@
 					)
 				)
 			)
-			(symbol "LMR43620R5RPER_1_1"
+			(symbol "POWER__LMR43620R5RPER_1_1"
 				(pin unspecified line
 					(at -12.7 -3.81 0)
 					(length 2.54)
@@ -1434,7 +1434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:LMR604303SRAKRQ1"
+		(symbol "FC01_Project:POWER__LMR604303SRAKRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1526,7 +1526,7 @@
 					)
 				)
 			)
-			(symbol "LMR604303SRAKRQ1_0_1"
+			(symbol "POWER__LMR604303SRAKRQ1_0_1"
 				(rectangle
 					(start -12.7 7.62)
 					(end 12.7 -7.62)
@@ -1703,7 +1703,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "FC01_Project:POWER__+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1782,7 +1782,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "POWER__+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1820,7 +1820,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "POWER__+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1842,7 +1842,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "FC01_Project:POWER__+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1921,7 +1921,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "POWER__+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1959,7 +1959,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "POWER__+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1981,7 +1981,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+9V"
+		(symbol "FC01_Project:POWER__+9V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2060,7 +2060,7 @@
 					)
 				)
 			)
-			(symbol "+9V_0_1"
+			(symbol "POWER__+9V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2098,7 +2098,7 @@
 					)
 				)
 			)
-			(symbol "+9V_1_1"
+			(symbol "POWER__+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2120,7 +2120,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:POWER__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2199,7 +2199,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "POWER__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -2213,7 +2213,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "POWER__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2235,7 +2235,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VAA"
+		(symbol "FC01_Project:POWER__VAA"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2314,7 +2314,7 @@
 					)
 				)
 			)
-			(symbol "VAA_0_1"
+			(symbol "POWER__VAA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2352,7 +2352,7 @@
 					)
 				)
 			)
-			(symbol "VAA_1_1"
+			(symbol "POWER__VAA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2374,7 +2374,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "FC01_Project:POWER__VBUS"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2453,7 +2453,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_0_1"
+			(symbol "POWER__VBUS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2491,7 +2491,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_1_1"
+			(symbol "POWER__VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -4105,7 +4105,7 @@
 		(uuid "c4b0da4f-ea38-4341-8c32-e8bfee6dbe09")
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:AP7361C-33FGE-7")
+		(lib_id "FC01_Project:POWER__AP7361C-33FGE-7")
 		(at 237.49 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -4136,7 +4136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
+		(property "Footprint" "H743_Custom:Diodes_U-DFN3030-8_TypeE"
 			(at 237.49 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4323,7 +4323,7 @@
 				)
 			)
 		)
-		(property "Package" "U-DFN3030-8 Type E EP"
+		(property "Package" "U-DFN3030-8 Type E; exposed pad 1.6 x 2.35 mm"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4334,7 +4334,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4345,7 +4345,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 237.49 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4393,7 +4393,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
+		(lib_id "FC01_Project:POWER__1N5819WS")
 		(at 170.18 60.96 180)
 		(unit 1)
 		(body_style 1)
@@ -4588,7 +4588,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: official KiCad Nexperia_CFP3_SOD-123W footprint matches Nexperia CFP3/SOD123W"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4599,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard diode symbol + KiCad standard SOD-123W footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 166.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4626,7 +4626,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 237.49 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -4704,7 +4704,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VAA")
+		(lib_id "FC01_Project:POWER__VAA")
 		(at 49.53 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -4782,7 +4782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 166.37 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -4860,7 +4860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:POWER__+5V")
 		(at 162.56 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -4938,7 +4938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:AP7361C-33FGE-7")
+		(lib_id "FC01_Project:POWER__AP7361C-33FGE-7")
 		(at 237.49 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -4969,7 +4969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
+		(property "Footprint" "H743_Custom:Diodes_U-DFN3030-8_TypeE"
 			(at 237.49 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5156,7 +5156,7 @@
 				)
 			)
 		)
-		(property "Package" "U-DFN3030-8 Type E EP"
+		(property "Package" "U-DFN3030-8 Type E; exposed pad 1.6 x 2.35 mm"
 			(at 237.49 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5167,7 +5167,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 237.49 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5178,7 +5178,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 237.49 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 237.49 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -5304,7 +5304,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "FC01_Project:POWER__L")
 		(at 140.97 120.65 90)
 		(unit 1)
 		(body_style 1)
@@ -5489,7 +5489,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: Coilcraft XGL4030 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +5500,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 140.97 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:POWER__+5V")
 		(at 180.34 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -5605,7 +5605,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 166.37 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -5802,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +5813,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5840,7 +5840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:POWER__R_Small")
 		(at 147.32 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -6026,7 +6026,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6037,7 +6037,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 148.59 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6064,7 +6064,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
+		(lib_id "FC01_Project:POWER__+9V")
 		(at 77.47 125.73 90)
 		(unit 1)
 		(body_style 1)
@@ -6141,7 +6141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 54.61 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -6338,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6349,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6376,7 +6376,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 116.84 60.96 90)
 		(unit 1)
 		(body_style 1)
@@ -6573,7 +6573,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 115.57 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -6584,7 +6584,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 115.57 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -6611,7 +6611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:POWER__+5V")
 		(at 205.74 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -6689,7 +6689,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:LMR43620R5RPER")
+		(lib_id "FC01_Project:POWER__LMR43620R5RPER")
 		(at 96.52 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -6951,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: project-local native KiCad footprint derived from supplied Ultra Librarian RPE0009A-MFG data and checked against TI RPE VQFN-HR 9-pin geometry"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 96.52 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6962,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local verified symbol + KiCad standard footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 96.52 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7010,7 +7010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 151.13 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -7207,7 +7207,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7218,7 +7218,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 152.4 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -7245,7 +7245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 120.65 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -7323,7 +7323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:POWER__R_Small")
 		(at 85.09 134.62 180)
 		(unit 1)
 		(body_style 1)
@@ -7509,7 +7509,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7520,7 +7520,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 90.17 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7547,7 +7547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 81.28 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -7625,7 +7625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 127 120.65 90)
 		(unit 1)
 		(body_style 1)
@@ -7822,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7833,7 +7833,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 125.73 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7860,7 +7860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 205.74 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -7938,7 +7938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 73.66 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -8016,7 +8016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 147.32 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -8094,7 +8094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 205.74 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -8292,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 208.28 64.7762 0)
 			(hide yes)
 			(show_name no)
@@ -8303,7 +8303,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 208.28 64.7762 0)
 			(hide yes)
 			(show_name no)
@@ -8330,7 +8330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 223.52 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -8408,7 +8408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 41.91 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -8486,7 +8486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 85.09 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -8564,7 +8564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:POWER__R_Small")
 		(at 82.55 125.73 270)
 		(unit 1)
 		(body_style 1)
@@ -8748,7 +8748,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -8759,7 +8759,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 78.74 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -8786,7 +8786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:POWER__+3V3")
 		(at 256.54 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -8864,7 +8864,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 205.74 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -8942,7 +8942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SMAJ30CA")
+		(lib_id "FC01_Project:POWER__SMAJ30CA")
 		(at 30.48 66.04 90)
 		(unit 1)
 		(body_style 1)
@@ -8974,7 +8974,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMAJ30CA:SMASeries_LTF"
+		(property "Footprint" "H743_Custom:Diodes_SMA_SMAJ30CA"
 			(at 35.56 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8985,7 +8985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/SMAJ5.0A.pdf"
 			(at 30.48 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9128,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: supplied SMAJ30CA.zip nominal SMASeries_LTF land pattern; pads 1.651 x 2.1844 mm at +/-1.7018 mm"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 33.02 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -9139,7 +9139,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 33.02 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -9166,7 +9166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 256.54 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -9364,7 +9364,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 259.08 120.6562 0)
 			(hide yes)
 			(show_name no)
@@ -9375,7 +9375,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 259.08 120.6562 0)
 			(hide yes)
 			(show_name no)
@@ -9402,7 +9402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:POWER__+3V3")
 		(at 256.54 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -9480,7 +9480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:LMR604303SRAKRQ1")
+		(lib_id "FC01_Project:POWER__LMR604303SRAKRQ1")
 		(at 104.14 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -9742,7 +9742,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: project-local native KiCad footprint for TI RAK0009A WQFN-HR-9 2.5x2.0 mm, sourced from a public KiCad implementation and checked against TI package geometry"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9753,7 +9753,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local verified symbol + KiCad standard footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9801,7 +9801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 151.13 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -9879,7 +9879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:POWER__R_Small")
 		(at 214.63 66.04 180)
 		(unit 1)
 		(body_style 1)
@@ -10063,7 +10063,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10074,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10101,7 +10101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 256.54 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -10299,7 +10299,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 259.08 64.7762 0)
 			(hide yes)
 			(show_name no)
@@ -10310,7 +10310,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 259.08 64.7762 0)
 			(hide yes)
 			(show_name no)
@@ -10337,7 +10337,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 41.91 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -10534,7 +10534,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10545,7 +10545,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10572,7 +10572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:POWER__R_Small")
 		(at 147.32 124.46 0)
 		(mirror x)
 		(unit 1)
@@ -10759,7 +10759,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10770,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 148.59 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10797,7 +10797,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:POWER__R_Small")
 		(at 214.63 121.92 180)
 		(unit 1)
 		(body_style 1)
@@ -10981,7 +10981,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 218.44 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +10992,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 218.44 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11019,7 +11019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 256.54 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -11097,7 +11097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
+		(lib_id "FC01_Project:POWER__1N5819WS")
 		(at 170.18 78.74 180)
 		(unit 1)
 		(body_style 1)
@@ -11138,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/1N5819HW.pdf"
 			(at 170.18 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11292,7 +11292,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 166.37 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11303,7 +11303,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 166.37 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11330,7 +11330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 30.48 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -11408,7 +11408,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 73.66 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -11605,7 +11605,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 74.93 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11616,7 +11616,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 74.93 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11643,7 +11643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 146.05 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -11840,7 +11840,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK copper land class; verify height clearance"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11851,7 +11851,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11878,7 +11878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 140.97 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -12075,7 +12075,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK copper land class; verify height clearance"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12086,7 +12086,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12113,7 +12113,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VAA")
+		(lib_id "FC01_Project:POWER__VAA")
 		(at 30.48 59.69 0)
 		(unit 1)
 		(body_style 1)
@@ -12191,7 +12191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 49.53 130.81 0)
 		(unit 1)
 		(body_style 1)
@@ -12269,7 +12269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
+		(lib_id "FC01_Project:POWER__L")
 		(at 129.54 60.96 90)
 		(unit 1)
 		(body_style 1)
@@ -12454,7 +12454,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: Coilcraft XGL4030 recommended land pattern; pads 0.98x3.40 mm at ±1.185 mm"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12465,7 +12465,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 129.54 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -12492,7 +12492,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 223.52 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -12570,7 +12570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:POWER__+5V")
 		(at 205.74 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -12648,7 +12648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 156.21 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -12845,7 +12845,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK copper land class; verify height clearance"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12856,7 +12856,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 157.48 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -12883,7 +12883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 49.53 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -13080,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
@@ -13091,7 +13091,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 50.8 123.1838 0)
 			(hide yes)
 			(show_name no)
@@ -13118,7 +13118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
+		(lib_id "FC01_Project:POWER__+9V")
 		(at 166.37 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -13196,7 +13196,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 46.99 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -13393,7 +13393,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 48.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13404,7 +13404,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 48.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13431,7 +13431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:POWER__GND")
 		(at 256.54 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -13509,7 +13509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "FC01_Project:POWER__VBUS")
 		(at 162.56 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -13587,7 +13587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 161.29 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -13784,7 +13784,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK copper land class; verify height clearance"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13795,7 +13795,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 162.56 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -13822,7 +13822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:POWER__C_Small")
 		(at 205.74 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -14020,7 +14020,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 208.28 120.6562 0)
 			(hide yes)
 			(show_name no)
@@ -14031,7 +14031,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 208.28 120.6562 0)
 			(hide yes)
 			(show_name no)
