@@ -828,7 +828,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:AP7361C-33FGE-7"
+		(symbol "H743_Ardupilot:AP7361C-33FGE-7"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -854,7 +854,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:DFN-8_L3.0-W3.0-P0.65-BL-EP"
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -865,7 +865,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_DIODES_AP7361C-33FGE-7_AP7361C-33FGE-7_C151007.html"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -887,7 +887,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "DIODES(美台)"
+			(property "Manufacturer" "Diodes Incorporated"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -909,6 +909,41 @@
 					)
 				)
 			)
+		(property "Footprint Audit" "VERIFIED: U-DFN3030-8 Type E, 3x3 mm, P0.65 mm, exposed pad; symbol pins 1 OUT, 4 GND, 5 EN, 8 IN, 9 EP"
+			(at 0 -20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Supplier Specs" "Fixed 3.3 V LDO, 1 A, Vin 2.2-6 V, U-DFN3030-8 Type E"
+			(at 0 -20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
+			(at 0 -20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
+			(at 0 -20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/diodes-incorporated/AP7361C-33FGE-7/5638320"
+			(at 0 -20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
 			(property "LCSC Part" "C151007"
 				(at 0 -22.86 0)
 				(show_name no)
@@ -1108,7 +1143,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:LMR43620R5RPER"
+		(symbol "H743_Ardupilot:LMR43620R5RPER"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1145,7 +1180,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C32712896.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr43620.pdf"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1167,7 +1202,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "TI(德州仪器)"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1379,7 +1414,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:LMR604303SRAKRQ1"
+		(symbol "H743_Ardupilot:LMR604303SRAKRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1416,7 +1451,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C49292342.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1438,7 +1473,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "TI(德州仪器)"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4050,7 +4085,7 @@
 		(uuid "c4b0da4f-ea38-4341-8c32-e8bfee6dbe09")
 	)
 	(symbol
-		(lib_id "EasyEDA:AP7361C-33FGE-7")
+		(lib_id "H743_Ardupilot:AP7361C-33FGE-7")
 		(at 237.49 121.92 0)
 		(unit 1)
 		(body_style 1)
@@ -4135,6 +4170,27 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Supplier Specs" "Fixed 3.3 V LDO, 1 A, Vin 2.2-6 V, U-DFN3030-8 Type E"
+			(at 237.49 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
+			(at 237.49 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
+			(at 237.49 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "LCSC Part" "C151007"
 			(at 237.49 144.78 0)
@@ -4850,7 +4906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:AP7361C-33FGE-7")
+		(lib_id "H743_Ardupilot:AP7361C-33FGE-7")
 		(at 237.49 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -4935,6 +4991,27 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Supplier Specs" "Fixed 3.3 V LDO, 1 A, Vin 2.2-6 V, U-DFN3030-8 Type E"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "LCSC Part" "C151007"
 			(at 237.49 88.9 0)
@@ -6568,7 +6645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:LMR43620R5RPER")
+		(lib_id "H743_Ardupilot:LMR43620R5RPER")
 		(at 96.52 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -6841,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "Project-local verified symbol + KiCad standard footprint"
 			(at 96.52 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9359,7 +9436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:LMR604303SRAKRQ1")
+		(lib_id "H743_Ardupilot:LMR604303SRAKRQ1")
 		(at 104.14 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -9632,7 +9709,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "Project-local verified symbol + KiCad standard footprint"
 			(at 104.14 113.03 0)
 			(hide yes)
 			(show_name no)
