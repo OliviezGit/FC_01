@@ -80,3 +80,14 @@ Les anciens rapports d'audit du dépôt décrivent des états antérieurs. Pour 
 ## Complément documentaire et approvisionnement
 
 Voir [composants/README.md](../composants/README.md) et le [contrôle PDF complet](../composants/controle/CONTROLE_COMPLET.pdf). Les tests vérifient désormais aussi présence locale et égalité des associations 3D PCB/bibliothèque. Les modèles d’enveloppe ne sont pas des modèles détaillés certifiés fabricant.
+
+## Corrections CEM / pré-routage — 27/09/2026 soir
+
+- Netclasses KiCad créées : `POWER`, `USB_90R`, `CAN`, `SENSITIVE`; affectations initiales enregistrées dans le projet. La géométrie USB reste à recalculer/valider contre le stack-up fabricant réel avant routage.
+- Cellule 9 V : R10/R11 rapprochées de U4/FB, L2 éloignée de la zone oscillateur; C19 rapprochée de U4. Le routage SW/PGND/FB reste à réaliser selon la boucle minimale du constructeur.
+- Buck 5 V : C17 rapprochée de U3 VIN/GND.
+- U7 : TJA1051TK/3,118 EOL remplacé au schéma par TJA1057GTK/3Z, brochage /3 et boîtier HVSON8/SOT782 compatibles à conserver lors de la synchronisation PCB.
+- D2 : SMAJ30CA non validée pour protection des buck 42 V (clamp max trop élevé). SMAJ24CA identifiée comme piste de correction, mais non imposée car VRWM=24 V est inférieur au 25,2 V d'un pack 6S plein; choix final de protection transitoire encore ouvert.
+- Y1 : déplacement final et zone oscillateur dédiée encore ouverts; aucune implantation arbitraire n'a été imposée.
+- BMI088/BMP581 : keepouts constructeur cuivre/vias encore à matérialiser précisément dans le PCB.
+- SDIO_CLK : résistance série optionnelle encore à intégrer proprement au schéma + PCB; ne pas modifier seulement le PCB.
