@@ -98,7 +98,22 @@ Voir [composants/README.md](../composants/README.md) et le [contrôle PDF comple
 - BMI088 U9: keepout footprint corrigé pour être local au composant et couvrir la zone sous boîtier; pistes/vias/copper pour interdits dans la zone définie.
 - BMP581 U12: keepout sous boîtier ajouté, avec pistes/vias/copper pour interdits; pads autorisés.
 - SDIO_CLK: R47 22 ohms ajoutée en série côté source dans MICRO_SD, 0402; option 0 ohm après validation SI. Empreinte synchronisée sur PCB et net carte séparé.
-- D2: aucune TVS avalanche standard 6S retenue comme protection garantie des buck 42 V. 26 V VRWM donne 42.1 V max de clamp; 24 V VRWM est incompatible avec 25.2 V continu. Décision architecture: protection active limitant <42 V ou remplacement des buck par variantes avec marge d'entrée supérieure avant gel BOM.
+- D2 / architecture VBAT: décision gelée — conserver SMAJ30CA, U3 LMR43620 et U4 LMR60430-Q1. Pas d'eFuse/clamp actif et pas de passage à des buck 60–100 V. Le système est conçu pour VBAT 6S (25,2 V max normal); la SMAJ30CA est une protection transitoire, pas une garantie de clamp <42 V dans toutes les conditions.
 - Plans GND In1/In4 ajoutés, ainsi qu'une première couronne de vias de stitching GND périphériques.
 - Routage signal complet NON réalisé: le PCB était encore à 0 segment avant cette passe et un routage automatique non revu serait contraire à l'objectif CEM. Les boucles buck, USB 90 ohms, CAN et retours capteurs doivent être routés/revus explicitement.
 - ERC/DRC KiCad 10 NON exécuté dans cet environnement: kicad-cli n'est pas disponible. Ne pas considérer la carte libérable avant ouverture/sauvegarde KiCad 10 puis ERC/DRC natifs.
+
+## Décision architecture VBAT / D2 / buck — 27/09/2026
+
+Décision finale pour cette révision: conserver l'architecture simple existante.
+
+- Entrée: VBAT 6S, 25,2 V maximum en fonctionnement normal.
+- D2: SMAJ30CA conservée.
+- U3: LMR43620 conservé.
+- U4: LMR60430-Q1 conservé.
+- Aucun eFuse/clamp actif ajouté.
+- Aucun remplacement des buck par des versions 60/80/100 V.
+- D2 doit rester implantée au plus près de l'entrée VBAT/GND avec boucle de décharge courte et large.
+- Les condensateurs d'entrée de chaque buck doivent rester directement associés aux broches VIN/PGND; minimiser les boucles chaudes VIN-SW-PGND.
+- Limite documentée: la valeur Vc maximale de la SMAJ30CA à son courant d'essai peut dépasser 42 V; D2 réduit les surtensions mais n'est pas spécifiée comme écrêteur garanti sous l'absolute maximum des buck pour toute impulsion possible.
+- Cette limitation est acceptée pour la révision 6S actuelle; elle devra être réévaluée si l'entrée batterie, le câblage, l'ESC, la capacité bulk ou la tension maximale changent.
