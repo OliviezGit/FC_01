@@ -24704,7 +24704,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "DX07S016JA1R1500"
 			(at 0 5 180)
 			(layer "F.Fab")
 			(uuid "66ce26fa-c3c3-4229-875b-6e112c356091")
@@ -24715,7 +24715,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24728,7 +24728,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board SMT, JAE DX07S016JA1R1500"
+		(property "Description" "JAE DX07S016JA1R1500; USB Type-C USB 2.0 receptacle; 16 positions (24 = 16+8 dummy per DigiKey); on-board/right-angle, 1-row SMT + shell through-hole; shell DIP 0.9 mm; 5 A max; 48 Vrms; -40..+85 C; 10000 mating cycles. Supplier PDF: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24780,6 +24780,18 @@
 				)
 			)
 		)
+		(property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Manufacturer" "JAE Electronics"
 			(at 0 0 180)
 			(unlocked yes)
@@ -24812,6 +24824,66 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a92065e-ea0b-4165-8675-d062200654a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Unit Price EUR" "0.86782"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Price Qty" "1500 (Tape & Reel)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price Checked" "2026-09-27"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PDF" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JAE Drawing" "SJ121836 / SJ121837"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
 			(effects
 				(font
 					(size 1 1)
@@ -24890,9 +24962,7 @@
 		(units
 			(unit
 				(name "A")
-				(pins "25" "26" "27" "28" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5"
-					"B5" "A6" "B6" "A7" "B7" "A8" "B8"
-				)
+				(pins "SH1" "SH2" "SH3" "SH4" "SH5" "SH6" "A1/B12" "A12/B1" "A4/B9" "B4/A9" "A5" "B5" "A6" "B6" "A7" "B7" "A8" "B8")
 			)
 		)
 		(attr smd)
@@ -25062,97 +25132,103 @@
 		)
 		(pad "" np_thru_hole circle
 			(at -3 -1.95 180)
-			(size 0.6 0.6)
-			(drill 0.6)
+			(size 0.63 0.63)
+			(drill 0.63)
 			(layers "*.Cu" "*.Mask")
 			(uuid "3ee517d3-d58d-4c2b-b33a-0d6333a65225")
 		)
-		(pad "" smd roundrect
+		(pad "SH1" smd roundrect
 			(at -1.4 1.15 180)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "419f708a-fa0e-4cc7-b3f7-3be43525212b")
-		)
-		(pad "" smd roundrect
+		
+			(net "GND")
+			(pinfunction "SHIELD")
+			(pintype "passive"))
+		(pad "SH2" smd roundrect
 			(at 1.4 1.15 180)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(uuid "0c160e5c-5369-487b-81cb-6f2584c29c26")
-		)
-		(pad "" np_thru_hole oval
+		
+			(net "GND")
+			(pinfunction "SHIELD")
+			(pintype "passive"))
+		(pad "" np_thru_hole circle
 			(at 3 -1.95 180)
-			(size 0.85 0.6)
-			(drill oval 0.85 0.6)
+			(size 0.63 0.63)
+			(drill 0.63)
 			(layers "*.Cu" "*.Mask")
 			(uuid "01e70924-e743-42c0-ab28-e9fd755f771a")
 		)
-		(pad "25" thru_hole oval
+		(pad "SH3" thru_hole oval
 			(at -4.32 -2.675 180)
-			(size 1.3 2.3)
-			(drill oval 0.6 1.6)
+			(size 1.158 2.316)
+			(drill oval 0.65 1.65)
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD_25")
+			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "f72d53e3-6b1a-4399-8b23-37c3e3f31901")
 		)
-		(pad "26" thru_hole oval
+		(pad "SH5" thru_hole oval
 			(at -4.32 1.15 180)
-			(size 1.3 2.6)
-			(drill oval 0.6 1.9)
+			(size 1.2 2.4)
+			(drill oval 0.65 1.95)
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD_26")
+			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "e8a20e43-0c2c-43f3-94d2-a7ec080f9b43")
 		)
-		(pad "27" thru_hole oval
+		(pad "SH4" thru_hole oval
 			(at 4.32 -2.675 180)
-			(size 1.3 2.3)
-			(drill oval 0.6 1.6)
+			(size 1.158 2.316)
+			(drill oval 0.65 1.65)
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD_27")
+			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "1a7d06d4-15f5-40be-8d74-412fc251dd84")
 		)
-		(pad "28" thru_hole oval
+		(pad "SH6" thru_hole oval
 			(at 4.32 1.15 180)
-			(size 1.3 2.6)
-			(drill oval 0.6 1.9)
+			(size 1.2 2.4)
+			(drill oval 0.65 1.95)
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
-			(pinfunction "SHIELD_28")
+			(pinfunction "SHIELD")
 			(pintype "passive")
 			(uuid "ab85a1c5-14d1-4ad7-a22a-784a8e289451")
 		)
-		(pad "A1" smd roundrect
+		(pad "A1/B12" smd roundrect
 			(at -3.1 -3.05 180)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "GND_A1")
+			(pinfunction "A1/B12")
 			(pintype "passive")
 			(uuid "29f89f66-3b55-4762-97b8-edb3b51b15ef")
 		)
-		(pad "A4" smd roundrect
+		(pad "A4/B9" smd roundrect
 			(at -2.35 -3.05 180)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VBUS")
-			(pinfunction "VBUS_A4")
+			(pinfunction "A4/B9")
 			(pintype "passive")
 			(uuid "77fe9b36-ae41-419b-b189-64e002917803")
 		)
@@ -25196,43 +25272,23 @@
 			(pintype "bidirectional+no_connect")
 			(uuid "bc351d11-baa1-4f44-8d18-6a4ae1cc0af3")
 		)
-		(pad "A9" smd roundrect
-			(at 2.35 -3.05 180)
-			(size 0.52 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "VBUS")
-			(pinfunction "VBUS_A9")
-			(pintype "passive")
-			(uuid "79ea9b66-8ce9-4325-b3d3-0dfe1ebef320")
-		)
-		(pad "A12" smd roundrect
+		(pad "A12/B1" smd roundrect
 			(at 3.1 -3.05 180)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
-			(pinfunction "GND_A12")
+			(pinfunction "A12/B1")
 			(pintype "passive")
 			(uuid "29088ee8-38d0-46d6-aa4d-e254f867939c")
 		)
-		(pad "B1" smd roundrect
-			(at 3.1 -3.05 180)
-			(size 0.52 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "GND_B1")
-			(pintype "passive")
-			(uuid "d27cf8fd-4cdf-435a-8f20-5b6ef89eb9e6")
-		)
-		(pad "B4" smd roundrect
+		(pad "B4/A9" smd roundrect
 			(at 2.35 -3.05 180)
 			(size 0.52 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VBUS")
-			(pinfunction "VBUS_B4")
+			(pinfunction "B4/A9")
 			(pintype "passive")
 			(uuid "0a105339-9226-4575-97c9-a5b12cfa535a")
 		)
@@ -25275,26 +25331,6 @@
 			(pinfunction "SBU2_B8")
 			(pintype "bidirectional+no_connect")
 			(uuid "0ca6d16e-6b2a-4900-bfe0-c0c253286f01")
-		)
-		(pad "B9" smd roundrect
-			(at -2.35 -3.05 180)
-			(size 0.52 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "VBUS")
-			(pinfunction "VBUS_B9")
-			(pintype "passive")
-			(uuid "9cdf8222-5aa5-475e-b83a-a2bdcd59678c")
-		)
-		(pad "B12" smd roundrect
-			(at -3.1 -3.05 180)
-			(size 0.52 1)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pinfunction "GND_B12")
-			(pintype "passive")
-			(uuid "8ef1f73c-8ac1-418b-b65e-9b330bd45035")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_JAE_DX07S016JA1R1500.step"
