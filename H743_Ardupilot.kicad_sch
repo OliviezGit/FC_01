@@ -1028,7 +1028,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+			(property "Footprint" "H743_Custom:ST_USBLC6-2P6_SOT-666"
 				(at 1.016 -6.731 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3913,7 +3913,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Power_Protection:USBLC6-2P6"
+		(property "Value" "USBLC6-2P6"
 			(at 91.8211 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3925,7 +3925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "H743_Custom:ST_USBLC6-2P6_SOT-666"
 			(at 91.186 62.611 0)
 			(hide yes)
 			(show_name no)
@@ -3938,7 +3938,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/cd00050750.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 91.186 64.516 0)
 			(hide yes)
 			(show_name no)
@@ -3950,7 +3950,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+		(property "Description" "STMicroelectronics USBLC6-2P6; ESD protection for USB 2.0 high-speed D+/D- and VBUS; SOT-666, 1.6 x 1.6 x 0.55 mm. Used on USB1. Supplier PDF: https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3983,7 +3983,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "USBLC6-2P6"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3994,7 +3994,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4002,6 +4002,102 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOT-666, 1.6 x 1.6 x 0.55 mm"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "497-5026-1-ND"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2P6/1007440"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Unit Price EUR" "0.56000"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Price Qty" "1 (Cut Tape)"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price Checked" "2026-09-27"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PDF" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Associated Connector" "USB1 (DX07S016JA1R1500)"
+			(at 90.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
