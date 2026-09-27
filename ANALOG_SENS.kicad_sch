@@ -1204,7 +1204,7 @@
 		)
 		(uuid "e878d5f4-ae08-4131-8ad0-6371ce7b6d42")
 	)
-	(label "ADC_VBAT1"
+	(label "ADC_VBAT2"
 		(at 110.49 72.39 0)
 		(effects
 			(font

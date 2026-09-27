@@ -4717,16 +4717,16 @@
 		(uuid "0235bae8-45fe-4498-bf5d-f76b68b02178")
 	)
 	(junction
+		(at 146.05 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a0c6f69-c368-4e83-9c2c-3b33d5ee91e8")
+	)
+	(junction
 		(at 121.92 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2148e075-478c-4867-b538-b3e3ce7174ec")
-	)
-	(junction
-		(at 146.05 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25b67522-a8bb-4526-86d8-f170d3b5c726")
 	)
 	(junction
 		(at 161.29 24.13)
@@ -4907,18 +4907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f058c79e-2046-4063-8ae2-14e1567258c8")
-	)
-	(junction
-		(at 152.4 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3679383-a1a8-42ee-86b1-f86b62837923")
-	)
-	(junction
-		(at 146.05 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f58429e8-b5b8-464a-956b-33827f7662cc")
 	)
 	(no_connect
 		(at 146.05 93.98)
@@ -5685,6 +5673,16 @@
 		)
 		(uuid "0b058583-e03e-404a-94be-97e2609dddf5")
 	)
+	(wire
+		(pts
+			(xy 146.05 24.13) (xy 161.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b85c4c5-560c-400c-a401-baf1470c2302")
+	)
 	(bus
 		(pts
 			(xy 127 134.62) (xy 128.27 134.62)
@@ -6197,16 +6195,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 29.21) (xy 152.4 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45dc9935-4bc3-4f60-a663-02c6108fa473")
-	)
-	(wire
-		(pts
 			(xy 36.83 96.52) (xy 46.99 96.52)
 		)
 		(stroke
@@ -6304,16 +6292,6 @@
 			(type default)
 		)
 		(uuid "4e17bd31-968d-4d1c-9c9d-7f258167368c")
-	)
-	(wire
-		(pts
-			(xy 146.05 24.13) (xy 152.4 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee4ab42-f3f8-4993-a63c-c73f13b8ee95")
 	)
 	(wire
 		(pts
@@ -7044,16 +7022,6 @@
 			(type default)
 		)
 		(uuid "9d9286d3-a7d8-473c-ab1a-aead44126efb")
-	)
-	(wire
-		(pts
-			(xy 152.4 24.13) (xy 161.29 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f78e730-fc30-408f-8fbe-b1737c9dfba1")
 	)
 	(wire
 		(pts
@@ -13003,6 +12971,7 @@
 		(uuid "59d3c16c-95b2-45be-b6c1-e0e4f80e3b95")
 		(property "Reference" "C12"
 			(at 147.32 25.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13014,6 +12983,7 @@
 		)
 		(property "Value" "100n"
 			(at 147.32 27.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15545,247 +15515,6 @@
 			(project "MCU"
 				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9462ff5e-5da6-4c28-9194-64ab24fe895d")
-		(property "Reference" "C13"
-			(at 153.67 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 153.67 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CL05B104KO5NNNC"
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 152.4 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" "1276-1001-1-ND"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Unit Price EUR" "0.09"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Price Qty" "1 CT"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price Checked" "2026-09-25"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Status" "Active"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402 (1005)"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint Audit" "OK"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Library Audit" "KiCad standard"
-			(at 153.67 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "642ce096-41f8-4ad1-8bc4-322413e88e98")
-		)
-		(pin "2"
-			(uuid "77755bd3-a224-43ab-8ae4-906098fdcd8e")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
-					(reference "C13")
 					(unit 1)
 				)
 			)
