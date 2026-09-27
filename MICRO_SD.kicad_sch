@@ -3238,7 +3238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f47e000-0000-4000-8000-000000000047")
-		(property "Reference" "R47"
+		(property "Reference" "R51"
 			(at 77.47 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3687,7 +3687,7 @@
 		(instances
 			(project "H743_Ardupilot"
 				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/f6fdd950-a71d-4aac-93a8-c5aad57c018b"
-					(reference "R47")
+					(reference "R51")
 					(unit 1)
 				)
 			)
