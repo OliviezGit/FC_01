@@ -165,7 +165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:TJA1051TK_3,118"
+		(symbol "Interface_CAN_LIN:TJA1051TK-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -191,7 +191,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:HVSON-8_L3.0-W3.0-P0.65-BL-EP"
+			(property "Footprint" "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -202,7 +202,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/CAN_NXP_TJA1051TK-3-118_TJA1051TK-3-118_C124020.html"
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -224,7 +224,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "NXP(恩智浦)"
+			(property "Manufacturer" "NXP Semiconductors"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -734,7 +734,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -745,7 +745,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/ad02fbf39ace74a5161accc984238198/PESD2CAN.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V.pdf"
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2514,7 +2514,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3061,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3255,7 +3255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:TJA1051TK_3,118")
+		(lib_id "Interface_CAN_LIN:TJA1051TK-3")
 		(at 101.6 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3286,7 +3286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:HVSON-8_L3.0-W3.0-P0.65-BL-EP"
+		(property "Footprint" "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
 			(at 101.6 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3340,6 +3340,34 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Supplier Specs" "CAN FD transceiver, 5 Mbps, 4.5-5.5 V, HVSON-8 3x3 mm, -40..150 C"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "RS URL" "https://ch.rs-online.com/web/p/can-schnittstellen-ics/2194675"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Farnell URL" "https://fr.farnell.com/nxp/tja1051tk-3-118/can-fd-transceiver-5mbps-hvson/dp/2776121"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Mouser URL" "https://eu.mouser.com/en/ProductDetail/NXP-Semiconductors/TJA1051TK-3118"
+			(at 101.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "LCSC Part" "C124020"
 			(at 101.6 93.98 0)
@@ -3451,7 +3479,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3543,7 +3571,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3554,7 +3582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/ad02fbf39ace74a5161accc984238198/PESD2CAN.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V.pdf"
 			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3608,6 +3636,20 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Supplier Specs" "Automotive CAN TVS, VRWM 24 V, VCL 42 V, SOT-23/TO-236AB, AEC-Q101"
+			(at 130.81 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Mouser URL" "https://www.mouser.fr/fr/ProductDetail/Nexperia/PESD2CANFD24V-TR"
+			(at 130.81 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 130.81 85.09 90)
@@ -3708,7 +3750,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -3719,7 +3761,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Custom symbol + KiCad footprint"
+		(property "Library Audit" "Custom verified symbol + KiCad standard SOT-23 footprint"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
