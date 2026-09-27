@@ -683,7 +683,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SMA"
+			(property "Footprint" "H743_Custom:SMAJ30CA_SMA_LTF"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8930,7 +8930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "H743_Custom:SMAJ30CA_SMA_LTF"
 			(at 35.56 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9084,7 +9084,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "VERIFIED: supplied SMAJ30CA.zip nominal SMASeries_LTF land pattern; pads 1.651 x 2.1844 mm at +/-1.7018 mm"
 			(at 33.02 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -9095,7 +9095,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Project-local H743_Custom footprint"
 			(at 33.02 63.5 90)
 			(hide yes)
 			(show_name no)
