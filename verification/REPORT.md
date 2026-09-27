@@ -91,3 +91,14 @@ Voir [composants/README.md](../composants/README.md) et le [contrôle PDF comple
 - Y1 : déplacement final et zone oscillateur dédiée encore ouverts; aucune implantation arbitraire n'a été imposée.
 - BMI088/BMP581 : keepouts constructeur cuivre/vias encore à matérialiser précisément dans le PCB.
 - SDIO_CLK : résistance série optionnelle encore à intégrer proprement au schéma + PCB; ne pas modifier seulement le PCB.
+
+## Pré-routage CEM — application 27/09/2026
+
+- Y1: zone oscillateur matérialisée; résonateur rapproché du MCU, keepout cuivre/vias local B.Cu et keepout opposé F.Cu pour interdire un convertisseur directement en vis-à-vis.
+- BMI088 U9: keepout footprint corrigé pour être local au composant et couvrir la zone sous boîtier; pistes/vias/copper pour interdits dans la zone définie.
+- BMP581 U12: keepout sous boîtier ajouté, avec pistes/vias/copper pour interdits; pads autorisés.
+- SDIO_CLK: R47 22 ohms ajoutée en série côté source dans MICRO_SD, 0402; option 0 ohm après validation SI. Empreinte synchronisée sur PCB et net carte séparé.
+- D2: aucune TVS avalanche standard 6S retenue comme protection garantie des buck 42 V. 26 V VRWM donne 42.1 V max de clamp; 24 V VRWM est incompatible avec 25.2 V continu. Décision architecture: protection active limitant <42 V ou remplacement des buck par variantes avec marge d'entrée supérieure avant gel BOM.
+- Plans GND In1/In4 ajoutés, ainsi qu'une première couronne de vias de stitching GND périphériques.
+- Routage signal complet NON réalisé: le PCB était encore à 0 segment avant cette passe et un routage automatique non revu serait contraire à l'objectif CEM. Les boucles buck, USB 90 ohms, CAN et retours capteurs doivent être routés/revus explicitement.
+- ERC/DRC KiCad 10 NON exécuté dans cet environnement: kicad-cli n'est pas disponible. Ne pas considérer la carte libérable avant ouverture/sauvegarde KiCad 10 puis ERC/DRC natifs.
