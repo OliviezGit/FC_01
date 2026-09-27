@@ -117,3 +117,14 @@ Décision finale pour cette révision: conserver l'architecture simple existante
 - Les condensateurs d'entrée de chaque buck doivent rester directement associés aux broches VIN/PGND; minimiser les boucles chaudes VIN-SW-PGND.
 - Limite documentée: la valeur Vc maximale de la SMAJ30CA à son courant d'essai peut dépasser 42 V; D2 réduit les surtensions mais n'est pas spécifiée comme écrêteur garanti sous l'absolute maximum des buck pour toute impulsion possible.
 - Cette limitation est acceptée pour la révision 6S actuelle; elle devra être réévaluée si l'entrée batterie, le câblage, l'ESC, la capacité bulk ou la tension maximale changent.
+
+## Revue placement / corrections — 27/09/2026
+
+- Collision de référence corrigée: la résistance série SDIO_CLK est désormais R51 (22 ohms, option 0 ohm après validation SI). R47 reste exclusivement la résistance MOTOR1 200 ohms.
+- PCB synchronisé manuellement pour R51; net SDIO_CLK -> R51 -> J12 CLK conservé.
+- L2 déplacée légèrement à (91.6,117.6) pour augmenter l'écart à Y1 sans allonger excessivement la boucle SW U4-L2. Le routage SW_9V devra rester compact et orienté à l'opposé de Y1.
+- Découplages H743 rapprochés de la périphérie MCU: C6, C8, C11, C12. Les couloirs d'évasion du LQFP100 sont conservés; aucune piste n'est encore routée.
+- Découplages capteurs resserrés: C44/C47 autour de U11, C46/C49/C52 autour de U9, C53 autour de BMP581. U10 était déjà correctement découplé localement.
+- Connectique contrôlée: CAN J13/J14/U8 reste sur la périphérie; I2C J8/J9 en bord inférieur; ESC U14 en bord gauche; USB1 en bord supérieur. Cette organisation est conservée pour éviter des traversées inutiles de la zone MEMS.
+- Séparation puissance/capteurs: L1/U3 restent côté gauche; U9/U10/U11/U12/U13 côté droit. Les nets SW_5V et SW_9V ne devront pas être routés sous la zone MEMS ni sous Y1.
+- Statut: placement nettement plus proche du gel, mais validation DRC et inspection visuelle KiCad 10 requises avant freeze définitif.
