@@ -48315,7 +48315,7 @@
 			)
 		)
 	)
-	(footprint "H743_Custom:ST_USBLC6-2P6_SOT-666"
+	(footprint "H743_Custom:SOT50P160X60-6N"
 		(layer "F.Cu")
 		(uuid "ed855a5f-5c77-47b4-8baa-5ea559633999")
 		(at 82.5 88 -90)
