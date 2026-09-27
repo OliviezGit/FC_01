@@ -22134,7 +22134,7 @@
 			)
 			(polygon
 				(pts
-					(xy 118.299286 105.2925) (xy 114.949286 105.2925) (xy 114.949286 107.1425) (xy 118.299286 107.1425)
+					(xy -1.5 -2.25) (xy 1.5 -2.25) (xy 1.5 2.25) (xy -1.5 2.25)
 				)
 			)
 		)
@@ -47474,6 +47474,28 @@
 			(pinfunction "VDD")
 			(uuid "ac91a554-9560-4f27-bbe6-eb806e192ba5")
 		)
+		(zone
+			(layer "B.Cu")
+			(uuid "7b2f6b9c-1d41-4e8a-98c0-581000000001")
+			(name "Bosch BMP581 under-package keepout")
+			(hatch edge 0.25)
+			(connect_pads (clearance 0))
+			(min_thickness 0.1)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement (enabled no) (sheetname ""))
+			(fill (thermal_gap 0.3) (thermal_bridge_width 0.3) (island_removal_mode 0))
+			(polygon
+				(pts
+					(xy -1 -1) (xy 1 -1) (xy 1 1) (xy -1 1)
+				)
+			)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/composants/3d/BMP581_envelope.step"
 			(offset
@@ -53436,7 +53458,7 @@
 	(footprint "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm"
 		(layer "B.Cu")
 		(uuid "f4b8d121-c82f-40b8-8249-b9f6db840409")
-		(at 94.4 112.9 180)
+		(at 92.5 113.1 180)
 		(descr "Murata CSTNE8M00GH5C000R0; JGC42-8858A p3; 0.4 x 1.9 mm lands at 1.2 mm pitch; pin 2 GND.")
 		(property "Reference" "Y1"
 			(at 0 3 0)
@@ -53591,6 +53613,42 @@
 			(pinfunction "3")
 			(pintype "passive")
 			(uuid "9ed3ba7b-4799-4cae-9e04-7de6fc0180e2")
+		)
+		(zone
+			(layer "B.Cu")
+			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000001")
+			(name "OSC local keepout B")
+			(hatch edge 0.25)
+			(connect_pads (clearance 0))
+			(min_thickness 0.1)
+			(keepout
+				(tracks allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement (enabled no) (sheetname ""))
+			(fill (thermal_gap 0.3) (thermal_bridge_width 0.3) (island_removal_mode 0))
+			(polygon (pts (xy -2 -1.1) (xy 2 -1.1) (xy 2 1.1) (xy -2 1.1)))
+		)
+		(zone
+			(layer "F.Cu")
+			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000002")
+			(name "OSC opposite-face keepout F")
+			(hatch edge 0.25)
+			(connect_pads (clearance 0))
+			(min_thickness 0.1)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints not_allowed)
+			)
+			(placement (enabled yes) (sheetname ""))
+			(fill (thermal_gap 0.3) (thermal_bridge_width 0.3) (island_removal_mode 0))
+			(polygon (pts (xy -2.3 -1.4) (xy 2.3 -1.4) (xy 2.3 1.4) (xy -2.3 1.4)))
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/composants/3d/Murata_CSTNE_envelope.step"
