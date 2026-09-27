@@ -41291,7 +41291,7 @@
 			)
 		)
 	)
-	(footprint "H743_Custom:SMAJ30CA_SMA_LTF"
+	(footprint "SMAJ30CA:SMASeries_LTF"
 		(layer "F.Cu")
 		(uuid "d1b09763-f214-4a6b-a105-17d090555f9f")
 		(at 83.5 93 180)
@@ -48315,7 +48315,7 @@
 			)
 		)
 	)
-	(footprint "H743_Custom:SOT50P160X60-6N"
+	(footprint "USBLC6_2P6:SOT50P160X60-6N"
 		(layer "F.Cu")
 		(uuid "ed855a5f-5c77-47b4-8baa-5ea559633999")
 		(at 82.5 88 -90)
