@@ -39255,62 +39255,62 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "adb5e897-77be-4b1a-b0b4-39579c96592f")
-		(at 89.5 93.9)
+		(at 87.5 94.05 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
 			(at 0 1.16 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "f6683ecb-15db-49c6-9d88-f9d23a7e3be7")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Value" "2.2u"
 			(at 0 -1.16 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "caaaaf41-4730-4361-9f2a-914d1a97441a")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/TDK_C.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0382381-1099-44fb-b236-6381b8e63e0a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e5cf332-76de-4c52-8c40-e9415a343f41")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f1925547-9e8e-44c3-bfdb-8f873366d713")
 			(effects
@@ -39318,13 +39318,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cf7690b-3797-407b-9a8a-61cd7fac75b4")
 			(effects
@@ -39332,13 +39332,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f988736-902f-42c8-973a-dfabf460740b")
 			(effects
@@ -39346,13 +39346,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "MPN" "C1005X5R1C225M050BC"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "eb988159-c91a-4fec-9b63-689f3ef9e00a")
 			(effects
@@ -39360,13 +39360,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad680bef-bbcc-4293-bd23-118dc7d0a111")
 			(effects
@@ -39374,13 +39374,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad6cc432-74ac-4044-b60a-f97ec6145f52")
 			(effects
@@ -39388,13 +39388,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey URL" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "724f0dfc-1fea-41be-8b0f-a32a2756631d")
 			(effects
@@ -39402,13 +39402,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "36252541-5f59-4388-9b93-401bd233a22d")
 			(effects
@@ -39416,13 +39416,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ed084f2-1b72-4cdf-902c-110dbf707fc0")
 			(effects
@@ -39430,13 +39430,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Price Qty" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "db9eab3e-66fa-4e09-b3ab-db5f39f4c1a6")
 			(effects
@@ -39444,13 +39444,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9df8c6de-4df7-4189-b689-0c66f1ccd338")
 			(effects
@@ -39458,13 +39458,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9fec2d12-95d1-447b-9a71-e155df9610da")
 			(effects
@@ -39472,13 +39472,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "401cafb4-2e5d-45f3-9599-a5cb6864d409")
 			(effects
@@ -39486,13 +39486,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Footprint Audit" "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "25e1ba55-8475-488b-a0db-29f8250920c4")
 			(effects
@@ -39500,13 +39500,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "10c1ff02-3fd4-4462-8a11-76802e4c326e")
 			(effects
@@ -39514,7 +39514,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -39536,7 +39536,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "6ef5f3ee-9cad-4a5d-97a8-b692da1f823b")
 		)
 		(fp_line
@@ -39546,7 +39546,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "7ddf731f-df22-4ae1-b809-910e03d4f6cc")
 		)
 		(fp_rect
@@ -39557,7 +39557,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "96ad15ef-d59c-4a70-baa3-6d7da78566d1")
 		)
 		(fp_rect
@@ -39568,25 +39568,25 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "5a0ee29b-fd53-4f88-a386-668773d6e20b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "7d5f389d-e9c2-4d53-aaaa-15596a3d096d")
 			(effects
 				(font
 					(size 0.25 0.25)
 					(thickness 0.04)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.48 0 180)
 			(size 0.56 0.62)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCAP")
 			(pintype "passive")
@@ -39595,7 +39595,7 @@
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
 			(size 0.56 0.62)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pintype "passive")
@@ -53966,62 +53966,62 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "f6b1f06f-77fc-4f0d-b112-83c89b629686")
-		(at 106 101.8 180)
+		(at 102.5 98.4 0)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
 			(at 0 1.16 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "3b979289-9126-47a3-b50b-4028bf84966d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Value" "2.2u"
 			(at 0 -1.16 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "d2b5df93-e4fa-439d-9db0-66558aa61333")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/TDK_C.pdf"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d2a4477-c4b4-4199-96cb-382545924538")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5ee40dd-c9d1-4087-9fe3-b49d41c80520")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2f40364d-c314-4206-aa98-fd72c53957a2")
 			(effects
@@ -54029,13 +54029,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "LCSC Part" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f387ed2-75f6-446a-8eee-0bb205b19fb2")
 			(effects
@@ -54043,13 +54043,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "LCSC" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fa43ded-e534-4c1a-8c44-2a794bc89fe0")
 			(effects
@@ -54057,13 +54057,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "MPN" "C1005X5R1C225M050BC"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "560656e0-5fd0-4327-8c94-f6f941ccd8a9")
 			(effects
@@ -54071,13 +54071,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Manufacturer" "TDK"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "24e7ee96-8052-4964-951a-273871966d14")
 			(effects
@@ -54085,13 +54085,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fe7b889-d152-4ae3-8365-2a5ae32ed59c")
 			(effects
@@ -54099,13 +54099,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey URL" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "671afb23-0df4-45e6-a52e-05497907d519")
 			(effects
@@ -54113,13 +54113,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a593c08b-7237-4781-9a29-e35e6647ebe3")
 			(effects
@@ -54127,13 +54127,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd86e04c-323c-44a1-b57c-f3958dd84dba")
 			(effects
@@ -54141,13 +54141,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Price Qty" ""
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "f992e5de-2b68-4fb5-9494-c69bbfa9202a")
 			(effects
@@ -54155,13 +54155,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2aa25569-9a35-4937-a993-46d8ae9fbfb2")
 			(effects
@@ -54169,13 +54169,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2fd7cf69-1bb0-4159-a7f4-80f19ca97598")
 			(effects
@@ -54183,13 +54183,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Package" "0402 (1005)"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a2af9da5-967d-436b-84d9-37365ebb112c")
 			(effects
@@ -54197,13 +54197,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Footprint Audit" "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "37e5e8c6-a914-4766-a4c1-501f3cbd5129")
 			(effects
@@ -54211,13 +54211,13 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 0)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "30f6f38f-71d8-4f9d-92a3-71cdccfb456d")
 			(effects
@@ -54225,7 +54225,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -54247,7 +54247,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "d394c3dc-220d-43d7-b626-dfdabcfee417")
 		)
 		(fp_line
@@ -54257,7 +54257,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "0d393a7d-e7e2-4330-a7ed-dcc2282ec768")
 		)
 		(fp_rect
@@ -54268,7 +54268,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "d20756ac-52cc-423b-92c7-18de05d14fc4")
 		)
 		(fp_rect
@@ -54279,25 +54279,25 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "f7d92802-fdb6-4479-a96e-62b2ceedaaca")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "793135a7-1b37-4ab6-b67a-f3ac2846ed1c")
 			(effects
 				(font
 					(size 0.25 0.25)
 					(thickness 0.04)
 				)
-				(justify mirror)
+				
 			)
 		)
 		(pad "1" smd roundrect
 			(at -0.48 0 180)
 			(size 0.56 0.62)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "VCAP")
 			(pintype "passive")
@@ -54306,7 +54306,7 @@
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
 			(size 0.56 0.62)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pintype "passive")

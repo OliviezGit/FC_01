@@ -5,6 +5,20 @@ Date : 2026-09-27. Base initiale : `8023e116a3f5c59ac772a055e0b58ddf85dce90a`. F
 **État : corrections intégrées, revue statique terminée ; fabrication non libérée.**
 Le projet contient 155 références physiques, 44 MPN distincts et 560 broches/pads numérotés. Les 155 références disposent désormais d'un symbole et d'une empreinte résolus dans le dépôt. Le contrôle statique ne remplace pas KiCad ERC/DRC, une vérification électrique du circuit, ni une qualification d'assemblage.
 
+## Revue implantation / CEM — mise à jour du 27/09/2026
+
+Le PCB courant est désormais configuré en **6 couches cuivre** : F.Cu, In1.Cu, In2.Cu, In3.Cu, In4.Cu et B.Cu. Le routage n'a pas commencé : **0 segment, 0 via et 0 zone cuivre**. Le preset différentiel Huaqiu 90 ohms est enregistré dans le projet à **0,2037 mm de largeur / 0,2451 mm d'espacement**.
+
+Les remarques CEM/implantation ont été rapprochées du fichier PCB courant :
+- **USB1/U1/R1/R2** : le chevauchement courtyard a été supprimé. La marge courtyard USB1→U1 est d'environ **0,22 mm** ; la validation mécanique finale reste ouverte tant que le plan primaire coté JAE n'est pas archivé.
+- **J12 microSD** : l'empreinte Amphenol 10067099-200LF Rev.H est intégrée ; la validation mécanique finale reste requise.
+- **VCAP C7/C10** : corrigés sur **F.Cu**, au même côté que le STM32H743. C7 est maintenant à **(87,50 ; 94,05), 90°** et C10 à **(102,50 ; 98,40), 0°**, afin de réduire les boucles VCAP.
+- **Y1 8 MHz** : reste actuellement sur **B.Cu**. Il ne doit pas être déplacé sur F.Cu sans réorganisation du bloc 9 V, car **L2 occupe actuellement la zone immédiatement sous OSC_IN/OSC_OUT**. Ce point reste bloquant avant routage.
+- **U4/L2 9 V** : la cellule doit encore être repackée ; le feedback R10/R11 et la position de L2 sont à optimiser en même temps que le déplacement de Y1, avec nœud SW minimal et feedback éloigné de SW.
+- **D5 / U8 CAN** : D5 est déjà placée au bord du connecteur U8 ; les courtyards sont séparés d'environ **0,47 mm**. Le routage devra conserver connecteur → protection ESD → transceiver sans stub.
+- **BMI088 / BMP581** : les keepouts de routage/vias/métal constructeur restent à matérialiser dans KiCad avant routage.
+- **Plans internes** : les 6 couches sont créées, mais les plans GND/POWER ne sont pas encore matérialisés par des zones ; la CEM finale ne pourra être validée qu'après routage, stitching et DRC.
+
 ## Modifications
 
 | Référence | Correction appliquée |
@@ -19,7 +33,7 @@ Le projet contient 155 références physiques, 44 MPN distincts et 560 broches/p
 | R34, R35, R36 | Affectations des nets aux pads 1/2 du PCB remises en accord avec le schéma. |
 | D4, D5, U8 | Liens datasheet, noms de pins D5 et métadonnée de boîtier GH corrigés. |
 
-Y1, D1, U11 et U13 étaient absents du PCB : ils sont ajoutés dans une zone d'attente à x=230 mm, y=100/110/120/130 mm, face avant. **Leur placement et le routage restent à effectuer.** Positions, orientations, faces et UUID courants de main sont conservés. C13, supprimé du schéma dans main, est retiré du PCB et des nomenclatures (151 empreintes héritées conservées). La correction ADC_VBAT2 du schéma est reportée sur C35.1, R19.1 et R18.2; aucun segment routé ne portait cet ancien net. Les nets internes hérités de noms de pins D1 peuvent conserver leur ancien libellé ; les connexions numériques sont inchangées.
+Y1, D1, U11 et U13 sont désormais intégrés au PCB courant ; l'ancienne zone d'attente à x=230 mm n'est plus l'état de référence. Le placement actuel du PCB fait foi. Y1 reste néanmoins à reprendre côté F.Cu après réorganisation du bloc 9 V, comme indiqué dans la revue implantation/CEM ci-dessus. C13, supprimé du schéma dans main, est retiré du PCB et des nomenclatures (151 empreintes héritées conservées). La correction ADC_VBAT2 du schéma est reportée sur C35.1, R19.1 et R18.2; aucun segment routé ne portait cet ancien net. Les nets internes hérités de noms de pins D1 peuvent conserver leur ancien libellé ; les connexions numériques sont inchangées.
 
 Les symboles utilisés sont figés dans `composants/kicad/FC01_Project.kicad_sym`, avec un nom distinct par feuille/variante pour préserver les personnalisations. Les empreintes standard utilisées sont copiées depuis le PCB dans `composants/kicad/vendor/` et référencées par `fp-lib-table`. Il s'agit d'instantanés de ce projet, pas d'une mise à jour vers la dernière bibliothèque KiCad. Les 133 composants achetés disposent de modèles STEP locaux. Neuf MPN utilisent une enveloppe reconstruite, sans contacts détaillés; voir `../composants/3d/BINDINGS.json`. Les fichiers `extralib/` historiques restent conservés, mais les tables pointent désormais sur `composants/kicad/`.
 
