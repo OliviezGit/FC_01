@@ -1028,7 +1028,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "H743_Custom:ST_USBLC6-2P6_SOT-666"
+			(property "Footprint" "H743_Custom:SOT50P160X60-6N"
 				(at 1.016 -6.731 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3925,7 +3925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "H743_Custom:ST_USBLC6-2P6_SOT-666"
+		(property "Footprint" "H743_Custom:SOT50P160X60-6N"
 			(at 91.186 62.611 0)
 			(hide yes)
 			(show_name no)
