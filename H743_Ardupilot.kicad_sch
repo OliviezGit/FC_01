@@ -187,7 +187,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -198,7 +198,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board SMT, JAE DX07S016JA1R1500"
+			(property "Description" "JAE DX07S016JA1R1500; USB Type-C USB 2.0 receptacle; 16 positions (24 = 16+8 dummy per DigiKey); on-board/right-angle, 1-row SMT + shell through-hole; shell DIP 0.9 mm; 5 A max; 48 Vrms; -40..+85 C; 10000 mating cycles. Supplier PDF: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -239,6 +239,102 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jae-electronics/DX07S016JA1R1500/11585731?s=N4IgTCBcDaICIA0AMB2AykgjANgFIEFMAlTAViSRAF0BfIA"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "DigiKey Unit Price EUR" "0.86782"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "DigiKey Price Qty" "1500 (Tape & Reel)"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Price Checked" "2026-09-27"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Supplier PDF" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "JAE Drawing" "SJ121836 / SJ121837"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint Audit" "VERIFIED: supplier ZIP pad map cross-checked; 12 signal lands (paired GND/VBUS contacts) + SH1-SH6; shell DIP 0.9 mm"
+				(at 0 0 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
 					)
 				)
 			)
@@ -454,7 +550,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "SH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -473,7 +569,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "SH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -492,7 +588,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "SH3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -511,7 +607,45 @@
 							)
 						)
 					)
-					(number "28"
+					(number "SH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,7 +663,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "A1/B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,7 +681,7 @@
 							)
 						)
 					)
-					(number "A4"
+					(number "A4/B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -628,25 +762,6 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -20.32 90)
 					(length 2.54)
 					(hide yes)
@@ -657,26 +772,7 @@
 							)
 						)
 					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
+					(number "A12/B1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -695,7 +791,7 @@
 							)
 						)
 					)
-					(number "B4"
+					(number "B4/A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -768,44 +864,6 @@
 						)
 					)
 					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 15.24 180)
-					(length 2.54)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3363,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "DX07S016JA1R1500"
 			(at 53.34 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3385,7 +3443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3396,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board SMT, JAE DX07S016JA1R1500"
+		(property "Description" "JAE DX07S016JA1R1500; USB Type-C USB 2.0 receptacle; 16 positions (24 = 16+8 dummy per DigiKey); on-board/right-angle, 1-row SMT + shell through-hole; shell DIP 0.9 mm; 5 A max; 48 Vrms; -40..+85 C; 10000 mating cycles. Supplier PDF: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3440,6 +3498,18 @@
 				)
 			)
 		)
+		(property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Manufacturer" "JAE Electronics"
 			(at 53.34 55.88 0)
 			(hide yes)
@@ -3470,6 +3540,78 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Unit Price EUR" "0.86782"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey Price Qty" "1500 (Tape & Reel)"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price Checked" "2026-09-27"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier PDF" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JAE Drawing" "SJ121836 / SJ121837"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier Specs" "16 pos.; USB 2.0 Type-C; 5 A max; 48 Vrms; -40..+85 C; 10000 cycles; shell DIP 0.9 mm; 1500 pcs/reel"
+			(at 53.34 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3528,12 +3670,6 @@
 				)
 			)
 		)
-		(pin "B12"
-			(uuid "823e9cbd-f3a5-46d9-8e21-9ce4bef6cd47")
-		)
-		(pin "B9"
-			(uuid "6054bcdd-bd8d-4e0c-93d8-111f5013e608")
-		)
 		(pin "B8"
 			(uuid "525a8b16-fb09-4500-b927-1703dd1d1a0f")
 		)
@@ -3543,22 +3679,28 @@
 		(pin "B6"
 			(uuid "e407996a-88b6-4cec-b709-2f6ab8e55a0b")
 		)
-		(pin "A1"
+		(pin "A1/B12"
 			(uuid "9b8ebdcf-c965-4efb-b394-4129e2b1360d")
 		)
-		(pin "27"
+		(pin "SH3"
 			(uuid "d0e3f85f-9621-433f-bfb8-f524ffd08a75")
 		)
-		(pin "26"
+		(pin "SH2"
 			(uuid "f7d80849-e724-4943-b2ed-ca1ba56a4960")
 		)
-		(pin "28"
+		(pin "SH4"
 			(uuid "f30ba335-d7ef-4bfd-9d5d-3f2fa52a5c75")
 		)
-		(pin "A4"
+		(pin "SH5"
+			(uuid "5a77d90a-2ec7-4b5f-a3cb-4e28b6da7e51")
+		)
+		(pin "SH6"
+			(uuid "8a1ddf3c-2f93-4d5f-b9d8-a6891c9370b2")
+		)
+		(pin "A4/B9"
 			(uuid "d8e1ca09-ae3f-429e-9cc6-f2e46ac158f9")
 		)
-		(pin "25"
+		(pin "SH1"
 			(uuid "55cf63d3-dd34-43da-89fd-100a4e9e72d4")
 		)
 		(pin "A5"
@@ -3573,20 +3715,14 @@
 		(pin "B5"
 			(uuid "0ff73b40-f13c-4567-9d7a-98ecf65da256")
 		)
-		(pin "A12"
+		(pin "A12/B1"
 			(uuid "ae31f575-4b8a-413d-8c3d-251ba004d90d")
 		)
-		(pin "B4"
+		(pin "B4/A9"
 			(uuid "d5f3630a-da5e-4abc-966b-ffaa9e4422c3")
 		)
 		(pin "A8"
 			(uuid "0cb4529a-0ae9-42f2-9a28-6588279f4427")
-		)
-		(pin "B1"
-			(uuid "39a99470-e623-4002-9af3-9541124616d6")
-		)
-		(pin "A9"
-			(uuid "2eeeea6b-44cf-404a-a846-3199cb5d9f16")
 		)
 		(instances
 			(project "H743_Ardupilot"
