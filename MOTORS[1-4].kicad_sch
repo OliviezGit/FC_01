@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:MOTORS1-4__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "MOTORS1-4__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -110,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "MOTORS1-4__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -150,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:JST_SH_SM08B_SRSS_TB_8P"
+		(symbol "FC01_Project:MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -275,7 +275,7 @@
 					)
 				)
 			)
-			(symbol "JST_SH_SM08B_SRSS_TB_8P_0_1"
+			(symbol "MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P_0_1"
 				(rectangle
 					(start -2.54 11.43)
 					(end 5.08 -11.43)
@@ -481,7 +481,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:MOTORS1-4__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -560,7 +560,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "MOTORS1-4__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -574,7 +574,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "MOTORS1-4__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -596,7 +596,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VAA"
+		(symbol "FC01_Project:MOTORS1-4__VAA"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -675,7 +675,7 @@
 					)
 				)
 			)
-			(symbol "VAA_0_1"
+			(symbol "MOTORS1-4__VAA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -713,7 +713,7 @@
 					)
 				)
 			)
-			(symbol "VAA_1_1"
+			(symbol "MOTORS1-4__VAA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1310,7 +1310,7 @@
 		(uuid "beb30b95-3d79-46f8-89a0-9d283e25a3f0")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:MOTORS1-4__GND")
 		(at 123.19 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -1388,7 +1388,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 68.58 90)
 		(unit 1)
 		(body_style 1)
@@ -1429,7 +1429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 87.63 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1495,7 +1495,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1517,7 +1517,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1528,7 +1528,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1539,7 +1539,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1550,7 +1550,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active / DigiKey family verified"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1572,7 +1572,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1583,7 +1583,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 82.55 67.31 90)
 			(hide yes)
 			(show_name no)
@@ -1608,9 +1608,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-07200RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:MOTORS1-4__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -1651,7 +1695,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 87.63 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -1717,7 +1761,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1739,7 +1783,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1750,7 +1794,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1761,7 +1805,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1772,7 +1816,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active / DigiKey family verified"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1794,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1805,7 +1849,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 82.55 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -1830,9 +1874,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-07200RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:MOTORS1-4__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -1873,7 +1961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 87.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1939,7 +2027,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -1961,7 +2049,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -1972,7 +2060,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -1983,7 +2071,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -1994,7 +2082,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active / DigiKey family verified"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -2016,7 +2104,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -2027,7 +2115,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 82.55 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -2052,9 +2140,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-07200RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:MOTORS1-4__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:VAA")
+		(lib_id "FC01_Project:MOTORS1-4__VAA")
 		(at 123.19 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -2132,7 +2264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:MOTORS1-4__R_Small")
 		(at 87.63 71.12 90)
 		(unit 1)
 		(body_style 1)
@@ -2173,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 87.63 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2239,7 +2371,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-07200RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2261,7 +2393,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.09"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2272,7 +2404,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2283,7 +2415,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2294,7 +2426,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active / DigiKey family verified"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2316,7 +2448,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2327,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 82.55 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2352,9 +2484,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-07200RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-200LRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:MOTORS1-4__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "H743_Ardupilot:JST_SH_SM08B_SRSS_TB_8P")
+		(lib_id "FC01_Project:MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P")
 		(at 130.81 67.31 0)
 		(unit 1)
 		(body_style 1)
@@ -2387,7 +2563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM09B-SRSS-TB_1x09-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "H743_Custom:JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs"
 			(at 130.81 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2398,7 +2574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U14_datasheet.pdf"
 			(at 130.81 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2464,7 +2640,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" ""
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM08B-SRSS-TB/926714"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2486,7 +2662,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.73"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2497,7 +2673,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2508,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2519,7 +2695,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "No exact DigiKey listing; supplier/LCSC part retained"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2530,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Package" "SH1.0 8P right-angle SMD"
+		(property "Package" "JST SH 8 contacts, P1.00 mm, side entry; mounting tabs pads 9/10"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2541,7 +2717,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK by package-family drawing; final overlay recommended"
+		(property "Footprint Audit" "JST SH SM08B-SRSS-TB, 8 contacts au pas 1.0 mm. Empreinte SM09B à 9 contacts remplacée par SM08B; tabs9/10 reliés GND selon symbole. Position et orientation PCB conservées."
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2552,7 +2728,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 128.27 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2601,5 +2777,49 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "455-1808-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM08B-SRSS-TB/926714" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "52530" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "455-1808-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM08B-SRSS-TB/926714" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.73" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/SM08B-SRSS-TB_LF__SN_.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "455-1808-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 )

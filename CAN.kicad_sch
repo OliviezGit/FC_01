@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "FC01_Project:CAN__Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -94,7 +94,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "CAN__Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -225,7 +225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:CAN__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -315,7 +315,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "CAN__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -341,7 +341,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "CAN__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -381,7 +381,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:JST_GH_SM04B_GHS_TB_4P"
+		(symbol "FC01_Project:CAN__JST_GH_SM04B_GHS_TB_4P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -517,7 +517,7 @@
 					)
 				)
 			)
-			(symbol "JST_GH_SM04B_GHS_TB_4P_0_1"
+			(symbol "CAN__JST_GH_SM04B_GHS_TB_4P_0_1"
 				(rectangle
 					(start -2.54 6.35)
 					(end 5.08 -6.35)
@@ -651,7 +651,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:TJA1051TK-3"
+		(symbol "FC01_Project:CAN__TJA1051TK-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(symbol "TJA1051TK-3_0_1"
+			(symbol "CAN__TJA1051TK-3_0_1"
 				(rectangle
 					(start -10.16 11.43)
 					(end 10.16 -11.43)
@@ -931,7 +931,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_TVS_AKL:PESD2CAN"
+		(symbol "FC01_Project:CAN__PESD2CAN"
 			(body_styles demorgan)
 			(pin_names
 				(offset 1.016)
@@ -973,7 +973,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf"
 				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1006,7 +1006,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_0_1"
+			(symbol "CAN__PESD2CAN_0_1"
 				(polyline
 					(pts
 						(xy -6.35 0) (xy -3.81 0)
@@ -1078,7 +1078,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_0_2"
+			(symbol "CAN__PESD2CAN_0_2"
 				(polyline
 					(pts
 						(xy -2.54 5.08) (xy -2.54 -5.08)
@@ -1202,7 +1202,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_1_1"
+			(symbol "CAN__PESD2CAN_1_1"
 				(polyline
 					(pts
 						(xy -2.54 1.27) (xy -2.54 3.81) (xy 0 2.54) (xy -2.54 1.27)
@@ -1350,7 +1350,7 @@
 				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "A1"
+					(name "K1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1368,7 +1368,7 @@
 				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "A2"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1386,7 +1386,7 @@
 				(pin passive line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "Com"
+					(name "CC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1402,7 +1402,7 @@
 					)
 				)
 			)
-			(symbol "PESD2CAN_1_2"
+			(symbol "CAN__PESD2CAN_1_2"
 				(polyline
 					(pts
 						(xy -1.27 3.81) (xy -1.27 4.318)
@@ -1526,7 +1526,7 @@
 				(pin passive line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "A1"
+					(name "K1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1544,7 +1544,7 @@
 				(pin passive line
 					(at 0 10.16 270)
 					(length 2.54)
-					(name "A2"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1562,7 +1562,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "Com"
+					(name "CC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "FC01_Project:CAN__+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1659,7 +1659,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "CAN__+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1697,7 +1697,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "CAN__+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1719,7 +1719,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "FC01_Project:CAN__+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1798,7 +1798,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "CAN__+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1836,7 +1836,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "CAN__+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1858,7 +1858,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:CAN__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1937,7 +1937,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "CAN__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1951,7 +1951,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "CAN__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2717,7 +2717,7 @@
 		(uuid "27cc610f-5054-4a3a-9c56-348583bd314a")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:CAN__Conn_01x04")
 		(at 162.56 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -2783,7 +2783,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "PCB feature / no purchased component"
+		(property "DigiKey Status" "Element PCB; aucun composant achete"
 			(at 165.1 106.6799 0)
 			(hide yes)
 			(show_name no)
@@ -2805,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" ""
 			(at 165.1 106.6799 0)
 			(hide yes)
 			(show_name no)
@@ -2827,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 106.6799 0)
 			(hide yes)
 			(show_name no)
@@ -2838,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 106.6799 0)
 			(hide yes)
 			(show_name no)
@@ -2869,9 +2869,57 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/SolderPadArray_1x04_P2.54mm_1x1mm.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__Conn_01x04" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:CAN__C_Small")
 		(at 69.85 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -2914,7 +2962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3024,7 +3072,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3035,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3046,7 +3094,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3068,7 +3116,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3079,7 +3127,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 71.12 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3104,9 +3152,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:CAN__+5V")
 		(at 69.85 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3184,7 +3274,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:CAN__+5V")
 		(at 148.59 57.15 0)
 		(unit 1)
 		(body_style 1)
@@ -3262,7 +3352,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 100.33 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -3340,7 +3430,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 64.77 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -3418,7 +3508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:CAN__C_Small")
 		(at 64.77 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3461,7 +3551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 64.77 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3571,7 +3661,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3582,7 +3672,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3593,7 +3683,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3615,7 +3705,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3626,7 +3716,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 66.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3651,9 +3741,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:CAN__+3V3")
 		(at 64.77 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -3731,7 +3863,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 130.81 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -3809,7 +3941,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 154.94 115.57 0)
 		(unit 1)
 		(body_style 1)
@@ -3887,7 +4019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_CAN_LIN:TJA1051TK-3")
+		(lib_id "FC01_Project:CAN__TJA1051TK-3")
 		(at 101.6 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3929,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U7_datasheet.pdf"
 			(at 101.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3973,7 +4105,7 @@
 				)
 			)
 		)
-		(property "Supplier Specs" "CAN FD transceiver, 5 Mbps, 4.5-5.5 V, HVSON-8 3x3 mm, -40..150 C"
+		(property "Supplier Specs" "Relevé web; stock et prix variables. Derniere date d achat annoncee: 26/12/2026; verifier cycle de vie."
 			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +4116,7 @@
 				)
 			)
 		)
-		(property "RS URL" "https://ch.rs-online.com/web/p/can-schnittstellen-ics/2194675"
+		(property "RS URL" ""
 			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4138,7 @@
 				)
 			)
 		)
-		(property "Mouser URL" "https://eu.mouser.com/en/ProductDetail/NXP-Semiconductors/TJA1051TK-3118"
+		(property "Mouser URL" ""
 			(at 101.6 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4083,7 +4215,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4094,7 +4226,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4105,7 +4237,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Last Time Buy; DigiKey last availability 2026-12-26"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4127,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "NXP TJA1051 Rev9 pp.4,16: TK=SOT782 HVSON8+EP; variante /3 pin5 VIO. 1TXD 2GND 3VCC 4RXD 5VIO 6CANL 7CANH 8S; EP9 GND. Corps 3 x 3, pas 0.65 mm."
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4270,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local symbol + verified JST footprint"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 101.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4184,9 +4316,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "568-8686-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/nxp-usa-inc/TJA1051TK-3-118/2803572" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "20970" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "568-8686-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/nxp-usa-inc/TJA1051TK-3-118/2803572" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "1.65" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/TJA1051TK_3_118.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Package_SON.pretty/HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/TJA1051_HVSON8_envelope.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables. Derniere date d achat annoncee: 26/12/2026; verifier cycle de vie." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__TJA1051TK-3" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:CAN__+5V")
 		(at 152.4 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -4264,7 +4438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_TVS_AKL:PESD2CAN")
+		(lib_id "FC01_Project:CAN__PESD2CAN")
 		(at 130.81 85.09 90)
 		(unit 1)
 		(body_style 1)
@@ -4308,7 +4482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/PESD2CANFD24V.pdf"
 			(at 121.92 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4363,7 +4537,7 @@
 				)
 			)
 		)
-		(property "Supplier Specs" "Automotive CAN TVS, VRWM 24 V, VCL 42 V, SOT-23/TO-236AB, AEC-Q101"
+		(property "Supplier Specs" "Relevé web; stock et prix variables."
 			(at 130.81 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4374,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Mouser URL" "https://www.mouser.fr/fr/ProductDetail/Nexperia/PESD2CANFD24V-TR"
+		(property "Mouser URL" ""
 			(at 130.81 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4407,7 +4581,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/nexperia-usa-inc/PESD2CANFD24V-TR/11487035"
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/nexperia-usa-inc/PESD2CANFD24V-TR/11487035"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4429,7 +4603,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" "0.40"
+		(property "DigiKey Unit Price EUR" "0.4"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4440,7 +4614,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4451,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4462,7 +4636,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4484,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "VERIFIED: NXP HVSON8 SOT782-1, 3x3 mm, P0.65, EP 1.6x2.4; symbol pin 9 EP/GND matches exposed pad"
+		(property "Footprint Audit" "Nexperia PESD2CANFD24V-T: SOT23, 1K1 2K2 3CC. Noms des broches et datasheet corrigés; numéros et connexions inchangés. Les deux styles graphiques sont conservés."
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4669,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Custom verified symbol + KiCad standard SOT-23 footprint"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 137.16 84.3914 90)
 			(hide yes)
 			(show_name no)
@@ -4523,9 +4697,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1727-PESD2CANFD24V-CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/nexperia-usa-inc/PESD2CANFD24V-TR/11487035" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "594" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1727-PESD2CANFD24V-CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/nexperia-usa-inc/PESD2CANFD24V-TR/11487035" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.4" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/PESD2CANFD24V-TR.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.rxelectronics.sg/datasheet/b9/pesd2canfd24v-tr.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/SOT-23.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__PESD2CAN" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "H743_Ardupilot:JST_GH_SM04B_GHS_TB_4P")
+		(lib_id "FC01_Project:CAN__JST_GH_SM04B_GHS_TB_4P")
 		(at 154.94 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -4569,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U8_datasheet.pdf"
 			(at 154.94 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4635,7 +4851,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" ""
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4657,7 +4873,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" ""
+		(property "DigiKey Unit Price EUR" "0.33"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4668,7 +4884,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" ""
+		(property "DigiKey Price Qty" "1"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4895,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4690,7 +4906,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "No exact DigiKey listing; supplier part retained"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4701,7 +4917,7 @@
 				)
 			)
 		)
-		(property "Package" "SH1.0 4P right-angle SMD"
+		(property "Package" "JST GH 4 contacts, P1.25 mm, side entry; mounting tabs pads 5/6"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4712,7 +4928,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK against JST drawing"
+		(property "Footprint Audit" "JST GH p.1 et plan SM04B-GHS-TB: 4 contacts au pas 1.25 mm + 2 pattes mécaniques numérotées 5/6 dans le projet et reliées GND. Métadonnée Package corrigée de SH à GH."
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4723,7 +4939,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local symbol + verified JST footprint"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 151.13 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4760,9 +4976,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "455-1566-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "2490" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "455-1566-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.33" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/SM04B-GHS-TB_LF__SN_.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "455-1566-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/JST_GH_SM04B-GHS-TB_1x04_P1.25mm_Horizontal_GNDtabs.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__JST_GH_SM04B_GHS_TB_4P" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 148.59 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -4840,7 +5100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:CAN__Conn_01x04")
 		(at 162.56 95.25 0)
 		(unit 1)
 		(body_style 1)
@@ -4906,7 +5166,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "PCB feature / no purchased component"
+		(property "DigiKey Status" "Element PCB; aucun composant achete"
 			(at 165.1 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +5188,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" ""
 			(at 165.1 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4950,7 +5210,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4961,7 +5221,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 165.1 95.2499 0)
 			(hide yes)
 			(show_name no)
@@ -4992,9 +5252,57 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/SolderPadArray_1x04_P2.54mm_1x1mm.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:CAN__Conn_01x04" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:CAN__GND")
 		(at 69.85 69.85 0)
 		(unit 1)
 		(body_style 1)

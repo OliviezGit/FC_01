@@ -1,0 +1,181 @@
+[
+  {
+    "file": "composants/3d/C_0402_1005Metric.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_0402_1005Metric.step",
+    "bytes": 43502,
+    "status": "downloaded",
+    "sha256": "03e44c4b2b727b8d4b6b1fd598cbd12dd5e614f1dfeefa96a92a07e3a3b312a2"
+  },
+  {
+    "file": "composants/3d/C_0603_1608Metric.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_0603_1608Metric.step",
+    "bytes": 43450,
+    "status": "downloaded",
+    "sha256": "4857b3dc717675bf1fb22edda622ac3b3ae03cf44d81eefaf3fa3ba3a86d84c1"
+  },
+  {
+    "file": "composants/3d/C_0805_2012Metric.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_0805_2012Metric.step",
+    "bytes": 43618,
+    "status": "downloaded",
+    "sha256": "9a669c1a2f1ea25b88b401acef6efeaa80a067bd7da9db6993de719a7fbe155c"
+  },
+  {
+    "file": "composants/3d/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Connector_JST.3dshapes/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step",
+    "bytes": 329331,
+    "status": "downloaded",
+    "sha256": "87daecb3fd58feebfc043db9560fe6a4fe554272ba3b14d4cb8c852a4b2b3406",
+    "metadata_edit": "Author email omitted; author name and license retained. Geometry unchanged."
+  },
+  {
+    "file": "composants/3d/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step",
+    "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Connector_JST.3dshapes/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step",
+    "status": "downloaded",
+    "bytes": 106088,
+    "sha256": "ff2dee3fae4da6045a727d5531bfa03fa29352f740971584931e711dc34dba55"
+  },
+  {
+    "file": "composants/3d/D_SMA.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SMA.step",
+    "bytes": 70794,
+    "status": "downloaded",
+    "sha256": "1cfddd4e3b1bf22b8fc6ee3258c2aade882ed7b85b528e23b9db42437775a1db"
+  },
+  {
+    "file": "composants/3d/D_SOD-123.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SOD-123.step",
+    "bytes": 105865,
+    "status": "downloaded",
+    "sha256": "4413b86c5a559a63b29f1f53fd235ffe38dd235d3c16750a8a78e855c9a802ef"
+  },
+  {
+    "file": "composants/3d/Nexperia_CFP3_SOD-123W.step",
+    "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Diode_SMD.3dshapes/Nexperia_CFP3_SOD-123W.step",
+    "status": "downloaded",
+    "bytes": 59769,
+    "sha256": "b7e56594bfc2e4eec42ca2b7b7911cc7eff91c1f55a3c8db11ddfba2e5ce21d7"
+  },
+  {
+    "file": "composants/3d/L_0402_1005Metric.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Inductor_SMD.3dshapes/L_0402_1005Metric.step",
+    "bytes": 43502,
+    "status": "downloaded",
+    "sha256": "8bf2ae2bbd9d8b716db21d8d7fb903fac5ba2696150c3ec2e35bcea17b208ff2"
+  },
+  {
+    "file": "composants/3d/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+    "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+    "status": "downloaded",
+    "bytes": 110593,
+    "sha256": "65626b93d9b55c6bfae7e3fdafcfd9dc36fe0121778aa04d8da3a20c7d1f041e"
+  },
+  {
+    "file": "composants/3d/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step",
+    "url": "https://gitlab.com/kicad/libraries/kicad-packages3D/-/raw/master/Package_LGA.3dshapes/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step",
+    "status": "downloaded",
+    "bytes": 67896,
+    "sha256": "dc46c314367f4c73b0b11e3d6c0a66760f47f68d2defdbf2fb7b890dc2e8ac91"
+  },
+  {
+    "file": "composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+    "bytes": 120321,
+    "status": "downloaded",
+    "sha256": "135b7bb3b2262aa62b4493c9b0e06504cf329c6e4970fa84d0f8d063763daeb5"
+  },
+  {
+    "file": "composants/3d/LQFP-100_14x14mm_P0.5mm.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_QFP.3dshapes/LQFP-100_14x14mm_P0.5mm.step",
+    "bytes": 2821361,
+    "status": "downloaded",
+    "sha256": "2c22f2bd68addadb40357b0f5540d4229375189f627feca407784ab6b2819c63"
+  },
+  {
+    "file": "composants/3d/SOT-23.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/SOT-23.step",
+    "bytes": 119867,
+    "status": "downloaded",
+    "sha256": "9fe9af3cc6cf3d3bc3bd3da71731af2037c67f690245102a20e1e39a33e9ade4"
+  },
+  {
+    "file": "composants/3d/SOT-666.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/SOT-666.step",
+    "bytes": 72792,
+    "status": "downloaded",
+    "sha256": "eeaa97c06a9396d5faa21f9016c75f498a547b5ab955a64686d4a98199667adf"
+  },
+  {
+    "file": "composants/3d/R_0402_1005Metric.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Resistor_SMD.3dshapes/R_0402_1005Metric.step",
+    "bytes": 40756,
+    "status": "downloaded",
+    "sha256": "91507e5af4251cb4ef38e04889c9b98da29904432bd83786bba13ae9b605eacb"
+  },
+  {
+    "file": "composants/3d/Murata_CSTNE_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "94678dd68cf60e43f09c7cf59833d5e9d20a8ca33d00defb24dc716bdb09c69e"
+  },
+  {
+    "file": "composants/3d/TJA1051_HVSON8_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "cfaf7fb75e7c984ecf10edea36898da027f00148e97f65593e5cca752086fd4a"
+  },
+  {
+    "file": "composants/3d/Amphenol_10067099-200LF_supplier.step",
+    "source": "STEP Amphenol fourni par utilisateur",
+    "status": "local",
+    "sha256": "0d8a5b1d7a306c2d233516971cbddda505223cf1c2792401433995e0d023b0e2"
+  },
+  {
+    "file": "composants/3d/JAE_DX07S016JA1R1500_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "f73ae198bc775fab6d6085b75aa4c3705a605d78e5b342ab85746adaaf9b4104"
+  },
+  {
+    "file": "composants/3d/Coilcraft_XGL4030_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "a3b77f8d73e92e39a791394064d23a1aae7b1d2b26c1a2076ed934b88e86497b"
+  },
+  {
+    "file": "composants/3d/Amphenol_10067099-200LF_aligned.step",
+    "source": "STEP Amphenol fourni par utilisateur",
+    "status": "local",
+    "sha256": "1fe2772d7dbc493333ba7edf08463eef4824c5b18d917730a5cc88c6e1eab476"
+  },
+  {
+    "file": "composants/3d/BMP581_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "ca55a4c6dc4e18bdcbbff23ed855cd5e87d6bd94cc18e439df90535d2d405e76"
+  },
+  {
+    "file": "composants/3d/LMR43620_RPE0009B_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "1006daa6fc9353644f8f89db0ad4a561390eaa3cce30ba74f5c06ed59a23a8ec"
+  },
+  {
+    "file": "composants/3d/Everlight_19-337_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "654aa6bb08f6fdbb23b9e4274f36ec4e48915ba31c70874cf1c8ae7f7bea6727"
+  },
+  {
+    "file": "composants/3d/LMR60430_RAK0009A_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "5276ff520c41f35f4d5804991e60c72a6308411504dd7a787cd557b48615c5ee"
+  },
+  {
+    "file": "composants/3d/DPS368_envelope.step",
+    "source": "Generation independante tools/localize_component_assets.py",
+    "status": "local",
+    "sha256": "b98d58936fa8fbcd15860fda786a551451dffca5e0cffe1c0622e7f5b15f22dd"
+  }
+]

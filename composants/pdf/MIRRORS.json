@@ -1,0 +1,30 @@
+{
+  "AP7361C": {
+    "url": "https://docs.sparkfun.com/SparkFun_GNSS_Flex_System/SparkFun_GNSS_Flex_Breakout/assets/component_documentation/AP7361C.pdf",
+    "file": "AP7361C.pdf",
+    "bytes": 931328
+  },
+  "PMEG4030ER": {
+    "url": "https://docs.rs-online.com/6543/0900766b8120648d.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "1N5819HW": {
+    "url": "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/1n5819hw%20%202.pdf",
+    "file": "1N5819HW.pdf",
+    "bytes": 63593
+  },
+  "PESD2CANFD24V": {
+    "url": "https://www.rxelectronics.sg/datasheet/b9/pesd2canfd24v-tr.pdf",
+    "file": "PESD2CANFD24V.pdf",
+    "bytes": 275533
+  },
+  "10067099": {
+    "url": "https://www.mouser.com/datasheet/2/18/1/10067099-2577377.pdf",
+    "file": "10067099.pdf",
+    "bytes": 664281
+  },
+  "Yageo_RC": {
+    "url": "https://www.tme.eu/Document/1a2bc76e2be68b3b1670068306778ce6/rc0402yageo.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  }
+}

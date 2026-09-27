@@ -1,0 +1,24 @@
+{
+  "schematic_references": 155,
+  "pcb_footprints": 155,
+  "unique_manufacturer_part_numbers": 44,
+  "symbol_pin_pad_pairs": 560,
+  "schematic_symbol_instances": 282,
+  "network_power_symbols": 127,
+  "purchased_references_with_local_assets": 133,
+  "schematic_instance_fields_checked": 155,
+  "unconfirmed_purchasing_mpns": [
+    "19-337/R6GHBHC-M01/2T",
+    "XGL4030-332MEC",
+    "0402WGF5101TCE",
+    "RC0402FR-0716K5L"
+  ],
+  "errors": [],
+  "unsupported_bus_nets": [
+    "/MCU/MOTOR1",
+    "/MCU/MOTOR2",
+    "/MCU/MOTOR3",
+    "/MCU/MOTOR4"
+  ],
+  "native_ERC_DRC_run": false
+}

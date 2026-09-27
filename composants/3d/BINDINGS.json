@@ -1,0 +1,574 @@
+{
+  "Capacitor_SMD:C_0402_1005Metric": {
+    "file": "composants/3d/C_0402_1005Metric.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Capacitor_SMD:C_0603_1608Metric": {
+    "file": "composants/3d/C_0603_1608Metric.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Capacitor_SMD:C_0805_2012Metric": {
+    "file": "composants/3d/C_0805_2012Metric.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Resistor_SMD:R_0402_1005Metric": {
+    "file": "composants/3d/R_0402_1005Metric.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Inductor_SMD:L_0402_1005Metric": {
+    "file": "composants/3d/L_0402_1005Metric.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Diode_SMD:D_SOD-123": {
+    "file": "composants/3d/D_SOD-123.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Diode_SMD:Nexperia_CFP3_SOD-123W": {
+    "file": "composants/3d/Nexperia_CFP3_SOD-123W.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Package_TO_SOT_SMD:SOT-23": {
+    "file": "composants/3d/SOT-23.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Package_QFP:LQFP-100_14x14mm_P0.5mm": {
+    "file": "composants/3d/LQFP-100_14x14mm_P0.5mm.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering": {
+    "file": "composants/3d/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:Diodes_SMA_SMAJ30CA": {
+    "file": "composants/3d/D_SMA.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:Diodes_U-DFN3030-8_TypeE": {
+    "file": "composants/3d/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+    "type": "KiCad: EP nominal 1.5 x 2.25, pads PCB maximaux 1.6 x 2.35 (Diodes p.17/20)",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y": {
+    "file": "composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1.064102564102564
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:TDK_ICM45686_LGA14_3x2.5mm": {
+    "file": "composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1.0384615384615385
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:JST_GH_SM04B-GHS-TB_1x04_P1.25mm_Horizontal_GNDtabs": {
+    "file": "composants/3d/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs": {
+    "file": "composants/3d/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step",
+    "type": "KiCad, geometrie generique du boitier",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:TI_RPE0009B_VQFN-HR-9_2x2mm": {
+    "file": "composants/3d/LMR43620_RPE0009B_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      2,
+      2,
+      1.0
+    ]
+  },
+  "H743_Custom:TI_RAK0009A_WQFN-HR-9_2.5x2.0mm": {
+    "file": "composants/3d/LMR60430_RAK0009A_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      2,
+      2.5,
+      0.8
+    ]
+  },
+  "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm": {
+    "file": "composants/3d/TJA1051_HVSON8_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      3,
+      3,
+      0.85
+    ]
+  },
+  "H743_Custom:Infineon_DPS368_PG-VLGA-8-2": {
+    "file": "composants/3d/DPS368_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      2.5,
+      2,
+      1.1
+    ]
+  },
+  "H743_Custom:QFN10_BMP581_BOS": {
+    "file": "composants/3d/BMP581_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      2,
+      2,
+      0.8
+    ]
+  },
+  "H743_Custom:Everlight_19-337_1.6x1.6mm": {
+    "file": "composants/3d/Everlight_19-337_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      1.6,
+      1.6,
+      0.35
+    ]
+  },
+  "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm": {
+    "file": "composants/3d/Murata_CSTNE_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      3.2,
+      1.3,
+      0.9
+    ]
+  },
+  "H743_Custom:L_Coilcraft_XGL4030": {
+    "file": "composants/3d/Coilcraft_XGL4030_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "body_mm": [
+      4,
+      4,
+      3.1
+    ]
+  },
+  "H743_Custom:Amphenol_10067099-200LF_RevH": {
+    "file": "composants/3d/Amphenol_10067099-200LF_aligned.step",
+    "type": "STEP fournisseur fourni par utilisateur; orientation rapprochee du plan Rev.H",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "source_transform": {
+      "file": "composants/3d/Amphenol_10067099-200LF_supplier.step",
+      "type": "STEP fournisseur fourni par utilisateur; orientation rapprochee du plan Rev.H",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        90,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        -0.9,
+        1.45
+      ]
+    }
+  },
+  "USBLC6_2P6:SOT50P160X60-6N": {
+    "file": "composants/3d/SOT-666.step",
+    "type": "KiCad SOT-666, boitier nominal; modèle fournisseur privé utilisé pour comparaison",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  },
+  "H743_Custom:JAE_DX07S016JA1R1500_16P": {
+    "file": "composants/3d/JAE_DX07S016JA1R1500_envelope.step",
+    "type": "ENVELOPPE RECONSTRUITE: limites mesurees du STEP fourni, 8.94 x 6.90 mm, z -1.05 a 3.31 mm; ni contacts ni interface de connexion; plan fabricant complet requis",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ]
+  }
+}

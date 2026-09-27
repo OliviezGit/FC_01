@@ -1,0 +1,2179 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+ (symbol "ICM-45686"
+  (exclude_from_sim no)
+ (in_bom yes)
+ (on_board yes)
+ (in_pos_files yes)
+ (duplicate_pin_numbers_are_jumpers no)
+ (property "Reference" "U"
+  (at 0 17.78 0)
+  
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "Value" "ICM-45686"
+  (at 0 15.24 0)
+  
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+  (at 0 -23.876 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
+  (at 0 -26.416 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "Description" "SmartMotion 6-axis MEMS IMU; accelerometer + gyroscope; I2C, I3C and SPI; 14-LGA 2.5x3.0 mm"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "Manufacturer" "TDK InvenSense"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "MPN" "ICM-45686"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "DigiKey Product ID" "24374985"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "DigiKey Part Number" "1428-ICM-45686CT-ND"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "CAD Symbol Source" "https://app.ultralibrarian.com/details/928788AC-7FD4-11F0-B69D-024899F9DFE1/TDK/ICM-45686"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "Package" "14-VFLGA / 14-LGA, 2.5x3.0x0.81 mm"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (property "ki_keywords" "IMU accelerometer gyroscope ICM45686 TDK InvenSense"
+  (at 0 0 0)
+  (hide yes)
+  (effects (font (size 1.27 1.27)))
+ )
+ (symbol "ICM-45686_0_1"
+  (rectangle
+   (start -10.16 13.97)
+   (end 10.16 -13.97)
+   (stroke (width 0) (type default))
+   (fill (type background))
+  )
+  (pin power_in line
+  (at -12.7 11.43 0)
+  (length 2.54)
+  (name "VDD" (effects (font (size 1.016 1.016))))
+  (number "8" (effects (font (size 1.016 1.016))))
+ )
+  (pin power_in line
+  (at -12.7 8.89 0)
+  (length 2.54)
+  (name "VDDIO" (effects (font (size 1.016 1.016))))
+  (number "5" (effects (font (size 1.016 1.016))))
+ )
+  (pin output line
+  (at -12.7 3.81 0)
+  (length 2.54)
+  (name "INT1" (effects (font (size 1.016 1.016))))
+  (number "4" (effects (font (size 1.016 1.016))))
+ )
+  (pin bidirectional line
+  (at -12.7 1.27 0)
+  (length 2.54)
+  (name "INT2/FSYNC/CLKIN" (effects (font (size 1.016 1.016))))
+  (number "9" (effects (font (size 1.016 1.016))))
+ )
+  (pin bidirectional line
+  (at -12.7 -3.81 0)
+  (length 2.54)
+  (name "SDO/AD0" (effects (font (size 1.016 1.016))))
+  (number "1" (effects (font (size 1.016 1.016))))
+ )
+  (pin bidirectional line
+  (at -12.7 -6.35 0)
+  (length 2.54)
+  (name "SDI/SDIO/SDA" (effects (font (size 1.016 1.016))))
+  (number "14" (effects (font (size 1.016 1.016))))
+ )
+  (pin input line
+  (at -12.7 -8.89 0)
+  (length 2.54)
+  (name "SCLK/SCL" (effects (font (size 1.016 1.016))))
+  (number "13" (effects (font (size 1.016 1.016))))
+ )
+  (pin input line
+  (at -12.7 -11.43 0)
+  (length 2.54)
+  (name "CS" (effects (font (size 1.016 1.016))))
+  (number "12" (effects (font (size 1.016 1.016))))
+ )
+  (pin power_in line
+  (at 0 -16.51 90)
+  (length 2.54)
+  (name "GND" (effects (font (size 1.016 1.016))))
+  (number "6" (effects (font (size 1.016 1.016))))
+ )
+  (pin bidirectional line
+  (at 12.7 -8.89 180)
+  (length 2.54)
+  (name "AUX_SDIO/SDI" (effects (font (size 1.016 1.016))))
+  (number "2" (effects (font (size 1.016 1.016))))
+ )
+  (pin input line
+  (at 12.7 -11.43 180)
+  (length 2.54)
+  (name "AUX_SCLK" (effects (font (size 1.016 1.016))))
+  (number "3" (effects (font (size 1.016 1.016))))
+ )
+  (pin passive line
+  (at 12.7 -6.35 180)
+  (length 2.54)
+  (name "RESV" (effects (font (size 1.016 1.016))))
+  (number "7" (effects (font (size 1.016 1.016))))
+ )
+  (pin input line
+  (at 12.7 -3.81 180)
+  (length 2.54)
+  (name "AUX_CS" (effects (font (size 1.016 1.016))))
+  (number "10" (effects (font (size 1.016 1.016))))
+ )
+  (pin output line
+  (at 12.7 -1.27 180)
+  (length 2.54)
+  (name "AUX_SDO" (effects (font (size 1.016 1.016))))
+  (number "11" (effects (font (size 1.016 1.016))))
+ )
+ )
+ (embedded_fonts no)
+ )
+
+ (symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "USB"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DX07S016JA1R1500"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "H743_Custom:JAE_DX07S016JA1R1500_16P"
+				(at 0 -30.48 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "JAE DX07S016JA1R1500; USB Type-C USB 2.0 receptacle; 16 positions (24 = 16+8 dummy per DigiKey); on-board/right-angle, 1-row SMT + shell through-hole; shell DIP 0.9 mm; 5 A max; 48 Vrms; -40..+85 C; 10000 mating cycles. Supplier PDF: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JAE Series" "DX07"
+				(at 0 -33.02 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JAE Electronics"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "MPN" "DX07S016JA1R1500"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+ (property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+			(property "DigiKey URL" "https://www.digikey.com/en/products/detail/jae-electronics/DX07S016JA1R1500/5243883"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+ (property "DigiKey Unit Price EUR" "0.86782"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "DigiKey Price Qty" "1500 (Tape & Reel)"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "Price Checked" "2026-09-27"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "Supplier PDF" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+ (property "JAE Drawing" "SJ121836 / SJ121837"
+ 	(at 0 0 0)
+ 	(hide yes)
+ 	(effects
+ 		(font
+ 			(size 1 1)
+ 			(thickness 0.15)
+ 		)
+ 	)
+ )
+			(property "Mouser URL" "https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "RS Part Number" "201-7049"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Package" "USB Type-C receptacle, USB 2.0, 16 contacts, right-angle SMT"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint Audit" "JAE DX07S016JA1R1500 geometry; A/B contacts preserved; shield pins 25-28 matched to project-local footprint"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_1_1"
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1/B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4/B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12/B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 15.24 180)
+					(length 2.54)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4/A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+
+ (symbol "JST_GH_SM04B_GHS_TB_4P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM04B-GHS-TB(LF)(SN)"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "H743_Custom:JST_GH_SM04B-GHS-TB_1x04_P1.25mm_Horizontal_GNDtabs"
+				(at 0 -16.51 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+				(at 0 -19.05 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 -21.59 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SM04B-GHS-TB(LF)(SN)"
+				(at 0 -24.13 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Mouser URL" "https://www.mouser.fr/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Farnell URL" "https://uk.farnell.com/jst-japan-solderless-terminals/sm04b-ghs-tb-lf-sn/conn-r-a-hdr-4pos-1row-1-25mm/dp/5110298"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "RS URL" "https://fr.rs-online.com/web/p/embases-circuits-imprimes/1725005"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint Audit" "VERIFIED: JST GH 4-position 1.25 mm right-angle SMT geometry; 4 electrical contacts + 2 mounting tabs"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Package" "JST GH 4P, 1.25 mm, right-angle SMT"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "JST_GH_SM04B_GHS_TB_4P_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+
+ (symbol "JST_SH_SM08B_SRSS_TB_8P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SM08B-SRSS-TB(LF)(SN)"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "H743_Custom:JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs"
+				(at 0 -21.59 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+				(at 0 -24.13 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 -26.67 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SM08B-SRSS-TB(LF)(SN)"
+				(at 0 -29.21 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM08B-SRSS-TB/926714"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Farnell URL" "https://fr.farnell.com/jst-japan-solderless-terminals/sm08b-srss-tb-lf-sn/embase-coudee-8-voies/dp/1679124"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "RS URL" "https://fr.rs-online.com/web/p/embases-circuits-imprimes/5468849"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint Audit" "VERIFIED: JST SH/SR 8-position 1.0 mm right-angle SMT geometry; 8 contacts + 2 mounting tabs"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Package" "JST SH/SR 8P, 1.0 mm, right-angle SMT"
+				(at 0 0 0)
+				(hide yes)
+				(effects (font (size 1.27 1.27)))
+			)
+			(symbol "JST_SH_SM08B_SRSS_TB_8P_0_1"
+				(rectangle
+					(start -2.54 11.43)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 10.16)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -13.97 90)
+					(length 2.54)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -13.97 90)
+					(length 2.54)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+
+ (symbol "LMR43620R5RPER"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LMR43620R5RPER"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "H743_Custom:TI_RPE0009B_VQFN-HR-9_2x2mm"
+				(at 0 -15.24 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr43620.pdf"
+				(at 0 -17.78 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -20.32 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LMR43620R5RPER"
+				(at 0 -22.86 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C32712896"
+				(at 0 -25.4 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LMR43620R5RPER_0_1"
+				(rectangle
+					(start -10.16 8.89)
+					(end 10.16 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "EN/UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "VOUT/FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LMR43620R5RPER_1_1"
+				(pin unspecified line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+
+ (symbol "LMR604303SRAKRQ1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LMR604303SRAKRQ1"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "H743_Custom:TI_RAK0009A_WQFN-HR-9_2.5x2.0mm"
+				(at 0 -12.7 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf"
+				(at 0 -15.24 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -17.78 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LMR604303SRAKRQ1"
+				(at 0 -20.32 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C49292342"
+				(at 0 -22.86 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LMR604303SRAKRQ1_0_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "MODE/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "RT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+
+ (symbol "AP7361C-33FGE-7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP7361C-33FGE-7"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm"
+				(at 0 -12.7 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
+				(at 0 -15.24 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 0 -17.78 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "AP7361C-33FGE-7"
+				(at 0 -20.32 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C151007"
+				(at 0 -22.86 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Linear Voltage Regulators (LDO)"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP7361C-33FGE-7_0_1"
+				(rectangle
+					(start -10.16 6.86)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "ADJ/NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+)

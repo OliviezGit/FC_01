@@ -1,0 +1,2585 @@
+[
+  {
+    "mpn": "CL05A475MP5NRNC",
+    "references": [
+      "C1",
+      "C44",
+      "C45",
+      "C46"
+    ],
+    "quantity": 4,
+    "manufacturer": "Samsung Electro-Mechanics",
+    "value": "4.7u",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:MCU__C_Small",
+      "FC01_Project:SENSORS__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/CL05A475MP5NRN.pdf",
+    "datasheet_download_url": "https://product.samsungsem.com/part/download.do?masterKey=CL05A475MP5NRN&type=specsheet",
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL05A475MP5NRN.do",
+    "model": {
+      "file": "composants/3d/C_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.samsungsem.com/mlcc/CL05A475MP5NRN.do",
+      "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1276-1482-1-ND",
+      "url": "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn67view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CL05A475MP5NRNC.pdf"
+  },
+  {
+    "mpn": "CL05B104KO5NNNC",
+    "references": [
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C8",
+      "C9",
+      "C11",
+      "C12",
+      "C15",
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C38",
+      "C39",
+      "C40",
+      "C41",
+      "C42",
+      "C43",
+      "C47",
+      "C48",
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C54",
+      "C55",
+      "C56",
+      "C58"
+    ],
+    "quantity": 31,
+    "manufacturer": "Samsung Electro-Mechanics",
+    "value": "100n",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:ANALOG_SENS__C_Small",
+      "FC01_Project:CAN__C_Small",
+      "FC01_Project:MCU__C_Small",
+      "FC01_Project:MICRO_SD__C_Small",
+      "FC01_Project:SENSORS__C_Small",
+      "FC01_Project:UART_I2C__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/CL05B104KO5NNN.pdf",
+    "datasheet_download_url": "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet",
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do",
+    "model": {
+      "file": "composants/3d/C_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.samsungsem.com/mlcc/CL05B104KO5NNN.do",
+      "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1276-1001-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 103052,
+      "checked": "2026-09-27",
+      "source_ref": "turn45view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CL05B104KO5NNNC.pdf"
+  },
+  {
+    "mpn": "C1005X5R1C225M050BC",
+    "references": [
+      "C7",
+      "C10"
+    ],
+    "quantity": 2,
+    "manufacturer": "TDK",
+    "value": "2.2u",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:MCU__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/TDK_C.pdf",
+    "datasheet_download_url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf",
+    "manufacturer_source_url": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1C225M050BC",
+    "model": {
+      "file": "composants/3d/C_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1C225M050BC",
+      "review": "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
+    },
+    "purchasing": {
+      "supplier": "Farnell France",
+      "order_code": "2525017",
+      "url": "https://fr.farnell.com/tdk/c1005x5r1c225m050bc/condensateur-2-2-f-16v-20-x5r/dp/2525017",
+      "unit_eur_ht": 0.104,
+      "price_quantity": 10,
+      "stock": 1310,
+      "checked": "2026-09-27",
+      "source_ref": "turn102search0",
+      "notes": "Minimum et multiple 10; source indexee il y a 5 mois, stock actuel A RECONFIRMER; disponible jusqu a epuisement."
+    },
+    "control_pdf": "composants/controle/C1005X5R1C225M050BC.pdf"
+  },
+  {
+    "mpn": "CL05A105KA5NQNC",
+    "references": [
+      "C14",
+      "C57"
+    ],
+    "quantity": 2,
+    "manufacturer": "Samsung Electro-Mechanics",
+    "value": "1u",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:MCU__C_Small",
+      "FC01_Project:MICRO_SD__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/CL05A105KA5NQN.pdf",
+    "datasheet_download_url": "https://product.samsungsem.com/part/download.do?masterKey=CL05A105KA5NQN&type=specsheet",
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL05A105KA5NQN.do",
+    "model": {
+      "file": "composants/3d/C_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.samsungsem.com/mlcc/CL05A105KA5NQN.do",
+      "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1276-1445-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103",
+      "unit_eur_ht": 0.16,
+      "price_quantity": 1,
+      "stock": 2318576,
+      "checked": "2026-09-27",
+      "source_ref": "turn85view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CL05A105KA5NQNC.pdf"
+  },
+  {
+    "mpn": "GRM21BR61H106KE43L",
+    "references": [
+      "C16",
+      "C18",
+      "C37"
+    ],
+    "quantity": 3,
+    "manufacturer": "Murata Electronics",
+    "value": "10u",
+    "package": "0805 (2012)",
+    "symbol_ids": [
+      "FC01_Project:POWER__C_Small",
+      "FC01_Project:UART_I2C__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0805_2012Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/GRM21.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf",
+    "manufacturer_source_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf",
+    "model": {
+      "file": "composants/3d/C_0805_2012Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf",
+      "review": "Murata GRM21B: 0805/2012, 10 uF 50 V X5R. Deux bornes non polarisées; empreinte KiCad conservée, pas de qualification assemblage."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "490-18663-1-ND",
+      "url": "https://www.digikey.fr/en/products/detail/murata-electronics/GRM21BR61H106KE43L/10326316",
+      "unit_eur_ht": 0.28,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn67view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/GRM21BR61H106KE43L.pdf"
+  },
+  {
+    "mpn": "GCM155R71H104KE02D",
+    "references": [
+      "C17",
+      "C19",
+      "C21",
+      "C22",
+      "C25",
+      "C28"
+    ],
+    "quantity": 6,
+    "manufacturer": "Murata Electronics",
+    "value": "100n",
+    "package": "0402 (1005 Metric)",
+    "symbol_ids": [
+      "FC01_Project:POWER__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/GCM155.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/281/murata_mlcc-1186242.pdf",
+    "manufacturer_source_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf",
+    "model": {
+      "file": "composants/3d/C_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf",
+      "review": "Murata p.1: corps 1.0±0.05 x 0.5±0.05 mm, terminaisons 0.15–0.35 mm; 100 nF 50 V X7R. Deux bornes non polarisées."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "490-10672-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/murata-electronics/GCM155R71H104KE02D/5251433",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 16172272,
+      "checked": "2026-09-27",
+      "source_ref": "turn54view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/GCM155R71H104KE02D.pdf"
+  },
+  {
+    "mpn": "CL10A105KB8NNNC",
+    "references": [
+      "C20"
+    ],
+    "quantity": 1,
+    "manufacturer": "Samsung Electro-Mechanics",
+    "value": "1u",
+    "package": "0603 (1608)",
+    "symbol_ids": [
+      "FC01_Project:POWER__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0603_1608Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/CL10A105KB8NNN.pdf",
+    "datasheet_download_url": "https://product.samsungsem.com/part/download.do?masterKey=CL10A105KB8NNN&type=specsheet",
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do",
+    "model": {
+      "file": "composants/3d/C_0603_1608Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.samsungsem.com/mlcc/CL10A105KB8NNN.do",
+      "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1276-1860-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518",
+      "unit_eur_ht": 0.12,
+      "price_quantity": 1,
+      "stock": 1025442,
+      "checked": "2026-09-27",
+      "source_ref": "turn45view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CL10A105KB8NNNC.pdf"
+  },
+  {
+    "mpn": "CL21A226MAYNNNE",
+    "references": [
+      "C23",
+      "C24",
+      "C26",
+      "C27"
+    ],
+    "quantity": 4,
+    "manufacturer": "Samsung Electro-Mechanics",
+    "value": "22u",
+    "package": "0805 (2012), max H 1.45 mm",
+    "symbol_ids": [
+      "FC01_Project:POWER__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0805_2012Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/CL21A226MAYNNN.pdf",
+    "datasheet_download_url": "https://product.samsungsem.com/part/download.do?masterKey=CL21A226MAYNNN&type=specsheet",
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do",
+    "model": {
+      "file": "composants/3d/C_0805_2012Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.samsungsem.com/mlcc/CL21A226MAYNNN.do",
+      "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1276-CL21A226MAYNNNECT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL21A226MAYNNNE/10479857",
+      "unit_eur_ht": 0.27,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn85view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CL21A226MAYNNNE.pdf"
+  },
+  {
+    "mpn": "CL10A475KO8NNNC",
+    "references": [
+      "C29",
+      "C30",
+      "C31",
+      "C32"
+    ],
+    "quantity": 4,
+    "manufacturer": "Samsung Electro-Mechanics",
+    "value": "4.7u",
+    "package": "0603 (1608)",
+    "symbol_ids": [
+      "FC01_Project:POWER__C_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Capacitor_SMD:C_0603_1608Metric",
+    "footprint_file": "composants/kicad/vendor/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/CL10A475KO8NNN.pdf",
+    "datasheet_download_url": "https://product.samsungsem.com/part/download.do?masterKey=CL10A475KO8NNN&type=specsheet",
+    "manufacturer_source_url": "https://product.samsungsem.com/mlcc/CL10A475KO8NNN.do",
+    "model": {
+      "file": "composants/3d/C_0603_1608Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://product.samsungsem.com/mlcc/CL10A475KO8NNN.do",
+      "review": "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1276-1784-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL10A475KO8NNNC/3887442",
+      "unit_eur_ht": 0.12,
+      "price_quantity": 1,
+      "stock": 1213,
+      "checked": "2026-09-27",
+      "source_ref": "turn54view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CL10A475KO8NNNC.pdf"
+  },
+  {
+    "mpn": "19-337/R6GHBHC-M01/2T",
+    "references": [
+      "D1"
+    ],
+    "quantity": 1,
+    "manufacturer": "Everlight Electronics",
+    "value": "19-337/R6GHBHC-M01/2T",
+    "package": "6-SMD, 1.6x1.6x0.35 mm",
+    "symbol_ids": [
+      "FC01_Project:MCU__LED_RGB_EP_1"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:Everlight_19-337_1.6x1.6mm",
+    "footprint_file": "composants/kicad/footprints.pretty/Everlight_19-337_1.6x1.6mm.kicad_mod",
+    "datasheet_file": "composants/pdf/D1_datasheet.pdf",
+    "datasheet_download_url": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf",
+    "manufacturer_source_url": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf",
+    "model": {
+      "file": "composants/3d/Everlight_19-337_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        1.6,
+        1.6,
+        0.35
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_CORRECTED",
+      "source": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf",
+      "review": "Everlight DSE0007440 Rev2 p.2: 1BK 2RK 3GK 4BA 5RA 6GA. Noms corrigés sans changer numéros/fils. Corps 1.6 x 1.6; centres x±0.7, y±0.75 et 0; pads extrêmes 0.6 x 0.5, centraux 0.6 x 0.6. Placement PCB à terminer."
+    },
+    "purchasing": {
+      "supplier": "Farnell / RS / DigiKey France",
+      "order_code": "",
+      "url": "",
+      "unit_eur_ht": null,
+      "price_quantity": null,
+      "stock": null,
+      "checked": "2026-09-27",
+      "source_ref": "",
+      "notes": "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite."
+    },
+    "control_pdf": "composants/controle/19-337_R6GHBHC-M01_2T.pdf"
+  },
+  {
+    "mpn": "SMAJ30CA-13-F",
+    "references": [
+      "D2"
+    ],
+    "quantity": 1,
+    "manufacturer": "Diodes Incorporated",
+    "value": "SMAJ30CA",
+    "package": "DO-214AC / SMA",
+    "symbol_ids": [
+      "FC01_Project:POWER__SMAJ30CA"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:Diodes_SMA_SMAJ30CA",
+    "footprint_file": "composants/kicad/footprints.pretty/Diodes_SMA_SMAJ30CA.kicad_mod",
+    "datasheet_file": "composants/pdf/SMAJ30CA.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/115/DIOD_S_A0011538071_1-2543697.pdf",
+    "manufacturer_source_url": "https://www.diodes.com/datasheet/download/SMAJ5.0A.pdf",
+    "model": {
+      "file": "composants/3d/D_SMA.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_CORRECTED",
+      "source": "https://www.diodes.com/datasheet/download/SMAJ5.0A.pdf",
+      "review": "Diodes SMAJ5.0A…SMAJ170CA, SMA/DO-214AC, p.5: pads 2.50 x 1.70, centres ±2.00 mm, gap1.50, extérieur6.50. Remplace le land pattern provenant du modèle Littelfuse; MPN Diodes SMAJ30CA-13-F conservé. TVS bidirectionnelle non polarisée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "SMAJ30CA-FDICT-ND",
+      "url": "https://www.digikey.fr/en/products/detail/diodes-incorporated/SMAJ30CA-13-F/768797",
+      "unit_eur_ht": 0.51,
+      "price_quantity": 1,
+      "stock": 119641,
+      "checked": "2026-09-27",
+      "source_ref": "turn66view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/SMAJ30CA-13-F.pdf"
+  },
+  {
+    "mpn": "PMEG4030ER,115",
+    "references": [
+      "D3"
+    ],
+    "quantity": 1,
+    "manufacturer": "Nexperia",
+    "value": "PMEG4030ER,115",
+    "package": "CFP3 / SOD-123W, 2.6 x 1.7 x 1.0 mm",
+    "symbol_ids": [
+      "FC01_Project:POWER__1N5819WS"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Diode_SMD:Nexperia_CFP3_SOD-123W",
+    "footprint_file": "composants/kicad/vendor/Diode_SMD.pretty/Nexperia_CFP3_SOD-123W.kicad_mod",
+    "datasheet_file": "composants/pdf/PMEG4030ER.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/916/PMEG4030ER-2938673.pdf",
+    "manufacturer_source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG4030ER.pdf",
+    "model": {
+      "file": "composants/3d/Nexperia_CFP3_SOD-123W.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://assets.nexperia.com/documents/data-sheet/PMEG4030ER.pdf",
+      "review": "Nexperia PMEG4030ER: SOD123W/CFP3, 1 cathode 2 anode. Empreinte CFP3 existante conservée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1727-5313-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/nexperia-usa-inc/PMEG4030ER-115/2676789",
+      "unit_eur_ht": 0.51,
+      "price_quantity": 1,
+      "stock": 201856,
+      "checked": "2026-09-27",
+      "source_ref": "turn52view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/PMEG4030ER_115.pdf"
+  },
+  {
+    "mpn": "1N5819HW-7-F",
+    "references": [
+      "D4"
+    ],
+    "quantity": 1,
+    "manufacturer": "Diodes Incorporated",
+    "value": "1N5819HW-7-F",
+    "package": "SOD-123",
+    "symbol_ids": [
+      "FC01_Project:POWER__1N5819WS"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Diode_SMD:D_SOD-123",
+    "footprint_file": "composants/kicad/vendor/Diode_SMD.pretty/D_SOD-123.kicad_mod",
+    "datasheet_file": "composants/pdf/1N5819HW.pdf",
+    "datasheet_download_url": "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/1n5819hw%20%202.pdf",
+    "manufacturer_source_url": "https://www.diodes.com/datasheet/download/1N5819HW.pdf",
+    "model": {
+      "file": "composants/3d/D_SOD-123.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://www.diodes.com/datasheet/download/1N5819HW.pdf",
+      "review": "Diodes 1N5819HW-7-F: SOD-123, 1 cathode 2 anode. Lien datasheet corrigé (ancienne fiche Hottech 1N5819WS incorrecte)."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1N5819HW-FDICT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/diodes-incorporated/1N5819HW-7-F/814970",
+      "unit_eur_ht": 0.27,
+      "price_quantity": 1,
+      "stock": 711720,
+      "checked": "2026-09-27",
+      "source_ref": "turn52view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/1N5819HW-7-F.pdf"
+  },
+  {
+    "mpn": "PESD2CANFD24V-TR",
+    "references": [
+      "D5"
+    ],
+    "quantity": 1,
+    "manufacturer": "Nexperia",
+    "value": "PESD2CAN",
+    "package": "SOT-23 / TO-236AB",
+    "symbol_ids": [
+      "FC01_Project:CAN__PESD2CAN"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Package_TO_SOT_SMD:SOT-23",
+    "footprint_file": "composants/kicad/vendor/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+    "datasheet_file": "composants/pdf/PESD2CANFD24V.pdf",
+    "datasheet_download_url": "https://www.rxelectronics.sg/datasheet/b9/pesd2canfd24v-tr.pdf",
+    "manufacturer_source_url": "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf",
+    "model": {
+      "file": "composants/3d/SOT-23.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf",
+      "review": "Nexperia PESD2CANFD24V-T: SOT23, 1K1 2K2 3CC. Noms des broches et datasheet corrigés; numéros et connexions inchangés. Les deux styles graphiques sont conservés."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1727-PESD2CANFD24V-CT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/nexperia-usa-inc/PESD2CANFD24V-TR/11487035",
+      "unit_eur_ht": 0.4,
+      "price_quantity": 1,
+      "stock": 594,
+      "checked": "2026-09-27",
+      "source_ref": "turn52view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/PESD2CANFD24V-TR.pdf"
+  },
+  {
+    "mpn": "BLM15AG601SN1D",
+    "references": [
+      "FB1"
+    ],
+    "quantity": 1,
+    "manufacturer": "Murata Electronics",
+    "value": "600Ω@100MHz",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:MCU__FerriteBead_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Inductor_SMD:L_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Inductor_SMD.pretty/L_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/BLM15.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/281/ENFA0018-1218469.pdf",
+    "manufacturer_source_url": "https://www.murata.com/products/productdata/8796740059166/ENFA0018.pdf",
+    "model": {
+      "file": "composants/3d/L_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.murata.com/products/productdata/8796740059166/ENFA0018.pdf",
+      "review": "BLM15, boîtier 1005/0402, deux bornes non polarisées. Empreinte KiCad conservée; spécification de commande détaillée à confirmer avant achat."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "490-1006-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/murata-electronics/BLM15AG601SN1D/584217",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 1305813,
+      "checked": "2026-09-27",
+      "source_ref": "turn53view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/BLM15AG601SN1D.pdf"
+  },
+  {
+    "mpn": "10067099-200LF",
+    "references": [
+      "J12"
+    ],
+    "quantity": 1,
+    "manufacturer": "Amphenol ICC (FCI)",
+    "value": "10067099-200LF",
+    "package": "microSD, SMD right-angle top-mount, 10 positions (8+2), H=2.65 mm",
+    "symbol_ids": [
+      "FC01_Project:MICRO_SD__Micro_SD_Card"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:Amphenol_10067099-200LF_RevH",
+    "footprint_file": "composants/kicad/footprints.pretty/Amphenol_10067099-200LF_RevH.kicad_mod",
+    "datasheet_file": "composants/pdf/10067099.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/18/1/10067099-2577377.pdf",
+    "manufacturer_source_url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10067099.pdf",
+    "model": {
+      "file": "composants/3d/Amphenol_10067099-200LF_aligned.step",
+      "type": "STEP fournisseur fourni par utilisateur; orientation rapprochee du plan Rev.H",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "source_transform": {
+        "file": "composants/3d/Amphenol_10067099-200LF_supplier.step",
+        "type": "STEP fournisseur fourni par utilisateur; orientation rapprochee du plan Rev.H",
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "rotate": [
+          90,
+          0,
+          0
+        ],
+        "offset": [
+          0,
+          -0.9,
+          1.45
+        ]
+      }
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_DRAWING_REVIEWED",
+      "source": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10067099.pdf",
+      "review": "Plan Amphenol 10067099 Rev.H p.2: version 200LF hauteur 2.65 mm, 8 contacts pas 1.10 mm + 2 detecteurs. Plan local et STEP fournisseur rapproches de l empreinte; validation assemblage reste a faire."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "609-5773-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/amphenol-icc-fci/10067099-200LF/4238739",
+      "unit_eur_ht": 0.78,
+      "price_quantity": 1,
+      "stock": 32954,
+      "checked": "2026-09-27",
+      "source_ref": "turn53view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/10067099-200LF.pdf"
+  },
+  {
+    "mpn": "XGL4030-332MEC",
+    "references": [
+      "L1",
+      "L2"
+    ],
+    "quantity": 2,
+    "manufacturer": "Coilcraft",
+    "value": "3.3u",
+    "package": "XGL4030, 4.0x4.0x3.1 mm",
+    "symbol_ids": [
+      "FC01_Project:POWER__L"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:L_Coilcraft_XGL4030",
+    "footprint_file": "composants/kicad/footprints.pretty/L_Coilcraft_XGL4030.kicad_mod",
+    "datasheet_file": "composants/pdf/XGL4030_mirror.pdf",
+    "datasheet_download_url": "https://xonstorage.z8.web.core.windows.net/pdf/coilcraft_xgl4030222mec_apr22_xonlink.pdf",
+    "manufacturer_source_url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4030/xgl4030-332/",
+    "model": {
+      "file": "composants/3d/Coilcraft_XGL4030_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        4,
+        4,
+        3.1
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_REVIEWED",
+      "source": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xgl/xgl4030/xgl4030-332/",
+      "review": "Coilcraft document 1575-4 du 19/12/2022: pads 0.98 x 3.40 mm, entraxe 2.37 mm; concordent avec empreinte. Enveloppe 4 x 4 x 3.1 mm. Tol. corps +/-0.3 mm non representee."
+    },
+    "purchasing": {
+      "supplier": "Farnell / RS / DigiKey France",
+      "order_code": "",
+      "url": "",
+      "unit_eur_ht": null,
+      "price_quantity": null,
+      "stock": null,
+      "checked": "2026-09-27",
+      "source_ref": "",
+      "notes": "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite."
+    },
+    "control_pdf": "composants/controle/XGL4030-332MEC.pdf"
+  },
+  {
+    "mpn": "AO3400A",
+    "references": [
+      "Q1"
+    ],
+    "quantity": 1,
+    "manufacturer": "Alpha & Omega Semiconductor",
+    "value": "AO3400A",
+    "package": "SOT-23-3",
+    "symbol_ids": [
+      "FC01_Project:BUZZER__AO3400A"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Package_TO_SOT_SMD:SOT-23",
+    "footprint_file": "composants/kicad/vendor/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+    "datasheet_file": "composants/pdf/Q1_datasheet.pdf",
+    "datasheet_download_url": "https://aosmd.com/res/data_sheets/AO3400A.pdf",
+    "manufacturer_source_url": "https://aosmd.com/res/data_sheets/AO3400A.pdf",
+    "model": {
+      "file": "composants/3d/SOT-23.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://aosmd.com/res/data_sheets/AO3400A.pdf",
+      "review": "AOS AO3400A: SOT23, 1Gate 2Source 3Drain; numérotation conservée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "785-1000-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942",
+      "unit_eur_ht": 0.45,
+      "price_quantity": 1,
+      "stock": 303659,
+      "checked": "2026-09-27",
+      "source_ref": "turn53view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/AO3400A.pdf"
+  },
+  {
+    "mpn": "0402WGF5101TCE",
+    "references": [
+      "R1",
+      "R2"
+    ],
+    "quantity": 2,
+    "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+    "value": "5.1K",
+    "package": "",
+    "symbol_ids": [
+      "FC01_Project:H743_Ardupilot__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Royalohm.pdf",
+    "datasheet_download_url": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
+    "manufacturer_source_url": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
+      "review": "Royalohm Thick Film Chip Resistors pp.1,3: 0402 1.00±0.10 x 0.50±0.05 mm; code 5101=5.1 kohm, F=1%. Deux bornes non polarisées; pads KiCad conservés."
+    },
+    "purchasing": {
+      "supplier": "Farnell / RS / DigiKey France",
+      "order_code": "",
+      "url": "",
+      "unit_eur_ht": null,
+      "price_quantity": null,
+      "stock": null,
+      "checked": "2026-09-27",
+      "source_ref": "",
+      "notes": "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite."
+    },
+    "control_pdf": "composants/controle/0402WGF5101TCE.pdf"
+  },
+  {
+    "mpn": "RC0402FR-07220RL",
+    "references": [
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "quantity": 3,
+    "manufacturer": "YAGEO",
+    "value": "220R",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:MCU__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-220LRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-07220RL/726565",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 889327,
+      "checked": "2026-09-27",
+      "source_ref": "turn43view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-07220RL.pdf"
+  },
+  {
+    "mpn": "RC0402FR-0710KL",
+    "references": [
+      "R6",
+      "R12",
+      "R13",
+      "R14",
+      "R16",
+      "R17",
+      "R40",
+      "R41",
+      "R42",
+      "R43",
+      "R44",
+      "R45",
+      "R46"
+    ],
+    "quantity": 13,
+    "manufacturer": "YAGEO",
+    "value": "10K",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:ANALOG_SENS__R_Small",
+      "FC01_Project:BUZZER__R_Small",
+      "FC01_Project:MCU__R_Small",
+      "FC01_Project:MICRO_SD__R_Small",
+      "FC01_Project:POWER__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-10.0KLRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 9912210,
+      "checked": "2026-09-27",
+      "source_ref": "turn43view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-0710KL.pdf"
+  },
+  {
+    "mpn": "RC0402FR-07100KL",
+    "references": [
+      "R7",
+      "R8",
+      "R10"
+    ],
+    "quantity": 3,
+    "manufacturer": "YAGEO",
+    "value": "100K",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:MCU__R_Small",
+      "FC01_Project:POWER__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-100KLRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-07100KL/726526",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 6470366,
+      "checked": "2026-09-27",
+      "source_ref": "turn43view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-07100KL.pdf"
+  },
+  {
+    "mpn": "RC0402FR-0716K5L",
+    "references": [
+      "R9"
+    ],
+    "quantity": 1,
+    "manufacturer": "YAGEO",
+    "value": "16.5k",
+    "package": "0402 (1005 Metric)",
+    "symbol_ids": [
+      "FC01_Project:POWER__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "Farnell / RS / DigiKey France",
+      "order_code": "",
+      "url": "",
+      "unit_eur_ht": null,
+      "price_quantity": null,
+      "stock": null,
+      "checked": "2026-09-27",
+      "source_ref": "",
+      "notes": "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite."
+    },
+    "control_pdf": "composants/controle/RC0402FR-0716K5L.pdf"
+  },
+  {
+    "mpn": "RC0402FR-0712K4L",
+    "references": [
+      "R11"
+    ],
+    "quantity": 1,
+    "manufacturer": "YAGEO",
+    "value": "12.4K",
+    "package": "0402 (1005 Metric)",
+    "symbol_ids": [
+      "FC01_Project:POWER__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-12.4KLRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0712K4L/2827623",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 505611,
+      "checked": "2026-09-27",
+      "source_ref": "turn44view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-0712K4L.pdf"
+  },
+  {
+    "mpn": "RC0402FR-071KL",
+    "references": [
+      "R15",
+      "R19",
+      "R39"
+    ],
+    "quantity": 3,
+    "manufacturer": "YAGEO",
+    "value": "1K",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:ANALOG_SENS__R_Small",
+      "FC01_Project:BUZZER__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-1.00KLRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-071KL/726513",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 5940542,
+      "checked": "2026-09-27",
+      "source_ref": "turn44view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-071KL.pdf"
+  },
+  {
+    "mpn": "RC0402FR-0720KL",
+    "references": [
+      "R18"
+    ],
+    "quantity": 1,
+    "manufacturer": "YAGEO",
+    "value": "20K",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:ANALOG_SENS__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-20.0KLRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0720KL/726557",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 2268038,
+      "checked": "2026-09-27",
+      "source_ref": "turn44view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-0720KL.pdf"
+  },
+  {
+    "mpn": "RC0402FR-07200RL",
+    "references": [
+      "R20",
+      "R21",
+      "R22",
+      "R23",
+      "R24",
+      "R25",
+      "R26",
+      "R27",
+      "R28",
+      "R29",
+      "R30",
+      "R31",
+      "R32",
+      "R33",
+      "R47",
+      "R48",
+      "R49",
+      "R50"
+    ],
+    "quantity": 18,
+    "manufacturer": "YAGEO",
+    "value": "200",
+    "package": "0402 (1005 Metric)",
+    "symbol_ids": [
+      "FC01_Project:MOTORS1-4__R_Small",
+      "FC01_Project:UART_I2C__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-200LRCT-ND",
+      "url": "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-07200RL/2827569",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn66view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-07200RL.pdf"
+  },
+  {
+    "mpn": "RC0402JR-070RL",
+    "references": [
+      "R34",
+      "R35",
+      "R36"
+    ],
+    "quantity": 3,
+    "manufacturer": "YAGEO",
+    "value": "0R",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-0.0JRCT-ND",
+      "url": "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 11678700,
+      "checked": "2026-09-27",
+      "source_ref": "turn65view5",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402JR-070RL.pdf"
+  },
+  {
+    "mpn": "RC0402FR-074K7L",
+    "references": [
+      "R37",
+      "R38"
+    ],
+    "quantity": 2,
+    "manufacturer": "YAGEO",
+    "value": "4.7K",
+    "package": "0402 (1005)",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/Yageo_RC.pdf",
+    "datasheet_download_url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "manufacturer_source_url": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.digikey.com/en/resources/datasheets/yageo/rc-series-l-suffix-datasheet",
+      "review": "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "311-4.7KLRCT-ND",
+      "url": "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563",
+      "unit_eur_ht": 0.09,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn65view4",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/RC0402FR-074K7L.pdf"
+  },
+  {
+    "mpn": "USBLC6-2P6",
+    "references": [
+      "U1"
+    ],
+    "quantity": 1,
+    "manufacturer": "STMicroelectronics",
+    "value": "USBLC6-2P6",
+    "package": "SOT-666, 1.6 x 1.6 x 0.55 mm",
+    "symbol_ids": [
+      "FC01_Project:H743_Ardupilot__USBLC6-2P6"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "USBLC6_2P6:SOT50P160X60-6N",
+    "footprint_file": "composants/kicad/USBLC6_2P6.pretty/SOT50P160X60-6N.kicad_mod",
+    "datasheet_file": "composants/pdf/U1_datasheet.pdf",
+    "datasheet_download_url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "manufacturer_source_url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "model": {
+      "file": "composants/3d/SOT-666.step",
+      "type": "KiCad SOT-666, boitier nominal; modèle fournisseur privé utilisé pour comparaison",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "ALTERNATIVE_LAND_REVIEWED",
+      "source": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "review": "ST DS4260 Rev7, SOT-666 et pinout: 1/6 I/O1, 2 GND, 3/4 I/O2, 5 VBUS. Modèle fournisseur conservé: pads 0.75 x 0.35, pas 0.50, centres x±0.69 mm. Diffère du land pattern conseillé ST (0.99 x 0.30, x±0.805): validation assembleur requise; aucun remplacement par SOT-23."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "497-5026-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2P6/1007440?s=N4Ig7CBcoIYE5QIwA5EGYA0IYBcmZAAcBLJAFgFYKBOABjLIF9Gg",
+      "unit_eur_ht": 0.56,
+      "price_quantity": 1,
+      "stock": 43170,
+      "checked": "2026-09-27",
+      "source_ref": "turn33search7",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/USBLC6-2P6.pdf"
+  },
+  {
+    "mpn": "STM32H743VIT6",
+    "references": [
+      "U2"
+    ],
+    "quantity": 1,
+    "manufacturer": "STMicroelectronics",
+    "value": "STM32H743VIT6",
+    "package": "LQFP-100 14x14 mm P0.5",
+    "symbol_ids": [
+      "FC01_Project:MCU__STM32H743VITx"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Package_QFP:LQFP-100_14x14mm_P0.5mm",
+    "footprint_file": "composants/kicad/vendor/Package_QFP.pretty/LQFP-100_14x14mm_P0.5mm.kicad_mod",
+    "datasheet_file": "composants/pdf/U2_datasheet.pdf",
+    "datasheet_download_url": "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf",
+    "manufacturer_source_url": "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf",
+    "model": {
+      "file": "composants/3d/LQFP-100_14x14mm_P0.5mm.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf",
+      "review": "ST DS12110: variante V=100 broches, T=LQFP, corps 14 x 14, pas 0.5 mm. Symbole MCU existant conservé, liste exhaustive des pins exportée dans PINS.csv; fonctions multiplexées/firmware hors périmètre."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "497-17720-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/stmicroelectronics/STM32H743VIT6/7809237?s=N4Ig7CBcoIYE5QIwA5EGYA0IYBcmZAAcBLKANgAYAmRATmSoF9Gg",
+      "unit_eur_ht": 14.27,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn33search6",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/STM32H743VIT6.pdf"
+  },
+  {
+    "mpn": "LMR43620R5RPER",
+    "references": [
+      "U3"
+    ],
+    "quantity": 1,
+    "manufacturer": "Texas Instruments",
+    "value": "LMR43620R5RPER",
+    "package": "9-VQFN-HR 2x2 mm",
+    "symbol_ids": [
+      "FC01_Project:POWER__LMR43620R5RPER"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:TI_RPE0009B_VQFN-HR-9_2x2mm",
+    "footprint_file": "composants/kicad/footprints.pretty/TI_RPE0009B_VQFN-HR-9_2x2mm.kicad_mod",
+    "datasheet_file": "composants/pdf/U3_datasheet.pdf",
+    "datasheet_download_url": "https://www.ti.com/lit/ds/symlink/lmr43620.pdf",
+    "manufacturer_source_url": "https://www.ti.com/lit/ds/symlink/lmr43620.pdf",
+    "model": {
+      "file": "composants/3d/LMR43620_RPE0009B_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        2,
+        2,
+        1.0
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_REVIEWED",
+      "source": "https://www.ti.com/lit/ds/symlink/lmr43620.pdf",
+      "review": "TI LMR43620, RPE0009B, land pattern p.51 du PDF consulté: VQFN-HR 9 broches 2 x 2 mm. Polygones cuivre et stencil existants conservés; les petites tailles anchor des pads custom ne représentent pas leur surface totale."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "296-LMR43620R5RPERCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/texas-instruments/LMR43620R5RPER/20414090",
+      "unit_eur_ht": 1.94,
+      "price_quantity": 1,
+      "stock": 5342,
+      "checked": "2026-09-27",
+      "source_ref": "turn37view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/LMR43620R5RPER.pdf"
+  },
+  {
+    "mpn": "LMR604303SRAKRQ1",
+    "references": [
+      "U4"
+    ],
+    "quantity": 1,
+    "manufacturer": "Texas Instruments",
+    "value": "LMR604303SRAKRQ1",
+    "package": "9-WQFN-HR 2.5x2.0 mm",
+    "symbol_ids": [
+      "FC01_Project:POWER__LMR604303SRAKRQ1"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:TI_RAK0009A_WQFN-HR-9_2.5x2.0mm",
+    "footprint_file": "composants/kicad/footprints.pretty/TI_RAK0009A_WQFN-HR-9_2.5x2.0mm.kicad_mod",
+    "datasheet_file": "composants/pdf/U4_datasheet.pdf",
+    "datasheet_download_url": "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf",
+    "manufacturer_source_url": "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf",
+    "model": {
+      "file": "composants/3d/LMR60430_RAK0009A_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        2,
+        2.5,
+        0.8
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_REVIEWED",
+      "source": "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf",
+      "review": "TI LMR60430-Q1 RevE, RAK0009A, land pattern p.44: WQFN-HR 9 broches 2.5 x 2.0 mm. Géométrie spécifique conservée; ne pas remplacer par QFN générique."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "296-LMR604303SRAKRQ1CT-ND",
+      "url": "https://www.digikey.fr/en/products/detail/texas-instruments/LMR604303SRAKRQ1/26812419?s=N4Ig7CBcoIYE5QIwA5EGYA0IYBcmZAAcBLKAJgFYU0BOABjQF9Gg",
+      "unit_eur_ht": 2.2,
+      "price_quantity": 1,
+      "stock": 2359,
+      "checked": "2026-09-27",
+      "source_ref": "turn33search8",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/LMR604303SRAKRQ1.pdf"
+  },
+  {
+    "mpn": "AP7361C-33FGE-7",
+    "references": [
+      "U5",
+      "U6"
+    ],
+    "quantity": 2,
+    "manufacturer": "Diodes Incorporated",
+    "value": "AP7361C-33FGE-7",
+    "package": "U-DFN3030-8 Type E; exposed pad 1.6 x 2.35 mm",
+    "symbol_ids": [
+      "FC01_Project:POWER__AP7361C-33FGE-7"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:Diodes_U-DFN3030-8_TypeE",
+    "footprint_file": "composants/kicad/footprints.pretty/Diodes_U-DFN3030-8_TypeE.kicad_mod",
+    "datasheet_file": "composants/pdf/AP7361C.pdf",
+    "datasheet_download_url": "https://docs.sparkfun.com/SparkFun_GNSS_Flex_System/SparkFun_GNSS_Flex_Breakout/assets/component_documentation/AP7361C.pdf",
+    "manufacturer_source_url": "https://www.diodes.com/assets/Package-Files/U-DFN3030-8-Type-E.pdf",
+    "model": {
+      "file": "composants/3d/DFN-8-1EP_3x3mm_P0.65mm_EP1.5x2.25mm.step",
+      "type": "KiCad: EP nominal 1.5 x 2.25, pads PCB maximaux 1.6 x 2.35 (Diodes p.17/20)",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_CORRECTED",
+      "source": "https://www.diodes.com/assets/Package-Files/U-DFN3030-8-Type-E.pdf",
+      "review": "AP7361C FGE = U-DFN3030-8 Type E. Pads périphériques 0.65 x 0.30, pas 0.65; EP9 1.60 x 2.35 mm. Stencil EP découpé en 4 fenêtres, couverture 64% (choix projet à qualifier). EP relié GND; pads NC conservés."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "AP7361C-33FGE-7DICT-ND",
+      "url": "https://www.digikey.fr/en/products/detail/diodes-incorporated/AP7361C-33FGE-7/5638320",
+      "unit_eur_ht": 0.49,
+      "price_quantity": 1,
+      "stock": 3118,
+      "checked": "2026-09-27",
+      "source_ref": "turn66view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/AP7361C-33FGE-7.pdf"
+  },
+  {
+    "mpn": "TJA1051TK/3,118",
+    "references": [
+      "U7"
+    ],
+    "quantity": 1,
+    "manufacturer": "NXP USA Inc.",
+    "value": "TJA1051TK/3,118",
+    "package": "8-HVSON 3x3 EP",
+    "symbol_ids": [
+      "FC01_Project:CAN__TJA1051TK-3"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm",
+    "footprint_file": "composants/kicad/vendor/Package_SON.pretty/HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.kicad_mod",
+    "datasheet_file": "composants/pdf/U7_datasheet.pdf",
+    "datasheet_download_url": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
+    "manufacturer_source_url": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
+    "model": {
+      "file": "composants/3d/TJA1051_HVSON8_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        3,
+        3,
+        0.85
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
+      "review": "NXP TJA1051 Rev9 pp.4,16: TK=SOT782 HVSON8+EP; variante /3 pin5 VIO. 1TXD 2GND 3VCC 4RXD 5VIO 6CANL 7CANH 8S; EP9 GND. Corps 3 x 3, pas 0.65 mm."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "568-8686-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/nxp-usa-inc/TJA1051TK-3-118/2803572",
+      "unit_eur_ht": 1.65,
+      "price_quantity": 1,
+      "stock": 20970,
+      "checked": "2026-09-27",
+      "source_ref": "turn37view2",
+      "notes": "Relevé web; stock et prix variables. Derniere date d achat annoncee: 26/12/2026; verifier cycle de vie."
+    },
+    "control_pdf": "composants/controle/TJA1051TK_3_118.pdf"
+  },
+  {
+    "mpn": "SM04B-GHS-TB(LF)(SN)",
+    "references": [
+      "U8"
+    ],
+    "quantity": 1,
+    "manufacturer": "JST",
+    "value": "SM04B-GHS-TB(LF)(SN)",
+    "package": "JST GH 4 contacts, P1.25 mm, side entry; mounting tabs pads 5/6",
+    "symbol_ids": [
+      "FC01_Project:CAN__JST_GH_SM04B_GHS_TB_4P"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:JST_GH_SM04B-GHS-TB_1x04_P1.25mm_Horizontal_GNDtabs",
+    "footprint_file": "composants/kicad/footprints.pretty/JST_GH_SM04B-GHS-TB_1x04_P1.25mm_Horizontal_GNDtabs.kicad_mod",
+    "datasheet_file": "composants/pdf/U8_datasheet.pdf",
+    "datasheet_download_url": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+    "manufacturer_source_url": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+    "model": {
+      "file": "composants/3d/JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_REVIEWED",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "review": "JST GH p.1 et plan SM04B-GHS-TB: 4 contacts au pas 1.25 mm + 2 pattes mécaniques numérotées 5/6 dans le projet et reliées GND. Métadonnée Package corrigée de SH à GH."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "455-1566-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM04B-GHS-TB/807788",
+      "unit_eur_ht": 0.33,
+      "price_quantity": 1,
+      "stock": 2490,
+      "checked": "2026-09-27",
+      "source_ref": "turn86view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/SM04B-GHS-TB_LF__SN_.pdf"
+  },
+  {
+    "mpn": "BMI088",
+    "references": [
+      "U9"
+    ],
+    "quantity": 1,
+    "manufacturer": "Bosch Sensortec",
+    "value": "BMI088",
+    "package": "LGA-16 4.5x3.0 mm P0.5",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__BMI088"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering",
+    "footprint_file": "composants/kicad/vendor/Package_LGA.pretty/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.kicad_mod",
+    "datasheet_file": "composants/pdf/U9_datasheet.pdf",
+    "datasheet_download_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+    "manufacturer_source_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+    "model": {
+      "file": "composants/3d/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
+      "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+      "review": "Bosch BMI088 pp.54–55: LGA16 4.5 x 3 mm, pas 0.5; numérotation horaire spécifique Bosch. Empreinte Bosch KiCad conservée; ne pas utiliser LGA16 générique de sens inverse."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "828-1082-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMI088/8634936",
+      "unit_eur_ht": 5.07,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn55view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/BMI088.pdf"
+  },
+  {
+    "mpn": "LSM6DSV16XTR",
+    "references": [
+      "U10"
+    ],
+    "quantity": 1,
+    "manufacturer": "STMicroelectronics",
+    "value": "LSM6DSV16X",
+    "package": "LGA-14 2.5x3.0 mm P0.5",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__LSM6DSV16X"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y",
+    "footprint_file": "composants/kicad/vendor/Package_LGA.pretty/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.kicad_mod",
+    "datasheet_file": "composants/pdf/U10_datasheet.pdf",
+    "datasheet_download_url": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf",
+    "manufacturer_source_url": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf",
+    "model": {
+      "file": "composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1.064102564102564
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "ALTERNATIVE_LAND_REVIEWED",
+      "source": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf",
+      "review": "ST LSM6DSV16X pp.9,175: LGA14 3 x 2.5 mm, pas 0.5. Numérotation et corps contrôlés, pads KiCad conservés; validation assemblage des extensions de pads requise."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "497-LSM6DSV16XTRCT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/stmicroelectronics/LSM6DSV16XTR/16841485",
+      "unit_eur_ht": 4.92,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn37view4",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/LSM6DSV16XTR.pdf"
+  },
+  {
+    "mpn": "ICM-45686",
+    "references": [
+      "U11"
+    ],
+    "quantity": 1,
+    "manufacturer": "TDK InvenSense",
+    "value": "ICM-45686",
+    "package": "14-VFLGA / 14-LGA, 2.5x3.0x0.81 mm",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__ICM-45686"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:TDK_ICM45686_LGA14_3x2.5mm",
+    "footprint_file": "composants/kicad/footprints.pretty/TDK_ICM45686_LGA14_3x2.5mm.kicad_mod",
+    "datasheet_file": "composants/pdf/U11_datasheet.pdf",
+    "datasheet_download_url": "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf",
+    "manufacturer_source_url": "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf",
+    "model": {
+      "file": "composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1.0384615384615385
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "NEW_LAND_ASSEMBLY_REVIEW_REQUIRED",
+      "source": "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf",
+      "review": "TDK DS-000577 Rev1.0 pp.27–30,52–53: E=3.0 horizontal, D=2.5 vertical, pas 0.5. GND=6 et VDD=8 inchangés. Pads IPC étendus 0.625 x 0.35 dérivés du LGA14, pas un land pattern recommandé explicitement par TDK. 5 marqueurs NC réalignés sur les pins; placement PCB à terminer."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "1428-ICM-45686CT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985",
+      "unit_eur_ht": 4.5,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn37view5",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/ICM-45686.pdf"
+  },
+  {
+    "mpn": "BMP581",
+    "references": [
+      "U12"
+    ],
+    "quantity": 1,
+    "manufacturer": "Bosch Sensortec",
+    "value": "BMP581",
+    "package": "10-LGA 2.0x2.0 mm",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__BMP581"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:QFN10_BMP581_BOS",
+    "footprint_file": "composants/kicad/footprints.pretty/QFN10_BMP581_BOS.kicad_mod",
+    "datasheet_file": "composants/pdf/U12_datasheet.pdf",
+    "datasheet_download_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+    "manufacturer_source_url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+    "model": {
+      "file": "composants/3d/BMP581_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        2,
+        2,
+        0.8
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_CORRECTED",
+      "source": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+      "review": "Bosch BMP581 DS004-13 pp.46,68–69: pads haut/bas corrigés à 0.300 x 0.325 mm (extension 25 um autour de la terminaison). Ouverture masque sous corps 2.2 x 2.2; recommandation Bosch sans solder mask sous capteur. Contrôle fab/assemblage nécessaire."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "828-BMP581CT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMP581/16036134",
+      "unit_eur_ht": 2.63,
+      "price_quantity": 1,
+      "stock": 462,
+      "checked": "2026-09-27",
+      "source_ref": "turn37view6",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/BMP581.pdf"
+  },
+  {
+    "mpn": "DPS368XTSA1",
+    "references": [
+      "U13"
+    ],
+    "quantity": 1,
+    "manufacturer": "Infineon Technologies",
+    "value": "DPS368XTSA1",
+    "package": "PG-VLGA-8 2.5x2.0 mm",
+    "symbol_ids": [
+      "FC01_Project:SENSORS__DPS368XTSA1_1"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:Infineon_DPS368_PG-VLGA-8-2",
+    "footprint_file": "composants/kicad/footprints.pretty/Infineon_DPS368_PG-VLGA-8-2.kicad_mod",
+    "datasheet_file": "composants/pdf/U13_datasheet.pdf",
+    "datasheet_download_url": "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40",
+    "manufacturer_source_url": "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40",
+    "model": {
+      "file": "composants/3d/DPS368_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        2.5,
+        2,
+        1.1
+      ]
+    },
+    "electrical_review": {
+      "status": "NEW_LAND_ASSEMBLY_REVIEW_REQUIRED",
+      "source": "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40",
+      "review": "Infineon DPS368 v1.1 pp.6,40–41: PG-VLGA-8-2 2.5 x 2.0, pas 0.65, rangées 1.45. Fig.18: ouvertures masque carrées 0.35, stencil circulaire diamètre 0.35. Cuivre 0.45 carré et marge masque -0.05 sont un choix projet SMD; confirmer avec assembleur. Placement à terminer."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "DPS368XTSA1CT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079",
+      "unit_eur_ht": 2.31,
+      "price_quantity": 1,
+      "stock": 0,
+      "checked": "2026-09-27",
+      "source_ref": "turn86view0",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/DPS368XTSA1.pdf"
+  },
+  {
+    "mpn": "SM08B-SRSS-TB(LF)(SN)",
+    "references": [
+      "U14"
+    ],
+    "quantity": 1,
+    "manufacturer": "JST",
+    "value": "SM08B-SRSS-TB(LF)(SN)",
+    "package": "JST SH 8 contacts, P1.00 mm, side entry; mounting tabs pads 9/10",
+    "symbol_ids": [
+      "FC01_Project:MOTORS1-4__JST_SH_SM08B_SRSS_TB_8P"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs",
+    "footprint_file": "composants/kicad/footprints.pretty/JST_SH_SM08B-SRSS-TB_1x08_P1.00mm_Horizontal_GNDtabs.kicad_mod",
+    "datasheet_file": "composants/pdf/U14_datasheet.pdf",
+    "datasheet_download_url": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+    "manufacturer_source_url": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+    "model": {
+      "file": "composants/3d/JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_CORRECTED",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+      "review": "JST SH SM08B-SRSS-TB, 8 contacts au pas 1.0 mm. Empreinte SM09B à 9 contacts remplacée par SM08B; tabs9/10 reliés GND selon symbole. Position et orientation PCB conservées."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "455-1808-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/jst-sales-america-inc/SM08B-SRSS-TB/926714",
+      "unit_eur_ht": 0.73,
+      "price_quantity": 1,
+      "stock": 52530,
+      "checked": "2026-09-27",
+      "source_ref": "turn86view2",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/SM08B-SRSS-TB_LF__SN_.pdf"
+  },
+  {
+    "mpn": "DX07S016JA1R1500",
+    "references": [
+      "USB1"
+    ],
+    "quantity": 1,
+    "manufacturer": "JAE Electronics",
+    "value": "DX07S016JA1R1500",
+    "package": "USB Type-C receptacle, 16 contacts, right-angle SMT",
+    "symbol_ids": [
+      "FC01_Project:H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:JAE_DX07S016JA1R1500_16P",
+    "footprint_file": "composants/kicad/footprints.pretty/JAE_DX07S016JA1R1500_16P.kicad_mod",
+    "datasheet_file": "composants/pdf/USB1_datasheet.pdf",
+    "datasheet_download_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf",
+    "manufacturer_source_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf",
+    "model": {
+      "file": "composants/3d/JAE_DX07S016JA1R1500_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: limites mesurees du STEP fourni, 8.94 x 6.90 mm, z -1.05 a 3.31 mm; ni contacts ni interface de connexion; plan fabricant complet requis",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "SUPPLIER_MODEL_REVIEWED_PRIMARY_DRAWING_PENDING",
+      "source": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf",
+      "review": "JAE DX07S016JA1R1500: modèle fournisseur ZIP disponible et empreinte projet conservée. Fiche JAE consultée = résumé produit, pas plan coté complet. Groupes A1/B12, A12/B1, A4/B9, A9/B4 et shields projet à confronter au dessin de fabrication JAE avant libération."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "670-DX07S016JA1R1500CT-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/jae-electronics/DX07S016JA1R1500/11586676",
+      "unit_eur_ht": 1.46,
+      "price_quantity": 1,
+      "stock": 21765,
+      "checked": "2026-09-27",
+      "source_ref": "turn85view3",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/DX07S016JA1R1500.pdf"
+  },
+  {
+    "mpn": "CSTNE8M00GH5C000R0",
+    "references": [
+      "Y1"
+    ],
+    "quantity": 1,
+    "manufacturer": "Murata Electronics",
+    "value": "8MHz",
+    "package": "3-SMD 3.2x1.3 mm",
+    "symbol_ids": [
+      "FC01_Project:MCU__Crystal_GND3_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm",
+    "footprint_file": "composants/kicad/footprints.pretty/Murata_CSTNE_3.2x1.3_P1.2mm.kicad_mod",
+    "datasheet_file": "composants/pdf/CSTNE8M.pdf",
+    "datasheet_download_url": "https://www.farnell.com/datasheets/3797113.pdf",
+    "manufacturer_source_url": "https://www.murata.com/en/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf",
+    "model": {
+      "file": "composants/3d/Murata_CSTNE_envelope.step",
+      "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "body_mm": [
+        3.2,
+        1.3,
+        0.9
+      ]
+    },
+    "electrical_review": {
+      "status": "MANUFACTURER_LAND_REVIEWED",
+      "source": "https://www.murata.com/en/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf",
+      "review": "Murata JGC42-8858A p.3: CSTNE corps 3.2 x 1.3, pas1.2, pads0.4 x1.9 mm, pin2 GND. Empreinte locale ajoutée; placement PCB à terminer."
+    },
+    "purchasing": {
+      "supplier": "DigiKey France",
+      "order_code": "490-17961-1-ND",
+      "url": "https://www.digikey.fr/fr/products/detail/murata-electronics/CSTNE8M00GH5C000R0/8747742",
+      "unit_eur_ht": 0.26,
+      "price_quantity": 1,
+      "stock": 171914,
+      "checked": "2026-09-27",
+      "source_ref": "turn86view1",
+      "notes": "Relevé web; stock et prix variables."
+    },
+    "control_pdf": "composants/controle/CSTNE8M00GH5C000R0.pdf"
+  }
+]

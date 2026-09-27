@@ -1,0 +1,247 @@
+[
+  {
+    "file": "composants/pdf/10067099.pdf",
+    "url": "https://www.mouser.com/datasheet/2/18/1/10067099-2577377.pdf",
+    "sha256": "464aa86706f3aee748270a380b46f0011fec8246f5ec9fcb479d5ba161620346",
+    "bytes": 664281,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/1N5819HW.pdf",
+    "url": "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/1n5819hw%20%202.pdf",
+    "sha256": "44bd1a8544b61a0a93e7047826c4002304a4a93445efca592f9bbf4a420ce57f",
+    "bytes": 63593,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/AP7361C.pdf",
+    "url": "https://docs.sparkfun.com/SparkFun_GNSS_Flex_System/SparkFun_GNSS_Flex_Breakout/assets/component_documentation/AP7361C.pdf",
+    "sha256": "9b64f49c5975b2baf2360248a75212599bde8bf083d315d936e4f1c93b2e1f92",
+    "bytes": 931328,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/BLM15.pdf",
+    "url": "https://www.mouser.com/datasheet/2/281/ENFA0018-1218469.pdf",
+    "sha256": "abfb907ffbc0dbf48ae4ac5d5e729101e4e63fa0fae50d6fabd1e8bcdabd353e",
+    "bytes": 256124,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CL05A105KA5NQN.pdf",
+    "url": "https://product.samsungsem.com/part/download.do?masterKey=CL05A105KA5NQN&type=specsheet",
+    "sha256": "b36270014c921b15a5052fb88be7f7e10de9d460dceb0b2ece4850e8fdbd6343",
+    "bytes": 3130497,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CL05A475MP5NRN.pdf",
+    "url": "https://product.samsungsem.com/part/download.do?masterKey=CL05A475MP5NRN&type=specsheet",
+    "sha256": "e4cdc55dd4cc260e35a6430e84669ea485095b2df316945dd93da490a5d4725a",
+    "bytes": 3144147,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CL05B104KO5NNN.pdf",
+    "url": "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet",
+    "sha256": "4f5a2dcf3dcb4c183cd55320ac4b1b050bbc89f066a0ce86353ece3e56294afd",
+    "bytes": 3011164,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CL10A105KB8NNN.pdf",
+    "url": "https://product.samsungsem.com/part/download.do?masterKey=CL10A105KB8NNN&type=specsheet",
+    "sha256": "c745b341e901949e768bf9faa23b5a3b496bdd63221d88472aa08a9022e163cf",
+    "bytes": 3011193,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CL10A475KO8NNN.pdf",
+    "url": "https://product.samsungsem.com/part/download.do?masterKey=CL10A475KO8NNN&type=specsheet",
+    "sha256": "b2081b0b0d43033ef3aca53f8c56f782c170ac3913a91aa847b74e5f7e6557a9",
+    "bytes": 3011801,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CL21A226MAYNNN.pdf",
+    "url": "https://product.samsungsem.com/part/download.do?masterKey=CL21A226MAYNNN&type=specsheet",
+    "sha256": "45789a6b2c801790f9a026c7ed6f38821a026371aad32197c44399fb1d3480da",
+    "bytes": 3029123,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/CSTNE8M.pdf",
+    "url": "https://www.farnell.com/datasheets/3797113.pdf",
+    "sha256": "70998b1a46a87c9d549aa8a74b935fc37f03c5bdfc937c981ffbd292cd7d21f8",
+    "bytes": 363141,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/D1_datasheet.pdf",
+    "url": "https://uploadcdn.oneyac.com/attachments/files/brand_pdf/everlight/BB/85/19337R6GHBHCM012T.pdf",
+    "sha256": "9dde5e0f3d535e9567ab382683a837975cc4fea3fccf71fbd2ff499d08603cfb",
+    "bytes": 313706,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/GCM155.pdf",
+    "url": "https://www.mouser.com/datasheet/2/281/murata_mlcc-1186242.pdf",
+    "sha256": "d05391f529db0d97bb50e613aa02a9c797dc730d32c56f72eb88690df54b3a3e",
+    "bytes": 3664223,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/GRM21.pdf",
+    "url": "https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf",
+    "sha256": "cf4d7fa92561ebccb4c3b1f1fba00b2c320903f16a04df69c0b4a774e3fd8161",
+    "bytes": 1483775,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/PESD2CANFD24V.pdf",
+    "url": "https://www.rxelectronics.sg/datasheet/b9/pesd2canfd24v-tr.pdf",
+    "sha256": "ca36f3ab77f4d80df544458bda6c0a919a9322fbd384aa0865937484fdb892de",
+    "bytes": 275533,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/PMEG4030ER.pdf",
+    "url": "https://www.mouser.com/datasheet/2/916/PMEG4030ER-2938673.pdf",
+    "sha256": "14ea3b46756bbcb56322561c6bbcaf53732069aa518e2d6a7fc43272e6afe974",
+    "bytes": 234919,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/Q1_datasheet.pdf",
+    "url": "https://aosmd.com/res/data_sheets/AO3400A.pdf",
+    "sha256": "9c60d0b6c1ddc7609a4b788a91181468d8ffe6c3e9ba425c3d8ffc5ba88c5033",
+    "bytes": 317848,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/Royalohm.pdf",
+    "url": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
+    "sha256": "6344d3f6a60ea3d3a4c4726f3562df5847a0e5910ce0bd4356328c1363a25f0d",
+    "bytes": 3958769,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/SMAJ30CA.pdf",
+    "url": "https://www.mouser.com/datasheet/2/115/DIOD_S_A0011538071_1-2543697.pdf",
+    "sha256": "bef54f70e5a0ce6fe37237513f7ae24e6daf3701ba78be67b2b5f396581390a8",
+    "bytes": 414226,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/TDK_C.pdf",
+    "url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf",
+    "sha256": "b25ff771871e5ac142cec30e147afc41daab3e4bdea008b8b3dc288152eada6d",
+    "bytes": 3485322,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U10_datasheet.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf",
+    "sha256": "ec53c0e5952fc0c9587ed32b56d066016c2954bc6e9d18355b13a1c4cda17894",
+    "bytes": 5112242,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U11_datasheet.pdf",
+    "url": "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf",
+    "sha256": "1fc7e54bcb03126e2094745a29440b97cd1ff8aff679f8a31e4ac121c415f274",
+    "bytes": 2574198,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U12_datasheet.pdf",
+    "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf",
+    "sha256": "ddcf4202c4fdf2ab6ad86f22b67ba4d2471d76b9ce510397cacfe398400ab439",
+    "bytes": 2816457,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U13_datasheet.pdf",
+    "url": "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40",
+    "sha256": "16d3f60378b9554c2ae6406f709a03624977fd29afc005c9a423e0dee36c281a",
+    "bytes": 6102754,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U14_datasheet.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+    "sha256": "ea3071ca5ee5a6069eba534fa39a10f34c9fb742ee42135a69ab4156bfa0f5de",
+    "bytes": 84427,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U1_datasheet.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+    "sha256": "bc30154f310cd631043214ed52571daefe04270587ec55072d49a23bd18b9068",
+    "bytes": 575521,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U2_datasheet.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stm32h743vi.pdf",
+    "sha256": "f6e620179006c8c4d497b477ba065edc89c6dd9ac24d9debb3362910651f42ee",
+    "bytes": 7075281,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U3_datasheet.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/lmr43620.pdf",
+    "sha256": "18b2cc488ccfa848f103ba5bd6303dfc1ac74e80832510f2a8a59feb39a59711",
+    "bytes": 3804773,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U4_datasheet.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/lmr60430-q1.pdf",
+    "sha256": "bb3f1294a5785eb5a924c65a4cf600f653815fd590368958ba2e378c57372d29",
+    "bytes": 3456066,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U7_datasheet.pdf",
+    "url": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
+    "sha256": "6637cd500dda3c1c951ce29bed7fe909f11f9a3bef64b096dbb486827add9f11",
+    "bytes": 209490,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U8_datasheet.pdf",
+    "url": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+    "sha256": "b1dcb317b6b9a4fbbedd2dbf42c64c95306a252d23de8933b85fcf161240b722",
+    "bytes": 146619,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/U9_datasheet.pdf",
+    "url": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf",
+    "sha256": "53ab734dba49ac202fa6182fc2b545df6c6d7459c9fec6e851a1209e6bac417e",
+    "bytes": 1368590,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/USB1_datasheet.pdf",
+    "url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf",
+    "sha256": "27eebcbe72a530e316c2381cacbf1bd9816ae3fbdbfc670eae866301d9f7b5c1",
+    "bytes": 157740,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/XGL4030_mirror.pdf",
+    "url": "https://xonstorage.z8.web.core.windows.net/pdf/coilcraft_xgl4030222mec_apr22_xonlink.pdf",
+    "sha256": "856972e2bca638a1f3ff45b31dec8b1e981e8e8688768b58ea7e63fc9d6694c0",
+    "bytes": 345691,
+    "retrieved": "2026-09-27"
+  },
+  {
+    "file": "composants/pdf/Yageo_RC.pdf",
+    "url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "sha256": "2cf0d881c999250661ea1c043d0286ff63e84ba3af3a4fcff086fa9e50b88949",
+    "bytes": 461588,
+    "retrieved": "2026-09-27"
+  }
+]

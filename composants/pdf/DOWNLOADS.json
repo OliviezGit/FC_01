@@ -1,0 +1,69 @@
+{
+  "AP7361C": {
+    "url": "https://www.diodes.com/assets/Datasheets/AP7361C.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "AP7361C_package": {
+    "url": "https://www.diodes.com/assets/Package-Files/U-DFN3030-8-Type-E.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "SMAJ30CA": {
+    "url": "https://www.diodes.com/datasheet/download/SMAJ5.0A.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "1N5819HW": {
+    "url": "https://www.diodes.com/datasheet/download/1N5819HW.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "PMEG4030ER": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/PMEG4030ER.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "PESD2CANFD24V": {
+    "url": "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-T.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "10067099": {
+    "url": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10067099.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "XGL4030": {
+    "url": "https://www.coilcraft.com/getmedia/032d9c73-4222-482f-b6bc-7808590e27c9/xgl4030.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "XGL4030_mirror": {
+    "url": "https://xonstorage.z8.web.core.windows.net/pdf/coilcraft_xgl4030222mec_apr22_xonlink.pdf",
+    "file": "XGL4030_mirror.pdf",
+    "bytes": 345691
+  },
+  "CSTNE8M": {
+    "url": "https://www.murata.com/en/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "BLM15": {
+    "url": "https://www.murata.com/products/productdata/8796740059166/ENFA0018.pdf",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GRM21": {
+    "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "GCM155": {
+    "url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "Royalohm": {
+    "url": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
+    "file": "Royalohm.pdf",
+    "bytes": 3958769
+  },
+  "Yageo_RC": {
+    "url": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "TDK_C": {
+    "url": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf",
+    "file": "TDK_C.pdf",
+    "bytes": 3485322
+  }
+}

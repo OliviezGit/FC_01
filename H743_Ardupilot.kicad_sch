@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:H743_Ardupilot__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "H743_Ardupilot__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -110,7 +110,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "H743_Ardupilot__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -150,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
+		(symbol "FC01_Project:H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -338,7 +338,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
+			(symbol "H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -539,7 +539,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_1_1"
+			(symbol "H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500_1_1"
 				(pin passive line
 					(at 0 -20.32 90)
 					(length 2.54)
@@ -874,7 +874,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "FC01_Project:H743_Ardupilot__MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -962,7 +962,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
+			(symbol "H743_Ardupilot__MountingHole_Pad_0_1"
 				(circle
 					(center 0 1.27)
 					(radius 1.27)
@@ -975,7 +975,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_Pad_1_1"
+			(symbol "H743_Ardupilot__MountingHole_Pad_1_1"
 				(pin input line
 					(at 0 -2.54 90)
 					(length 2.54)
@@ -997,7 +997,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:USBLC6-2P6"
+		(symbol "FC01_Project:H743_Ardupilot__USBLC6-2P6"
 			(pin_names
 				(hide yes)
 			)
@@ -1086,7 +1086,7 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2P6_0_0"
+			(symbol "H743_Ardupilot__USBLC6-2P6_0_0"
 				(circle
 					(center -1.524 0)
 					(radius 0.0001)
@@ -1154,7 +1154,7 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2P6_0_1"
+			(symbol "H743_Ardupilot__USBLC6-2P6_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 2.54 0)
@@ -1313,7 +1313,7 @@
 					)
 				)
 			)
-			(symbol "USBLC6-2P6_1_1"
+			(symbol "H743_Ardupilot__USBLC6-2P6_1_1"
 				(rectangle
 					(start -2.54 2.794)
 					(end 2.54 -5.334)
@@ -1460,7 +1460,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:H743_Ardupilot__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1539,7 +1539,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "H743_Ardupilot__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1553,7 +1553,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "H743_Ardupilot__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -1575,7 +1575,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "FC01_Project:H743_Ardupilot__VBUS"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1654,7 +1654,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_0_1"
+			(symbol "H743_Ardupilot__VBUS_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1692,7 +1692,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_1_1"
+			(symbol "H743_Ardupilot__VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2371,7 +2371,7 @@
 		(uuid "cb59198b-d1ee-4427-9f7a-2019da847d5c")
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 144.78 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -2449,7 +2449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
+		(lib_id "FC01_Project:H743_Ardupilot__VBUS")
 		(at 90.17 38.1 0)
 		(unit 1)
 		(body_style 1)
@@ -2527,7 +2527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 53.34 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -2604,7 +2604,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 80.01 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -2682,7 +2682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:H743_Ardupilot__R_Small")
 		(at 72.39 45.72 90)
 		(unit 1)
 		(body_style 1)
@@ -2723,7 +2723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Royalohm.pdf"
 			(at 72.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2803,9 +2803,67 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Farnell / RS / DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/0402WGF5101TCE.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint Audit" "Royalohm Thick Film Chip Resistors pp.1,3: 0402 1.00±0.10 x 0.50±0.05 mm; code 5101=5.1 kohm, F=1%. Deux bornes non polarisées; pads KiCad conservés." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Offre France non confirmee" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:H743_Ardupilot__R_Small")
 		(at 72.39 48.26 90)
 		(unit 1)
 		(body_style 1)
@@ -2846,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Royalohm.pdf"
 			(at 72.39 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2926,9 +2984,67 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Farnell / RS / DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/0402WGF5101TCE.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.royalohm.com/assets/pdf/products/smd/1.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint Audit" "Royalohm Thick Film Chip Resistors pp.1,3: 0402 1.00±0.10 x 0.50±0.05 mm; code 5101=5.1 kohm, F=1%. Deux bornes non polarisées; pads KiCad conservés." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Offre France non confirmee" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 137.16 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3006,9 +3122,63 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Element PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/MountingHole.pretty/MountingHole_3.2mm_M3_ISO7380_Pad.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__MountingHole_Pad" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 129.54 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -3086,7 +3256,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 90.17 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -3163,7 +3333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 137.16 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -3241,7 +3411,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 129.54 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3319,9 +3489,63 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Element PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/MountingHole.pretty/MountingHole_3.2mm_M3_ISO7380_Pad.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__MountingHole_Pad" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 144.78 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3399,9 +3623,63 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Element PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/MountingHole.pretty/MountingHole_3.2mm_M3_ISO7380_Pad.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__MountingHole_Pad" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "H743_Ardupilot:USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500")
+		(lib_id "FC01_Project:H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500")
 		(at 53.34 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3443,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/USB1_datasheet.pdf"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3465,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Supplier Note" "Industrial JAE connector; use DigiKey/Mouser/RS sourcing rather than the previous HCTL/LCSC part"
+		(property "Supplier Note" "Relevé web; stock et prix variables."
 			(at 53.34 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3498,7 +3776,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+		(property "DigiKey Part Number" "670-DX07S016JA1R1500CT-ND"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3532,7 +3810,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/jae-electronics/DX07S016JA1R1500/5243883"
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jae-electronics/DX07S016JA1R1500/11586676"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3543,7 +3821,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" "0.86782"
+		(property "DigiKey Unit Price EUR" "1.46"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3555,7 +3833,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1500 (Tape & Reel)"
+		(property "DigiKey Price Qty" "1"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3603,7 +3881,7 @@
 				)
 			)
 		)
-		(property "Supplier Specs" "16 pos.; USB 2.0 Type-C; 5 A max; 48 Vrms; -40..+85 C; 10000 cycles; shell DIP 0.9 mm; 1500 pcs/reel"
+		(property "Supplier Specs" "Relevé web; stock et prix variables."
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3615,7 +3893,7 @@
 				)
 			)
 		)
-		(property "Mouser URL" "https://www.mouser.com/ProductDetail/JAE-Electronics/DX07S016JA1R1500"
+		(property "Mouser URL" ""
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3626,7 +3904,7 @@
 				)
 			)
 		)
-		(property "RS Part Number" "201-7049"
+		(property "RS Part Number" ""
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3648,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: JAE DX07S016JA1R1500 mechanical geometry; A/B signal pad numbers preserved; four shell pads mapped to symbol pins 25-28"
+		(property "Footprint Audit" "JAE DX07S016JA1R1500: modèle fournisseur ZIP disponible et empreinte projet conservée. Fiche JAE consultée = résumé produit, pas plan coté complet. Groupes A1/B12, A12/B1, A4/B9, A9/B4 et shields projet à confronter au dessin de fabrication JAE avant libération."
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3659,7 +3937,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint; no EasyEDA footprint dependency"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 53.34 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3732,9 +4010,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "670-DX07S016JA1R1500CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/jae-electronics/DX07S016JA1R1500/11586676" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "21765" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "670-DX07S016JA1R1500CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/jae-electronics/DX07S016JA1R1500/11586676" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "1.46" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/DX07S016JA1R1500.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/JAE_DX07S016JA1R1500_16P.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/JAE_DX07S016JA1R1500_envelope.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "ENVELOPPE RECONSTRUITE: limites mesurees du STEP fourni, 8.94 x 6.90 mm, z -1.05 a 3.31 mm; ni contacts ni interface de connexion; plan fabricant complet requis" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__USB_C_Receptacle_USB2.0_16P_JAE_DX07S016JA1R1500" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:H743_Ardupilot__GND")
 		(at 152.4 165.1 0)
 		(unit 1)
 		(body_style 1)
@@ -3812,7 +4134,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "FC01_Project:H743_Ardupilot__MountingHole_Pad")
 		(at 152.4 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -3890,9 +4212,63 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Element PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/MountingHole.pretty/MountingHole_3.2mm_M3_ISO7380_Pad.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__MountingHole_Pad" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Power_Protection:USBLC6-2P6")
+		(lib_id "FC01_Project:H743_Ardupilot__USBLC6-2P6")
 		(at 90.17 55.88 0)
 		(unit 1)
 		(body_style 1)
@@ -3938,7 +4314,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U1_datasheet.pdf"
 			(at 91.186 64.516 0)
 			(hide yes)
 			(show_name no)
@@ -4029,7 +4405,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2P6/1007440"
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2P6/1007440?s=N4Ig7CBcoIYE5QIwA5EGYA0IYBcmZAAcBLJAFgFYKBOABjLIF9Gg"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4417,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" "0.56000"
+		(property "DigiKey Unit Price EUR" "0.56"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4429,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 (Cut Tape)"
+		(property "DigiKey Price Qty" "1"
 			(at 90.17 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4127,7 +4503,55 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "497-5026-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2P6/1007440?s=N4Ig7CBcoIYE5QIwA5EGYA0IYBcmZAAcBLJAFgFYKBOABjLIF9Gg" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "43170" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "497-5026-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2P6/1007440?s=N4Ig7CBcoIYE5QIwA5EGYA0IYBcmZAAcBLJAFgFYKBOABjLIF9Gg" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.56" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/USBLC6-2P6.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint Audit" "ST DS4260 Rev7, SOT-666 et pinout: 1/6 I/O1, 2 GND, 3/4 I/O2, 5 VBUS. Modèle fournisseur conservé: pads 0.75 x 0.35, pas 0.50, centres x±0.69 mm. Diffère du land pattern conseillé ST (0.99 x 0.30, x±0.805): validation assembleur requise; aucun remplacement par SOT-23." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/USBLC6_2P6.pretty/SOT50P160X60-6N.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/SOT-666.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad SOT-666, boitier nominal; modèle fournisseur privé utilisé pour comparaison" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:H743_Ardupilot__USBLC6-2P6" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(sheet
 		(at 120.65 45.72)
 		(size 49.53 87.63)

@@ -9,7 +9,7 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "BMP581:BMP581"
+		(symbol "FC01_Project:SENSORS__BMP581"
 			(pin_names
 				(offset 0.254)
 			)
@@ -105,7 +105,7 @@
 					)
 				)
 			)
-			(symbol "BMP581_0_1"
+			(symbol "SENSORS__BMP581_0_1"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 -15.24)
@@ -337,7 +337,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "FC01_Project:SENSORS__Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -422,7 +422,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "SENSORS__Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -6.35)
@@ -553,7 +553,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DPS368XTSA1_1"
+		(symbol "FC01_Project:SENSORS__DPS368XTSA1_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -579,7 +579,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:LGA-8_L2.5-W2.0-P0.65-TR_DPS368"
+			(property "Footprint" "H743_Custom:Infineon_DPS368_PG-VLGA-8-2"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -590,7 +590,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C3232508.pdf"
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -656,7 +656,7 @@
 					)
 				)
 			)
-			(symbol "DPS368XTSA1_1_0_1"
+			(symbol "SENSORS__DPS368XTSA1_1_0_1"
 				(rectangle
 					(start -8.89 13.97)
 					(end 8.89 -6.35)
@@ -778,7 +778,7 @@
 					)
 				)
 			)
-			(symbol "DPS368XTSA1_1_1_1"
+			(symbol "SENSORS__DPS368XTSA1_1_1_1"
 				(pin unspecified line
 					(at -11.43 0 0)
 					(length 2.54)
@@ -818,7 +818,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Small"
+		(symbol "FC01_Project:SENSORS__C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -908,7 +908,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_0_1"
+			(symbol "SENSORS__C_Small_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -934,7 +934,7 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "SENSORS__C_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -974,7 +974,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "FC01_Project:SENSORS__R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1062,7 +1062,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "SENSORS__R_Small_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -1075,7 +1075,7 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "SENSORS__R_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -1115,7 +1115,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:ICM-45686"
+		(symbol "FC01_Project:SENSORS__ICM-45686"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1141,7 +1141,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+			(property "Footprint" "H743_Custom:TDK_ICM45686_LGA14_3x2.5mm"
 				(at 0 -23.876 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1262,7 +1262,7 @@
 					)
 				)
 			)
-			(symbol "ICM-45686_0_1"
+			(symbol "SENSORS__ICM-45686_0_1"
 				(rectangle
 					(start -10.16 13.97)
 					(end 10.16 -13.97)
@@ -1529,7 +1529,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "H743_Ardupilot:LSM6DSV16X"
+		(symbol "FC01_Project:SENSORS__LSM6DSV16X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1613,7 +1613,7 @@
 					)
 				)
 			)
-			(symbol "LSM6DSV16X_0_1"
+			(symbol "SENSORS__LSM6DSV16X_0_1"
 				(rectangle
 					(start 11.43 11.43)
 					(end -11.43 -11.43)
@@ -1626,7 +1626,7 @@
 					)
 				)
 			)
-			(symbol "LSM6DSV16X_1_1"
+			(symbol "SENSORS__LSM6DSV16X_1_1"
 				(pin bidirectional line
 					(at -15.24 7.62 0)
 					(length 3.81)
@@ -1883,7 +1883,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Motion:BMI088"
+		(symbol "FC01_Project:SENSORS__BMI088"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1964,7 +1964,7 @@
 					)
 				)
 			)
-			(symbol "BMI088_1_1"
+			(symbol "SENSORS__BMI088_1_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -12.7)
@@ -2268,7 +2268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "FC01_Project:SENSORS__+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2347,7 +2347,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "SENSORS__+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2385,7 +2385,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "SENSORS__+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2407,7 +2407,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "FC01_Project:SENSORS__+5V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2486,7 +2486,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "SENSORS__+5V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2524,7 +2524,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "SENSORS__+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2546,7 +2546,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "FC01_Project:SENSORS__GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2625,7 +2625,7 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "SENSORS__GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -2639,7 +2639,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "SENSORS__GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2861,7 +2861,7 @@
 		(uuid "0d675205-54b2-46fa-a660-955e541a3e7c")
 	)
 	(no_connect
-		(at 154.94 45.72)
+		(at 153.67 45.72)
 		(uuid "0fbfa60c-9ea7-48db-ac7a-a3d0351ceefb")
 	)
 	(no_connect
@@ -2885,7 +2885,7 @@
 		(uuid "6186fcb0-fe3d-4125-926d-14c75dbd23a4")
 	)
 	(no_connect
-		(at 154.94 48.26)
+		(at 153.67 48.26)
 		(uuid "72fe202d-e5b8-4466-b412-1acf1ee5355e")
 	)
 	(no_connect
@@ -2893,15 +2893,15 @@
 		(uuid "7875ad7c-b52e-49c4-b2d0-b87c7552c9d7")
 	)
 	(no_connect
-		(at 154.94 53.34)
+		(at 153.67 53.34)
 		(uuid "796feb85-cd69-491f-8169-aa847b972f8f")
 	)
 	(no_connect
-		(at 154.94 50.8)
+		(at 153.67 50.8)
 		(uuid "bbb216f9-a17b-4622-90b7-21f015086504")
 	)
 	(no_connect
-		(at 154.94 43.18)
+		(at 153.67 43.18)
 		(uuid "d1064083-8174-4ae1-baf2-7c87e5081211")
 	)
 	(no_connect
@@ -5650,7 +5650,7 @@
 		(uuid "e5ac8ecd-20b6-42ab-8396-8238a2140585")
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 97.79 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -5694,7 +5694,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05A475MP5NRN.pdf"
 			(at 97.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -5804,7 +5804,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5815,7 +5815,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5826,7 +5826,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5859,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 102.87 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5884,9 +5884,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1482-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1482-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05A475MP5NRNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05A475MP5NRN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 109.22 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -5965,7 +6007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 120.65 38.1 90)
 		(mirror x)
 		(unit 1)
@@ -6007,7 +6049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 120.65 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6073,7 +6115,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402JR-070RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6106,7 +6148,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6117,7 +6159,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6128,7 +6170,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6150,7 +6192,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6161,7 +6203,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 115.824 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -6186,9 +6228,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "11678700" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402JR-070RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "H743_Ardupilot:LSM6DSV16X")
+		(lib_id "FC01_Project:SENSORS__LSM6DSV16X")
 		(at 138.43 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -6233,7 +6319,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U10_datasheet.pdf"
 			(at 140.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6321,7 +6407,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6332,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6343,7 +6429,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6365,7 +6451,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: KiCad LGA-14 3x2.5 P0.5"
+		(property "Footprint Audit" "ST LSM6DSV16X pp.9,175: LGA14 3 x 2.5 mm, pas 0.5. Numérotation et corps contrôlés, pads KiCad conservés; validation assemblage des extensions de pads requise."
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6376,7 +6462,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Embedded H743_Ardupilot symbol + KiCad footprint"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 140.5733 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6437,9 +6523,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "497-LSM6DSV16XTRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/LSM6DSV16XTR/16841485" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "497-LSM6DSV16XTRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/LSM6DSV16XTR/16841485" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "4.92" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/LSM6DSV16XTR.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Package_LGA.pretty/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__LSM6DSV16X" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 123.19 127 0)
 		(unit 1)
 		(body_style 1)
@@ -6516,7 +6644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 223.52 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -6594,7 +6722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:SENSORS__+5V")
 		(at 207.01 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -6672,7 +6800,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 113.03 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -6716,7 +6844,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 113.03 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6826,7 +6954,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6837,7 +6965,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6848,7 +6976,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6870,7 +6998,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6881,7 +7009,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 118.11 139.6938 0)
 			(hide yes)
 			(show_name no)
@@ -6906,9 +7034,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 120.65 40.64 90)
 		(mirror x)
 		(unit 1)
@@ -6950,7 +7120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 120.65 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7186,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402JR-070RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7049,7 +7219,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7060,7 +7230,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7071,7 +7241,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7093,7 +7263,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7104,7 +7274,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 124.46 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -7129,9 +7299,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "11678700" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402JR-070RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 138.43 124.46 0)
 		(mirror y)
 		(unit 1)
@@ -7210,7 +7424,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 205.74 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -7287,7 +7501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 102.87 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -7331,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7441,7 +7655,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7666,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7463,7 +7677,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7485,7 +7699,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7710,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 107.95 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -7521,9 +7735,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 264.16 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -7566,7 +7822,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 264.16 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7676,7 +7932,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7687,7 +7943,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7698,7 +7954,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7720,7 +7976,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7731,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7756,9 +8012,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 120.65 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -7835,7 +8133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 105.41 140.97 0)
 		(mirror y)
 		(unit 1)
@@ -7879,7 +8177,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 105.41 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7989,7 +8287,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8000,7 +8298,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8011,7 +8309,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8033,7 +8331,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8044,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 110.49 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8069,10 +8367,52 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_name "DPS368XTSA1_1")
-		(lib_id "EasyEDA:DPS368XTSA1")
+
+		(lib_id "FC01_Project:SENSORS__DPS368XTSA1_1")
 		(at 250.19 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -8102,7 +8442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LGA-8_L2.5-W2.0-P0.65-TR_DPS368"
+		(property "Footprint" "H743_Custom:Infineon_DPS368_PG-VLGA-8-2"
 			(at 250.19 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8113,7 +8453,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U13_datasheet.pdf"
 			(at 250.19 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8179,7 +8519,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/infineon-technologies/DPS368XTSA1/10244079"
+		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8212,7 +8552,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8223,7 +8563,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8234,7 +8574,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8256,7 +8596,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK by dimensions; final land-pattern overlay recommended"
+		(property "Footprint Audit" "Infineon DPS368 v1.1 pp.6,40–41: PG-VLGA-8-2 2.5 x 2.0, pas 0.65, rangées 1.45. Fig.18: ouvertures masque carrées 0.35, stencil circulaire diamètre 0.35. Cuivre 0.45 carré et marge masque -0.05 sont un choix projet SMD; confirmer avec assembleur. Placement à terminer."
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8267,7 +8607,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "EasyEDA external"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8310,9 +8650,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "DPS368XTSA1CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "DPS368XTSA1CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "2.31" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/DPS368XTSA1.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "DPS368XTSA1CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/Infineon_DPS368_PG-VLGA-8-2.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/DPS368_envelope.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__DPS368XTSA1_1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 207.01 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -8353,7 +8737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 207.01 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8419,7 +8803,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-074K7L"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8452,7 +8836,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8463,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8474,7 +8858,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8880,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8507,7 +8891,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 204.724 54.356 90)
 			(hide yes)
 			(show_name no)
@@ -8532,9 +8916,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-4.7KLRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-4.7KLRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-074K7L.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-4.7KLRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:SENSORS__Conn_01x04")
 		(at 255.27 138.43 0)
 		(unit 1)
 		(body_style 1)
@@ -8600,7 +9028,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "PCB feature / no purchased component"
+		(property "DigiKey Status" "Element PCB; aucun composant achete"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8622,7 +9050,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" ""
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8644,7 +9072,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8655,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 257.81 138.4299 0)
 			(hide yes)
 			(show_name no)
@@ -8686,9 +9114,57 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/SolderPadArray_1x04_P2.54mm_1x1mm.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__Conn_01x04" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 196.85 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -8767,7 +9243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 92.71 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -8811,7 +9287,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05A475MP5NRN.pdf"
 			(at 92.71 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8921,7 +9397,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8932,7 +9408,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8943,7 +9419,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8965,7 +9441,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8976,7 +9452,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 97.79 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9001,9 +9477,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1482-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1482-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05A475MP5NRNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05A475MP5NRN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 92.71 39.37 0)
 		(mirror y)
 		(unit 1)
@@ -9082,7 +9600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 250.19 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -9161,7 +9679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Motion:BMI088")
+		(lib_id "FC01_Project:SENSORS__BMI088")
 		(at 132.08 163.83 0)
 		(unit 1)
 		(body_style 1)
@@ -9205,7 +9723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U9_datasheet.pdf"
 			(at 115.57 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9282,7 +9800,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9293,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9304,7 +9822,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active; no stock at audit"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9326,7 +9844,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: KiCad Bosch LGA-16"
+		(property "Footprint Audit" "Bosch BMI088 pp.54–55: LGA16 4.5 x 3 mm, pas 0.5; numérotation horaire spécifique Bosch. Empreinte Bosch KiCad conservée; ne pas utiliser LGA16 générique de sens inverse."
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9337,7 +9855,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad Sensor_Motion"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 136.7633 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9404,9 +9922,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "828-1082-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMI088/8634936" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "828-1082-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMI088/8634936" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "5.07" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/BMI088.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "828-1082-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Package_LGA.pretty/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__BMI088" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 264.16 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -9485,7 +10047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 100.33 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -9529,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 100.33 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9639,7 +10201,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9650,7 +10212,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9661,7 +10223,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9683,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9694,7 +10256,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 105.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9719,9 +10281,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 140.97 59.69 0)
 		(mirror y)
 		(unit 1)
@@ -9800,7 +10404,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 210.82 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -9841,7 +10445,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 210.82 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9907,7 +10511,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402FR-074K7L"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -9940,7 +10544,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -9951,7 +10555,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -9962,7 +10566,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -9984,7 +10588,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +10599,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 213.106 53.594 90)
 			(hide yes)
 			(show_name no)
@@ -10020,9 +10624,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-4.7KLRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-4.7KLRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-074K7L.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-4.7KLRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 207.01 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -10099,7 +10747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 223.52 34.29 0)
 		(unit 1)
 		(body_style 1)
@@ -10142,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 223.52 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10252,7 +10900,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10263,7 +10911,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10274,7 +10922,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10296,7 +10944,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10955,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 224.79 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -10332,9 +10980,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 119.38 177.8 0)
 		(mirror y)
 		(unit 1)
@@ -10413,7 +11103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 107.95 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -10457,7 +11147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 107.95 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -10567,7 +11257,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10578,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10589,7 +11279,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10611,7 +11301,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10622,7 +11312,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 113.03 34.2838 0)
 			(hide yes)
 			(show_name no)
@@ -10647,9 +11337,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 97.79 146.05 0)
 		(mirror y)
 		(unit 1)
@@ -10728,7 +11460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 110.49 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -10772,7 +11504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10882,7 +11614,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10893,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10904,7 +11636,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10926,7 +11658,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10937,7 +11669,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 115.57 81.2738 0)
 			(hide yes)
 			(show_name no)
@@ -10962,9 +11694,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "FC01_Project:SENSORS__+5V")
 		(at 248.92 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -11042,7 +11816,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 95.25 86.36 0)
 		(mirror y)
 		(unit 1)
@@ -11121,7 +11895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 264.16 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -11199,7 +11973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 100.33 106.68 0)
 		(mirror y)
 		(unit 1)
@@ -11278,7 +12052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 207.01 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -11356,7 +12130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 248.92 151.13 0)
 		(unit 1)
 		(body_style 1)
@@ -11434,7 +12208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "BMP581:BMP581")
+		(lib_id "FC01_Project:SENSORS__BMP581")
 		(at 205.74 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -11477,7 +12251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U12_datasheet.pdf"
 			(at 205.74 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11566,7 +12340,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11577,7 +12351,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11588,7 +12362,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active / in stock at audit"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11610,7 +12384,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: Bosch recommended land pattern corrected 2026-09-25"
+		(property "Footprint Audit" "Bosch BMP581 DS004-13 pp.46,68–69: pads haut/bas corrigés à 0.300 x 0.325 mm (extension 25 um autour de la terminaison). Ouverture masque sous corps 2.2 x 2.2; recommandation Bosch sans solder mask sous capteur. Contrôle fab/assemblage nécessaire."
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11621,7 +12395,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project BMP581 symbol + H743_Custom footprint"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11670,9 +12444,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "828-BMP581CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMP581/16036134" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "462" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "828-BMP581CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/bosch-sensortec/BMP581/16036134" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "2.63" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/BMP581.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/QFN10_BMP581_BOS.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/BMP581_envelope.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__BMP581" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 223.52 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -11751,7 +12567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
+		(lib_id "FC01_Project:SENSORS__R_Small")
 		(at 158.75 97.79 90)
 		(mirror x)
 		(unit 1)
@@ -11793,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
 			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11859,7 +12675,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/en/products/result?keywords=RC0402JR-070RL"
+		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11892,7 +12708,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11903,7 +12719,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11914,7 +12730,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11936,7 +12752,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11947,7 +12763,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 156.972 95.758 90)
 			(hide yes)
 			(show_name no)
@@ -11972,9 +12788,53 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "11678700" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402JR-070RL/729353" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402JR-070RL.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "311-0.0JRCT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__R_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 95.25 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -12018,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05A475MP5NRN.pdf"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12128,7 +12988,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12139,7 +12999,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12150,7 +13010,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Rupture au releve"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12172,7 +13032,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12183,7 +13043,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 100.33 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12208,9 +13068,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1482-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1482-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/samsung-electro-mechanics/CL05A475MP5NRNC/3889568" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05A475MP5NRNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05A475MP5NRN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "FC01_Project:SENSORS__Conn_01x04")
 		(at 213.36 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -12276,7 +13178,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "PCB feature / no purchased component"
+		(property "DigiKey Status" "Element PCB; aucun composant achete"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12298,7 +13200,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" ""
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12320,7 +13222,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK: 4 square SMD pads 1.00x1.00 mm, P2.54 mm, no holes, no paste"
+		(property "Footprint Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +13233,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Project-local H743_Custom footprint"
+		(property "Library Audit" "See verification/COMPONENTS.csv and verification/REPORT.md"
 			(at 215.9 139.6999 0)
 			(hide yes)
 			(show_name no)
@@ -12362,9 +13264,57 @@
 				)
 			)
 		)
-	)
+	
+(property "Component_Class" "Element fabrique dans le PCB; aucun composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/elements_PCB.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Part Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_Part_Number" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/SolderPadArray_1x04_P2.54mm_1x1mm.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "Non applicable: cuivre, point test, cavalier ou trou du PCB" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "Non applicable" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Voir Component_PDF pour le symbole et le dessin de cuivre/perçage" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Pas de composant a commander" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__Conn_01x04" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 118.11 21.59 0)
 		(unit 1)
 		(body_style 1)
@@ -12441,7 +13391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 220.98 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -12484,7 +13434,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 220.98 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12594,7 +13544,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12605,7 +13555,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12616,7 +13566,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12638,7 +13588,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12649,7 +13599,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 222.25 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12674,9 +13624,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 132.08 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -12755,7 +13747,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 106.68 21.59 0)
 		(mirror y)
 		(unit 1)
@@ -12834,7 +13826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "H743_Ardupilot:ICM-45686")
+		(lib_id "FC01_Project:SENSORS__ICM-45686")
 		(at 140.97 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -12865,7 +13857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LGA-14_L3.0-W2.5-P0.50-TL"
+		(property "Footprint" "H743_Custom:TDK_ICM45686_LGA14_3x2.5mm"
 			(at 140.97 65.786 0)
 			(hide yes)
 			(show_name no)
@@ -12876,7 +13868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/documentation/DS-000577_ICM-45686.pdf"
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U11_datasheet.pdf"
 			(at 140.97 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -13025,9 +14017,63 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1428-ICM-45686CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "0" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1428-ICM-45686CT-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/tdk-invensense/ICM-45686/24374985" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "4.5" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/ICM-45686.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Price Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey Unit Price EUR" "4.5" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint Audit" "TDK DS-000577 Rev1.0 pp.27–30,52–53: E=3.0 horizontal, D=2.5 vertical, pas 0.5. GND=6 et VDD=8 inchangés. Pads IPC étendus 0.625 x 0.35 dérivés du LGA14, pas un land pattern recommandé explicitement par TDK. 5 marqueurs NC réalignés sur les pins; placement PCB à terminer." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/TDK_ICM45686_LGA14_3x2.5mm.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Rupture au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__ICM-45686" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "FC01_Project:SENSORS__C_Small")
 		(at 210.82 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -13070,7 +14116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
 			(at 210.82 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13180,7 +14226,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1 CT"
+		(property "DigiKey Price Qty" "1"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13191,7 +14237,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-25"
+		(property "Price Checked" "2026-09-27"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13202,7 +14248,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Active"
+		(property "DigiKey Status" "Stock positif au releve"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13224,7 +14270,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "OK"
+		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13235,7 +14281,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "KiCad standard"
+		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 207.264 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13260,9 +14306,51 @@
 				)
 			)
 		)
-	)
+	
+(property "DigiKey_Part_Number" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Qty" "1" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Units" "103052" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier" "DigiKey France" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Order_Code" "1276-1001-1-ND" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Unit_Price_EUR" "0.09" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_Class" "Composant achete" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Model_3D_Type" "KiCad, geometrie generique du boitier" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Price_Basis" "EUR HT par piece, hors port" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Stock_Checked" "2026-09-27" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Notes" "Relevé web; stock et prix variables." (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Supplier_Status" "Stock positif au releve" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_ID" "FC01_Project:SENSORS__C_Small" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+
+(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "FC01_Project:SENSORS__+3V3")
 		(at 111.76 127 0)
 		(mirror y)
 		(unit 1)
@@ -13341,7 +14429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 210.82 92.71 0)
 		(mirror y)
 		(unit 1)
@@ -13420,7 +14508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "FC01_Project:SENSORS__GND")
 		(at 220.98 64.77 0)
 		(mirror y)
 		(unit 1)

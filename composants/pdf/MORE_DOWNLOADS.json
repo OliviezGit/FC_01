@@ -1,0 +1,22 @@
+{
+  "CSTNE8M": {
+    "url": "https://www.farnell.com/datasheets/3797113.pdf",
+    "file": "CSTNE8M.pdf",
+    "bytes": 363141
+  },
+  "GRM21": {
+    "url": "https://www.mouser.com/datasheet/2/281/1/GRM21BR61H106KE43_01A-1986884.pdf",
+    "file": "GRM21.pdf",
+    "bytes": 1483775
+  },
+  "GCM155": {
+    "url": "https://www.mouser.com/datasheet/2/281/murata_mlcc-1186242.pdf",
+    "file": "GCM155.pdf",
+    "bytes": 3664223
+  },
+  "Yageo_RC": {
+    "url": "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf",
+    "file": "Yageo_RC.pdf",
+    "bytes": 461588
+  }
+}
