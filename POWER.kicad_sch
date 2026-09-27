@@ -683,7 +683,7 @@
 					)
 				)
 			)
-			(property "Footprint" "H743_Custom:SMAJ30CA_SMA_LTF"
+			(property "Footprint" "SMAJ30CA:SMASeries_LTF"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8930,7 +8930,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "H743_Custom:SMAJ30CA_SMA_LTF"
+		(property "Footprint" "SMAJ30CA:SMASeries_LTF"
 			(at 35.56 66.04 0)
 			(hide yes)
 			(show_name no)
