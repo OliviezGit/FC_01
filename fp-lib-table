@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "H743_Custom") (type "KiCad") (uri "${KIPRJMOD}/extralib/footprints.pretty") (options "") (descr "H743_Ardupilot project-local custom footprints"))
+  (lib (name "USBLC6_2P6") (type "KiCad") (uri "${KIPRJMOD}/extralib/USBLC6_2P6.pretty") (options "") (descr "Project-local USBLC6-2P6 supplier footprint"))
+  (lib (name "SMAJ30CA") (type "KiCad") (uri "${KIPRJMOD}/extralib/SMAJ30CA.pretty") (options "") (descr "Project-local SMAJ30CA supplier footprint"))
 )
