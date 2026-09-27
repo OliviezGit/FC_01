@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "JAE DX07S016JA1R1500 USB Type-C USB 2.0 16-position on-board receptacle; geometry from KiCad official footprint; shield hold-down pads renumbered 25-28 to match existing project symbol; https://www.jae.com/en/connectors/series/detail/product/id=91780")
+	(descr "JAE DX07S016JA1R1500 USB Type-C USB 2.0 16-position on-board receptacle; geometry/pad map verified against supplier CAD supplied by user and JAE/DigiKey documentation; shell DIP 0.9 mm")
 	(tags "JAE DX07S016JA1R1500 USB C Type-C Receptacle SMD USB 2.0 16P")
 	(property "Reference" "REF**"
 		(at 0 -5 0)
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.jae.com/en/connectors/series/detail/product/id=91780"
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +40,115 @@
 			)
 		)
 	)
-	(property "Description" "USB Type-C receptacle, USB 2.0, 16 positions, right-angle on-board, 1-row SMT, 0.9 mm shell-DIP length"
+	(property "Manufacturer" "JAE Electronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "DX07S016JA1R1500"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey Part Number" "670-DX07S016JA1R1500TR-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/jae-electronics/DX07S016JA1R1500/11585731?s=N4IgTCBcDaICIA0AMB2AykgjANgFIEFMAlTAViSRAF0BfIA"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey Unit Price EUR" "0.86782"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey Price Qty" "1500 (Tape & Reel)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price Checked" "2026-09-27"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier PDF" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JAE Drawing" "SJ121836 / SJ121837"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "JAE DX07S016JA1R1500; USB Type-C USB 2.0 receptacle; 16 positions (24 = 16+8 dummy per DigiKey); on-board/right-angle, 1-row SMT + shell through-hole; shell DIP 0.9 mm; 5 A max; 48 Vrms; -40..+85 C; 10000 mating cycles. Supplier PDF: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7162/670_DX07S016JA1R1500.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -220,40 +328,40 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -3 -1.95)
-		(size 0.6 0.6)
-		(drill 0.6)
+		(size 0.63 0.63)
+		(drill 0.63)
 		(layers "*.Cu" "*.Mask")
 		(uuid "513bf2cc-c69a-422c-9c94-2e6a628c3ff6")
 	)
-	(pad "" smd roundrect
+	(pad "SH1" smd roundrect
 		(at -1.4 1.15)
 		(size 1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "73178e9a-09e8-4c3b-8b50-2abae77c565a")
 	)
-	(pad "" smd roundrect
+	(pad "SH2" smd roundrect
 		(at 1.4 1.15)
 		(size 1 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fc60b0e0-e674-4f94-ab94-6681887551bb")
 	)
-	(pad "" np_thru_hole oval
+	(pad "" np_thru_hole circle
 		(at 3 -1.95)
-		(size 0.85 0.6)
-		(drill oval 0.85 0.6)
+		(size 0.63 0.63)
+		(drill 0.63)
 		(layers "*.Cu" "*.Mask")
 		(uuid "5cc8c04e-d512-42fc-9213-f558c7883421")
 	)
-	(pad "A1" smd roundrect
+	(pad "A1/B12" smd roundrect
 		(at -3.1 -3.05)
 		(size 0.52 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "15705aad-9bc4-460b-afc2-3809fda274b9")
 	)
-	(pad "A4" smd roundrect
+	(pad "A4/B9" smd roundrect
 		(at -2.35 -3.05)
 		(size 0.52 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -288,28 +396,16 @@
 		(roundrect_rratio 0.25)
 		(uuid "09e5f45c-fa3b-4cd1-a14d-54dd52a7cda5")
 	)
-	(pad "A9" smd roundrect
-		(at 2.35 -3.05)
-		(size 0.52 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "caa38452-e38e-4fac-8772-b77d8aeecbb4")
-	)
-	(pad "A12" smd roundrect
+
+	(pad "A12/B1" smd roundrect
 		(at 3.1 -3.05)
 		(size 0.52 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "024cac93-5998-4dd6-a467-9ba65b40fe69")
 	)
-	(pad "B1" smd roundrect
-		(at 3.1 -3.05)
-		(size 0.52 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "e038fc82-77cf-43a5-9002-2b7efa24afac")
-	)
-	(pad "B4" smd roundrect
+
+	(pad "B4/A9" smd roundrect
 		(at 2.35 -3.05)
 		(size 0.52 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -344,51 +440,39 @@
 		(roundrect_rratio 0.25)
 		(uuid "630385ca-b571-40ee-980f-7615f77379f2")
 	)
-	(pad "B9" smd roundrect
-		(at -2.35 -3.05)
-		(size 0.52 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "3d81758f-d613-4257-be84-a322ef07adc7")
-	)
-	(pad "B12" smd roundrect
-		(at -3.1 -3.05)
-		(size 0.52 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "f7522d26-a07f-405c-ba0f-b39fb904afff")
-	)
-	(pad "25" thru_hole oval
+
+
+	(pad "SH3" thru_hole oval
 		(at -4.32 -2.675)
-		(size 1.3 2.3)
-		(drill oval 0.6 1.6)
+		(size 1.158 2.316)
+		(drill oval 0.65 1.65)
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0949424d-39c4-4b45-9e79-438f3b818ce0")
 	)
-	(pad "26" thru_hole oval
+	(pad "SH5" thru_hole oval
 		(at -4.32 1.15)
-		(size 1.3 2.6)
-		(drill oval 0.6 1.9)
+		(size 1.2 2.4)
+		(drill oval 0.65 1.95)
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "95ebb1cd-d9c2-4f58-baf3-a84b9151a1e8")
 	)
-	(pad "27" thru_hole oval
+	(pad "SH4" thru_hole oval
 		(at 4.32 -2.675)
-		(size 1.3 2.3)
-		(drill oval 0.6 1.6)
+		(size 1.158 2.316)
+		(drill oval 0.65 1.65)
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cca766a3-417b-4ce7-81d1-98067bc0a9a2")
 	)
-	(pad "28" thru_hole oval
+	(pad "SH6" thru_hole oval
 		(at 4.32 1.15)
-		(size 1.3 2.6)
-		(drill oval 0.6 1.9)
+		(size 1.2 2.4)
+		(drill oval 0.65 1.95)
 		(property pad_prop_mechanical)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
