@@ -8556,7 +8556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "I2C_2"
 			(at 257.81 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12232,7 +12232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "I2C1"
 			(at 215.9 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)

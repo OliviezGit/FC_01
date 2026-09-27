@@ -231,20 +231,28 @@
 					)
 				)
 			)
-		(property "RS URL" "https://fr.rs-online.com/web/p/embases-circuits-imprimes/5468849"
-			(at 0 -29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Farnell URL" "https://fr.farnell.com/jst-japan-solderless-terminals/sm08b-srss-tb-lf-sn/embase-coudee-8-voies/dp/1679124"
-			(at 0 -29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
+			(property "RS URL" "https://fr.rs-online.com/web/p/embases-circuits-imprimes/5468849"
+				(at 0 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Farnell URL" "https://fr.farnell.com/jst-japan-solderless-terminals/sm08b-srss-tb-lf-sn/embase-coudee-8-voies/dp/1679124"
+				(at 0 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "LCSC Part" "C7430450"
 				(at 0 -31.75 0)
 				(show_name no)

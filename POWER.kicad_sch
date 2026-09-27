@@ -909,41 +909,61 @@
 					)
 				)
 			)
-		(property "Footprint Audit" "VERIFIED: U-DFN3030-8 Type E, 3x3 mm, P0.65 mm, exposed pad; symbol pins 1 OUT, 4 GND, 5 EN, 8 IN, 9 EP"
-			(at 0 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Supplier Specs" "Fixed 3.3 V LDO, 1 A, Vin 2.2-6 V, U-DFN3030-8 Type E"
-			(at 0 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
-			(at 0 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
-			(at 0 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
-		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/diodes-incorporated/AP7361C-33FGE-7/5638320"
-			(at 0 -20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
-		)
+			(property "Footprint Audit" "VERIFIED: U-DFN3030-8 Type E, 3x3 mm, P0.65 mm, exposed pad; symbol pins 1 OUT, 4 GND, 5 EN, 8 IN, 9 EP"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Specs" "Fixed 3.3 V LDO, 1 A, Vin 2.2-6 V, U-DFN3030-8 Type E"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/diodes-incorporated/AP7361C-33FGE-7/5638320"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "LCSC Part" "C151007"
 				(at 0 -22.86 0)
 				(show_name no)
@@ -4176,21 +4196,33 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
 			(at 237.49 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
 			(at 237.49 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "LCSC Part" "C151007"
 			(at 237.49 144.78 0)
@@ -4997,21 +5029,33 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Farnell URL" "https://de.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-festsp-regl-3-3v-1a-40-bis/dp/3482979"
 			(at 237.49 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Mouser URL" "https://www.mouser.com/en/ProductDetail/Diodes-Incorporated/AP7361C-33FGE-7"
 			(at 237.49 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(effects (font (size 1.27 1.27)))
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "LCSC Part" "C151007"
 			(at 237.49 88.9 0)

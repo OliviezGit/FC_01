@@ -3185,7 +3185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Uart("
 			(at 137.16 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,7 +4305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Uart6"
 			(at 157.48 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4994,7 +4994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Uart4"
 			(at 90.17 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5304,7 +5304,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Uart3"
 			(at 184.15 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8040,7 +8040,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b2d2949c-172f-4372-afb6-b7cacdf6c2cc")
 		(property "Reference" "J2"
 			(at 90.17 25.3999 0)
@@ -8053,8 +8052,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 90.17 27.9399 0)
+		(property "Value" "Uart1"
+			(at 90.678 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8429,7 +8428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Uart7"
 			(at 110.49 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)

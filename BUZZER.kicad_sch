@@ -1536,7 +1536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Buzzer"
 			(at 144.78 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,7 +2386,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Led ext"
 			(at 62.23 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)

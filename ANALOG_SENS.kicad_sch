@@ -4024,7 +4024,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "Analog"
 			(at 109.22 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
