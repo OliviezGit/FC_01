@@ -180,7 +180,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "3cc85b17-f3f1-49a4-8157-1107867276ab")
 	)
 	(fp_line
@@ -210,7 +210,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "6d05f2ae-19b2-4291-92b9-97c7fdc423a8")
 	)
 	(fp_line
