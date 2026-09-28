@@ -41,7 +41,7 @@
       (width .1)
       (type default))
     (fill solid)
-    (layer "F.SilkS"))
+    (layer "F.Fab"))
   (pad "1" smd rect
     (at -0.7 -0.75)
     (size 0.6 0.5)
