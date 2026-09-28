@@ -23,7 +23,7 @@
   (fp_line (start 6.00 0.00) (end 6.00 2.10)
     (stroke (width 0.15) (type default)) (layer "F.SilkS"))
   (fp_line (start -4.20 5.50) (end 4.25 5.50)
-    (stroke (width 0.15) (type default)) (layer "F.SilkS"))
+    (stroke (width 0.15) (type default)) (layer "F.Fab"))
 
   (fp_text reference "REF**" (at 0.30 -1.00 0) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15))))
