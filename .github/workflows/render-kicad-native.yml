@@ -1,9 +1,9 @@
-name: KiCad native 3D render
+name: Export official KiCad USB STEP
 on:
   push:
     branches: [render-kicad-temp]
 jobs:
-  render:
+  export:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -11,30 +11,19 @@ jobs:
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
           sudo apt-get update
-          sudo apt-get install --yes --install-recommends kicad xvfb
+          sudo apt-get install --yes --install-recommends kicad
           kicad-cli version
-      - name: Check local 3D models
+      - name: Export exact JAE model
         run: |
-          echo "STEP files:"
-          find composants/3d -maxdepth 1 -iname '*.step' -printf '%f\n' | sort
-          echo "Count: $(find composants/3d -maxdepth 1 -iname '*.step' | wc -l)"
-          grep -o '\${KIPRJMOD}/composants/3d/[^"]*' H743_Ardupilot.kicad_pcb | sort -u
-      - name: Native KiCad raytraced renders
-        run: |
-          mkdir -p render
-          xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_TOP_ISO.png \
-            --width 2400 --height 1800 --side top --background opaque --quality high --floor --perspective \
-            --rotate '-45,0,45' --zoom 1
-          xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_BOTTOM_ISO.png \
-            --width 2400 --height 1800 --side bottom --background opaque --quality high --floor --perspective \
-            --rotate '45,0,-45' --zoom 1
-          xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_TOP.png \
-            --width 2400 --height 1800 --side top --background opaque --quality high --zoom 1
-          xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_BOTTOM.png \
-            --width 2400 --height 1800 --side bottom --background opaque --quality high --zoom 1
-          file render/*.png
+          set -eux
+          SRC=/usr/share/kicad/3dmodels/Connector_USB.3dshapes/USB_C_Receptacle_JAE_DX07S016JA1R1500.step
+          test -f "$SRC"
+          mkdir -p official-step
+          cp "$SRC" official-step/USB_C_Receptacle_JAE_DX07S016JA1R1500.step
+          wc -c official-step/*.step
+          head -20 official-step/*.step
       - uses: actions/upload-artifact@v4
         with:
-          name: FC_01-KiCad-native-3D
-          path: render/*.png
+          name: official-JAE-DX07S016JA1R1500-step
+          path: official-step/*.step
           if-no-files-found: error
