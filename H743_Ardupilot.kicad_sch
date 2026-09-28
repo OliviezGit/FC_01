@@ -6669,7 +6669,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI2{SPI}" bidirectional
+		(pin "SPI2{CS MISO MOSI SCLK}" bidirectional
 			(at 120.65 100.33 180)
 			(uuid "19e179e9-25eb-4238-babc-d098fd0ac81c")
 			(effects
@@ -7357,7 +7357,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI2{SPI}" bidirectional
+		(pin "SPI2{CS MISO MOSI SCLK}" bidirectional
 			(at 106.68 100.33 0)
 			(uuid "c023c1b0-e7ea-469d-a179-488ee2bed748")
 			(effects

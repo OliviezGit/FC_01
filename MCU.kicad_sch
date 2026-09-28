@@ -9551,7 +9551,7 @@
 		)
 		(uuid "66830fb9-0e73-467b-9f30-75a0a0da615c")
 	)
-	(hierarchical_label "SPI2{SPI}"
+	(hierarchical_label "SPI2{CS MISO MOSI SCLK}"
 		(shape bidirectional)
 		(at 30.48 130.81 180)
 		(effects
@@ -9639,7 +9639,7 @@
 		)
 		(uuid "aaf3c4ba-7b8d-466e-aa9f-d2535272727e")
 	)
-	(hierarchical_label "SPI2{SPI}"
+	(hierarchical_label "SPI2{CS MISO MOSI SCLK}"
 		(shape bidirectional)
 		(at 33.02 78.74 180)
 		(effects
