@@ -48,106 +48,26 @@
     (layer "F.SilkS")
     (width 0)
     (fill solid))
-  (fp_line
-    (start -1.3081 1.3081)
-    (end -1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 0.631)
-    (end -1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 0.631)
-    (end -1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 -0.631)
-    (end -1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 -0.631)
-    (end -1.3081 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 -1.3081)
-    (end -0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 -1.3081)
-    (end -0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 -1.3081)
-    (end 0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 -1.3081)
-    (end 0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 -1.3081)
-    (end 1.3081 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 1.3081)
-    (end 1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 0.631)
-    (end 1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 0.631)
-    (end 1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 -0.631)
-    (end 1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 -0.631)
-    (end 1.3081 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 1.3081)
-    (end -0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 1.3081)
-    (end -0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 1.3081)
-    (end 0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 1.3081)
-    (end 0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 1.3081)
-    (end 1.3081 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
+  (fp_rect (start -1.3081 -1.3081) (end 1.3081 1.3081) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (uuid "6ec43c5b-a602-48c5-9d5b-ed9fb0a14724"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   (fp_text user "*"
     (at -1.535 -0.881 unlocked)
     (layer "F.SilkS")
@@ -275,9 +195,9 @@
       (type default))
     (fill solid)
     (layer "F.Mask"))
-  
 
-  
+
+
 
   (model "${KIPRJMOD}/composants/3d/BMP581_envelope.step"
   (offset

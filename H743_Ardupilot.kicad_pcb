@@ -16970,7 +16970,7 @@
 	(footprint "Diode_SMD:Nexperia_CFP3_SOD-123W"
 		(layer "F.Cu")
 		(uuid "59096d7d-0f36-46ee-a9aa-533ecfecf18f")
-		(at 105.9 92.1 90)
+		(at 103.5 104 90)
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D3"
@@ -90679,206 +90679,26 @@
 			(layer "B.SilkS")
 			(uuid "59957724-e25c-405c-8842-0b27dc76a926")
 		)
-		(fp_line
-			(start 1.3081 0.631)
-			(end 1.3081 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "8a752f61-3964-4539-b721-8f100c83bad9")
-		)
-		(fp_line
-			(start 1.3081 0.631)
-			(end 1.3081 0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "25ce35ef-3f44-4a7b-ad34-3d5cf2d08279")
-		)
-		(fp_line
-			(start 1.3081 -0.631)
-			(end 1.3081 0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f088f9ec-7bf8-4f71-8864-d7de30f757b5")
-		)
-		(fp_line
-			(start 1.3081 -0.631)
-			(end 1.3081 -0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "63fdd11e-eff6-4e9a-9e0f-720008420c6b")
-		)
-		(fp_line
-			(start 1.3081 -1.3081)
-			(end 1.3081 -0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "31336394-65e0-4681-a719-18c7bdea90f6")
-		)
-		(fp_line
-			(start 0.881 1.3081)
-			(end 1.3081 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "f2e6d58c-7477-428b-98d8-19fb051c1356")
-		)
-		(fp_line
-			(start 0.881 1.3081)
-			(end 0.881 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "86ed3bd2-d575-4415-bfe4-a6fe0487ff67")
-		)
-		(fp_line
-			(start 0.881 -1.3081)
-			(end 1.3081 -1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "a7c4487f-fba1-46fe-982e-b873aaafd19b")
-		)
-		(fp_line
-			(start 0.881 -1.3081)
-			(end 0.881 -1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "1c836039-e1f9-465e-b0f3-4ea45a6fc6ac")
-		)
-		(fp_line
-			(start -0.881 1.3081)
-			(end 0.881 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "da4ad684-698c-46a3-b6b6-e4a72228f620")
-		)
-		(fp_line
-			(start -0.881 1.3081)
-			(end -0.881 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "511c6723-2fec-4645-b213-9bc99ce89107")
-		)
-		(fp_line
-			(start -0.881 -1.3081)
-			(end 0.881 -1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "4d0a8353-a412-4232-9a22-8581733bca10")
-		)
-		(fp_line
-			(start -0.881 -1.3081)
-			(end -0.881 -1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "18b4fed3-a432-4578-b38b-1f8b6022fbcb")
-		)
-		(fp_line
-			(start -1.3081 1.3081)
-			(end -0.881 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "af180c00-65b0-483f-8d24-402539b3501a")
-		)
-		(fp_line
-			(start -1.3081 0.631)
-			(end -1.3081 1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "190d0971-83c5-4ec9-9d3a-a587d7e52178")
-		)
-		(fp_line
-			(start -1.3081 0.631)
-			(end -1.3081 0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "97fdcedf-5857-4063-bbae-1517b54dc938")
-		)
-		(fp_line
-			(start -1.3081 -0.631)
-			(end -1.3081 0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "16b3c8dd-68f8-4618-998a-194b5d355f31")
-		)
-		(fp_line
-			(start -1.3081 -0.631)
-			(end -1.3081 -0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "233d78e6-bf96-4e0e-9863-08374eea0205")
-		)
-		(fp_line
-			(start -1.3081 -1.3081)
-			(end -0.881 -1.3081)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "cc9922cb-4dc3-4290-a64b-19eda2eff916")
-		)
-		(fp_line
-			(start -1.3081 -1.3081)
-			(end -1.3081 -0.631)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "fd9936ed-7709-4db9-bc4f-2514f66e0962")
-		)
+		(fp_rect (start -1.3081 -1.3081) (end 1.3081 1.3081) (stroke (width 0.05) (type default)) (fill none) (layer "B.CrtYd") (uuid "5c567335-2ea7-45ff-ac94-97b0d95aca8f"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		(fp_line
 			(start 1.0541 1.0541)
 			(end -1.0541 1.0541)
