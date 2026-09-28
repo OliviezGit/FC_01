@@ -5,8 +5,8 @@
   (descr "Murata CSTNE8M00GH5C000R0; JGC42-8858A p3; 0.4 x 1.9 mm lands at 1.2 mm pitch; pin 2 GND.")
   (attr smd)
   (fp_text reference "REF**"
-    (at 0 -1.65)
-    (layer "F.SilkS")
+    (at 0 -1.8)
+    (layer "F.Fab")
     (effects
       (font
         (size 0.7 0.7)
@@ -57,6 +57,53 @@
   
 
   
+
+  (zone
+    (layer "B.Cu")
+    (name "OSC opposite-face keepout B")
+    (hatch edge 0.25)
+    (connect_pads
+      (clearance 0))
+    (min_thickness 0.1)
+    (keepout
+      (tracks not_allowed)
+      (vias not_allowed)
+      (pads not_allowed)
+      (copperpour not_allowed)
+      (footprints not_allowed))
+    (placement
+      (enabled yes)
+      (sheetname ""))
+    (fill
+      (thermal_gap 0.3)
+      (thermal_bridge_width 0.3)
+      (island_removal_mode 0))
+    (polygon
+      (pts
+        (xy -2.3 -1.4) (xy 2.3 -1.4) (xy 2.3 1.4) (xy -2.3 1.4))))
+  (zone
+    (layer "F.Cu")
+    (name "OSC local keepout F")
+    (hatch edge 0.25)
+    (connect_pads
+      (clearance 0))
+    (min_thickness 0.1)
+    (keepout
+      (tracks allowed)
+      (vias not_allowed)
+      (pads allowed)
+      (copperpour not_allowed)
+      (footprints allowed))
+    (placement
+      (enabled no)
+      (sheetname ""))
+    (fill
+      (thermal_gap 0.3)
+      (thermal_bridge_width 0.3)
+      (island_removal_mode 0))
+    (polygon
+      (pts
+        (xy -2 -1.1) (xy 2 -1.1) (xy 2 1.1) (xy -2 1.1))))
 
   (model "${KIPRJMOD}/composants/3d/Murata_CSTNE_envelope.step"
   (offset
