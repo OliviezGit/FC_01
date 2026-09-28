@@ -3013,7 +3013,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin passive line
+      (pin power_out line
         (at 12.7 15.24 180)
         (length 2.54)
         (name "VBUS"
@@ -8117,7 +8117,7 @@
           (type default))
         (fill
           (type none)))
-      (pin unspecified line
+      (pin power_out line
         (at -5.08 8.89 0)
         (length 2.54)
         (name "1"
@@ -9128,7 +9128,7 @@
           (type default))
         (fill
           (type background)))
-      (pin unspecified line
+      (pin power_out line
         (at 12.7 3.81 180)
         (length 2.54)
         (name "OUT"
@@ -12936,7 +12936,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -12.7 8.89 0)
 					(length 2.54)
 					(name "VCC"
@@ -13065,4 +13065,21 @@
 			)
 			(embedded_fonts no)
 		)
+
+  (symbol "ERC__POWER_SOURCE"
+    (power local)
+    (pin_numbers (hide yes))
+    (pin_names (offset 0) (hide yes))
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (in_pos_files no)
+    (property "Reference" "#FLG" (at 0 -3.81 0) (hide yes) (effects (font (size 1.27 1.27))))
+    (property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (symbol "ERC__POWER_SOURCE_0_1"
+      (polyline (pts (xy -1.27 1.27) (xy 0 3.81) (xy 1.27 1.27) (xy -1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol "ERC__POWER_SOURCE_1_1"
+      (pin power_out line (at 0 0 90) (length 0)
+        (name "Power source" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27)))))))
 )

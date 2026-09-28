@@ -1844,7 +1844,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -12.7 8.89 0)
 					(length 2.54)
 					(name "VCC"

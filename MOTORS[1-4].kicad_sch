@@ -272,7 +272,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -5.08 8.89 0)
 					(length 2.54)
 					(name "1"
