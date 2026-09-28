@@ -639,6 +639,20 @@
         "wire_width": 6
       },
       {
+        "name": "I2C",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "MOTOR",
+        "pcb_color": "rgb(199, 255, 89)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 12,
         "clearance": 0.127,
         "diff_pair_gap": 0.25,
@@ -656,6 +670,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "SDIO",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       },
       {
         "bus_width": 12,
@@ -677,6 +698,13 @@
         "wire_width": 6
       },
       {
+        "name": "SPI",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
         "bus_width": 12,
         "clearance": 0.148,
         "diff_pair_gap": 0.2451,
@@ -694,34 +722,6 @@
         "via_diameter": 0.4,
         "via_drill": 0.25,
         "wire_width": 6
-      },
-      {
-        "name": "I2C",
-        "pcb_color": "rgb(255, 153, 0)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SPI",
-        "pcb_color": "rgb(255, 0, 255)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SDIO",
-        "pcb_color": "rgb(0, 255, 255)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "MOTOR",
-        "pcb_color": "rgb(199, 255, 89)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
