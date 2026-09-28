@@ -1,0 +1,15 @@
+(version 1)
+
+# The LEVIA-derived outline intentionally intersects the grounded mounting-hole
+# copper at H1-H4. Keep the mechanical outline unchanged and allow this local
+# edge overlap only for those four mounting holes.
+(rule "FC01 mounting holes at board edge"
+    (constraint edge_clearance (min -1mm))
+    (condition "A.Reference == 'H1' || A.Reference == 'H2' || A.Reference == 'H3' || A.Reference == 'H4'"))
+
+# TI RAK0009A (LMR60430-Q1) has a 0.125 mm internal copper spacing in the
+# manufacturer land pattern. Do not distort the package to meet the global
+# 0.127 mm rule.
+(rule "U4 TI RAK0009A internal clearance"
+    (constraint clearance (min 0.125mm))
+    (condition "A.memberOfFootprint('U4') && B.memberOfFootprint('U4')"))
