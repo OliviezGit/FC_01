@@ -6,7 +6,7 @@
   (attr smd)
   (fp_text reference "REF**"
     (at 0 0 unlocked)
-    (layer F.SilkS)
+    (layer F.Fab)
     (effects
       (font
         (size 1 1)
@@ -68,13 +68,7 @@
 
 
 
-  (fp_text user "*"
-    (at -1.535 -0.881 unlocked)
-    (layer "F.SilkS")
-    (effects
-      (font
-        (size 1 1)
-        (thickness 0.15))))
+  
   (fp_text user "*"
     (at -0.6206 -0.881 unlocked)
     (layer "F.Fab")
@@ -198,6 +192,30 @@
 
 
 
+
+  (zone
+    (layer "F.Cu")
+    (name "Bosch BMP581 under-package keepout")
+    (hatch edge 0.25)
+    (connect_pads
+      (clearance 0))
+    (min_thickness 0.1)
+    (keepout
+      (tracks not_allowed)
+      (vias not_allowed)
+      (pads allowed)
+      (copperpour not_allowed)
+      (footprints allowed))
+    (placement
+      (enabled no)
+      (sheetname ""))
+    (fill
+      (thermal_gap 0.3)
+      (thermal_bridge_width 0.3)
+      (island_removal_mode 0))
+    (polygon
+      (pts
+        (xy -1 -1) (xy 1 -1) (xy 1 1) (xy -1 1))))
 
   (model "${KIPRJMOD}/composants/3d/BMP581_envelope.step"
   (offset
