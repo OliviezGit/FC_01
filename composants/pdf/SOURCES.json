@@ -119,6 +119,13 @@
     "retrieved": "2026-09-27"
   },
   {
+    "file": "composants/pdf/R51_datasheet.pdf",
+    "url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+    "sha256": "cc26efadd9f828cf3eea156575c72e7c8839e0fd5e6e551f2cf2b2b77eef503d",
+    "bytes": 56222,
+    "retrieved": "2026-09-28"
+  },
+  {
     "file": "composants/pdf/Royalohm.pdf",
     "url": "https://www.royalohm.com/assets/pdf/products/smd/1.pdf",
     "sha256": "6344d3f6a60ea3d3a4c4726f3562df5847a0e5910ce0bd4356328c1363a25f0d",
@@ -204,10 +211,10 @@
   },
   {
     "file": "composants/pdf/U7_datasheet.pdf",
-    "url": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
-    "sha256": "6637cd500dda3c1c951ce29bed7fe909f11f9a3bef64b096dbb486827add9f11",
-    "bytes": 209490,
-    "retrieved": "2026-09-27"
+    "url": "https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf",
+    "sha256": "65a502b18c2f52f77f4bf2a93c860698ab73b996e47b652c9022021173ff9543",
+    "bytes": 353428,
+    "retrieved": "2026-09-28"
   },
   {
     "file": "composants/pdf/U8_datasheet.pdf",

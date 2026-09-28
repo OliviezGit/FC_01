@@ -16,6 +16,7 @@ for ref in ['U1','U2','U3','U4','U7','U8','U9','U10','U11','U12','U13','U14','Q1
 for m in buy:
  if m.startswith('RC0402'):pdfs[m]='Yageo_RC.pdf'
  if m.startswith('CL'):pdfs[m]=m[:-1]+'.pdf'
+pdfs['RC0402FR-0722RL']='R51_datasheet.pdf'
 sources={}
 for name in ['DOWNLOADS.json','MIRRORS.json','MORE_DOWNLOADS.json','LAST_DOWNLOADS.json']:
  for k,v in json.loads((D/'pdf'/name).read_text()).items():
@@ -23,6 +24,8 @@ for name in ['DOWNLOADS.json','MIRRORS.json','MORE_DOWNLOADS.json','LAST_DOWNLOA
   elif 'file' in v:sources[v['file']]=v['url']
 sources['PMEG4030ER.pdf']='https://www.mouser.com/datasheet/2/916/PMEG4030ER-2938673.pdf'
 sources['U11_datasheet.pdf']='https://www.mouser.com/catalog/specsheets/TDK_DS_000577_ICM_45686.pdf'
+sources['U7_datasheet.pdf']='https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf'
+sources['R51_datasheet.pdf']='https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL'
 for m,file in pdfs.items():
  if file.startswith('CL'):sources[file]='https://product.samsungsem.com/part/download.do?masterKey='+m[:-1]+'&type=specsheet'
  sources.setdefault(file,evidence[m]['source'])
@@ -43,14 +46,14 @@ for m,refs in sorted(groups.items(),key=lambda x:sortref(sorted(x[1],key=sortref
  rec={'mpn':m,'references':refs,'quantity':len(refs),'manufacturer':str(p.get('Manufacturer','')),'value':str(p.get('Value','')),'package':str(p.get('Package','')),
  'symbol_ids':sorted({str(child(graph.comp[r][1],'lib_id')[1]) for r in refs}),'symbol_file':'composants/kicad/FC01_Project.kicad_sym','footprint_id':fid,'footprint_file':native,
  'datasheet_file':'composants/pdf/'+pdfs[m],'datasheet_download_url':sources[pdfs[m]],'manufacturer_source_url':evidence[m]['source'],
- 'model':bindings[fid],'electrical_review':ev,'purchasing':buy[m],'control_pdf':'composants/controle/'+re.sub(r'[^A-Za-z0-9_.-]','_',m)+'.pdf'}
+ 'model':bindings[fid],'electrical_review':ev,'purchasing':buy[m],'control_pdf':('composants/pdf/'+pdfs[m] if m in ('TJA1057GTK/3Z','RC0402FR-0722RL') else 'composants/controle/'+re.sub(r'[^A-Za-z0-9_.-]','_',m)+'.pdf')}
  catalog.append(rec)
  for ref in refs:byref[ref]=rec
 (D/'catalogue.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
 manifest=[]
 for file,url in sorted(sources.items()):
  p=D/'pdf'/file
- if p.exists():manifest.append({'file':'composants/pdf/'+file,'url':url,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size,'retrieved':'2026-09-27'})
+ if p.exists():manifest.append({'file':'composants/pdf/'+file,'url':url,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'bytes':p.stat().st_size,'retrieved':('2026-09-28' if file in ('U7_datasheet.pdf','R51_datasheet.pdf') else '2026-09-27')})
 (D/'pdf/SOURCES.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 rows=[]
 for r in catalog:

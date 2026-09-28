@@ -1,17 +1,19 @@
 {
-  "schematic_references": 155,
-  "pcb_footprints": 155,
-  "unique_manufacturer_part_numbers": 44,
-  "symbol_pin_pad_pairs": 560,
-  "schematic_symbol_instances": 282,
+  "schematic_references": 156,
+  "pcb_footprints": 156,
+  "unique_manufacturer_part_numbers": 45,
+  "symbol_pin_pad_pairs": 562,
+  "schematic_symbol_instances": 283,
   "network_power_symbols": 127,
-  "purchased_references_with_local_assets": 133,
-  "schematic_instance_fields_checked": 155,
+  "purchased_references_with_local_assets": 134,
+  "schematic_instance_fields_checked": 156,
   "unconfirmed_purchasing_mpns": [
     "19-337/R6GHBHC-M01/2T",
     "XGL4030-332MEC",
     "0402WGF5101TCE",
-    "RC0402FR-0716K5L"
+    "RC0402FR-0716K5L",
+    "RC0402FR-0722RL",
+    "TJA1057GTK/3Z"
   ],
   "errors": [],
   "unsupported_bus_nets": [

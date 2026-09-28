@@ -1727,6 +1727,61 @@
     "control_pdf": "composants/controle/RC0402FR-074K7L.pdf"
   },
   {
+    "mpn": "RC0402FR-0722RL",
+    "references": [
+      "R51"
+    ],
+    "quantity": 1,
+    "manufacturer": "YAGEO",
+    "value": "22R",
+    "package": "0402 (1005 Metric)",
+    "symbol_ids": [
+      "FC01_Project:MICRO_SD__R_Small"
+    ],
+    "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
+    "footprint_id": "Resistor_SMD:R_0402_1005Metric",
+    "footprint_file": "composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod",
+    "datasheet_file": "composants/pdf/R51_datasheet.pdf",
+    "datasheet_download_url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+    "manufacturer_source_url": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+    "model": {
+      "file": "composants/3d/R_0402_1005Metric.step",
+      "type": "KiCad, geometrie generique du boitier",
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "rotate": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "electrical_review": {
+      "status": "FAMILY_PACKAGE_REVIEWED",
+      "source": "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL",
+      "review": "Yageo RC0402FR-0722RL = 22 ohms, 1%, 0402 / 1005. Empreinte standard 0402; offre France non confirmee."
+    },
+    "purchasing": {
+      "supplier": "Non confirme",
+      "order_code": "",
+      "url": "",
+      "unit_eur_ht": null,
+      "price_quantity": null,
+      "stock": null,
+      "checked": "",
+      "source_ref": "",
+      "notes": "22 ohms selon Yageo; offre France non confirmee."
+    },
+    "control_pdf": "composants/pdf/R51_datasheet.pdf"
+  },
+  {
     "mpn": "USBLC6-2P6",
     "references": [
       "U1"
@@ -2013,23 +2068,23 @@
     "control_pdf": "composants/controle/AP7361C-33FGE-7.pdf"
   },
   {
-    "mpn": "TJA1051TK/3,118",
+    "mpn": "TJA1057GTK/3Z",
     "references": [
       "U7"
     ],
     "quantity": 1,
-    "manufacturer": "NXP USA Inc.",
-    "value": "TJA1051TK/3,118",
+    "manufacturer": "NXP Semiconductors",
+    "value": "TJA1057GTK/3Z",
     "package": "8-HVSON 3x3 EP",
     "symbol_ids": [
-      "FC01_Project:CAN__TJA1051TK-3"
+      "FC01_Project:CAN__TJA1057GTK-3"
     ],
     "symbol_file": "composants/kicad/FC01_Project.kicad_sym",
     "footprint_id": "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm",
     "footprint_file": "composants/kicad/vendor/Package_SON.pretty/HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.kicad_mod",
     "datasheet_file": "composants/pdf/U7_datasheet.pdf",
-    "datasheet_download_url": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
-    "manufacturer_source_url": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
+    "datasheet_download_url": "https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf",
+    "manufacturer_source_url": "https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf",
     "model": {
       "file": "composants/3d/TJA1051_HVSON8_envelope.step",
       "type": "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes",
@@ -2055,22 +2110,22 @@
       ]
     },
     "electrical_review": {
-      "status": "PACKAGE_REVIEWED_STANDARD_LAND",
-      "source": "https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf",
-      "review": "NXP TJA1051 Rev9 pp.4,16: TK=SOT782 HVSON8+EP; variante /3 pin5 VIO. 1TXD 2GND 3VCC 4RXD 5VIO 6CANL 7CANH 8S; EP9 GND. Corps 3 x 3, pas 0.65 mm."
+      "status": "MANUFACTURER_PINOUT_REVIEWED",
+      "source": "https://www.nxp.com/docs/en/data-sheet/TJA1057.pdf",
+      "review": "NXP TJA1057 Rev 8.1, 2 mars 2026: GTK/3Z = HVSON8 SOT782-1, 3 x 3 x 0.85 mm, pin 5 VIO; 1 TXD, 2 GND, 3 VCC, 4 RXD, 5 VIO, 6 CANL, 7 CANH, 8 S. Pad central relie GND. Implantation HVSON8 existante a confirmer avec tolerances de soudure."
     },
     "purchasing": {
-      "supplier": "DigiKey France",
-      "order_code": "568-8686-1-ND",
-      "url": "https://www.digikey.fr/fr/products/detail/nxp-usa-inc/TJA1051TK-3-118/2803572",
-      "unit_eur_ht": 1.65,
-      "price_quantity": 1,
-      "stock": 20970,
-      "checked": "2026-09-27",
-      "source_ref": "turn37view2",
-      "notes": "Relevé web; stock et prix variables. Derniere date d achat annoncee: 26/12/2026; verifier cycle de vie."
+      "supplier": "Non confirme",
+      "order_code": "",
+      "url": "",
+      "unit_eur_ht": null,
+      "price_quantity": null,
+      "stock": null,
+      "checked": "",
+      "source_ref": "",
+      "notes": "Ne pas reutiliser les prix et stocks du TJA1051; reference TJA1057GTK/3Z a confirmer avant achat."
     },
-    "control_pdf": "composants/controle/TJA1051TK_3_118.pdf"
+    "control_pdf": "composants/pdf/U7_datasheet.pdf"
   },
   {
     "mpn": "SM04B-GHS-TB(LF)(SN)",

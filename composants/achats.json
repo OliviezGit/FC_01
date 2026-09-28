@@ -43,17 +43,6 @@
     "source_ref": "turn37view0",
     "notes": "Relevé web; stock et prix variables."
   },
-  "TJA1051TK/3,118": {
-    "supplier": "DigiKey France",
-    "order_code": "568-8686-1-ND",
-    "url": "https://www.digikey.fr/fr/products/detail/nxp-usa-inc/TJA1051TK-3-118/2803572",
-    "unit_eur_ht": 1.65,
-    "price_quantity": 1,
-    "stock": 20970,
-    "checked": "2026-09-27",
-    "source_ref": "turn37view2",
-    "notes": "Relevé web; stock et prix variables. Derniere date d achat annoncee: 26/12/2026; verifier cycle de vie."
-  },
   "LSM6DSV16XTR": {
     "supplier": "DigiKey France",
     "order_code": "497-LSM6DSV16XTRCT-ND",
@@ -482,5 +471,27 @@
     "checked": "2026-09-27",
     "source_ref": "",
     "notes": "Reference exacte: offre France, prix et stock non confirmes. Ne pas commander via une substitution implicite."
+  },
+  "TJA1057GTK/3Z": {
+    "supplier": "Non confirme",
+    "order_code": "",
+    "url": "",
+    "unit_eur_ht": null,
+    "price_quantity": null,
+    "stock": null,
+    "checked": "",
+    "source_ref": "",
+    "notes": "Ne pas reutiliser les prix et stocks du TJA1051; reference TJA1057GTK/3Z a confirmer avant achat."
+  },
+  "RC0402FR-0722RL": {
+    "supplier": "Non confirme",
+    "order_code": "",
+    "url": "",
+    "unit_eur_ht": null,
+    "price_quantity": null,
+    "stock": null,
+    "checked": "",
+    "source_ref": "",
+    "notes": "22 ohms selon Yageo; offre France non confirmee."
   }
 }
