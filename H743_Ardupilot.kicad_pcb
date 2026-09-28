@@ -3778,7 +3778,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "15c43f2a-a932-4186-8c1d-c93a8e921944")
-		(at 93.65 90.65 0)
+		(at 93.7 90.7 0)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -23911,7 +23911,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "8e98e69f-56f7-41ec-9cac-f5b2949b10ce")
-		(at 94.3 88.6 90)
+		(at 94.45 88.6 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R13"
@@ -36671,7 +36671,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "c60ccf31-8824-4199-a894-d183bb5ea59f")
-		(at 89.9 116.5 -90)
+		(at 89.75 116.5 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C19"
@@ -44916,7 +44916,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e9777ccf-4386-41bf-acc7-16f3ba148662")
-		(at 77 100.85 90)
+		(at 77.05 101.0 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -49248,7 +49248,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "0102b095-b3cb-402d-aaa1-3ffb63400696")
-		(at 95.4 108.6 90)
+		(at 95.55 108.6 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -50556,7 +50556,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "0b1c0b50-e6d9-4099-88a7-815e16157fb3")
-		(at 97.627 91.168 180)
+		(at 97.73 90.87 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C34"
@@ -94454,7 +94454,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "db13012b-c01a-42c5-b2f0-d2397661aa05")
-		(at 95.646 91.228 180)
+		(at 93.55 91.03 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -100493,25 +100493,24 @@
 		)
 	)
 	(footprint "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm"
-		(layer "B.Cu")
+		(layer "F.Cu")
 		(uuid "f4b8d121-c82f-40b8-8249-b9f6db840409")
-		(at 94.75 92.95 180)
+		(at 94.8 93 180)
 		(descr "Murata CSTNE8M00GH5C000R0; JGC42-8858A p3; 0.4 x 1.9 mm lands at 1.2 mm pitch; pin 2 GND.")
 		(property "Reference" "Y1"
-			(at 0 3 0)
-			(layer "B.SilkS")
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
 			(uuid "6accbb5c-2f3c-4527-aaf6-7a352435d931")
 			(effects
 				(font
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "8MHz"
 			(at 0 -3 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "542fe385-3c8a-407b-b9b4-39c9408274da")
 			(effects
@@ -100519,12 +100518,11 @@
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CSTNE8M.pdf"
 			(at 0 -3 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "30b61375-8e97-4193-9b79-0579d81adbfd")
 			(effects
@@ -100532,24 +100530,22 @@
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Three pin crystal, GND on pin 3, small symbol"
 			(at 0 0 0)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "14c8505a-4df1-4efd-a67e-af2076de0bec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "MPN" "CSTNE8M00GH5C000R0"
 			(at 0 -3 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "323eccbe-4cf8-4aea-b912-871d719f78c7")
 			(effects
@@ -100557,12 +100553,11 @@
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 0 -3 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ad2290e7-d8e6-4e31-b145-56364a28c49f")
 			(effects
@@ -100570,12 +100565,11 @@
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Package" "3-SMD 3.2x1.3 mm"
 			(at 0 -3 0)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d6e873c8-f31b-438e-b8c7-991a469ca815")
 			(effects
@@ -100583,13 +100577,12 @@
 					(size 0.7 0.7)
 					(thickness 0.1)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC Part" "C341525"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e9d5fc7-deee-4baa-bc94-ab6ce0ca4008")
 			(effects
@@ -100597,13 +100590,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "LCSC" "C341525"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9dc97a3a-0f06-4980-b2c6-25e035f93098")
 			(effects
@@ -100611,13 +100603,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/CSTNE8M00GH5C000R0/8747742"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "20cac2d6-5b51-4999-a1ad-4be21fba1063")
 			(effects
@@ -100625,13 +100616,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Specs" "8 MHz CERALOCK, built-in 33 pF, 3-SMD 3.2x1.3 mm"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "2e300937-eae8-445d-8713-4ac3c2aaf175")
 			(effects
@@ -100639,13 +100629,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.26"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e1fea2b-4039-4903-b6d9-827574a6c573")
 			(effects
@@ -100653,13 +100642,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Price Qty" "1"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ec9f5a1-cbb7-41c0-b2c9-1d98ba737395")
 			(effects
@@ -100667,13 +100655,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price Checked" "2026-09-27"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9bdf47f-f5ca-42da-a3b5-e156e079ca7d")
 			(effects
@@ -100681,13 +100668,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6a1ee70-9bd6-4b7c-a366-121c390d6cf5")
 			(effects
@@ -100695,13 +100681,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint Audit" "Murata JGC42-8858A p.3: CSTNE corps 3.2 x 1.3, pas1.2, pads0.4 x1.9 mm, pin2 GND. Empreinte locale ajoutée; placement PCB à terminer."
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a5048c5-0e83-4eed-a368-0a7f6ac995d7")
 			(effects
@@ -100709,13 +100694,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef1d6d24-340d-404b-99b0-22d44922c69b")
 			(effects
@@ -100723,13 +100707,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey_Part_Number" "490-17961-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e5f2aa6-4b20-432b-909d-b414967d6e54")
 			(effects
@@ -100737,13 +100720,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/CSTNE8M00GH5C000R0/8747742"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4533ef90-c704-4081-9698-ed368b90d4a3")
 			(effects
@@ -100751,13 +100733,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "8acb5093-eff2-4c48-84aa-3a7871d05a25")
 			(effects
@@ -100765,13 +100746,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price_Qty" "1"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "43730174-015b-4c30-b555-17d83c5f5986")
 			(effects
@@ -100779,13 +100759,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Stock_Units" "171914"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b1bd2b5-8328-4292-8198-f8b33a65185d")
 			(effects
@@ -100793,13 +100772,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Supplier" "DigiKey France"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "495fa506-4637-4fea-a750-3ca5f614e115")
 			(effects
@@ -100807,13 +100785,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Supplier_Order_Code" "490-17961-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "cbd37fc6-ff71-4803-8414-026e4559ffec")
 			(effects
@@ -100821,13 +100798,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/murata-electronics/CSTNE8M00GH5C000R0/8747742"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "bd5b308b-e134-409d-af06-467a52ca2ccf")
 			(effects
@@ -100835,13 +100811,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Unit_Price_EUR" "0.26"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a7014f6-4cb6-49cc-a69c-9eb0a38fbb78")
 			(effects
@@ -100849,13 +100824,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Component_Class" "Composant achete"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "070832da-f870-4a53-960d-dbfc2a9a33d4")
 			(effects
@@ -100863,13 +100837,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/CSTNE8M00GH5C000R0.pdf"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "9322704a-7bc8-4035-9899-8ad975f29885")
 			(effects
@@ -100877,13 +100850,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet_URL" "https://www.farnell.com/datasheets/3797113.pdf"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ea81f00-a040-4d89-8669-7357e3a187ac")
 			(effects
@@ -100891,13 +100863,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "DigiKey Part Number" "490-17961-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ce68e34-3c10-49c0-aa8f-7ca82a9f9e0a")
 			(effects
@@ -100905,13 +100876,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/Murata_CSTNE_3.2x1.3_P1.2mm.kicad_mod"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c11b3c6-1ec5-4544-a032-aba56fa66db5")
 			(effects
@@ -100919,13 +100889,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/Murata_CSTNE_envelope.step"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "b216c7a6-e84d-4162-ac90-52972532fec6")
 			(effects
@@ -100933,13 +100902,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Model_3D_Type" "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3b53dc7-7671-4c80-92d4-46be272d3c20")
 			(effects
@@ -100947,13 +100915,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0813f4f-d110-4361-aff1-c3f96f8846a3")
 			(effects
@@ -100961,13 +100928,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e88efc1-ea27-44bc-97b0-a2c600c43579")
 			(effects
@@ -100975,13 +100941,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6933a34-f60a-45e9-bd40-8a2fc0c62968")
 			(effects
@@ -100989,13 +100954,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "920b19fa-9471-482c-b662-5a0e1839d431")
 			(effects
@@ -101003,13 +100967,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MCU__Crystal_GND3_Small"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "70f44c40-b283-4b6a-8ede-4fe516f14033")
 			(effects
@@ -101017,13 +100980,12 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
 			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "a9f8ff04-cdb2-4d50-b57c-ffdb729fcca7")
 			(effects
@@ -101031,7 +100993,6 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Crystal*")
@@ -101047,14 +101008,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
-			(center -1.85 0.65)
-			(end -1.75 0.65)
+			(center -1.85 -0.65)
+			(end -1.75 -0.65)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill yes)
-			(layer "B.SilkS")
+			(layer "F.SilkS")
 			(uuid "2aedf431-3b35-4fbf-91d9-eb282e1a2a18")
 		)
 		(fp_rect
@@ -101065,7 +101026,7 @@
 				(type default)
 			)
 			(fill no)
-			(layer "B.CrtYd")
+			(layer "F.CrtYd")
 			(uuid "5a9b2bb9-0c50-460e-82e8-7a08fce81db4")
 		)
 		(fp_rect
@@ -101076,13 +101037,13 @@
 				(type default)
 			)
 			(fill no)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(uuid "f9850171-3b24-48e9-8485-9445712de0a2")
 		)
 		(pad "1" smd rect
 			(at -1.2 0 180)
 			(size 0.4 1.9)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MCU/OSC_IN")
 			(pinfunction "1_1")
 			(pintype "passive")
@@ -101091,7 +101052,7 @@
 		(pad "2" smd rect
 			(at 0 0 180)
 			(size 0.4 1.9)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
 			(pinfunction "2_2")
 			(pintype "passive")
@@ -101100,16 +101061,16 @@
 		(pad "3" smd rect
 			(at 1.2 0 180)
 			(size 0.4 1.9)
-			(layers "B.Cu" "B.Mask" "B.Paste")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MCU/OSC_OUT")
 			(pinfunction "3_3")
 			(pintype "passive")
 			(uuid "9ed3ba7b-4799-4cae-9e04-7de6fc0180e2")
 		)
 		(zone
-			(layer "F.Cu")
+			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000002")
-			(name "OSC opposite-face keepout F")
+			(name "OSC opposite-face keepout B")
 			(hatch edge 0.25)
 			(connect_pads
 				(clearance 0)
@@ -101138,9 +101099,9 @@
 			)
 		)
 		(zone
-			(layer "B.Cu")
+			(layer "F.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000001")
-			(name "OSC local keepout B")
+			(name "OSC local keepout F")
 			(hatch edge 0.25)
 			(connect_pads
 				(clearance 0)

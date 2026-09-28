@@ -73,7 +73,8 @@ def main():
         at = child(osc, "at")
         ox, oy = map(float, at[1:3])
         for zone in children(osc, "zone"):
-            if str(child(zone, "layer")[1]) != "F.Cu":
+            opposite = "B.Cu" if child(osc, "layer")[1] == "F.Cu" else "F.Cu"
+            if str(child(zone, "layer")[1]) != opposite:
                 continue
             pts = [(ox + float(p[1]), oy + float(p[2]))
                    for p in children(child(child(zone, "polygon"), "pts"), "xy")]
@@ -83,7 +84,7 @@ def main():
                   max(x for x, y in pts), max(y for x, y in pts))
             for ref, fp in fps.items():
                 fb = boxes[ref]
-                if ref == "Y1" or child(fp, "layer")[1] != "F.Cu" or fb is None:
+                if ref == "Y1" or child(fp, "layer")[1] != opposite or fb is None:
                     continue
                 if min(zb[2], fb[2]) > max(zb[0], fb[0]) and min(zb[3], fb[3]) > max(zb[1], fb[1]):
                     oscillator_opposite_keepout.append(ref)

@@ -2,7 +2,15 @@
 
 Base : `b4cfb44959cea596d19cdc92941de7909c9316be` (`main`). Les positions des 22 références figées par Olivier ont été comparées au PCB de cette base.
 
-[Aperçu des courtyards F.Cu/B.Cu](PLACEMENT_PREVIEW_2026-09-28.png) : bleu = position figée, orange = position modifiée. Cette image ne représente ni les pistes ni les couches internes.
+[Aperçu corrigé UP/DOWN des courtyards](PLACEMENT_PREVIEW_2026-09-28.png) : gris = position figée, orange = correction après revue graphique. Cette image ne représente ni les pistes ni les couches internes.
+
+## Revue graphique corrective du 28/09
+
+La première version avait laissé **Y1 au dos**, dans l'espace étroit entre USB1 et J12. Cette implantation était mal choisie. Y1 est désormais sur **F.Cu à (94,80 ; 93,00 mm), angle 180°**, du même côté que U2 et dans l'ordre des broches OSC_IN/OSC_OUT. Les distances directes pad à pad sont de 4,13 mm vers U2.12 et 3,19 mm vers U2.13. Le CSTNE8M00GH5C000R0 intègre ses capacités de charge : il n'y a pas de condensateurs externes à ajouter autour de Y1.
+
+Le keepout de cuivre local suit Y1 sur F.Cu; son keepout opposé est désormais sur B.Cu. **C34** a été déplacé à (97,73 ; 90,87 mm) et **R18** à (93,55 ; 91,03 mm) pour libérer ce keepout. C32, R13, C17, C19 et C46 ont été légèrement espacés de leurs voisins. Le contrôle de courtyards ne trouve aucun recouvrement sur une même face et aucun composant B.Cu dans le keepout opposé de Y1. Les 22 composants figés restent inchangés.
+
+La vue reste une vérification de placement 2D : les textes de sérigraphie, l'accès de soudage, les boîtiers réels et les dégagements cuivre ne sont pas validés par ce contrôle. Le routage et un DRC KiCad restent indispensables.
 
 ## Résultat reproductible
 
@@ -14,7 +22,7 @@ Base : `b4cfb44959cea596d19cdc92941de7909c9316be` (`main`). Les positions des 22
 | Pads PCB / empreintes locales | Aucun écart | Numéros, positions, dimensions, forme, orientation, couches et modèles 3D |
 | Groupes de nets schéma / PCB | Aucun conflit ni fusion | Bus MOTOR1–4 exclus du parseur statique |
 | Courtyards sur la même face | Aucun recouvrement détecté | Test de rectangles englobants, à confirmer par DRC KiCad |
-| Keepout opposé Y1 sur F.Cu | Aucun composant dedans | Zone locale déplacée avec Y1 |
+| Keepout opposé Y1 sur B.Cu | Aucun composant dedans | Zone opposée déplacée avec Y1 |
 | Positions figées | 22 inchangées | Coordonnées, angles et faces comparés à `main` |
 | Segments routés / vias / zones cuivre | 0 / 26 / 2 | Les vias sont des amorces GND; routage inexistant |
 
@@ -55,11 +63,11 @@ Les autres 39 MPN utilisent les preuves classées dans `EVIDENCE.json`, les 36 P
 | C14.1 → U2.21 VDDA | 19,69 | 2,38 |
 | C15.1 → U2.20 VDDA | 20,40 | 2,56 |
 | Y1.1 → U2.12 OSC_IN | 17,03 | 4,13 |
-| Y1.3 → U2.13 OSC_OUT | 17,09 | 3,23 |
+| Y1.3 → U2.13 OSC_OUT | 17,09 | 3,19 |
 | C19.1 → U4.1 VBAT | 3,53 | 1,75 |
 | R10.1 → U4.6 FB | 4,05 | 1,22 |
 
-C7 a été reculé de 0,35 mm pour libérer le courtyard du MCU; sa distance électrique augmente de 0,28 mm. Y1 reste côté B.Cu en raison des emprises des connecteurs figés USB1/J12; son keepout opposé F.Cu suit son déplacement. R16 a été décalée pour libérer Y1 : l'ensemble du filtre ADC_AIRSPEED doit encore être revu au routage. Le nœud SW U4→L2 reste d'environ 4 mm à vol d'oiseau; le réduire davantage demande de réorganiser toute la cellule 9 V et son routage.
+C7 a été reculé de 0,35 mm pour libérer le courtyard du MCU; sa distance électrique augmente de 0,28 mm. Y1 est maintenant côté F.Cu et son keepout opposé est sur B.Cu. Le filtre ADC_AIRSPEED, dont R18 et C34 ont été déplacés, doit être revu au routage. Le nœud SW U4→L2 reste d'environ 4 mm à vol d'oiseau; le réduire davantage demande de réorganiser toute la cellule 9 V et son routage.
 
 ## Blocages avant fabrication
 
