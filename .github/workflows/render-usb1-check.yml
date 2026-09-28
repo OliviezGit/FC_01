@@ -1,0 +1,29 @@
+name: USB1 KiCad render check
+on:
+  push:
+    branches: [render-usb1-check]
+jobs:
+  render:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install KiCad 10
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes --install-recommends kicad xvfb
+          kicad-cli version
+      - name: Render USB1 side
+        run: |
+          mkdir -p render
+          xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/USB1_BOTTOM_ISO.png \
+            --width 2200 --height 1600 --side bottom --background opaque --quality high --floor --perspective \
+            --rotate '45,0,-45' --zoom 1.7
+          xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/USB1_BOTTOM.png \
+            --width 2200 --height 1600 --side bottom --background opaque --quality high --zoom 1.7
+          file render/*.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: USB1-render-check
+          path: render/*.png
+          if-no-files-found: error
