@@ -1568,7 +1568,7 @@
           (type default))
         (fill
           (type none)))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 3.81 0)
         (length 2.54)
         (name "1"
@@ -1579,7 +1579,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 1.27 0)
         (length 2.54)
         (name "2"
@@ -1590,7 +1590,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -1.27 0)
         (length 2.54)
         (name "3"
@@ -1601,7 +1601,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -3.81 0)
         (length 2.54)
         (name "4"
@@ -1612,7 +1612,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at 1.27 -8.89 90)
         (length 2.54)
         (name "5"
@@ -1623,7 +1623,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at 3.81 -8.89 90)
         (length 2.54)
         (name "6"
@@ -6441,7 +6441,7 @@
             (font
               (size 1.27 1.27))))
         (alternate "DEBUG_JTMS-SWDIO" bidirectional line))
-      (pin power_out line
+      (pin passive line
         (at -22.86 -48.26 0)
         (length 5.08)
         (name "VCAP"
@@ -8128,7 +8128,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 6.35 0)
         (length 2.54)
         (name "2"
@@ -8139,7 +8139,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 3.81 0)
         (length 2.54)
         (name "3"
@@ -8150,7 +8150,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 1.27 0)
         (length 2.54)
         (name "4"
@@ -8161,7 +8161,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -1.27 0)
         (length 2.54)
         (name "5"
@@ -8172,7 +8172,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -3.81 0)
         (length 2.54)
         (name "6"
@@ -8183,7 +8183,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -6.35 0)
         (length 2.54)
         (name "7"
@@ -8194,7 +8194,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at -5.08 -8.89 0)
         (length 2.54)
         (name "8"
@@ -8205,7 +8205,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at 1.27 -13.97 90)
         (length 2.54)
         (name "9"
@@ -8216,7 +8216,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin passive line
         (at 3.81 -13.97 90)
         (length 2.54)
         (name "10"
@@ -9161,7 +9161,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at -12.7 -3.81 0)
         (length 2.54)
         (name "GND"
@@ -9172,7 +9172,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -12.7 1.27 0)
         (length 2.54)
         (name "EN"
@@ -9205,7 +9205,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at -12.7 3.81 0)
         (length 2.54)
         (name "IN"
@@ -9216,7 +9216,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at 0 -8.89 90)
         (length 2.54)
         (name "EXP"
@@ -9316,7 +9316,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -12.7 3.81 0)
         (length 2.54)
         (name "EN/UVLO"
@@ -9327,7 +9327,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at -12.7 6.35 0)
         (length 2.54)
         (name "VIN"
@@ -9338,7 +9338,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin output line
         (at 12.7 2.54 180)
         (length 2.54)
         (name "SW"
@@ -9349,7 +9349,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 12.7 6.35 180)
         (length 2.54)
         (name "BOOT"
@@ -9360,7 +9360,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_out line
         (at -12.7 -1.27 0)
         (length 2.54)
         (name "VCC"
@@ -9371,7 +9371,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 12.7 -6.35 180)
         (length 2.54)
         (name "VOUT/FB"
@@ -9382,7 +9382,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at -12.7 -6.35 0)
         (length 2.54)
         (name "GND"
@@ -9394,7 +9394,7 @@
             (font
               (size 1.27 1.27))))))
     (symbol "POWER__LMR43620R5RPER_1_1"
-      (pin unspecified line
+      (pin input line
         (at -12.7 -3.81 0)
         (length 2.54)
         (name "RT"
@@ -9483,7 +9483,7 @@
           (type default))
         (fill
           (type background)))
-      (pin unspecified line
+      (pin power_in line
         (at -15.24 5.08 0)
         (length 2.54)
         (name "VIN"
@@ -9494,7 +9494,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at 15.24 -5.08 180)
         (length 2.54)
         (name "PGND"
@@ -9505,7 +9505,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin output line
         (at 15.24 2.54 180)
         (length 2.54)
         (name "SW"
@@ -9516,7 +9516,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 15.24 5.08 180)
         (length 2.54)
         (name "BOOT"
@@ -9527,7 +9527,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin open_collector line
         (at -15.24 0 0)
         (length 2.54)
         (name "PG"
@@ -9538,7 +9538,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 15.24 -2.54 180)
         (length 2.54)
         (name "FB"
@@ -9549,7 +9549,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -15.24 -2.54 0)
         (length 2.54)
         (name "MODE/SYNC"
@@ -9560,7 +9560,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -15.24 -5.08 0)
         (length 2.54)
         (name "RT"
@@ -9571,7 +9571,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -15.24 2.54 0)
         (length 2.54)
         (name "EN"
@@ -10288,7 +10288,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 0 -2.54 0)
         (length 7.62)
         (name "SCK"
@@ -10299,7 +10299,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin power_out line
+      (pin power_in line
         (at 0 -5.08 0)
         (length 7.62)
         (name "VSS"
@@ -10310,7 +10310,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 0 -7.62 0)
         (length 7.62)
         (name "SDI"
@@ -10321,7 +10321,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin tri_state line
         (at 0 -10.16 0)
         (length 7.62)
         (name "SDO"
@@ -10332,7 +10332,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at 40.64 -10.16 180)
         (length 7.62)
         (name "CSB"
@@ -10354,7 +10354,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin power_out line
+      (pin power_in line
         (at 40.64 -5.08 180)
         (length 7.62)
         (name "VSS"
@@ -10365,7 +10365,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin power_out line
+      (pin power_in line
         (at 40.64 -2.54 180)
         (length 7.62)
         (name "VSS"
@@ -10622,7 +10622,7 @@
           (type default))
         (fill
           (type background)))
-      (pin unspecified line
+      (pin power_in line
         (at 0 -8.89 90)
         (length 2.54)
         (name "GND"
@@ -10633,7 +10633,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -11.43 6.35 0)
         (length 2.54)
         (name "CSB"
@@ -10655,7 +10655,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at -11.43 8.89 0)
         (length 2.54)
         (name "VDDIO"
@@ -10666,7 +10666,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at 0 -8.89 90)
         (length 2.54)
         (hide yes)
@@ -10678,7 +10678,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin power_in line
         (at -11.43 11.43 0)
         (length 2.54)
         (name "VDD"
@@ -10690,7 +10690,7 @@
             (font
               (size 1.27 1.27))))))
     (symbol "SENSORS__DPS368XTSA1_1_1_1"
-      (pin unspecified line
+      (pin bidirectional line
         (at -11.43 0 0)
         (length 2.54)
         (name "SDA"
@@ -10701,7 +10701,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin unspecified line
+      (pin input line
         (at -11.43 -2.54 0)
         (length 2.54)
         (name "SCL"
@@ -11277,7 +11277,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin bidirectional line
+      (pin passive line
         (at -15.24 5.08 0)
         (length 3.81)
         (name "SDx/AH1/Qvar1"
@@ -11288,7 +11288,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin bidirectional line
+      (pin passive line
         (at -15.24 2.54 0)
         (length 3.81)
         (name "SCx/AH2/Qvar2"
@@ -11591,7 +11591,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin output line
+      (pin tri_state line
         (at -12.7 -5.08 0)
         (length 2.54)
         (name "SDO2"
@@ -11646,7 +11646,7 @@
           (effects
             (font
               (size 1.27 1.27)))))
-      (pin output line
+      (pin tri_state line
         (at -12.7 -2.54 0)
         (length 2.54)
         (name "SDO1"
@@ -12918,7 +12918,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -1.27 -13.97 90)
 					(length 2.54)
 					(name "GND"
@@ -12972,7 +12972,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VIO"
@@ -13044,7 +13044,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 1.27 -13.97 90)
 					(length 2.54)
 					(name "EP"

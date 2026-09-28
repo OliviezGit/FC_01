@@ -33,6 +33,23 @@
 		(members "DM" "DP")
 	)
 	(lib_symbols
+		(symbol "FC01_Project:ERC__POWER_SOURCE"
+    (power local)
+    (pin_numbers (hide yes))
+    (pin_names (offset 0) (hide yes))
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (in_pos_files no)
+    (property "Reference" "#FLG" (at 0 -3.81 0) (hide yes) (effects (font (size 1.27 1.27))))
+    (property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+    (symbol "ERC__POWER_SOURCE_0_1"
+      (polyline (pts (xy -1.27 1.27) (xy 0 3.81) (xy 1.27 1.27) (xy -1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))))
+    (symbol "ERC__POWER_SOURCE_1_1"
+      (pin power_out line (at 0 0 90) (length 0)
+        (name "Power source" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27)))))))
+
 		(symbol "FC01_Project:H743_Ardupilot__GND"
 			(power global)
 			(pin_numbers
@@ -7483,4 +7500,15 @@
 			(checksum "90411F822F86E88E2B140C7791B8BFF1")
 		)
 	)
+
+
+
+	(symbol
+    (lib_id "FC01_Project:ERC__POWER_SOURCE") (at 53.34 77.47 0) (unit 1)
+    (exclude_from_sim no) (in_bom no) (on_board no) (dnp no)
+    (uuid "55f6a310-cb30-446d-963c-706ddab9659d")
+    (property "Reference" "#FLG301" (at 53.34 81.28 0) (hide yes) (effects (font (size 1.27 1.27))))
+    (property "Value" "PWR_FLAG" (at 59.69 73.66 0) (effects (font (size 1.27 1.27))))
+    (pin "1" (uuid "f5be293a-5dfe-448f-bcda-0fcfeea66814"))
+    (instances (project "H743_Ardupilot" (path "/6b768b36-fce6-4be0-9021-6d41bddc3a70" (reference "#FLG301") (unit 1)))))
 )

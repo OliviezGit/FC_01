@@ -1618,7 +1618,7 @@
 		)
 		(uuid "5cdb3d0e-75be-4a98-b098-da13c0e62f6f")
 	)
-	(label "VDD"
+	(label "+3V3_MCU"
 		(at 73.66 58.42 0)
 		(effects
 			(font
@@ -1648,7 +1648,7 @@
 		)
 		(uuid "a9709ca3-9d4d-4a42-b6ab-531681a644fa")
 	)
-	(label "VDD"
+	(label "+3V3_MCU"
 		(at 171.45 53.34 180)
 		(effects
 			(font

@@ -933,7 +933,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 3.81 0)
 					(length 2.54)
 					(name "1"
@@ -951,7 +951,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "2"
@@ -969,7 +969,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -1.27 0)
 					(length 2.54)
 					(name "3"
@@ -987,7 +987,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 -3.81 0)
 					(length 2.54)
 					(name "4"
@@ -1005,7 +1005,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 1.27 -8.89 90)
 					(length 2.54)
 					(name "5"
@@ -1023,7 +1023,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 3.81 -8.89 90)
 					(length 2.54)
 					(name "6"
@@ -1826,7 +1826,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -1.27 -13.97 90)
 					(length 2.54)
 					(name "GND"
@@ -1880,7 +1880,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VIO"
@@ -1952,7 +1952,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 1.27 -13.97 90)
 					(length 2.54)
 					(name "EP"

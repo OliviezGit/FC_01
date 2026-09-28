@@ -832,7 +832,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -850,7 +850,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "EN"
@@ -904,7 +904,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "IN"
@@ -922,7 +922,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -8.89 90)
 					(length 2.54)
 					(name "EXP"
@@ -1514,7 +1514,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "EN/UVLO"
@@ -1532,7 +1532,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 6.35 0)
 					(length 2.54)
 					(name "VIN"
@@ -1550,7 +1550,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "SW"
@@ -1568,7 +1568,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 6.35 180)
 					(length 2.54)
 					(name "BOOT"
@@ -1586,7 +1586,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -12.7 -1.27 0)
 					(length 2.54)
 					(name "VCC"
@@ -1604,7 +1604,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "VOUT/FB"
@@ -1622,7 +1622,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -12.7 -6.35 0)
 					(length 2.54)
 					(name "GND"
@@ -1642,7 +1642,7 @@
 				)
 			)
 			(symbol "POWER__LMR43620R5RPER_1_1"
-				(pin unspecified line
+				(pin input line
 					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "RT"
@@ -1767,7 +1767,7 @@
 						(type background)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at -15.24 5.08 0)
 					(length 2.54)
 					(name "VIN"
@@ -1785,7 +1785,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "PGND"
@@ -1803,7 +1803,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin output line
 					(at 15.24 2.54 180)
 					(length 2.54)
 					(name "SW"
@@ -1821,7 +1821,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 5.08 180)
 					(length 2.54)
 					(name "BOOT"
@@ -1839,7 +1839,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin open_collector line
 					(at -15.24 0 0)
 					(length 2.54)
 					(name "PG"
@@ -1857,7 +1857,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 15.24 -2.54 180)
 					(length 2.54)
 					(name "FB"
@@ -1875,7 +1875,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -2.54 0)
 					(length 2.54)
 					(name "MODE/SYNC"
@@ -1893,7 +1893,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 -5.08 0)
 					(length 2.54)
 					(name "RT"
@@ -1911,7 +1911,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at -15.24 2.54 0)
 					(length 2.54)
 					(name "EN"

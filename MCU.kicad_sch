@@ -3523,7 +3523,7 @@
 					)
 					(alternate "DEBUG_JTMS-SWDIO" bidirectional line)
 				)
-				(pin power_out line
+				(pin passive line
 					(at -22.86 -48.26 0)
 					(length 5.08)
 					(name "VCAP"
@@ -4906,12 +4906,7 @@
 		(color 0 0 0 0)
 		(uuid "e7fd3f20-504c-4024-8fd6-a78d0fd62e9e")
 	)
-	(junction
-		(at 130.81 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec172dce-eb66-4a25-9b51-51112cda5eeb")
-	)
+
 	(junction
 		(at 109.22 29.21)
 		(diameter 0)
@@ -6481,16 +6476,7 @@
 		)
 		(uuid "6850d666-448f-46ea-ab6f-2301c409e21a")
 	)
-	(wire
-		(pts
-			(xy 130.81 175.26) (xy 130.81 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686d532c-0a85-46c1-9299-fbd5ac5e0af6")
-	)
+
 	(bus
 		(pts
 			(xy 33.02 54.61) (xy 34.29 54.61)
@@ -7951,16 +7937,7 @@
 		)
 		(uuid "f8a3b0c7-fd84-4b13-8818-84adc7c3febb")
 	)
-	(wire
-		(pts
-			(xy 130.81 177.8) (xy 137.16 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9018e7a-69ec-44b6-a289-72e7b7bb963b")
-	)
+
 	(wire
 		(pts
 			(xy 168.91 194.31) (xy 168.91 193.04)
@@ -8241,7 +8218,7 @@
 		)
 		(uuid "1eff721c-4d81-424a-9f9c-10f7b637cb87")
 	)
-	(label "VDD_MCU"
+	(label "+3V3_MCU"
 		(at 231.14 57.15 0)
 		(effects
 			(font
@@ -9361,16 +9338,7 @@
 		)
 		(uuid "f8ed60e8-1328-4e7a-a03f-17170b2e499f")
 	)
-	(label "VDD"
-		(at 161.29 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9c61a85-4346-4d00-addf-c3f869a4c208")
-	)
+
 	(label "I2C2.SDA"
 		(at 191.77 129.54 0)
 		(effects
@@ -17499,90 +17467,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "FC01_Project:MCU__VDD")
-		(at 130.81 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ce4900-6b09-4311-8477-96b5b1d1fb61")
-		(property "Reference" "#PWR017"
-			(at 130.81 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCAP"
-			(at 130.81 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 130.81 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be0c22fc-50ae-4f4c-9ab6-3764ef0b0f26")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "FC01_Project:MCU__C_Small")
 		(at 102.87 26.67 0)
@@ -24271,4 +24156,6 @@
     (property "Value" "PWR_FLAG" (at 182.88 44.45 0) (effects (font (size 1.27 1.27))))
     (pin "1" (uuid "fbf5133a-6248-4ead-8cbe-679432ea60d9"))
     (instances (project "H743_Ardupilot" (path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f" (reference "#FLG201") (unit 1)))))
+
+	(wire (pts (xy 130.81 177.8) (xy 137.16 177.8)) (stroke (width 0) (type default)) (uuid "0fb37843-68e8-4928-ab3c-fbdd26d0df5f"))
 )
