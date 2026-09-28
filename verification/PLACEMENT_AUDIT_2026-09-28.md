@@ -2,6 +2,8 @@
 
 Base : `b4cfb44959cea596d19cdc92941de7909c9316be` (`main`). Les positions des 22 références figées par Olivier ont été comparées au PCB de cette base.
 
+**Correction ultérieure :** voir [USB_POWER_REWORK_2026-09-28.md](USB_POWER_REWORK_2026-09-28.md). Le contrôle ci-dessous ignorait les trous traversants de USB1 en face des composants F.Cu; les positions U6/D4/C30/R12 décrites ici sont périmées.
+
 [Aperçu corrigé UP/DOWN des courtyards](PLACEMENT_PREVIEW_2026-09-28.png) : gris = position figée, orange = correction après revue graphique. Cette image ne représente ni les pistes ni les couches internes.
 
 ## Revue graphique corrective du 28/09
@@ -24,7 +26,7 @@ La vue reste une vérification de placement 2D : les textes de sérigraphie, l'a
 | Courtyards sur la même face | Aucun recouvrement détecté | Test de rectangles englobants, à confirmer par DRC KiCad |
 | Keepout opposé Y1 sur B.Cu | Aucun composant dedans | Zone opposée déplacée avec Y1 |
 | Positions figées | 22 inchangées | Coordonnées, angles et faces comparés à `main` |
-| Segments routés / vias / zones cuivre | 0 / 26 / 2 | Les vias sont des amorces GND; routage inexistant |
+| Segments routés / vias / zones cuivre | 0 / 26 / 2 à la date de cet audit | Les 26 vias ont ensuite été supprimés; voir correction ultérieure |
 
 Commandes : `python tools/verify_design.py`, `python tools/check_connectivity.py` et `python tools/audit_placement.py --baseline <PCB de b4cfb44>`.
 
