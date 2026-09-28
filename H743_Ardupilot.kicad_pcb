@@ -54550,7 +54550,7 @@
 				(type default)
 			)
 			(fill yes)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "6d24bc30-c627-41b9-a01c-b49dbf9919a1")
 		)
 		(fp_rect
@@ -67771,7 +67771,7 @@
 		(tags "capacitor")
 		(property "Reference" "C33"
 			(at 0 1.16 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "d10328a0-8299-42d7-8bde-c56050c328df")
 			(effects
 				(font
@@ -71892,7 +71892,7 @@
 		(tags "JAE DX07S016JA1R1500 USB C Type-C Receptacle SMD USB 2.0 16P")
 		(property "Reference" "USB1"
 			(at 3.88825 -2 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "0292cb2a-67d8-4d56-8ac3-5d88f66a7e4b")
 			(effects
 				(font
@@ -72532,7 +72532,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "257ff20b-63c4-40f7-aa57-4a4864886b39")
 		)
 		(fp_line
@@ -72552,7 +72552,7 @@
 				(width 0.12)
 				(type solid)
 			)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "c48365d9-951a-4b82-ac69-962575560a81")
 		)
 		(fp_line
@@ -81344,7 +81344,7 @@
 		(tags "capacitor")
 		(property "Reference" "C47"
 			(at 0 1.16 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "62e5453e-a6b8-4f81-8ddf-7652263565db")
 			(effects
 				(font
@@ -85961,7 +85961,7 @@
 				(width 0.15)
 				(type default)
 			)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "00910dce-d682-4642-9907-97df19df2d39")
 		)
 		(fp_line
