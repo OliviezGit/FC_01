@@ -1,6 +1,6 @@
 # FC_01 — revue composants et bibliothèques
 
-**Mise à jour du 28/09/2026 :** voir [PLACEMENT_NATIVE_DRC_2026-09-28.md](PLACEMENT_NATIVE_DRC_2026-09-28.md) pour les contrôles natifs KiCad et le placement courant, ainsi que [FULL_DESIGN_REVIEW_2026-09-28.md](FULL_DESIGN_REVIEW_2026-09-28.md) pour la revue fonctionnelle précédente. Les autres rapports et sections ci-dessous décrivent des révisions antérieures; leurs coordonnées et résultats ne doivent pas être utilisés pour le PCB courant.
+**Mise à jour du 28/09/2026 :** voir [RULES_LEVIA_COMPARISON_2026-09-28.md](RULES_LEVIA_COMPARISON_2026-09-28.md) pour les règles courantes, [PLACEMENT_NATIVE_DRC_2026-09-28.md](PLACEMENT_NATIVE_DRC_2026-09-28.md) pour le placement et [FULL_DESIGN_REVIEW_2026-09-28.md](FULL_DESIGN_REVIEW_2026-09-28.md) pour la revue fonctionnelle précédente. Les autres rapports et sections ci-dessous décrivent des révisions antérieures; leurs coordonnées et résultats ne doivent pas être utilisés pour le PCB courant.
 
 Date : 2026-09-27. Base initiale : `8023e116a3f5c59ac772a055e0b58ddf85dce90a`. Fusion avec main : `8d4ebe12d84cf1e334181edc0c4434b1bac12989`.
 
