@@ -1,6 +1,6 @@
 # FC_01 — revue composants et bibliothèques
 
-**Mise à jour du 28/09/2026 :** voir [USB_POWER_REWORK_2026-09-28.md](USB_POWER_REWORK_2026-09-28.md) pour l'état courant de l'implantation USB1/U6 et des vias, puis [PLACEMENT_AUDIT_2026-09-28.md](PLACEMENT_AUDIT_2026-09-28.md) pour le contrôle des bibliothèques. Les coordonnées et comptes rendus datés ci-dessous décrivent des révisions précédentes; ils ne doivent pas être utilisés pour le PCB courant.
+**Mise à jour du 28/09/2026 :** voir [FULL_DESIGN_REVIEW_2026-09-28.md](FULL_DESIGN_REVIEW_2026-09-28.md) pour l'état courant. [USB_POWER_REWORK_2026-09-28.md](USB_POWER_REWORK_2026-09-28.md) et les sections ci-dessous décrivent des révisions précédentes; leurs coordonnées et résultats ne doivent pas être utilisés pour le PCB courant.
 
 Date : 2026-09-27. Base initiale : `8023e116a3f5c59ac772a055e0b58ddf85dce90a`. Fusion avec main : `8d4ebe12d84cf1e334181edc0c4434b1bac12989`.
 

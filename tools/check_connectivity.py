@@ -81,6 +81,35 @@ for pn,net in pcbmap.items():
  if pn in pinloc: board_groups[net].add(d.root(pinloc[pn]))
 merges={net:[netpins[g] for g in groups] for net,groups in board_groups.items() if len(groups)>1}
 unsupported_bus_nets={k:merges.pop(k) for k in list(merges) if re.fullmatch(r'/MCU/MOTOR[1-4]',k)}
+expected_motor_pairs={
+ '/MCU/MOTOR1': {('U2','34'),('R47','1')},
+ '/MCU/MOTOR2': {('U2','35'),('R48','1')},
+ '/MCU/MOTOR3': {('U2','22'),('R49','1')},
+ '/MCU/MOTOR4': {('U2','23'),('R50','1')},
+}
+unexpected_bus_membership={net:sorted(set(sum(groups,[]))) for net,groups in unsupported_bus_nets.items()
+                           if set(sum(groups,[])) != expected_motor_pairs.get(net,set())}
+unexpected_bus_membership.update({net:[] for net in expected_motor_pairs if net not in unsupported_bus_nets})
+# Check named schematic nets independently of PCB net names. The four motor bus
+# members are explicitly mapped to the MCU hierarchical bus, which the DSU
+# parser does not expand into four wires.
+mismatched_named_nets=[];named_pins_checked=0
+for pn,board_net in pcbmap.items():
+ if pn not in pinloc:continue
+ rr=d.root(pinloc[pn]);associated=[(typ,str(name),pos[0]) for pos,typ,name in labels if d.root(pos)==rr]
+ if not associated:continue
+ globals_=sorted({name for typ,name,_ in associated if typ=='global'})
+ locals_=sorted({paths[fn]+name for typ,name,fn in associated if typ=='local' and '[' not in name})
+ expected=globals_[0] if globals_ else locals_[0] if locals_ else None
+ if expected and re.fullmatch(r'/MOTORS\[1-4\]/MOTOR[1-4]',expected):
+  expected='/MCU/'+expected.rsplit('/',1)[1]
+ if expected:
+  named_pins_checked+=1
+  if str(board_net)!=expected:mismatched_named_nets.append([*pn,str(board_net),expected])
 if __name__ == '__main__':
- print(json.dumps({'conflicting_groups':conflicts,'merged_groups':merges,'pins_compared':len(pcbmap),'bus_nets_require_native_check':list(unsupported_bus_nets)},indent=2))
- sys.exit(bool(conflicts or merges))
+ print(json.dumps({'conflicting_groups':conflicts,'merged_groups':merges,
+                   'mismatched_named_nets':mismatched_named_nets,
+                   'unexpected_bus_membership':unexpected_bus_membership,
+                   'named_pins_checked':named_pins_checked,'pins_compared':len(pcbmap),
+                   'bus_nets_require_native_check':list(unsupported_bus_nets)},indent=2))
+ sys.exit(bool(conflicts or merges or mismatched_named_nets or unexpected_bus_membership))

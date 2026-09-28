@@ -1248,7 +1248,7 @@
 	(footprint "H743_Custom:Diodes_U-DFN3030-8_TypeE"
 		(layer "F.Cu")
 		(uuid "062e1f6f-c5b1-4946-a9e5-e0bb79970310")
-		(at 87.4 87.7)
+		(at 87.4 87.7 180)
 		(descr "AP7361C-33FGE-7 U-DFN3030-8 Type E. Diodes recommended pad layout: pitch 0.65, rows 2.75, lands 0.65 x 0.30, EP 1.60 x 2.35 mm.")
 		(property "Reference" "U5"
 					(at 0 2.45 0)
@@ -1842,7 +1842,7 @@
 		    (uuid "cf679661-1124-4653-94df-5ae818904693")
 		  )
 		(pad "1" smd rect
-		    (at -1.375 -0.975)
+		    (at -1.375 -0.975 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "+3V3_MCU")
@@ -1851,7 +1851,7 @@
 		    (uuid "701f2461-9187-4083-9824-acb20c0cd331")
 		  )
 		(pad "2" smd rect
-		    (at -1.375 -0.325)
+		    (at -1.375 -0.325 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U5-NC-Pad2)")
@@ -1860,7 +1860,7 @@
 		    (uuid "4f89cc9f-a2a2-4d4c-ad65-1c3fd5033266")
 		  )
 		(pad "3" smd rect
-		    (at -1.375 0.325)
+		    (at -1.375 0.325 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U5-ADJ{slash}NC-Pad3)")
@@ -1869,7 +1869,7 @@
 		    (uuid "26ef183b-95de-46c7-96bd-2eeccd292408")
 		  )
 		(pad "4" smd rect
-		    (at -1.375 0.975)
+		    (at -1.375 0.975 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "GND")
@@ -1878,7 +1878,7 @@
 		    (uuid "5ec28fbf-800f-4995-be91-9ce00f7eea67")
 		  )
 		(pad "5" smd rect
-		    (at 1.375 0.975)
+		    (at 1.375 0.975 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "Net-(U5-EN)")
@@ -1887,7 +1887,7 @@
 		    (uuid "a82dae0c-9211-4624-a996-c1da7328d40c")
 		  )
 		(pad "6" smd rect
-		    (at 1.375 0.325)
+		    (at 1.375 0.325 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U5-NC-Pad6)")
@@ -1896,7 +1896,7 @@
 		    (uuid "dd084645-7ef4-494b-a6d5-367be79b8e2e")
 		  )
 		(pad "7" smd rect
-		    (at 1.375 -0.325)
+		    (at 1.375 -0.325 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U5-NC-Pad7)")
@@ -1905,7 +1905,7 @@
 		    (uuid "7765ed93-5efd-4457-936c-dd4d8c0acdd2")
 		  )
 		(pad "8" smd rect
-		    (at 1.375 -0.975)
+		    (at 1.375 -0.975 180)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "+5V_SYS")
@@ -1914,7 +1914,7 @@
 		    (uuid "cb171e53-7b74-46b9-87b0-d4d6f25191c0")
 		  )
 		(pad "9" smd rect
-		    (at 0 0)
+		    (at 0 0 180)
 		    (size 1.6 2.35)
 		    (layers "F.Cu" "F.Mask")
 		    (net "GND")
@@ -1923,25 +1923,25 @@
 		    (uuid "a87c75c5-7cdb-41e3-9d18-58894a873643")
 		  )
 		(pad "" smd rect
-		    (at -0.4 -0.5875)
+		    (at -0.4 -0.5875 180)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "dbd0accb-4832-40e0-a9ee-9c8fbfd2a171")
 		  )
 		(pad "" smd rect
-		    (at -0.4 0.5875)
+		    (at -0.4 0.5875 180)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "3a9f986a-13f2-4b90-a07f-d66f40167821")
 		  )
 		(pad "" smd rect
-		    (at 0.4 -0.5875)
+		    (at 0.4 -0.5875 180)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "7948d91f-4105-4d2d-b6f9-5cd5b4dffc90")
 		  )
 		(pad "" smd rect
-		    (at 0.4 0.5875)
+		    (at 0.4 0.5875 180)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "154f0fc0-3545-46c4-993b-e5ebd5c35869")
@@ -3778,7 +3778,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "15c43f2a-a932-4186-8c1d-c93a8e921944")
-		(at 103.15 93.0 0)
+		(at 103.15 90.9 0)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -6138,7 +6138,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
 		    (effects (font (size 0.45 0.45) (thickness 0.07)))
-		
+
 		    (uuid "75b0087a-7c18-4b8b-a325-f45bb60249b0")
 		  )
 		(fp_line (start -0.75 -1) (end 1 -1) (stroke (width 0.10) (type default)) (layer "F.Fab")
@@ -6206,7 +6206,7 @@
 		        (xy 0.161407 0.251343) (xy -0.488594 0.251341) (xy -0.538594 0.201341)
 		      ) (width 0))
 		    )
-		
+
 		    (net "GND")
 		    (pinfunction "RT_1")
 		    (pintype "unspecified")
@@ -6214,7 +6214,7 @@
 		  )
 		(pad "2" smd rect (at -0.900 -0.250) (size 0.600 0.250) (layers "F.Cu" "F.Paste" "F.Mask")
 		    (solder_mask_margin 0.05)
-		
+
 		    (net "unconnected-(U3-PGOOD-Pad2)")
 		    (pinfunction "PGOOD_2")
 		    (pintype "unspecified+no_connect")
@@ -6222,7 +6222,7 @@
 		  )
 		(pad "3" smd rect (at -0.900 0.250) (size 0.600 0.250) (layers "F.Cu" "F.Paste" "F.Mask")
 		    (solder_mask_margin 0.05)
-		
+
 		    (net "VBAT")
 		    (pinfunction "EN/UVLO_3")
 		    (pintype "unspecified")
@@ -6239,7 +6239,7 @@
 		        (xy 0.111407 -0.251346) (xy -0.488594 -0.251344) (xy -0.538594 -0.201344)
 		      ) (width 0))
 		    )
-		
+
 		    (net "VBAT")
 		    (pinfunction "VIN_4")
 		    (pintype "unspecified")
@@ -6256,7 +6256,7 @@
 		        (xy -0.129532 -0.179532) (xy 0.470469 -0.179530) (xy 0.520469 -0.129530)
 		      ) (width 0))
 		    )
-		
+
 		    (net "/POWER/SW_5V")
 		    (pinfunction "SW_5")
 		    (pintype "unspecified")
@@ -6264,7 +6264,7 @@
 		  )
 		(pad "6" smd rect (at 0.900 0.250) (size 0.600 0.250) (layers "F.Cu" "F.Paste" "F.Mask")
 		    (solder_mask_margin 0.05)
-		
+
 		    (net "Net-(U3-BOOT)")
 		    (pinfunction "BOOT_6")
 		    (pintype "unspecified")
@@ -6272,7 +6272,7 @@
 		  )
 		(pad "7" smd rect (at 0.900 -0.250) (size 0.600 0.250) (layers "F.Cu" "F.Paste" "F.Mask")
 		    (solder_mask_margin 0.05)
-		
+
 		    (net "Net-(U3-VCC)")
 		    (pinfunction "VCC_7")
 		    (pintype "unspecified")
@@ -6289,7 +6289,7 @@
 		        (xy -0.165438 0.215438) (xy 0.484566 0.215436) (xy 0.534566 0.165436)
 		      ) (width 0))
 		    )
-		
+
 		    (net "+5V")
 		    (pinfunction "VOUT/FB_8")
 		    (pintype "unspecified")
@@ -6297,7 +6297,7 @@
 		  )
 		(pad "9" smd rect (at 0 -0.550) (size 0.350 1.300) (layers "F.Cu" "F.Mask")
 		    (solder_mask_margin 0.05)
-		
+
 		    (net "GND")
 		    (pinfunction "GND_9")
 		    (pintype "unspecified")
@@ -6313,7 +6313,7 @@
 		        (xy 0.161407 0.251343) (xy -0.488594 0.251341) (xy -0.538594 0.201341)
 		      ) (width 0))
 		    )
-		
+
 		    (uuid "8863b3aa-1ae5-4128-9f4f-94eab3435cc5")
 		  )
 		(pad "" smd custom (at 0.665434 -0.840936) (size 0.10 0.10) (layers "F.Paste")
@@ -6326,7 +6326,7 @@
 		        (xy -0.165438 0.215339) (xy 0.484566 0.215337) (xy 0.534566 0.165337)
 		      ) (width 0))
 		    )
-		
+
 		    (uuid "5d715ab1-90ed-414f-b6d0-37450feaa779")
 		  )
 		(pad "" smd rect (at 0 -0.950) (size 0.350 0.500) (layers "F.Paste")
@@ -12167,62 +12167,62 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
 		    (effects (font (size 1 1) (thickness 0.15)))
-		
+
 		    (uuid "cdeb6a15-7510-434d-98aa-372cb8ad8de6")
 		  )
 		(fp_rect (start -2 -2) (end 2 2)
 		    (stroke (width 0.10) (type default))
 		    (fill none)
 		    (layer "F.Fab")
-		
+
 		    (uuid "0754e2b5-f49b-4ceb-bc70-d4e256c9bbce")
 		  )
 		(fp_line (start -2.15 -2.15) (end 2.15 -2.15)
 		    (stroke (width 0.12) (type default))
 		    (layer "F.SilkS")
-		
+
 		    (uuid "7e10cc9e-df17-4c6c-8bcc-31999b38fabf")
 		  )
 		(fp_line (start -2.15 2.15) (end 2.15 2.15)
 		    (stroke (width 0.12) (type default))
 		    (layer "F.SilkS")
-		
+
 		    (uuid "dffb646a-0927-4b0f-bd1b-479670c3e36c")
 		  )
 		(fp_line (start -2.25 -2.25) (end 2.25 -2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "1280d27a-b587-4817-9003-99ea58e99564")
 		  )
 		(fp_line (start 2.25 -2.25) (end 2.25 2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "4b606354-5046-44ea-b713-0878bdb6b76d")
 		  )
 		(fp_line (start 2.25 2.25) (end -2.25 2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "84dff8d9-cf47-4394-8ffe-fc95f23bd931")
 		  )
 		(fp_line (start -2.25 2.25) (end -2.25 -2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "12485e70-53d1-4138-b5de-0eec4ae2641b")
 		  )
 		(fp_circle (center -2.45 -1.55) (end -2.30 -1.55)
 		    (stroke (width 0.15) (type default))
 		    (fill none)
 		    (layer "F.SilkS")
-		
+
 		    (uuid "7375a76a-f393-4e0b-beca-6554006f72f0")
 		  )
 		(pad "1" smd rect (at -1.185 0) (size 0.98 3.40)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
-		
+
 		    (net "/POWER/SW_9V")
 		    (pinfunction "1_1")
 		    (pintype "passive")
@@ -12230,7 +12230,7 @@
 		  )
 		(pad "2" smd rect (at 1.185 0) (size 0.98 3.40)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
-		
+
 		    (net "+9V")
 		    (pinfunction "2_2")
 		    (pintype "passive")
@@ -16191,7 +16191,7 @@
 					)
 				)
 				(uuid "aad1d4a8-6341-460b-861e-8ec80697b33a")
-		
+
 		    (net "VBAT")
 		    (pinfunction "VIN_1")
 		    (pintype "unspecified")
@@ -16217,7 +16217,7 @@
 					)
 				)
 				(uuid "2d3f737e-28fb-4d36-85a6-99c7f3d0de93")
-		
+
 		    (net "GND")
 		    (pinfunction "PGND_2")
 		    (pintype "unspecified")
@@ -16243,7 +16243,7 @@
 					)
 				)
 				(uuid "b35fef2b-556c-451c-89a9-747257a8fb32")
-		
+
 		    (net "/POWER/SW_9V")
 		    (pinfunction "SW_3")
 		    (pintype "unspecified")
@@ -16254,7 +16254,7 @@
 				(size 0.249999 0.650001)
 				(layers "F.Cu" "F.Mask" "F.Paste")
 				(uuid "ee88a662-8497-4f79-9744-87ceba93a26f")
-		
+
 		    (net "Net-(U4-BOOT)")
 		    (pinfunction "BOOT_4")
 		    (pintype "unspecified")
@@ -16280,7 +16280,7 @@
 					)
 				)
 				(uuid "14f02588-15af-4a6c-a083-a13258a72b7f")
-		
+
 		    (net "Net-(U4-PG)")
 		    (pinfunction "PG_5")
 		    (pintype "unspecified")
@@ -16291,7 +16291,7 @@
 				(size 0.249999 0.650001)
 				(layers "F.Cu" "F.Mask" "F.Paste")
 				(uuid "89508938-7083-4092-8629-bd0f9a12fa62")
-		
+
 		    (net "Net-(U4-FB)")
 		    (pinfunction "FB_6")
 		    (pintype "unspecified")
@@ -16302,7 +16302,7 @@
 				(size 0.249999 0.650001)
 				(layers "F.Cu" "F.Mask" "F.Paste")
 				(uuid "747065da-a7a4-4dd5-8b6a-6d65cc8895bc")
-		
+
 		    (net "Net-(U4-MODE{slash}SYNC)")
 		    (pinfunction "MODE/SYNC_7")
 		    (pintype "unspecified")
@@ -16328,7 +16328,7 @@
 					)
 				)
 				(uuid "6f573bb3-0678-4ecb-ad06-077311a633fd")
-		
+
 		    (net "Net-(U4-MODE{slash}SYNC)")
 		    (pinfunction "RT_8")
 		    (pintype "unspecified")
@@ -16339,7 +16339,7 @@
 				(size 0.249999 0.650001)
 				(layers "F.Cu" "F.Mask" "F.Paste")
 				(uuid "8660c5c8-bafc-4cd5-bde2-99b7eaed5526")
-		
+
 		    (net "VBAT")
 		    (pinfunction "EN_9")
 		    (pintype "unspecified")
@@ -16357,7 +16357,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4f884449-19be-4d2e-bbbe-6b23ec5c5ade")
-		(at 85.8 91.4 90)
+		(at 85.8 91.4 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C29"
@@ -16937,7 +16937,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 90)
+			(at -0.775 0 -90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16946,7 +16946,7 @@
 			(uuid "a1648219-c17e-47a1-99c7-09af1a34cbb1")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 90)
+			(at 0.775 0 -90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -28203,7 +28203,7 @@
 	(footprint "H743_Custom:L_Coilcraft_XGL4030"
 		(layer "F.Cu")
 		(uuid "a81d3bb2-bc15-4ce0-965b-bb25f37843dc")
-		(at 80.3 102.3)
+		(at 80.3 102.3 180)
 		(descr "Coilcraft XGL4030 shielded power inductor; recommended land pattern for Coilcraft XGL4030 series, 4.0 x 4.0 mm body")
 		(tags "Coilcraft XGL4030 power inductor 4x4mm")
 		(property "Reference" "L1"
@@ -28719,70 +28719,70 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
 		    (effects (font (size 1 1) (thickness 0.15)))
-		
+
 		    (uuid "e2daefe1-b67c-4aed-a4eb-4be6c8e6b3da")
 		  )
 		(fp_rect (start -2 -2) (end 2 2)
 		    (stroke (width 0.10) (type default))
 		    (fill none)
 		    (layer "F.Fab")
-		
+
 		    (uuid "c428fe85-be79-4bee-9ae1-e7ee7da20f76")
 		  )
 		(fp_line (start -2.15 -2.15) (end 2.15 -2.15)
 		    (stroke (width 0.12) (type default))
 		    (layer "F.SilkS")
-		
+
 		    (uuid "8930a1a4-367b-40cf-a155-c78906e6abd8")
 		  )
 		(fp_line (start -2.15 2.15) (end 2.15 2.15)
 		    (stroke (width 0.12) (type default))
 		    (layer "F.SilkS")
-		
+
 		    (uuid "0d67bb63-ae6a-455a-8ee9-bd3b491c59b6")
 		  )
 		(fp_line (start -2.25 -2.25) (end 2.25 -2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "8c627fba-c46a-4cff-9700-55c92dd97d0e")
 		  )
 		(fp_line (start 2.25 -2.25) (end 2.25 2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "df0c06a6-4522-47c8-a338-20198cf64b4a")
 		  )
 		(fp_line (start 2.25 2.25) (end -2.25 2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "788e5287-5cf6-45c5-bc3a-645e023af8b3")
 		  )
 		(fp_line (start -2.25 2.25) (end -2.25 -2.25)
 		    (stroke (width 0.05) (type default))
 		    (layer "F.CrtYd")
-		
+
 		    (uuid "40867079-ea41-4733-ae59-56bac86f50c6")
 		  )
 		(fp_circle (center -2.45 -1.55) (end -2.30 -1.55)
 		    (stroke (width 0.15) (type default))
 		    (fill none)
 		    (layer "F.SilkS")
-		
+
 		    (uuid "870a4b25-41f6-4f59-aa7d-19d46f572eab")
 		  )
-		(pad "1" smd rect (at -1.185 0) (size 0.98 3.40)
+		(pad "1" smd rect (at -1.185 0 180) (size 0.98 3.40)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
-		
+
 		    (net "/POWER/SW_5V")
 		    (pinfunction "1_1")
 		    (pintype "passive")
 		    (uuid "9fa49b02-13f1-4cbd-b8fc-939b717c3580")
 		  )
-		(pad "2" smd rect (at 1.185 0) (size 0.98 3.40)
+		(pad "2" smd rect (at 1.185 0 180) (size 0.98 3.40)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
-		
+
 		    (net "+5V")
 		    (pinfunction "2_2")
 		    (pintype "passive")
@@ -30495,7 +30495,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "acb28bc1-a5de-433f-a853-0cfe2e0d4e5d")
-		(at 87.7 91.4 90)
+		(at 87.7 91.4 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -31075,7 +31075,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0 90)
+			(at -0.775 0 -90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -31084,7 +31084,7 @@
 			(uuid "905121ae-6a47-4f6e-8101-07a900309da9")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0 90)
+			(at 0.775 0 -90)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -38511,7 +38511,7 @@
 	(footprint "H743_Custom:Diodes_U-DFN3030-8_TypeE"
 		(layer "F.Cu")
 		(uuid "cc5b702a-e1da-4888-a01a-15f1fb6350f8")
-		(at 99.5 92.6 180)
+		(at 99.5 92.6 270)
 		(descr "AP7361C-33FGE-7 U-DFN3030-8 Type E. Diodes recommended pad layout: pitch 0.65, rows 2.75, lands 0.65 x 0.30, EP 1.60 x 2.35 mm.")
 		(property "Reference" "U6"
 					(at 0 2.45 0)
@@ -39105,7 +39105,7 @@
 		    (uuid "37851f35-bbab-421e-b23a-e680eaaddcae")
 		  )
 		(pad "1" smd rect
-		    (at -1.375 -0.975 180)
+		    (at -1.375 -0.975 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "+3V3_SENS")
@@ -39114,7 +39114,7 @@
 		    (uuid "8079b95b-d0ef-4cff-b936-5f40184e8882")
 		  )
 		(pad "2" smd rect
-		    (at -1.375 -0.325 180)
+		    (at -1.375 -0.325 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U6-NC-Pad2)")
@@ -39123,7 +39123,7 @@
 		    (uuid "75d57248-1ee2-4707-b430-e9e662ea29dc")
 		  )
 		(pad "3" smd rect
-		    (at -1.375 0.325 180)
+		    (at -1.375 0.325 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U6-ADJ{slash}NC-Pad3)")
@@ -39132,7 +39132,7 @@
 		    (uuid "fb147c26-66ef-4ddb-807a-8f13fd2b0955")
 		  )
 		(pad "4" smd rect
-		    (at -1.375 0.975 180)
+		    (at -1.375 0.975 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "GND")
@@ -39141,7 +39141,7 @@
 		    (uuid "54b203c2-80c0-49c2-ac22-b010f1e8898e")
 		  )
 		(pad "5" smd rect
-		    (at 1.375 0.975 180)
+		    (at 1.375 0.975 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "Net-(U6-EN)")
@@ -39150,7 +39150,7 @@
 		    (uuid "51dd13b1-1aba-42ea-960d-dd880ce235cb")
 		  )
 		(pad "6" smd rect
-		    (at 1.375 0.325 180)
+		    (at 1.375 0.325 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U6-NC-Pad6)")
@@ -39159,7 +39159,7 @@
 		    (uuid "0be45ee4-5171-434d-8bb8-71cc2b39c8b9")
 		  )
 		(pad "7" smd rect
-		    (at 1.375 -0.325 180)
+		    (at 1.375 -0.325 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "unconnected-(U6-NC-Pad7)")
@@ -39168,7 +39168,7 @@
 		    (uuid "93ecbf0b-cf82-4f12-a4e1-7e0f864b55bf")
 		  )
 		(pad "8" smd rect
-		    (at 1.375 -0.975 180)
+		    (at 1.375 -0.975 270)
 		    (size 0.65 0.3)
 		    (layers "F.Cu" "F.Paste" "F.Mask")
 		    (net "+5V_SYS")
@@ -39177,7 +39177,7 @@
 		    (uuid "cdd93f34-25c6-43d6-b55e-081638233dba")
 		  )
 		(pad "9" smd rect
-		    (at 0 0 180)
+		    (at 0 0 270)
 		    (size 1.6 2.35)
 		    (layers "F.Cu" "F.Mask")
 		    (net "GND")
@@ -39186,25 +39186,25 @@
 		    (uuid "0224ca90-a986-4389-a519-73493b9363a3")
 		  )
 		(pad "" smd rect
-		    (at -0.4 -0.5875 180)
+		    (at -0.4 -0.5875 270)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "991cb8e8-e85d-42f4-93c2-a693244119a5")
 		  )
 		(pad "" smd rect
-		    (at -0.4 0.5875 180)
+		    (at -0.4 0.5875 270)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "2a28cddd-add3-4473-9270-0c32c2fd5953")
 		  )
 		(pad "" smd rect
-		    (at 0.4 -0.5875 180)
+		    (at 0.4 -0.5875 270)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "1264206c-2d35-4b19-94fc-2f733fa38b4f")
 		  )
 		(pad "" smd rect
-		    (at 0.4 0.5875 180)
+		    (at 0.4 0.5875 270)
 		    (size .64 .94)
 		    (layers "F.Paste")
 		    (uuid "ed6b1868-a4d7-4061-becb-84892d9adc20")
@@ -43833,7 +43833,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "de680023-97d9-4314-a62f-e168f2171f2f")
-		(at 103.15 90.9 0)
+		(at 103.15 93.0 0)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C30"
@@ -60680,7 +60680,8 @@
 			(pinfunction "INT2_1")
 			(pintype "bidirectional+no_connect")
 			(uuid "46529320-803d-46d3-a107-ca127b0464a1")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "2" smd roundrect
 			(at -1 1.2625 180)
 			(size 0.25 0.675)
@@ -60690,7 +60691,8 @@
 			(pinfunction "GNDA_2")
 			(pintype "passive")
 			(uuid "d694c495-1b6a-4074-85e9-60edb7afc3ad")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "3" smd roundrect
 			(at -0.5 1.2625 180)
 			(size 0.25 0.675)
@@ -60700,7 +60702,8 @@
 			(pinfunction "VDD_3")
 			(pintype "power_in")
 			(uuid "6f375f06-34d9-449b-a261-e71bf79ce510")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "4" smd roundrect
 			(at 0 1.2625 180)
 			(size 0.25 0.675)
@@ -60710,7 +60713,8 @@
 			(pinfunction "GNDA_4")
 			(pintype "power_in")
 			(uuid "852f8b8d-af61-4402-a9b0-6e4eb4bf01b7")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "5" smd roundrect
 			(at 0.5 1.2625 180)
 			(size 0.25 0.675)
@@ -60720,7 +60724,8 @@
 			(pinfunction "~{CSB2}_5")
 			(pintype "input")
 			(uuid "e7446fe2-f0bc-4756-a03a-d17cbd69c82d")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "6" smd roundrect
 			(at 1 1.2625 180)
 			(size 0.25 0.675)
@@ -60730,7 +60735,8 @@
 			(pinfunction "GNDIO_6")
 			(pintype "power_in")
 			(uuid "1ae69e7c-f7de-408e-971e-4dffb3230c97")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "7" smd roundrect
 			(at 1.5 1.2625 180)
 			(size 0.25 0.675)
@@ -60740,7 +60746,8 @@
 			(pinfunction "PS_7")
 			(pintype "input")
 			(uuid "a19ec77d-6e1d-4dff-8139-0037fc974e4b")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "8" smd roundrect
 			(at 2.0125 0 180)
 			(size 0.675 0.25)
@@ -60750,7 +60757,8 @@
 			(pinfunction "SCK/SCL_8")
 			(pintype "input")
 			(uuid "5ab6bc2b-dbba-42f9-9477-e67abfbc1b59")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "9" smd roundrect
 			(at 1.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -60760,7 +60768,8 @@
 			(pinfunction "SDI/SDA_9")
 			(pintype "bidirectional")
 			(uuid "1e82bd33-61d6-474f-8334-6e2073be20ff")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "10" smd roundrect
 			(at 1 -1.2625 180)
 			(size 0.25 0.675)
@@ -60770,7 +60779,8 @@
 			(pinfunction "SDO2_10")
 			(pintype "output")
 			(uuid "db64c63f-f7d0-43d5-9a30-41d65d547795")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "11" smd roundrect
 			(at 0.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -60780,7 +60790,8 @@
 			(pinfunction "VDDIO_11")
 			(pintype "power_in")
 			(uuid "55df5619-b099-4b79-8af7-2febd95ed04c")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "12" smd roundrect
 			(at 0 -1.2625 180)
 			(size 0.25 0.675)
@@ -60790,7 +60801,8 @@
 			(pinfunction "INT3_12")
 			(pintype "bidirectional+no_connect")
 			(uuid "63ccd41f-7da4-45d7-9a38-36a9d6dcb9ab")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "13" smd roundrect
 			(at -0.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -60800,7 +60812,8 @@
 			(pinfunction "INT4_13")
 			(pintype "bidirectional+no_connect")
 			(uuid "60615493-3119-4cbc-9658-f2b01dc1a827")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "14" smd roundrect
 			(at -1 -1.2625 180)
 			(size 0.25 0.675)
@@ -60810,7 +60823,8 @@
 			(pinfunction "~{CSB1}_14")
 			(pintype "input")
 			(uuid "7ab9454f-48fb-4af9-835b-405e1778e43b")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "15" smd roundrect
 			(at -1.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -60820,7 +60834,8 @@
 			(pinfunction "SDO1_15")
 			(pintype "output")
 			(uuid "8b03b88e-24bb-4a6b-9b9b-236c23bf2b7f")
-		)
+
+			(solder_paste_margin -0.025))
 		(pad "16" smd roundrect
 			(at -2.0125 0 180)
 			(size 0.675 0.25)
@@ -60830,7 +60845,8 @@
 			(pinfunction "INT1_16")
 			(pintype "bidirectional+no_connect")
 			(uuid "cd5e19ae-c817-402f-a567-79a6ebe051d1")
-		)
+
+			(solder_paste_margin -0.025))
 		(zone
 			(layer "B.Cu")
 			(uuid "cb8144e7-587c-402a-87b6-749fb802896a")
