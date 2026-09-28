@@ -77,9 +77,18 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|99200000|109500000|3c017ac8-682c-4df6-9a88-a14a1291895a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|104200000|109200000|d22ea7f0-5430-4ef3-b561-4b2196f6024f|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|94800000|93000000|f4b8d121-c82f-40b8-8249-b9f6db840409|00000000-0000-0000-0000-000000000000"
+        [
+          "lib_footprint_mismatch|99200000|109500000|3c017ac8-682c-4df6-9a88-a14a1291895a|00000000-0000-0000-0000-000000000000",
+          "Validated intentional local footprint override (keepout / board-specific geometry)"
+        ],
+        [
+          "lib_footprint_mismatch|104200000|109200000|d22ea7f0-5430-4ef3-b561-4b2196f6024f|00000000-0000-0000-0000-000000000000",
+          "Validated intentional local footprint override (keepout / board-specific geometry)"
+        ],
+        [
+          "lib_footprint_mismatch|94800000|93000000|f4b8d121-c82f-40b8-8249-b9f6db840409|00000000-0000-0000-0000-000000000000",
+          "Validated intentional local footprint override (keepout / board-specific geometry)"
+        ]
       ],
       "meta": {
         "version": 2
