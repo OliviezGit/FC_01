@@ -479,7 +479,7 @@
 		(uuid "af6af9c6-7783-494c-8b7b-1e05775450a5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_JAE_DX07S016JA1R1500.step"
+	(model "${KIPRJMOD}/composants/3d/DX07S016JA1R1500.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -487,7 +487,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 0 0)
 		)
 	)
 )
