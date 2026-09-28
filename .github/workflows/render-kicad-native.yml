@@ -24,10 +24,10 @@ jobs:
           mkdir -p render
           xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_TOP_ISO.png \
             --width 2400 --height 1800 --side top --background opaque --quality high --floor --perspective \
-            --rotate=-45,0,45 --zoom 1
+            --rotate '-45,0,45' --zoom 1
           xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_BOTTOM_ISO.png \
             --width 2400 --height 1800 --side bottom --background opaque --quality high --floor --perspective \
-            --rotate=45,0,-45 --zoom 1
+            --rotate '45,0,-45' --zoom 1
           xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_TOP.png \
             --width 2400 --height 1800 --side top --background opaque --quality high --zoom 1
           xvfb-run -a kicad-cli pcb render H743_Ardupilot.kicad_pcb -o render/FC_01_BOTTOM.png \
