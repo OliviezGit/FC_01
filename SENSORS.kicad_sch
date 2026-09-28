@@ -5565,7 +5565,7 @@
 		)
 		(uuid "820295f1-105e-4a26-b0e3-fad0df884c6d")
 	)
-	(hierarchical_label "SPI3{SPI}"
+	(hierarchical_label "SPI3{SPI_NO_CS}"
 		(shape bidirectional)
 		(at 29.21 88.9 180)
 		(effects
@@ -5576,7 +5576,7 @@
 		)
 		(uuid "828ebe94-508f-47ad-95fe-89a7369018e1")
 	)
-	(hierarchical_label "SPI2{CS MISO MOSI SCLK}"
+	(hierarchical_label "SPI2{SPI}"
 		(shape bidirectional)
 		(at 27.94 115.57 180)
 		(effects

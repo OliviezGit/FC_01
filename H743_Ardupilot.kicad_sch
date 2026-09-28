@@ -8,6 +8,30 @@
 		(title "H743_ARDUPILOT")
 		(date "2026-09-24")
 	)
+	(bus_alias "CAN"
+		(members "RX" "SILENT" "TX")
+	)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
+	(bus_alias "SDI"
+		(members "CK" "CMD" "D0" "D1" "D2" "D3")
+	)
+	(bus_alias "SPI"
+		(members "CS" "MISO" "MOSI" "SCLK")
+	)
+	(bus_alias "SPI_NO_CS"
+		(members "MISO" "MOSI" "SCLK")
+	)
+	(bus_alias "UART"
+		(members "RX" "TX")
+	)
+	(bus_alias "UART_FLOW"
+		(members "CTS" "RTS" "RX" "TX")
+	)
+	(bus_alias "USB"
+		(members "DM" "DP")
+	)
 	(lib_symbols
 		(symbol "FC01_Project:H743_Ardupilot__GND"
 			(power global)
@@ -6649,7 +6673,7 @@
 				(justify right)
 			)
 		)
-		(pin "UART7{UART}" input
+		(pin "UART7{UART_FLOW}" input
 			(at 170.18 63.5 0)
 			(uuid "f69f59c2-d660-4f46-9f7a-ef8b33c7bad5")
 			(effects
@@ -6669,7 +6693,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI2{CS MISO MOSI SCLK}" bidirectional
+		(pin "SPI2{SPI}" bidirectional
 			(at 120.65 100.33 180)
 			(uuid "19e179e9-25eb-4238-babc-d098fd0ac81c")
 			(effects
@@ -6739,7 +6763,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI3{SPI}" bidirectional
+		(pin "SPI3{SPI_NO_CS}" bidirectional
 			(at 120.65 106.68 180)
 			(uuid "9892af16-b1e5-4ebc-8b92-1d6b42dc0641")
 			(effects
@@ -7104,7 +7128,7 @@
 				(justify left top)
 			)
 		)
-		(pin "UART7{UART}" input
+		(pin "UART7{UART_FLOW}" input
 			(at 187.96 63.5 180)
 			(uuid "840b97b1-aa8b-4609-a22e-2e0629966f69")
 			(effects
@@ -7347,7 +7371,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI3{SPI}" bidirectional
+		(pin "SPI3{SPI_NO_CS}" bidirectional
 			(at 106.68 106.68 0)
 			(uuid "d029b36d-bf61-4d4f-b70c-4e7ed3042f1f")
 			(effects
@@ -7357,7 +7381,7 @@
 				(justify right)
 			)
 		)
-		(pin "SPI2{CS MISO MOSI SCLK}" bidirectional
+		(pin "SPI2{SPI}" bidirectional
 			(at 106.68 100.33 0)
 			(uuid "c023c1b0-e7ea-469d-a179-488ee2bed748")
 			(effects

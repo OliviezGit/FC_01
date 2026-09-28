@@ -9375,7 +9375,7 @@
 		)
 		(uuid "ff3997ce-a466-4baa-8114-11a3b23a8a94")
 	)
-	(hierarchical_label "SPI3{SPI}"
+	(hierarchical_label "SPI3{SPI_NO_CS}"
 		(shape bidirectional)
 		(at 33.02 88.9 180)
 		(effects
@@ -9551,7 +9551,7 @@
 		)
 		(uuid "66830fb9-0e73-467b-9f30-75a0a0da615c")
 	)
-	(hierarchical_label "SPI2{CS MISO MOSI SCLK}"
+	(hierarchical_label "SPI2{SPI}"
 		(shape bidirectional)
 		(at 30.48 130.81 180)
 		(effects
@@ -9639,7 +9639,7 @@
 		)
 		(uuid "aaf3c4ba-7b8d-466e-aa9f-d2535272727e")
 	)
-	(hierarchical_label "SPI2{CS MISO MOSI SCLK}"
+	(hierarchical_label "SPI2{SPI}"
 		(shape bidirectional)
 		(at 33.02 78.74 180)
 		(effects
@@ -9738,7 +9738,7 @@
 		)
 		(uuid "dad8ac05-2d82-4029-9032-1b6c5b9d1da5")
 	)
-	(hierarchical_label "UART7{UART}"
+	(hierarchical_label "UART7{UART_FLOW}"
 		(shape input)
 		(at 121.92 96.52 180)
 		(effects
