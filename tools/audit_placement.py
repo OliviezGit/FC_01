@@ -27,7 +27,11 @@ def outline(fp):
         if item[0] == "fp_poly":
             coords = [p[1:3] for p in children(child(item, "pts"), "xy")]
         elif item[0] == "fp_circle":
-            coords = [child(item, key)[1:3] for key in ("center", "end")]
+            center = child(item, "center")
+            end = child(item, "end")
+            cx, cy = map(float, center[1:3])
+            radius = math.hypot(float(end[1]) - cx, float(end[2]) - cy)
+            coords = [(cx - radius, cy - radius), (cx + radius, cy + radius)]
         else:
             coords = [child(item, key)[1:3] for key in ("start", "end")]
         for x, y in coords:
