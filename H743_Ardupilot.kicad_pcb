@@ -99,12 +99,12 @@
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J8"
 			(at 0 -1.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9784c858-4786-4fdb-a43c-39583ada5f19")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -644,8 +644,8 @@
 			(uuid "04dafd02-07e0-4c36-8574-99f7dc3a6822")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -1253,12 +1253,12 @@
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J13"
 			(at 0 -1.8 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "ca34f42e-37a5-4b5c-931f-8c906073402d")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -1798,8 +1798,8 @@
 			(uuid "2ba848be-4ee5-48b2-87bb-15e11abad9ab")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -2460,12 +2460,12 @@
 		(tags "resistor")
 		(property "Reference" "R21"
 			(at 0 1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "fa7f4840-1b7c-48b6-9cf2-b10108d2ee58")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -3077,8 +3077,8 @@
 			(uuid "b9f9cffa-1e7f-4a17-abc3-85661da29cdf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -3690,8 +3690,8 @@
 			(uuid "22c6a408-26fc-4575-b643-a5f6d4c3f2a5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -4303,8 +4303,8 @@
 			(uuid "3d5c8813-8c96-44a8-ae14-03eb6d39475e")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -4844,8 +4844,8 @@
 			(uuid "9a39c830-60bf-4a23-a6ac-914bb3499598")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -5847,8 +5847,8 @@
 			(uuid "06eeb3e0-8953-4e0c-adf9-382e634e1252")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -6460,8 +6460,8 @@
 			(uuid "f8276bef-d6f2-4e5f-8605-4349ae1f7bfb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -7073,8 +7073,8 @@
 			(uuid "f6ab991e-d4fe-4aa3-9c96-6bdb0dda379d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -7686,8 +7686,8 @@
 			(uuid "c8ff752f-60a1-4d5b-9dc8-b7dc9a566887")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -8299,8 +8299,8 @@
 			(uuid "0d54adca-50c8-4ac3-870e-dbda90d03720")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -8840,8 +8840,8 @@
 			(uuid "ceddd4c3-128c-4a08-85f1-d4ec3f8edb99")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -9453,8 +9453,8 @@
 			(uuid "8cb29066-1dae-4a5a-85a5-205b3e80324b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -10066,8 +10066,8 @@
 			(uuid "5cc57424-02f2-45cf-83c0-18cf6e4ca012")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -10538,8 +10538,8 @@
 			(uuid "ccc87963-4cb8-4c18-a816-b4eebbfcfa00")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -11151,8 +11151,8 @@
 			(uuid "b9d0ab78-13ee-43a0-810d-4c53a932c652")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -11792,8 +11792,8 @@
 			(uuid "7e36f4fa-f8cc-4443-b2d5-12d4a9edc868")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -12405,8 +12405,8 @@
 			(uuid "4e5c758e-50c3-4e67-8b7f-d512f597b22f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -13018,8 +13018,8 @@
 			(uuid "4a6e2221-e6a2-472d-9453-171d3cb774c6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -13631,8 +13631,8 @@
 			(uuid "f477d553-eaa6-416d-baa4-5baae389592f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -15470,8 +15470,8 @@
 			(uuid "52996be0-1e7c-4508-9d9f-9a79a0825d52")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -16496,12 +16496,12 @@
 		(tags "capacitor")
 		(property "Reference" "C38"
 			(at 0 -1.16 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "85102712-1a84-4a4b-9b66-dc85885d8a7d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -17113,8 +17113,8 @@
 			(uuid "b60533ef-2d9b-4f20-8fde-3960d0d23435")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -17726,8 +17726,8 @@
 			(uuid "2d640844-b08e-47a4-ada1-c4014794e0c4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -18459,8 +18459,8 @@
 			(uuid "d7d27e3b-52dc-43dd-9a5e-43ee87c84080")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -19072,8 +19072,8 @@
 			(uuid "61a0bbef-956b-4557-b187-3fad4a362c7b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -19685,8 +19685,8 @@
 			(uuid "d37c3b9c-7b91-4d2c-b0cc-34a66f30c082")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -20298,8 +20298,8 @@
 			(uuid "5444cec9-5f4b-480d-8891-8fda97144e23")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -20857,8 +20857,8 @@
 			(uuid "1a75d731-685f-4b1c-aa9e-cbc3ec4497cc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -21470,8 +21470,8 @@
 			(uuid "46cf320c-6197-4fb2-acff-5e28794ce347")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -22083,8 +22083,8 @@
 			(uuid "c91c6885-5a58-4882-8d47-25e3711a6ce6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -22696,8 +22696,8 @@
 			(uuid "e99e2df7-d5e4-4e48-8c38-f92403cca9f9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -23309,8 +23309,8 @@
 			(uuid "8ba86251-9019-4714-bba7-0666f4f26d9a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -23922,8 +23922,8 @@
 			(uuid "637b28dc-3c9f-475e-8f21-0fa700fe3190")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -24535,8 +24535,8 @@
 			(uuid "3d0af0eb-3465-42a6-b333-4e4a176047e1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -25319,8 +25319,8 @@
 			(uuid "2e1cca80-2f63-45c3-a3ab-6fad13b35133")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -25932,8 +25932,8 @@
 			(uuid "c481f70a-894b-4361-ba0e-83dc2e3b584b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -26545,8 +26545,8 @@
 			(uuid "0d9f61da-fd91-40e9-ba4f-bb9ff104c69d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -27158,8 +27158,8 @@
 			(uuid "da16ded7-13ca-4126-9f9e-a025c0ce357e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -27771,8 +27771,8 @@
 			(uuid "d5629578-8e9b-4400-9885-082cf37c0458")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -28384,8 +28384,8 @@
 			(uuid "7a76354a-450d-434e-a2b1-74f1072b4638")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -29021,12 +29021,12 @@
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J3"
 			(at 0 -1.8 90)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "9d970128-bc90-4cc2-a1a1-d7d885a20ffb")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -29562,12 +29562,12 @@
 		(tags "resistor")
 		(property "Reference" "R33"
 			(at 0 1.17 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "35ab8206-efef-4f39-a645-a9fed62e0658")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -30179,8 +30179,8 @@
 			(uuid "5c7fc8ca-3775-4050-831a-cdfc687a4db7")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -30720,8 +30720,8 @@
 			(uuid "bc05dd0f-46ed-4356-8314-d8afd8248dce")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -31333,8 +31333,8 @@
 			(uuid "f6683ecb-15db-49c6-9d88-f9d23a7e3be7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -31946,8 +31946,8 @@
 			(uuid "52f410cc-ec76-4770-ad9b-9e14b66f6bf6")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -32535,12 +32535,12 @@
 		(tags "mountinghole M3 ISO7380")
 		(property "Reference" "H4"
 			(at 0 -3.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "23303c0e-56ba-4135-96c3-2e5685ac26b9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -33011,8 +33011,8 @@
 			(uuid "1cbcd1af-5073-4855-b890-fa9c515629a1")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -33552,8 +33552,8 @@
 			(uuid "73d6d791-f492-4d22-a3b5-2e52372c03bb")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -34093,8 +34093,8 @@
 			(uuid "c0b3918d-8730-4566-afc1-1edef8f43f39")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -34706,8 +34706,8 @@
 			(uuid "cd8dc22c-fd4c-4e09-b0e2-6fce4e7cda0c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -35319,8 +35319,8 @@
 			(uuid "e951fa18-10ef-4b23-8049-b9dc7611d9d2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -35932,8 +35932,8 @@
 			(uuid "5105a983-6ade-42eb-b2b6-4729bf0b3bcf")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -36421,12 +36421,12 @@
 		(tags "mountinghole M3 ISO7380")
 		(property "Reference" "H1"
 			(at 0 -3.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7d51e844-37ef-4708-b1fc-da407de850f9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -36897,8 +36897,8 @@
 			(uuid "a7cb80d0-6545-4f60-8887-34130bad7370")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -37510,8 +37510,8 @@
 			(uuid "f093690b-b8e8-4eb6-8d95-13a9c6c64a39")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -38123,8 +38123,8 @@
 			(uuid "e0ab6a15-d284-422f-8aea-15da4a0b33fc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -38736,8 +38736,8 @@
 			(uuid "50573279-321a-48f7-8451-9890fc9e5190")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -39349,8 +39349,8 @@
 			(uuid "8ec39b28-d34e-4711-961b-e647b2a269a8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -39958,12 +39958,12 @@
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J2"
 			(at 0 -1.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "7a801952-5ce4-4f7b-b33a-95ff5e3d4ad1")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -40503,8 +40503,8 @@
 			(uuid "aac2c057-3a3b-4a74-91f9-a1a8ea342497")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -41116,8 +41116,8 @@
 			(uuid "8a7b2f66-ac4b-45b2-b256-07039f52ff86")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -41729,8 +41729,8 @@
 			(uuid "46ac2acd-46ca-4ea4-a263-34c928a94ca9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -42342,8 +42342,8 @@
 			(uuid "5c5dfe98-37f6-47d3-b1fd-522e150e2363")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -42835,8 +42835,8 @@
 			(uuid "d4de4016-1208-4ca4-9949-588750b67067")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -43376,8 +43376,8 @@
 			(uuid "9a864ae3-ecf3-496d-ab87-5952bfa3162b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -43985,12 +43985,12 @@
 		(tags "mountinghole M3 ISO7380")
 		(property "Reference" "H3"
 			(at 0 -3.8 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "b753c4b2-79b1-4cbd-a758-37abe635b6e3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -44461,8 +44461,8 @@
 			(uuid "60e1ed04-9848-4281-9e22-0c72c200256b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -45074,8 +45074,8 @@
 			(uuid "a0737a90-38f2-413d-9e25-eb6b4ca5a03f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -45686,8 +45686,8 @@
 			(uuid "6accbb5c-2f3c-4527-aaf6-7a352435d931")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -46337,8 +46337,8 @@
 			(uuid "3b979289-9126-47a3-b50b-4028bf84966d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -46950,8 +46950,8 @@
 			(uuid "a3cd551c-704d-4495-80c6-565013c403fa")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -47563,8 +47563,8 @@
 			(uuid "faaf177a-4cda-4740-8298-d34371d7ba09")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -48176,8 +48176,8 @@
 			(uuid "1abb3544-7d8e-4b86-9e79-528b98342d22")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -48789,8 +48789,8 @@
 			(uuid "93829155-0673-4f63-9d56-025d0aab2e79")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 			)
 		)
@@ -49402,8 +49402,8 @@
 			(uuid "899cabca-2646-416c-960e-bc8e34f82ca7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -50056,8 +50056,8 @@
 			(uuid "ed5bf4bb-62ce-40cc-9446-fcc65aa10b55")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -50710,8 +50710,8 @@
 			(uuid "b43cd223-6258-4003-b05c-b9ddd39f5a64")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -51363,8 +51363,8 @@
 			(uuid "a5698a54-9dff-4651-b1b6-7503f69b42d9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -52124,8 +52124,8 @@
 			(uuid "391f3c72-91f9-447d-beae-a9cdbbf35cbb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -52778,8 +52778,8 @@
 			(uuid "704f98ad-a591-40fa-8dde-073467db62b1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -53432,8 +53432,8 @@
 			(uuid "af1b8713-7f10-4381-a8a8-349603088459")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -54284,8 +54284,8 @@
 			(uuid "2f3c33d2-fd40-4ac0-99f4-357bcbe18e2b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -54937,8 +54937,8 @@
 			(uuid "4ba8086f-dffb-4d6e-8852-a550166d23bc")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -55592,8 +55592,8 @@
 			(uuid "ce861c81-f630-4d5b-909d-9c750c2a1904")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -56246,8 +56246,8 @@
 			(uuid "48c290af-3c94-4e72-ae85-0de913fce4b2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -56900,8 +56900,8 @@
 			(uuid "72b432df-9aad-4cbc-b211-53ed69e218f2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -57554,8 +57554,8 @@
 			(uuid "536f864d-1625-427b-aff0-d7018898ca28")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -58208,8 +58208,8 @@
 			(uuid "a2172435-d28f-4324-8211-e65d320c7afc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -58796,12 +58796,12 @@
 		(tags "resistor")
 		(property "Reference" "R7"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "28af82a0-773d-4332-8194-2f6fdaa183c7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -59454,8 +59454,8 @@
 			(uuid "bae88458-53cc-4d45-adc2-9401f848535f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -60104,12 +60104,12 @@
 		(tags "resistor")
 		(property "Reference" "R34"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "21578422-a4eb-4f3c-a859-7e26216131d9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -60762,8 +60762,8 @@
 			(uuid "a454da55-1dbc-4aa5-96ec-7b5e2ed7b488")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -61412,12 +61412,12 @@
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U9"
 			(at 0 2.55 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "1305f2cf-4519-4211-a8f3-9c7deffdb59d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -62273,7 +62273,8 @@
 			(pintype "bidirectional+no_connect")
 			(solder_paste_margin -0.025)
 			(uuid "46529320-803d-46d3-a107-ca127b0464a1")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "2" smd roundrect
 			(at -1 1.2625 180)
 			(size 0.25 0.675)
@@ -62284,7 +62285,8 @@
 			(pintype "passive")
 			(solder_paste_margin -0.025)
 			(uuid "d694c495-1b6a-4074-85e9-60edb7afc3ad")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "3" smd roundrect
 			(at -0.5 1.2625 180)
 			(size 0.25 0.675)
@@ -62295,7 +62297,8 @@
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
 			(uuid "6f375f06-34d9-449b-a261-e71bf79ce510")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "4" smd roundrect
 			(at 0 1.2625 180)
 			(size 0.25 0.675)
@@ -62306,7 +62309,8 @@
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
 			(uuid "852f8b8d-af61-4402-a9b0-6e4eb4bf01b7")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "5" smd roundrect
 			(at 0.5 1.2625 180)
 			(size 0.25 0.675)
@@ -62317,7 +62321,8 @@
 			(pintype "input")
 			(solder_paste_margin -0.025)
 			(uuid "e7446fe2-f0bc-4756-a03a-d17cbd69c82d")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "6" smd roundrect
 			(at 1 1.2625 180)
 			(size 0.25 0.675)
@@ -62328,7 +62333,8 @@
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
 			(uuid "1ae69e7c-f7de-408e-971e-4dffb3230c97")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "7" smd roundrect
 			(at 1.5 1.2625 180)
 			(size 0.25 0.675)
@@ -62339,7 +62345,8 @@
 			(pintype "input")
 			(solder_paste_margin -0.025)
 			(uuid "a19ec77d-6e1d-4dff-8139-0037fc974e4b")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "8" smd roundrect
 			(at 2.0125 0 180)
 			(size 0.675 0.25)
@@ -62350,7 +62357,8 @@
 			(pintype "input")
 			(solder_paste_margin -0.025)
 			(uuid "5ab6bc2b-dbba-42f9-9477-e67abfbc1b59")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "9" smd roundrect
 			(at 1.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62361,7 +62369,8 @@
 			(pintype "bidirectional")
 			(solder_paste_margin -0.025)
 			(uuid "1e82bd33-61d6-474f-8334-6e2073be20ff")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "10" smd roundrect
 			(at 1 -1.2625 180)
 			(size 0.25 0.675)
@@ -62372,7 +62381,8 @@
 			(pintype "tri_state")
 			(solder_paste_margin -0.025)
 			(uuid "db64c63f-f7d0-43d5-9a30-41d65d547795")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "11" smd roundrect
 			(at 0.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62383,7 +62393,8 @@
 			(pintype "power_in")
 			(solder_paste_margin -0.025)
 			(uuid "55df5619-b099-4b79-8af7-2febd95ed04c")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "12" smd roundrect
 			(at 0 -1.2625 180)
 			(size 0.25 0.675)
@@ -62394,7 +62405,8 @@
 			(pintype "bidirectional+no_connect")
 			(solder_paste_margin -0.025)
 			(uuid "63ccd41f-7da4-45d7-9a38-36a9d6dcb9ab")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "13" smd roundrect
 			(at -0.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62405,7 +62417,8 @@
 			(pintype "bidirectional+no_connect")
 			(solder_paste_margin -0.025)
 			(uuid "60615493-3119-4cbc-9658-f2b01dc1a827")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "14" smd roundrect
 			(at -1 -1.2625 180)
 			(size 0.25 0.675)
@@ -62416,7 +62429,8 @@
 			(pintype "input")
 			(solder_paste_margin -0.025)
 			(uuid "7ab9454f-48fb-4af9-835b-405e1778e43b")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "15" smd roundrect
 			(at -1.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62427,7 +62441,8 @@
 			(pintype "tri_state")
 			(solder_paste_margin -0.025)
 			(uuid "8b03b88e-24bb-4a6b-9b9b-236c23bf2b7f")
-		)
+		
+			(solder_mask_margin 0.05))
 		(pad "16" smd roundrect
 			(at -2.0125 0 180)
 			(size 0.675 0.25)
@@ -62438,7 +62453,8 @@
 			(pintype "bidirectional+no_connect")
 			(solder_paste_margin -0.025)
 			(uuid "cd5e19ae-c817-402f-a567-79a6ebe051d1")
-		)
+		
+			(solder_mask_margin 0.05))
 		(zone
 			(layer "B.Cu")
 			(uuid "cb8144e7-587c-402a-87b6-749fb802896a")
@@ -62495,8 +62511,8 @@
 			(uuid "ffc40b9d-747f-4079-b888-c142a12c34d3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -63149,8 +63165,8 @@
 			(uuid "35e1d756-1afe-49a6-bfce-37b40d2f8b1a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -63799,12 +63815,12 @@
 		(tags "connector JST SH horizontal")
 		(property "Reference" "U14"
 			(at -25.05 1.98 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "1a6a3ee4-3de5-405f-b3c2-7ea1054682e9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -64775,8 +64791,8 @@
 			(uuid "9cc61b89-3d70-46c1-854f-9ef433cfc4e9")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -65429,8 +65445,8 @@
 			(uuid "73e9f8f6-a42f-4bc7-b36f-b705dc71ef97")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -66083,8 +66099,8 @@
 			(uuid "58c22690-f9ec-44bf-98b1-09b4c551a260")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -66737,8 +66753,8 @@
 			(uuid "b0b32b75-8011-480f-9b26-c9c7d1a34f56")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -67391,8 +67407,8 @@
 			(uuid "d10328a0-8299-42d7-8bde-c56050c328df")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -68045,8 +68061,8 @@
 			(uuid "987ad931-4c7b-4246-818d-738ae7e225d2")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -68699,8 +68715,8 @@
 			(uuid "5b9e0da0-2a76-402b-a0ba-1c826f26518c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -69577,8 +69593,8 @@
 			(uuid "12b01e6b-f221-497e-985e-6669dbe685bf")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -70231,8 +70247,8 @@
 			(uuid "63a85c46-b177-4063-a52d-6b0621d4457a")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -70885,8 +70901,8 @@
 			(uuid "d4bb8fc3-cd76-42ab-992b-8c615aeba260")
 			(effects
 				(font
-					(size 0.2 0.2)
-					(thickness 0.04)
+					(size 0.5 0.5)
+					(thickness 0.08)
 					(bold yes)
 				)
 				(justify mirror)
@@ -71512,8 +71528,8 @@
 			(uuid "0292cb2a-67d8-4d56-8ac3-5d88f66a7e4b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -72522,8 +72538,8 @@
 			(uuid "ff58514a-7d6b-4b9f-8c8a-5e47d4eccd49")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -73427,8 +73443,8 @@
 			(uuid "8c7d02eb-a2e6-40ae-98b1-83bb8d1c8907")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -74081,8 +74097,8 @@
 			(uuid "815122bd-8493-4f4f-b4c3-c8d1bc2991e3")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -75053,8 +75069,8 @@
 			(uuid "6538fa86-c7b8-425c-a9df-5e46a755bc5e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -75707,8 +75723,8 @@
 			(uuid "4c6b2563-ae9c-4858-9609-0a6450fa6b78")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -76332,8 +76348,8 @@
 			(uuid "abd653a5-bd80-43fb-9040-7a5b823ea840")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -77075,8 +77091,8 @@
 			(uuid "f1a2774c-4149-4b13-9f2e-d07f493cf11d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -77729,8 +77745,8 @@
 			(uuid "9093e7e1-1fbf-4640-954f-9356a5546282")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -78383,8 +78399,8 @@
 			(uuid "15da1810-fbe6-4705-b1da-1698d3a575ba")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -79037,8 +79053,8 @@
 			(uuid "65d3cd29-007f-4b81-a7b1-d630b185461b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -79691,8 +79707,8 @@
 			(uuid "cb75a971-c43a-4e9c-b44b-f92a40745c8d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -80345,8 +80361,8 @@
 			(uuid "7612f6ea-1ab3-4aff-b3f0-6d4e9ae66f22")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -80999,8 +81015,8 @@
 			(uuid "62e5453e-a6b8-4f81-8ddf-7652263565db")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -81653,8 +81669,8 @@
 			(uuid "43efe936-9b9d-4bcb-9358-669aa4ad42be")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -82303,12 +82319,12 @@
 		(tags "capacitor")
 		(property "Reference" "C52"
 			(at 0 1.16 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "2498c7ac-06b1-4f32-87a9-f88df8d0d7ca")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -82961,8 +82977,8 @@
 			(uuid "9c6fb128-0314-473e-9f8d-5aad2b39ae10")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -83553,8 +83569,8 @@
 			(uuid "3b0e681a-8e8e-46cd-992b-4c1b4b3da913")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -84387,8 +84403,8 @@
 			(uuid "58ca3f33-b14f-405e-bd56-d04f1da3cd2c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -85037,12 +85053,12 @@
 		(tags "resistor")
 		(property "Reference" "R14"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "978eb2a4-105e-481c-93bc-caba88783f17")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -85695,8 +85711,8 @@
 			(uuid "4e9c1839-67bc-42da-87b7-d8962c37576d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -86440,8 +86456,8 @@
 			(uuid "bd604b45-0be5-4da3-9766-611b4814dac8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -87094,8 +87110,8 @@
 			(uuid "bfbe9d5d-6aae-4d5e-9f6d-afa3fe4df62f")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -87748,8 +87764,8 @@
 			(uuid "14ed7a96-f89d-41d9-b4a0-ba8dd4fc1886")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -88398,12 +88414,12 @@
 		(tags "resistor")
 		(property "Reference" "R52"
 			(at 0 1.17 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "189d28a3-be33-423f-9a2a-229f77f557b1")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -89038,12 +89054,12 @@
 		(descr "AP7361C-33FGE-7 U-DFN3030-8 Type E. Diodes recommended pad layout: pitch 0.65, rows 2.75, lands 0.65 x 0.30, EP 1.60 x 2.35 mm.")
 		(property "Reference" "U6"
 			(at 0 -2.45 90)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "18d944ce-1e8c-4266-903f-fb8a00c9f4b4")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -89803,8 +89819,8 @@
 			(uuid "b2542473-aa00-4dc5-bdb4-631d53071870")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -90457,8 +90473,8 @@
 			(uuid "7557a3c2-8c40-4cb7-b6f5-007d65d63897")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -91110,8 +91126,8 @@
 			(uuid "a3f2adb5-1bf9-4785-9a15-1e705a50272e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -91696,8 +91712,8 @@
 			(uuid "bae0a9d7-a417-4d2f-8935-4332f001a3be")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -92574,8 +92590,8 @@
 			(uuid "0bf894fd-063a-40dd-884f-e596b9ed10dc")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -93228,8 +93244,8 @@
 			(uuid "9e81a67c-5597-4b42-b68a-2697d38a2f36")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -93882,8 +93898,8 @@
 			(uuid "a5241696-dd61-437d-86d8-da7e077298c7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -94536,8 +94552,8 @@
 			(uuid "fc018696-27a7-474c-9e0d-45685a419704")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -95189,8 +95205,8 @@
 			(uuid "c4eb836c-89b1-491c-a3a2-6c558b5fc060")
 			(effects
 				(font
-					(size 0.7 0.7)
-					(thickness 0.1)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -95917,8 +95933,8 @@
 			(uuid "420e84bd-fb12-4f72-857e-f851764ab465")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -96571,8 +96587,8 @@
 			(uuid "7397f4c1-f3c7-4c4d-8a3e-573654e8ab8d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -97221,12 +97237,12 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP2"
 			(at 0 1.448 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "cf5b7a56-04d9-4251-955f-8fe3a4121f4b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -97817,8 +97833,8 @@
 			(uuid "6119ae2e-2417-4438-9aaa-71c7ecb9c018")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -98467,12 +98483,12 @@
 		(tags "connector JST GH horizontal")
 		(property "Reference" "U8"
 			(at 0 3.9 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "39547838-fea0-458b-ab90-60cee48c7b75")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -99404,8 +99420,8 @@
 			(uuid "90b85bf8-2cae-446b-b1ee-137000973a24")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -100054,12 +100070,12 @@
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "TP1"
 			(at 0 1.448 0)
-			(layer "B.SilkS")
+			(layer "B.Fab")
 			(uuid "491e2a27-0493-4bed-add2-17719b1bed97")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -100650,8 +100666,8 @@
 			(uuid "f50ed6bc-4964-4e19-baf2-a10c5b53c919")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -101304,8 +101320,8 @@
 			(uuid "1851552f-bfc5-4307-bdc8-de18c6827848")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
@@ -101958,8 +101974,8 @@
 			(uuid "d46dfe6e-c9ad-4545-9a49-4718653fc870")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.08)
 				)
 				(justify mirror)
 			)
