@@ -12,10 +12,13 @@ jobs:
           sudo add-apt-repository --yes ppa:kicad/kicad-dev-nightly
           sudo apt-get update
           sudo apt-get install -y kicad-nightly
+          command -v kicad-cli-nightly || true
+          command -v kicad-cli || true
       - name: Run native PCB DRC
         run: |
           set +e
-          kicad-cli pcb drc --output drc_native.rpt H743_Ardupilot.kicad_pcb
+          CLI="$(command -v kicad-cli-nightly || command -v kicad-cli)"
+          "$CLI" pcb drc --output drc_native.rpt H743_Ardupilot.kicad_pcb
           rc=$?
           echo "KICAD_DRC_RC=$rc"
           echo "---- drc_native.rpt ----"
