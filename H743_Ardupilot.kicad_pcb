@@ -3785,7 +3785,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "15c43f2a-a932-4186-8c1d-c93a8e921944")
-		(at 101.5 94)
+		(at 103.15 90.9)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -6555,7 +6555,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "2ffd4b4d-2f7c-4974-bbc1-80a846a066ef")
-		(at 88.95 112.3 90)
+		(at 89.61 114.3 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C22"
@@ -11859,7 +11859,7 @@
 	(footprint "H743_Custom:L_Coilcraft_XGL4030"
 		(layer "F.Cu")
 		(uuid "47de110e-dcc8-4825-af0f-495e4f6abc33")
-		(at 91 113.3)
+		(at 92.75 115.75)
 		(descr "Coilcraft XGL4030 shielded power inductor; recommended land pattern for Coilcraft XGL4030 series, 4.0 x 4.0 mm body")
 		(tags "Coilcraft XGL4030 power inductor 4x4mm")
 		(property "Reference" "L2"
@@ -16595,7 +16595,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4f884449-19be-4d2e-bbbe-6b23ec5c5ade")
-		(at 85.7 89.7 -90)
+		(at 85.8 91.4 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C29"
@@ -20952,7 +20952,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "76327109-bce5-46ed-b90d-2bc744fadd0a")
-		(at 95.5 95.4 90)
+		(at 102.7 99.6 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -27695,7 +27695,7 @@
 	(footprint "H743_Custom:L_Coilcraft_XGL4030"
 		(layer "F.Cu")
 		(uuid "a81d3bb2-bc15-4ce0-965b-bb25f37843dc")
-		(at 80.98 101.5 180)
+		(at 80.3 102.3 180)
 		(descr "Coilcraft XGL4030 shielded power inductor; recommended land pattern for Coilcraft XGL4030 series, 4.0 x 4.0 mm body")
 		(tags "Coilcraft XGL4030 power inductor 4x4mm")
 		(property "Reference" "L1"
@@ -30031,7 +30031,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "acb28bc1-a5de-433f-a853-0cfe2e0d4e5d")
-		(at 89 89.7 -90)
+		(at 87.7 91.4 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C31"
@@ -30644,7 +30644,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "adb5e897-77be-4b1a-b0b4-39579c96592f")
-		(at 84 110.2 180)
+		(at 83 109.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C7"
@@ -42791,7 +42791,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "de680023-97d9-4314-a62f-e168f2171f2f")
-		(at 101.5 91)
+		(at 103.15 93)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C30"
@@ -45102,7 +45102,7 @@
 	(footprint "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm"
 		(layer "F.Cu")
 		(uuid "f4b8d121-c82f-40b8-8249-b9f6db840409")
-		(at 93.4 94 180)
+		(at 94.8 93 180)
 		(descr "Murata CSTNE8M00GH5C000R0; JGC42-8858A p3; 0.4 x 1.9 mm lands at 1.2 mm pitch; pin 2 GND.")
 		(property "Reference" "Y1"
 			(at 0 -1.8 0)
@@ -45752,7 +45752,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f6b1f06f-77fc-4f0d-b112-83c89b629686")
-		(at 97.75 112.7 -90)
+		(at 97.75 113.85 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -101913,7 +101913,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "fe41ec6f-b8e2-466e-a93e-91a9b622b731")
-		(at 88.5 96.1 -90)
+		(at 89.2 98.3 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
