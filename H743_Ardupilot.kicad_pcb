@@ -46302,7 +46302,7 @@
 			)
 			(polygon
 				(pts
-					(xy 0.9 -1.4) (xy 5.5 -1.4) (xy 5.5 1.4) (xy 0.9 1.4)
+					(xy -1.6 -0.65) (xy 1.6 -0.65) (xy 1.6 0.65) (xy -1.6 0.65)
 				)
 			)
 		)
@@ -54221,6 +54221,37 @@
 			(pinfunction "SDA_14")
 			(pintype "bidirectional")
 			(uuid "37cafd24-adb6-4145-a744-8171ec14ef37")
+		)
+		(zone
+			(layer "B.Cu")
+			(uuid "7b2f6b9c-1d41-4e8a-98c0-010000000010")
+			(name "LSM6DSV16X under-package keepout")
+			(hatch edge 0.25)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.1)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.3)
+				(thermal_bridge_width 0.3)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy -1.5 -1.25) (xy 1.5 -1.25) (xy 1.5 1.25) (xy -1.5 1.25)
+				)
+			)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
@@ -62429,7 +62460,7 @@
 			)
 			(polygon
 				(pts
-					(xy -6.45 -2.5) (xy -3.45 -2.5) (xy -3.45 2) (xy -6.45 2)
+					(xy -1.5 -2.25) (xy 1.5 -2.25) (xy 1.5 2.25) (xy -1.5 2.25)
 				)
 			)
 		)
@@ -76981,6 +77012,37 @@
 			(pinfunction "SDI/SDIO/SDA_14")
 			(pintype "bidirectional")
 			(uuid "fa1210f4-4e11-4b25-b12c-2e148600485c")
+		)
+		(zone
+			(layer "B.Cu")
+			(uuid "7b2f6b9c-1d41-4e8a-98c0-456860000001")
+			(name "ICM-45686 under-package keepout")
+			(hatch edge 0.25)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.1)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.3)
+				(thermal_bridge_width 0.3)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy -1.5 -1.25) (xy 1.5 -1.25) (xy 1.5 1.25) (xy -1.5 1.25)
+				)
+			)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
@@ -92420,7 +92482,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "INT_7")
-			(pintype "input")
+			(pintype "output")
 			(uuid "097fa6be-f07b-42af-a818-9520fdb33fa9")
 		)
 		(pad "8" smd rect
@@ -92477,7 +92539,7 @@
 			)
 			(polygon
 				(pts
-					(xy -1.5 -1.2375) (xy 0.5 -1.2375) (xy 0.5 0.7625) (xy -1.5 0.7625)
+					(xy -1 -1) (xy 1 -1) (xy 1 1) (xy -1 1)
 				)
 			)
 		)

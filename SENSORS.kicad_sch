@@ -925,7 +925,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 40.64 -7.62 180)
 					(length 7.62)
 					(name "INT"
