@@ -13628,7 +13628,7 @@
 		(property "Reference" "U2"
 			(at 0 -9.43 90)
 			(layer "F.Fab")
-			(uuid "77400a75-dc6e-4262-8005-c0ce61e91ce8")
+			(uuid "f477d553-eaa6-416d-baa4-5baae389592f")
 			(effects
 				(font
 					(size 1 1)
@@ -13639,7 +13639,7 @@
 		(property "Value" "STM32H743VIT6"
 			(at 0 9.43 90)
 			(layer "F.Fab")
-			(uuid "8cff0d29-ed07-4ed2-af56-82ca0d515871")
+			(uuid "5a92f316-abd6-41d4-be61-5b5cd9e1d098")
 			(effects
 				(font
 					(size 1 1)
@@ -13651,7 +13651,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3de8157f-4d25-4d11-85ee-9535f01d110b")
+			(uuid "4c2d4443-4ac3-4c65-8f6f-63069accffdb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13662,7 +13662,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "70a2afba-576d-489a-af54-e7814eaeb560")
+			(uuid "8943e3a7-a547-41a0-b945-5aeea0ac0571")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40394,6 +40394,12 @@
 		(path "/6670d797-9965-46e5-90bb-ab564d1e1d11/b2d2949c-172f-4372-afb6-b7cacdf6c2cc")
 		(sheetname "/UART_I2C/")
 		(sheetfile "UART_I2C.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50041,7 +50047,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "0102b095-b3cb-402d-aaa1-3ffb63400696")
-		(at 93.75 106.75 180)
+		(at 96 107.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -61401,7 +61407,7 @@
 	(footprint "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
 		(layer "B.Cu")
 		(uuid "3c017ac8-682c-4df6-9a88-a14a1291895a")
-		(at 94.25 109.25 180)
+		(at 96.5 110 180)
 		(descr "Bosch  LGA, 16 Pin (https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf#page=55)")
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U9"
@@ -62460,7 +62466,7 @@
 			)
 			(polygon
 				(pts
-					(xy -1.5 -2.25) (xy 1.5 -2.25) (xy 1.5 2.25) (xy -1.5 2.25)
+					(xy 0.75 -1.5) (xy 3.75 -1.5) (xy 3.75 3) (xy 0.75 3)
 				)
 			)
 		)
@@ -70216,7 +70222,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "8678e2d7-4114-4267-aa6d-84c14e9be875")
-		(at 93.75 105.75 180)
+		(at 96 106.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C49"
@@ -82292,7 +82298,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "b2661b3d-9da0-4471-b81a-6ecb47ae52ad")
-		(at 93 111.75 180)
+		(at 95.25 112.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C52"
