@@ -62455,37 +62455,7 @@
 			(solder_paste_margin -0.025)
 			(uuid "cd5e19ae-c817-402f-a567-79a6ebe051d1")
 		)
-		(zone
-			(layer "B.Cu")
-			(uuid "cb8144e7-587c-402a-87b6-749fb802896a")
-			(name "Keepout")
-			(hatch edge 0.5)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0.25)
-			(keepout
-				(tracks not_allowed)
-				(vias not_allowed)
-				(pads allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 0.75 -1.5) (xy 3.75 -1.5) (xy 3.75 3) (xy 0.75 3)
-				)
-			)
-		)
+		
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/composants/3d/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step"
 			(offset
@@ -62499,6 +62469,38 @@
 			)
 		)
 	)
+	(zone
+		(layer "B.Cu")
+		(uuid "7b2f6b9c-1d41-4e8a-98c0-090000000001")
+		(name "U9 BMI088 under-package keepout")
+		(hatch edge 0.25)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.1)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.3)
+			(thermal_bridge_width 0.3)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 94.25 108.5) (xy 98.75 108.5) (xy 98.75 111.5) (xy 94.25 111.5)
+			)
+		)
+	)
+
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "4f884449-19be-4d2e-bbbe-6b23ec5c5ade")
