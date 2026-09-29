@@ -61,7 +61,7 @@
   (zone
     (layer "B.Cu")
     (name "OSC opposite-face keepout B")
-    (hatch edge 0.25)
+    (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)
@@ -84,7 +84,7 @@
   (zone
     (layer "F.Cu")
     (name "OSC local keepout F")
-    (hatch edge 0.25)
+    (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)

@@ -348,7 +348,7 @@
   (zone
     (layer "F.Cu")
     (name "U9 BMI088 under-package keepout")
-    (hatch edge 0.25)
+    (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)

@@ -46255,7 +46255,7 @@
 			(layer "F.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000001")
 			(name "OSC local keepout F")
-			(hatch edge 0.25)
+			(hatch full 0.5)
 			(connect_pads
 				(clearance 0)
 			)
@@ -46287,7 +46287,7 @@
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000002")
 			(name "OSC opposite-face keepout B")
-			(hatch edge 0.25)
+			(hatch full 0.5)
 			(connect_pads
 				(clearance 0)
 			)
@@ -54234,7 +54234,7 @@
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-010000000010")
 			(name "LSM6DSV16X under-package keepout")
-			(hatch edge 0.25)
+			(hatch full 0.5)
 			(connect_pads
 				(clearance 0)
 			)
@@ -62463,7 +62463,7 @@
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-090000000001")
 			(name "U9 BMI088 under-package keepout")
-			(hatch edge 0.25)
+			(hatch full 0.5)
 			(connect_pads
 				(clearance 0)
 			)
@@ -77045,7 +77045,7 @@
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-456860000001")
 			(name "ICM-45686 under-package keepout")
-			(hatch edge 0.25)
+			(hatch full 0.5)
 			(connect_pads
 				(clearance 0)
 			)
@@ -92544,7 +92544,7 @@
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-581000000001")
 			(name "Bosch BMP581 under-package keepout")
-			(hatch edge 0.25)
+			(hatch full 0.5)
 			(connect_pads
 				(clearance 0)
 			)
