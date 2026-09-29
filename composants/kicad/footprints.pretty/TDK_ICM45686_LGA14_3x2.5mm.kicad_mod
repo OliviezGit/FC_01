@@ -102,6 +102,30 @@
 
   
 
+
+  (zone
+    (layer "F.Cu")
+    (name "ICM-45686 under-package keepout")
+    (hatch edge 0.25)
+    (connect_pads
+      (clearance 0))
+    (min_thickness 0.1)
+    (keepout
+      (tracks not_allowed)
+      (vias not_allowed)
+      (pads allowed)
+      (copperpour not_allowed)
+      (footprints allowed))
+    (placement
+      (enabled no)
+      (sheetname ""))
+    (fill
+      (thermal_gap 0.3)
+      (thermal_bridge_width 0.3)
+      (island_removal_mode 0))
+    (polygon
+      (pts
+        (xy -1.5 -1.25) (xy 1.5 -1.25) (xy 1.5 1.25) (xy -1.5 1.25))))
   (model "${KIPRJMOD}/composants/3d/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
   (offset
     (xyz 0 0 0))

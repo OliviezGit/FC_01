@@ -11201,7 +11201,7 @@
         (font
           (size 1.27 1.27))
         (justify left)))
-    (property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+    (property "Footprint" "H743_Custom:LSM6DSV16X_LGA14_3x2.5mm"
       (at -10.16 -17.78 0)
       (show_name no)
       (do_not_autoplace no)
@@ -11428,7 +11428,7 @@
       (effects
         (font
           (size 1.27 1.27))))
-    (property "Footprint" "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
+    (property "Footprint" "H743_Custom:BMI088_LGA16_4.5x3mm"
       (at -16.51 -1.27 0)
       (show_name no)
       (do_not_autoplace no)

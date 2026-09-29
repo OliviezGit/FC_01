@@ -46250,6 +46250,7 @@
 			(pintype "passive")
 			(uuid "9ed3ba7b-4799-4cae-9e04-7de6fc0180e2")
 		)
+		
 		(zone
 			(layer "F.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000001")
@@ -46277,10 +46278,11 @@
 			)
 			(polygon
 				(pts
-					(xy 1.2 -1.1) (xy 5.2 -1.1) (xy 5.2 1.1) (xy 1.2 1.1)
+					(xy -2 -1.1) (xy 2 -1.1) (xy 2 1.1) (xy -2 1.1)
 				)
 			)
 		)
+		
 		(zone
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000002")
@@ -46308,7 +46310,7 @@
 			)
 			(polygon
 				(pts
-					(xy -1.6 -0.65) (xy 1.6 -0.65) (xy 1.6 0.65) (xy -1.6 0.65)
+					(xy -2.3 -1.4) (xy 2.3 -1.4) (xy 2.3 1.4) (xy -2.3 1.4)
 				)
 			)
 		)
@@ -53420,7 +53422,7 @@
 			)
 		)
 	)
-	(footprint "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+	(footprint "H743_Custom:LSM6DSV16X_LGA14_3x2.5mm"
 		(layer "B.Cu")
 		(uuid "109ea37d-a209-4f84-a022-a2c5dde16be7")
 		(at 105.25 103.5 90)
@@ -53823,7 +53825,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Package_LGA.pretty/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.kicad_mod"
+		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/LSM6DSV16X_LGA14_3x2.5mm.kicad_mod"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -61404,7 +61406,7 @@
 			)
 		)
 	)
-	(footprint "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
+	(footprint "H743_Custom:BMI088_LGA16_4.5x3mm"
 		(layer "B.Cu")
 		(uuid "3c017ac8-682c-4df6-9a88-a14a1291895a")
 		(at 96.5 110 180)
@@ -61807,7 +61809,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Package_LGA.pretty/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.kicad_mod"
+		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/BMI088_LGA16_4.5x3mm.kicad_mod"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -62456,6 +62458,38 @@
 			(uuid "cd5e19ae-c817-402f-a567-79a6ebe051d1")
 		)
 		
+
+		(zone
+			(layer "B.Cu")
+			(uuid "7b2f6b9c-1d41-4e8a-98c0-090000000001")
+			(name "U9 BMI088 under-package keepout")
+			(hatch edge 0.25)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.1)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.3)
+				(thermal_bridge_width 0.3)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy -2.25 -1.5) (xy 2.25 -1.5) (xy 2.25 1.5) (xy -2.25 1.5)
+				)
+			)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/composants/3d/Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering.step"
 			(offset
@@ -62469,37 +62503,7 @@
 			)
 		)
 	)
-	(zone
-		(layer "B.Cu")
-		(uuid "7b2f6b9c-1d41-4e8a-98c0-090000000001")
-		(name "U9 BMI088 under-package keepout")
-		(hatch edge 0.25)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.1)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.3)
-			(thermal_bridge_width 0.3)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 94.25 108.5) (xy 98.75 108.5) (xy 98.75 111.5) (xy 94.25 111.5)
-			)
-		)
-	)
+	
 
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
