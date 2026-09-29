@@ -913,13 +913,56 @@
       "sort_asc": true,
       "sort_field": "Référence"
     },
-    "bus_aliases": {},
-    "connection_grid_size": 50,
+    "bus_aliases": {
+      "CAN": [
+        "RX",
+        "SILENT",
+        "TX"
+      ],
+      "I2C": [
+        "SCL",
+        "SDA"
+      ],
+      "SDI": [
+        "CK",
+        "CMD",
+        "D0",
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "SPI": [
+        "CS",
+        "MISO",
+        "MOSI",
+        "SCLK"
+      ],
+      "SPI_NO_CS": [
+        "MISO",
+        "MOSI",
+        "SCLK"
+      ],
+      "UART": [
+        "RX",
+        "TX"
+      ],
+      "UART_FLOW": [
+        "CTS",
+        "RTS",
+        "RX",
+        "TX"
+      ],
+      "USB": [
+        "DM",
+        "DP"
+      ]
+    },
+    "connection_grid_size": 50.0,
     "drawing": {
-      "dashed_lines_dash_length_ratio": 12,
-      "dashed_lines_gap_length_ratio": 3,
-      "default_line_thickness": 6,
-      "default_text_size": 50,
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
@@ -934,7 +977,7 @@
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25,
+      "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
@@ -954,7 +997,7 @@
         "uuid": "6b768b36-fce6-4be0-9021-6d41bddc3a70"
       }
     ],
-    "used_designators": "L1-2,D1-5,#PWR1-127,J1-14,C1-59,FB1,JP1,H1-4,Q1,R1-50,TP1-4,U1-14,USB1,Y1",
+    "used_designators": "L1-2,D1-5,#PWR1-127,J1-14,C1-59,FB1,JP1,H1-4,Q1,R1-50,R52,TP1-4,U1-14,USB1,Y1",
     "variants": []
   },
   "sheets": [

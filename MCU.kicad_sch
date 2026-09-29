@@ -10,21 +10,109 @@
 	)
 	(lib_symbols
 		(symbol "FC01_Project:ERC__POWER_SOURCE"
-    (power local)
-    (pin_numbers (hide yes))
-    (pin_names (offset 0) (hide yes))
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (in_pos_files no)
-    (property "Reference" "#FLG" (at 0 -3.81 0) (hide yes) (effects (font (size 1.27 1.27))))
-    (property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
-    (symbol "ERC__POWER_SOURCE_0_1"
-      (polyline (pts (xy -1.27 1.27) (xy 0 3.81) (xy 1.27 1.27) (xy -1.27 1.27)) (stroke (width 0.254) (type default)) (fill (type none))))
-    (symbol "ERC__POWER_SOURCE_1_1"
-      (pin power_out line (at 0 0 90) (length 0)
-        (name "Power source" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27)))))))
+			(power local)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ERC__POWER_SOURCE_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 3.81) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ERC__POWER_SOURCE_1_1"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "Power_source"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FC01_Project:MCU__+3V3"
 			(power global)
 			(pin_numbers
@@ -4284,7 +4372,17 @@
 					)
 				)
 			)
-
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Description" "Solder Jumper, 2-pole, open"
 				(at 0 0 0)
 				(show_name no)
@@ -4896,7 +4994,6 @@
 		(color 0 0 0 0)
 		(uuid "e7fd3f20-504c-4024-8fd6-a78d0fd62e9e")
 	)
-
 	(junction
 		(at 109.22 29.21)
 		(diameter 0)
@@ -5708,6 +5805,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 177.8) (xy 137.16 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb37843-68e8-4928-ab3c-fbdd26d0df5f")
+	)
+	(wire
+		(pts
 			(xy 231.14 176.53) (xy 220.98 176.53)
 		)
 		(stroke
@@ -6466,7 +6573,6 @@
 		)
 		(uuid "6850d666-448f-46ea-ab6f-2301c409e21a")
 	)
-
 	(bus
 		(pts
 			(xy 33.02 54.61) (xy 34.29 54.61)
@@ -7927,7 +8033,6 @@
 		)
 		(uuid "f8a3b0c7-fd84-4b13-8818-84adc7c3febb")
 	)
-
 	(wire
 		(pts
 			(xy 168.91 194.31) (xy 168.91 193.04)
@@ -9328,7 +9433,6 @@
 		)
 		(uuid "f8ed60e8-1328-4e7a-a03f-17170b2e499f")
 	)
-
 	(label "I2C2.SDA"
 		(at 191.77 129.54 0)
 		(effects
@@ -17457,7 +17561,6 @@
 			)
 		)
 	)
-
 	(symbol
 		(lib_id "FC01_Project:MCU__C_Small")
 		(at 102.87 26.67 0)
@@ -18397,6 +18500,80 @@
 			(project "MCU"
 				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC01_Project:ERC__POWER_SOURCE")
+		(at 176.53 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81d94666-8491-412d-856e-efb5756db143")
+		(property "Reference" "#FLG201"
+			(at 176.53 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbf5133a-6248-4ead-8cbe-679432ea60d9")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#FLG201")
 					(unit 1)
 				)
 			)
@@ -24137,15 +24314,4 @@
 			(page "1")
 		)
 	)
-
-	(symbol
-    (lib_id "FC01_Project:ERC__POWER_SOURCE") (at 176.53 48.26 0) (unit 1)
-    (exclude_from_sim no) (in_bom no) (on_board no) (dnp no)
-    (uuid "81d94666-8491-412d-856e-efb5756db143")
-    (property "Reference" "#FLG201" (at 176.53 52.07 0) (hide yes) (effects (font (size 1.27 1.27))))
-    (property "Value" "PWR_FLAG" (at 182.88 44.45 0) (effects (font (size 1.27 1.27))))
-    (pin "1" (uuid "fbf5133a-6248-4ead-8cbe-679432ea60d9"))
-    (instances (project "H743_Ardupilot" (path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f" (reference "#FLG201") (unit 1)))))
-
-	(wire (pts (xy 130.81 177.8) (xy 137.16 177.8)) (stroke (width 0) (type default)) (uuid "0fb37843-68e8-4928-ab3c-fbdd26d0df5f"))
 )

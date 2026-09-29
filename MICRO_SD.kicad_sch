@@ -945,7 +945,7 @@
 		)
 	)
 	(junction
-		(at 163.83 53.34)
+		(at 71.12 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "025a0f5f-ff25-4982-ba64-7a91b37a2758")
@@ -957,7 +957,7 @@
 		(uuid "15e66f63-49c7-4bbb-8eb5-22edf589366e")
 	)
 	(junction
-		(at 163.83 60.96)
+		(at 71.12 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dddf10d-aba9-454a-8342-20825f2d1249")
@@ -975,13 +975,13 @@
 		(uuid "6b30ade3-eb8b-403a-8230-42928b2301ee")
 	)
 	(junction
-		(at 163.83 58.42)
+		(at 71.12 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70b65389-4e94-4bb5-9bd3-4b655af4214a")
 	)
 	(junction
-		(at 163.83 55.88)
+		(at 71.12 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c701dcc-e4e3-45aa-ae12-8078191de7ec")
@@ -999,7 +999,7 @@
 		(uuid "e33cc7c0-d4d4-4419-b83c-6bd13f9ef84d")
 	)
 	(junction
-		(at 163.83 63.5)
+		(at 71.12 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed09611e-1d4c-4d85-a9ce-4562b5a040bd")
@@ -1060,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 60.96) (xy 152.4 60.96)
+			(xy 46.99 40.64) (xy 59.69 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1070,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 58.42) (xy 152.4 58.42)
+			(xy 46.99 38.1) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 55.88) (xy 163.83 53.34)
+			(xy 71.12 35.56) (xy 71.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 171.45 53.34)
+			(xy 71.12 33.02) (xy 78.74 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 53.34) (xy 163.83 53.34)
+			(xy 64.77 33.02) (xy 71.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 163.83 58.42)
+			(xy 71.12 40.64) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 58.42) (xy 163.83 55.88)
+			(xy 71.12 38.1) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1210,23 +1210,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 66.04) (xy 163.83 63.5)
+			(xy 71.12 45.72) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4730a21c-4dc7-4b54-b498-1e61df306ee6")
-	)
-	(wire
-		(pts
-			(xy 82.55 60.96) (xy 86.36 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f47e000-0000-4000-8000-000000000050")
 	)
 	(wire
 		(pts
@@ -1270,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 60.96) (xy 163.83 60.96)
+			(xy 64.77 40.64) (xy 71.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 163.83 66.04)
+			(xy 64.77 45.72) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 77.47 60.96)
+			(xy 73.66 60.96) (xy 86.36 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 55.88) (xy 163.83 55.88)
+			(xy 64.77 35.56) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 63.5) (xy 163.83 60.96)
+			(xy 71.12 43.18) (xy 71.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 152.4 53.34)
+			(xy 46.99 33.02) (xy 59.69 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1450,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 152.4 55.88)
+			(xy 46.99 35.56) (xy 59.69 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1490,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 58.42) (xy 163.83 58.42)
+			(xy 64.77 38.1) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1500,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 63.5) (xy 152.4 63.5)
+			(xy 46.99 43.18) (xy 59.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 66.04) (xy 152.4 66.04)
+			(xy 46.99 45.72) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 163.83 63.5)
+			(xy 64.77 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1569,7 @@
 		(uuid "2297a550-a3fb-4488-b715-6f9a07a25408")
 	)
 	(label "SDIO.CMD"
-		(at 139.7 55.88 0)
+		(at 46.99 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,7 +1579,7 @@
 		(uuid "3e25c967-dedb-48b4-aadd-25f8a1ea86de")
 	)
 	(label "SDIO.CK"
-		(at 139.7 53.34 0)
+		(at 46.99 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1609,7 +1599,7 @@
 		(uuid "44bcd774-22ec-412e-abeb-3010ced1f5f1")
 	)
 	(label "SDIO.D0"
-		(at 139.7 58.42 0)
+		(at 46.99 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1639,7 +1629,7 @@
 		(uuid "8e639280-bf49-4667-a152-965526276a94")
 	)
 	(label "SDIO.CK"
-		(at 68.58 60.96 0)
+		(at 73.66 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1649,7 +1639,7 @@
 		(uuid "a9709ca3-9d4d-4a42-b6ab-531681a644fa")
 	)
 	(label "+3V3_MCU"
-		(at 171.45 53.34 180)
+		(at 78.74 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1659,7 +1649,7 @@
 		(uuid "ad500861-6c07-46e5-86f5-8e9754e9a1f0")
 	)
 	(label "SDIO.D3"
-		(at 139.7 66.04 0)
+		(at 46.99 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,7 +1699,7 @@
 		(uuid "c8f54a62-6b0e-4fdb-92a4-d51d06d76387")
 	)
 	(label "SDIO.D1"
-		(at 139.7 60.96 0)
+		(at 46.99 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1739,7 +1729,7 @@
 		(uuid "e17041ee-0f95-45f1-bc9e-a9aaa40f331f")
 	)
 	(label "SDIO.D2"
-		(at 139.7 63.5 0)
+		(at 46.99 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1761,7 +1751,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 154.94 63.5 90)
+		(at 62.23 43.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1771,7 +1761,7 @@
 		(dnp no)
 		(uuid "01438cca-49a4-493e-853e-ccdb0f2efbaf")
 		(property "Reference" "R45"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1781,7 +1771,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 62.23 90)
+			(at 67.31 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1791,7 +1781,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 63.5 0)
+			(at 62.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +1792,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
-			(at 154.94 63.5 0)
+			(at 62.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1803,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 63.5 0)
+			(at 62.23 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1824,7 +1814,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 154.94 63.5 90)
+			(at 62.23 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,7 +1825,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 63.5 90)
+			(at 62.23 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1846,7 +1836,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 63.5 90)
+			(at 62.23 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1857,7 +1847,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 63.5 90)
+			(at 62.23 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1868,7 +1858,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,7 +1869,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1880,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,7 +1891,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +1902,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1923,7 +1913,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,7 +1924,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1945,7 +1935,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,7 +1946,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 151.13 62.23 90)
+			(at 58.42 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +1957,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1978,7 +1968,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,7 +1979,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,7 +1990,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2001,7 @@
 			)
 		)
 		(property "Stock_Units" "9912210"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2012,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2033,7 +2023,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +2034,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2045,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2056,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2077,7 +2067,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-0710KL.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2088,7 +2078,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2099,7 +2089,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2100,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2121,7 +2111,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2132,7 +2122,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2143,7 +2133,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2154,7 +2144,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2165,7 +2155,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2176,7 +2166,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2187,7 +2177,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2198,7 +2188,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2225,7 +2215,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 154.94 60.96 90)
+		(at 62.23 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2235,7 +2225,7 @@
 		(dnp no)
 		(uuid "03207343-894f-4f70-87a8-50686ecdd1a0")
 		(property "Reference" "R44"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2245,7 +2235,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 59.69 90)
+			(at 67.31 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2255,7 +2245,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 60.96 0)
+			(at 62.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2256,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
-			(at 154.94 60.96 0)
+			(at 62.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2277,7 +2267,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 60.96 0)
+			(at 62.23 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2278,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 154.94 60.96 90)
+			(at 62.23 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2299,7 +2289,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 60.96 90)
+			(at 62.23 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2310,7 +2300,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 60.96 90)
+			(at 62.23 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2311,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 60.96 90)
+			(at 62.23 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2332,7 +2322,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +2333,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2354,7 +2344,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2365,7 +2355,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,7 +2366,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2377,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2388,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,7 +2399,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2420,7 +2410,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 151.13 59.69 90)
+			(at 58.42 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2421,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2442,7 +2432,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2453,7 +2443,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,7 +2454,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +2465,7 @@
 			)
 		)
 		(property "Stock_Units" "9912210"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2486,7 +2476,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +2487,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2508,7 +2498,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2519,7 +2509,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2530,7 +2520,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2541,7 +2531,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-0710KL.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2552,7 +2542,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2563,7 +2553,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +2564,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +2575,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,7 +2586,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,7 +2597,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +2608,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,7 +2619,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2640,7 +2630,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2651,7 +2641,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,7 +2652,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2689,7 +2679,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 154.94 53.34 90)
+		(at 62.23 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2699,7 +2689,7 @@
 		(dnp no)
 		(uuid "0be8e957-b11d-4946-b95d-b5cdd1582ac8")
 		(property "Reference" "R41"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2709,7 +2699,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 52.07 90)
+			(at 67.31 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2719,7 +2709,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 53.34 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2730,7 +2720,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
-			(at 154.94 53.34 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2741,7 +2731,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 53.34 0)
+			(at 62.23 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2742,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 154.94 53.34 90)
+			(at 62.23 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2763,7 +2753,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 53.34 90)
+			(at 62.23 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +2764,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 53.34 90)
+			(at 62.23 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,7 +2775,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 53.34 90)
+			(at 62.23 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +2786,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2807,7 +2797,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +2808,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +2819,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2830,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,7 +2841,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,7 +2852,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +2863,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2884,7 +2874,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 151.13 52.07 90)
+			(at 58.42 31.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2895,7 +2885,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2906,7 +2896,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +2907,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2928,7 +2918,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2939,7 +2929,7 @@
 			)
 		)
 		(property "Stock_Units" "9912210"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,7 +2940,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +2951,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2962,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2983,7 +2973,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +2984,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3005,7 +2995,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-0710KL.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +3006,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,7 +3017,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +3028,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3049,7 +3039,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3060,7 +3050,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3061,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3072,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3083,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +3094,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,7 +3105,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,7 +3116,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3231,7 +3221,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 154.94 58.42 90)
+		(at 62.23 38.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3241,7 +3231,7 @@
 		(dnp no)
 		(uuid "27f5ecbf-2e4d-49d7-b59b-a14474d406a2")
 		(property "Reference" "R43"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3251,7 +3241,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 57.15 90)
+			(at 67.31 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3261,7 +3251,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 58.42 0)
+			(at 62.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3272,7 +3262,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
-			(at 154.94 58.42 0)
+			(at 62.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3283,7 +3273,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 58.42 0)
+			(at 62.23 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3294,7 +3284,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 154.94 58.42 90)
+			(at 62.23 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3305,7 +3295,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 58.42 90)
+			(at 62.23 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3316,7 +3306,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 58.42 90)
+			(at 62.23 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3327,7 +3317,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 58.42 90)
+			(at 62.23 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3338,7 +3328,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +3339,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3350,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3371,7 +3361,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3372,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3383,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,7 +3394,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3405,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3416,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 151.13 57.15 90)
+			(at 58.42 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3437,7 +3427,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3448,7 +3438,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,7 +3449,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3470,7 +3460,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3471,7 @@
 			)
 		)
 		(property "Stock_Units" "9912210"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,7 +3482,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3503,7 +3493,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3514,7 +3504,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3525,7 +3515,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,7 +3526,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3547,7 +3537,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-0710KL.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,7 +3548,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +3559,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,7 +3570,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3581,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3602,7 +3592,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +3603,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +3614,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +3625,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3636,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3647,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3658,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,482 +3685,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 80.01 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4f47e000-0000-4000-8000-000000000047")
-		(property "Reference" "R51"
-			(at 77.47 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 85.09 59.69 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.01 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "${KIPRJMOD}/composants/pdf/R51_datasheet.pdf"
-			(at 80.01 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SDIO clock source-series damping resistor; fit 22R default, 0R option after SI validation"
-			(at 80.01 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 80.01 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 80.01 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0402FR-0722RL"
-			(at 80.01 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 80.01 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey URL" ""
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Specs" "22R ±1%, 0402 (1005), thick film"
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Unit Price EUR" ""
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Price Qty" ""
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price Checked" ""
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee"
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402 (1005 Metric)"
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly Option" "FIT 22R default; 0R allowed after SDIO edge/ringing validation"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint Audit" "Yageo RC0402FR-0722RL = 22 ohms, 1%, 0402 / 1005. Empreinte standard 0402; offre France non confirmee."
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 77.47 59.69 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_URL" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price_Checked" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price_Qty" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock_Units" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "Non confirme"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Order_Code" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_URL" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Unit_Price_EUR" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Component_PDF" "${KIPRJMOD}/composants/pdf/R51_datasheet.pdf"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet_URL" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0402FR-0722RL"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price_Basis" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock_Checked" ""
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Notes" "22 ohms selon Yageo; offre France non confirmee."
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier_Status" "Offre France non confirmee"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f47e000-0000-4000-8000-000000000048")
-		)
-		(pin "1"
-			(uuid "4f47e000-0000-4000-8000-000000000049")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/f6fdd950-a71d-4aac-93a8-c5aad57c018b"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 154.94 55.88 90)
+		(at 62.23 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4180,7 +3695,7 @@
 		(dnp no)
 		(uuid "5f0d0f8d-00ef-4265-a181-551d43e08c2e")
 		(property "Reference" "R42"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4190,7 +3705,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 54.61 90)
+			(at 67.31 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4200,7 +3715,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 55.88 0)
+			(at 62.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4211,7 +3726,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
-			(at 154.94 55.88 0)
+			(at 62.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +3737,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 55.88 0)
+			(at 62.23 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +3748,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 154.94 55.88 90)
+			(at 62.23 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,7 +3759,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 55.88 90)
+			(at 62.23 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4255,7 +3770,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 55.88 90)
+			(at 62.23 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +3781,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 55.88 90)
+			(at 62.23 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +3792,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4288,7 +3803,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4299,7 +3814,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,7 +3825,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +3836,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +3847,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +3858,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +3869,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +3880,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 151.13 54.61 90)
+			(at 58.42 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4376,7 +3891,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +3902,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +3913,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4409,7 +3924,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4420,7 +3935,7 @@
 			)
 		)
 		(property "Stock_Units" "9912210"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4431,7 +3946,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4442,7 +3957,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4453,7 +3968,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +3979,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4475,7 +3990,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +4001,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-0710KL.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4023,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4034,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4045,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4541,7 +4056,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4552,7 +4067,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,7 +4078,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4089,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +4100,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4111,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4122,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6056,7 +5571,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MICRO_SD__R_Small")
-		(at 154.94 66.04 90)
+		(at 62.23 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6066,7 +5581,7 @@
 		(dnp no)
 		(uuid "d0d3120b-68bf-4863-82e0-ee71eb2228f1")
 		(property "Reference" "R46"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6076,7 +5591,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 160.02 64.77 90)
+			(at 67.31 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6086,7 +5601,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 66.04 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6097,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/Yageo_RC.pdf"
-			(at 154.94 66.04 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +5623,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 154.94 66.04 0)
+			(at 62.23 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6119,7 +5634,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 154.94 66.04 90)
+			(at 62.23 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +5645,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 154.94 66.04 90)
+			(at 62.23 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6141,7 +5656,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-0710KL"
-			(at 154.94 66.04 90)
+			(at 62.23 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6152,7 +5667,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 66.04 90)
+			(at 62.23 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +5678,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6174,7 +5689,7 @@
 			)
 		)
 		(property "DigiKey Specs" "10K ±1%, 0402 (1005), thick film"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6185,7 +5700,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +5711,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +5722,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6218,7 +5733,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6229,7 +5744,7 @@
 			)
 		)
 		(property "Package" "0402 (1005 Metric)"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6240,7 +5755,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6251,7 +5766,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 151.13 64.77 90)
+			(at 58.42 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +5777,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6273,7 +5788,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6284,7 +5799,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6295,7 +5810,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,7 +5821,7 @@
 			)
 		)
 		(property "Stock_Units" "9912210"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6317,7 +5832,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +5843,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +5854,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/yageo/RC0402FR-0710KL/726523"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6350,7 +5865,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6361,7 +5876,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6372,7 +5887,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-0710KL.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6383,7 +5898,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +5909,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-10.0KLRCT-ND"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,7 +5920,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +5931,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6427,7 +5942,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +5953,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6449,7 +5964,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6460,7 +5975,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6471,7 +5986,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +5997,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MICRO_SD__R_Small"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6008,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at -92.71 -20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
