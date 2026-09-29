@@ -104,12 +104,15 @@
 
 
   (zone
+			(net 0)
+			(net_name "")
     (layer "F.Cu")
     (name "ICM-45686 under-package keepout")
     (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)
+			(filled_areas_thickness no)
     (keepout
       (tracks not_allowed)
       (vias not_allowed)

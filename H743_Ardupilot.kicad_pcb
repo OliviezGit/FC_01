@@ -46252,6 +46252,8 @@
 		)
 		
 		(zone
+			(net 0)
+			(net_name "")
 			(layer "F.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000001")
 			(name "OSC local keepout F")
@@ -46260,6 +46262,7 @@
 				(clearance 0)
 			)
 			(min_thickness 0.1)
+			(filled_areas_thickness no)
 			(keepout
 				(tracks allowed)
 				(vias not_allowed)
@@ -46284,6 +46287,8 @@
 		)
 		
 		(zone
+			(net 0)
+			(net_name "")
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-008000000002")
 			(name "OSC opposite-face keepout B")
@@ -46292,6 +46297,7 @@
 				(clearance 0)
 			)
 			(min_thickness 0.1)
+			(filled_areas_thickness no)
 			(keepout
 				(tracks not_allowed)
 				(vias not_allowed)
@@ -54231,6 +54237,8 @@
 			(uuid "37cafd24-adb6-4145-a744-8171ec14ef37")
 		)
 		(zone
+			(net 0)
+			(net_name "")
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-010000000010")
 			(name "LSM6DSV16X under-package keepout")
@@ -54239,6 +54247,7 @@
 				(clearance 0)
 			)
 			(min_thickness 0.1)
+			(filled_areas_thickness no)
 			(keepout
 				(tracks not_allowed)
 				(vias not_allowed)
@@ -62460,6 +62469,8 @@
 		
 
 		(zone
+			(net 0)
+			(net_name "")
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-090000000001")
 			(name "U9 BMI088 under-package keepout")
@@ -62468,6 +62479,7 @@
 				(clearance 0)
 			)
 			(min_thickness 0.1)
+			(filled_areas_thickness no)
 			(keepout
 				(tracks not_allowed)
 				(vias not_allowed)
@@ -77042,6 +77054,8 @@
 			(uuid "fa1210f4-4e11-4b25-b12c-2e148600485c")
 		)
 		(zone
+			(net 0)
+			(net_name "")
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-456860000001")
 			(name "ICM-45686 under-package keepout")
@@ -77050,6 +77064,7 @@
 				(clearance 0)
 			)
 			(min_thickness 0.1)
+			(filled_areas_thickness no)
 			(keepout
 				(tracks not_allowed)
 				(vias not_allowed)
@@ -92541,6 +92556,8 @@
 			(uuid "ac91a554-9560-4f27-bbe6-eb806e192ba5")
 		)
 		(zone
+			(net 0)
+			(net_name "")
 			(layer "B.Cu")
 			(uuid "7b2f6b9c-1d41-4e8a-98c0-581000000001")
 			(name "Bosch BMP581 under-package keepout")
@@ -92549,6 +92566,7 @@
 				(clearance 0)
 			)
 			(min_thickness 0.1)
+			(filled_areas_thickness no)
 			(keepout
 				(tracks not_allowed)
 				(vias not_allowed)

@@ -346,12 +346,15 @@
     (roundrect_rratio 0.25)
 			(solder_paste_margin -0.025))
   (zone
+			(net 0)
+			(net_name "")
     (layer "F.Cu")
     (name "U9 BMI088 under-package keepout")
     (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)
+			(filled_areas_thickness no)
     (keepout
       (tracks not_allowed)
       (vias not_allowed)

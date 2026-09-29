@@ -59,12 +59,15 @@
   
 
   (zone
+			(net 0)
+			(net_name "")
     (layer "B.Cu")
     (name "OSC opposite-face keepout B")
     (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)
+			(filled_areas_thickness no)
     (keepout
       (tracks not_allowed)
       (vias not_allowed)
@@ -82,12 +85,15 @@
       (pts
         (xy -2.3 -1.4) (xy 2.3 -1.4) (xy 2.3 1.4) (xy -2.3 1.4))))
   (zone
+			(net 0)
+			(net_name "")
     (layer "F.Cu")
     (name "OSC local keepout F")
     (hatch full 0.5)
     (connect_pads
       (clearance 0))
     (min_thickness 0.1)
+			(filled_areas_thickness no)
     (keepout
       (tracks allowed)
       (vias not_allowed)
