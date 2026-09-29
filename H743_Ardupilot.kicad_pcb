@@ -62271,10 +62271,10 @@
 			(net "unconnected-(U9-INT2-Pad1)")
 			(pinfunction "INT2_1")
 			(pintype "bidirectional+no_connect")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "46529320-803d-46d3-a107-ca127b0464a1")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "2" smd roundrect
 			(at -1 1.2625 180)
 			(size 0.25 0.675)
@@ -62283,10 +62283,10 @@
 			(net "GND")
 			(pinfunction "GNDA_2")
 			(pintype "passive")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "d694c495-1b6a-4074-85e9-60edb7afc3ad")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "3" smd roundrect
 			(at -0.5 1.2625 180)
 			(size 0.25 0.675)
@@ -62295,10 +62295,10 @@
 			(net "+3V3_SENS")
 			(pinfunction "VDD_3")
 			(pintype "power_in")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "6f375f06-34d9-449b-a261-e71bf79ce510")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "4" smd roundrect
 			(at 0 1.2625 180)
 			(size 0.25 0.675)
@@ -62307,10 +62307,10 @@
 			(net "GND")
 			(pinfunction "GNDA_4")
 			(pintype "power_in")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "852f8b8d-af61-4402-a9b0-6e4eb4bf01b7")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "5" smd roundrect
 			(at 0.5 1.2625 180)
 			(size 0.25 0.675)
@@ -62319,10 +62319,10 @@
 			(net "/MCU/IMU3_G_CS")
 			(pinfunction "~{CSB2}_5")
 			(pintype "input")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "e7446fe2-f0bc-4756-a03a-d17cbd69c82d")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "6" smd roundrect
 			(at 1 1.2625 180)
 			(size 0.25 0.675)
@@ -62331,10 +62331,10 @@
 			(net "GND")
 			(pinfunction "GNDIO_6")
 			(pintype "power_in")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "1ae69e7c-f7de-408e-971e-4dffb3230c97")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "7" smd roundrect
 			(at 1.5 1.2625 180)
 			(size 0.25 0.675)
@@ -62343,10 +62343,10 @@
 			(net "GND")
 			(pinfunction "PS_7")
 			(pintype "input")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "a19ec77d-6e1d-4dff-8139-0037fc974e4b")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "8" smd roundrect
 			(at 2.0125 0 180)
 			(size 0.675 0.25)
@@ -62355,10 +62355,10 @@
 			(net "/MCU/SPI3.SCLK")
 			(pinfunction "SCK/SCL_8")
 			(pintype "input")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "5ab6bc2b-dbba-42f9-9477-e67abfbc1b59")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "9" smd roundrect
 			(at 1.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62367,10 +62367,10 @@
 			(net "/MCU/SPI3.MOSI")
 			(pinfunction "SDI/SDA_9")
 			(pintype "bidirectional")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "1e82bd33-61d6-474f-8334-6e2073be20ff")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "10" smd roundrect
 			(at 1 -1.2625 180)
 			(size 0.25 0.675)
@@ -62379,10 +62379,10 @@
 			(net "/MCU/SPI3.MISO")
 			(pinfunction "SDO2_10")
 			(pintype "tri_state")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "db64c63f-f7d0-43d5-9a30-41d65d547795")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "11" smd roundrect
 			(at 0.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62391,10 +62391,10 @@
 			(net "+3V3_MCU")
 			(pinfunction "VDDIO_11")
 			(pintype "power_in")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "55df5619-b099-4b79-8af7-2febd95ed04c")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "12" smd roundrect
 			(at 0 -1.2625 180)
 			(size 0.25 0.675)
@@ -62403,10 +62403,10 @@
 			(net "unconnected-(U9-INT3-Pad12)")
 			(pinfunction "INT3_12")
 			(pintype "bidirectional+no_connect")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "63ccd41f-7da4-45d7-9a38-36a9d6dcb9ab")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "13" smd roundrect
 			(at -0.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62415,10 +62415,10 @@
 			(net "unconnected-(U9-INT4-Pad13)")
 			(pinfunction "INT4_13")
 			(pintype "bidirectional+no_connect")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "60615493-3119-4cbc-9658-f2b01dc1a827")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "14" smd roundrect
 			(at -1 -1.2625 180)
 			(size 0.25 0.675)
@@ -62427,10 +62427,10 @@
 			(net "/MCU/IMU3_A_CS")
 			(pinfunction "~{CSB1}_14")
 			(pintype "input")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "7ab9454f-48fb-4af9-835b-405e1778e43b")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "15" smd roundrect
 			(at -1.5 -1.2625 180)
 			(size 0.25 0.675)
@@ -62439,10 +62439,10 @@
 			(net "/MCU/SPI3.MISO")
 			(pinfunction "SDO1_15")
 			(pintype "tri_state")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "8b03b88e-24bb-4a6b-9b9b-236c23bf2b7f")
-		
-			(solder_mask_margin 0.05))
+		)
 		(pad "16" smd roundrect
 			(at -2.0125 0 180)
 			(size 0.675 0.25)
@@ -62451,10 +62451,10 @@
 			(net "unconnected-(U9-INT1-Pad16)")
 			(pinfunction "INT1_16")
 			(pintype "bidirectional+no_connect")
+			(solder_mask_margin 0.05)
 			(solder_paste_margin -0.025)
 			(uuid "cd5e19ae-c817-402f-a567-79a6ebe051d1")
-		
-			(solder_mask_margin 0.05))
+		)
 		(zone
 			(layer "B.Cu")
 			(uuid "cb8144e7-587c-402a-87b6-749fb802896a")

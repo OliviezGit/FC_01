@@ -7320,7 +7320,7 @@
 			)
 		)
 		(property "Value" "100n X7R"
-			(at 123.444 141.478 0)
+			(at 122.936 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
