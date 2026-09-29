@@ -1,0 +1,23 @@
+name: Temporary KiCad native DRC
+on:
+  push:
+    branches: [ main ]
+jobs:
+  drc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install KiCad nightly
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-dev-nightly
+          sudo apt-get update
+          sudo apt-get install -y kicad-nightly
+      - name: Run native PCB DRC
+        run: |
+          set +e
+          kicad-cli pcb drc --output drc_native.rpt H743_Ardupilot.kicad_pcb
+          rc=$?
+          echo "KICAD_DRC_RC=$rc"
+          echo "---- drc_native.rpt ----"
+          cat drc_native.rpt || true
+          exit $rc
