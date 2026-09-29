@@ -2,11 +2,11 @@
   (version 20211014)
   (generator pcbnew)
   (layer "F.Cu")
-  (tags "BMP581 Bosch-recommended-land-pattern BST-BMP581-DS004-13")
+  (tags "BMP581 Bosch-Sensortec manufacturer-recommended-land-pattern BST-BMP581-DS004-13 Fig32")
   (attr smd)
   (fp_text reference "REF**"
     (at 0 0 unlocked)
-    (layer F.SilkS)
+    (layer F.Fab)
     (effects
       (font
         (size 1 1)
@@ -48,113 +48,27 @@
     (layer "F.SilkS")
     (width 0)
     (fill solid))
-  (fp_line
-    (start -1.3081 1.3081)
-    (end -1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 0.631)
-    (end -1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 0.631)
-    (end -1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 -0.631)
-    (end -1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 -0.631)
-    (end -1.3081 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 -1.3081)
-    (end -0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 -1.3081)
-    (end -0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 -1.3081)
-    (end 0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 -1.3081)
-    (end 0.881 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 -1.3081)
-    (end 1.3081 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 1.3081)
-    (end 1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 0.631)
-    (end 1.3081 0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 0.631)
-    (end 1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 -0.631)
-    (end 1.3081 -0.631)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 1.3081 -0.631)
-    (end 1.3081 -1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -1.3081 1.3081)
-    (end -0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 1.3081)
-    (end -0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start -0.881 1.3081)
-    (end 0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 1.3081)
-    (end 0.881 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_line
-    (start 0.881 1.3081)
-    (end 1.3081 1.3081)
-    (layer "F.CrtYd")
-    (width 0.1524))
-  (fp_text user "*"
-    (at -1.535 -0.881 unlocked)
-    (layer "F.SilkS")
-    (effects
-      (font
-        (size 1 1)
-        (thickness 0.15))))
+  (fp_rect (start -1.3081 -1.3081) (end 1.3081 1.3081) (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (uuid "6ec43c5b-a602-48c5-9d5b-ed9fb0a14724"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   (fp_text user "*"
     (at -0.6206 -0.881 unlocked)
     (layer "F.Fab")
@@ -163,8 +77,8 @@
         (size 1 1)
         (thickness 0.15))))
   (fp_line
-    (start -1.0541 0.2159)
-    (end 0.2159 -1.0541)
+    (start -1.0 0.2159)
+    (end 0.2159 -1.0)
     (layer "F.Fab")
     (width 0.0254))
   (fp_line
@@ -188,23 +102,23 @@
     (layer "F.SilkS")
     (width 0.1524))
   (fp_line
-    (start -1.0541 1.0541)
-    (end 1.0541 1.0541)
+    (start -1.0 1.0)
+    (end 1.0 1.0)
     (layer "F.Fab")
     (width 0.0254))
   (fp_line
-    (start 1.0541 1.0541)
-    (end 1.0541 -1.0541)
+    (start 1.0 1.0)
+    (end 1.0 -1.0)
     (layer "F.Fab")
     (width 0.0254))
   (fp_line
-    (start 1.0541 -1.0541)
-    (end -1.0541 -1.0541)
+    (start 1.0 -1.0)
+    (end -1.0 -1.0)
     (layer "F.Fab")
     (width 0.0254))
   (fp_line
-    (start -1.0541 -1.0541)
-    (end -1.0541 1.0541)
+    (start -1.0 -1.0)
+    (end -1.0 1.0)
     (layer "F.Fab")
     (width 0.0254))
   (fp_line
@@ -229,43 +143,43 @@
     (width 0.1524))
   (pad "1" smd rect
     (at -0.7625 -0.25 90)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "2" smd rect
     (at -0.7625 0.25 90)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "3" smd rect
     (at -0.5 0.7625)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "4" smd rect
     (at 0 0.7625)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "5" smd rect
     (at 0.5 0.7625)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "6" smd rect
     (at 0.7625 0.25 90)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "7" smd rect
     (at 0.7625 -0.25 90)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "8" smd rect
     (at 0.5 -0.7625)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "9" smd rect
     (at 0 -0.7625)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "10" smd rect
     (at -0.5 -0.7625)
-    (size 0.3 0.325)
+    (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (fp_rect
     (start -1.1 -1.1)
@@ -274,4 +188,40 @@
       (width 0)
       (type default))
     (fill solid)
-    (layer "F.Mask")))
+    (layer "F.Mask"))
+
+
+
+
+  (zone
+    (layer "F.Cu")
+    (name "Bosch BMP581 under-package keepout")
+    (hatch edge 0.25)
+    (connect_pads
+      (clearance 0))
+    (min_thickness 0.1)
+    (keepout
+      (tracks not_allowed)
+      (vias not_allowed)
+      (pads allowed)
+      (copperpour not_allowed)
+      (footprints allowed))
+    (placement
+      (enabled no)
+      (sheetname ""))
+    (fill
+      (thermal_gap 0.3)
+      (thermal_bridge_width 0.3)
+      (island_removal_mode 0))
+    (polygon
+      (pts
+        (xy -1 -1) (xy 1 -1) (xy 1 1) (xy -1 1))))
+
+  (model "${KIPRJMOD}/composants/3d/BMP581_envelope.step"
+  (offset
+    (xyz 0 0 0))
+  (scale
+    (xyz 1 1 1))
+  (rotate
+    (xyz 0 0 0)))
+)

@@ -15787,7 +15787,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "Bosch BMP581 DS004-13 pp.46,68–69: pads haut/bas corrigés à 0.300 x 0.325 mm (extension 25 um autour de la terminaison). Ouverture masque sous corps 2.2 x 2.2; recommandation Bosch sans solder mask sous capteur. Contrôle fab/assemblage nécessaire."
+		(property "Footprint Audit" "Bosch BMP581 DS004-13 §8.2 / Fig.32: land pads 0.325 x 0.300 mm (6x + 4x, orientés selon le côté), pas 0.5 mm, span 1.525 mm; ouverture solder mask 2.2 x 2.2 mm; pas de vias ni pistes sous le capteur. Empreinte projet alignée sur le land pattern constructeur."
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)

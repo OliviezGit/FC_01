@@ -2,7 +2,7 @@
   (version 20211014)
   (generator pcbnew)
   (layer "F.Cu")
-  (tags "BMP581 Bosch-recommended-land-pattern BST-BMP581-DS004-13")
+  (tags "BMP581 Bosch-Sensortec manufacturer-recommended-land-pattern BST-BMP581-DS004-13 Fig32")
   (attr smd)
   (fp_text reference "REF**"
     (at 0 0 unlocked)
@@ -182,8 +182,8 @@
     (size 0.325 0.3)
     (layers "F.Cu" "F.Paste" "F.Mask"))
   (fp_rect
-    (start -1.02 -1.02)
-    (end 1.02 1.02)
+    (start -1.1 -1.1)
+    (end 1.1 1.1)
     (stroke
       (width 0)
       (type default))

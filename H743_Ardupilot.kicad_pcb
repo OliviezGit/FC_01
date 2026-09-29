@@ -91626,7 +91626,7 @@
 		(layer "B.Cu")
 		(uuid "d22ea7f0-5430-4ef3-b561-4b2196f6024f")
 		(at 97.5 104.2375 180)
-		(tags "BMP581 Bosch-recommended-land-pattern BST-BMP581-DS004-13")
+		(tags "BMP581 Bosch-Sensortec manufacturer-recommended-land-pattern BST-BMP581-DS004-13 Fig32")
 		(property "Reference" "U12"
 			(at 0 0 0)
 			(unlocked yes)
@@ -91817,7 +91817,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint Audit" "Bosch BMP581 DS004-13 pp.46,68–69: pads haut/bas corrigés à 0.300 x 0.325 mm (extension 25 um autour de la terminaison). Ouverture masque sous corps 2.2 x 2.2; recommandation Bosch sans solder mask sous capteur. Contrôle fab/assemblage nécessaire."
+		(property "Footprint Audit" "Bosch BMP581 DS004-13 §8.2 / Fig.32: land pads 0.325 x 0.300 mm (6x + 4x, orientés selon le côté), pas 0.5 mm, span 1.525 mm; ouverture solder mask 2.2 x 2.2 mm; pas de vias ni pistes sous le capteur. Empreinte projet alignée sur le land pattern constructeur."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -92266,8 +92266,8 @@
 			(uuid "5c567335-2ea7-45ff-ac94-97b0d95aca8f")
 		)
 		(fp_line
-			(start 1.0541 1.0541)
-			(end -1.0541 1.0541)
+			(start 1.0 1.0)
+			(end -1.0 1.0)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92276,8 +92276,8 @@
 			(uuid "1ef652d1-7af5-4609-81c9-439dcc023597")
 		)
 		(fp_line
-			(start 1.0541 -1.0541)
-			(end 1.0541 1.0541)
+			(start 1.0 -1.0)
+			(end 1.0 1.0)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92286,8 +92286,8 @@
 			(uuid "73684b92-5471-408d-a959-27acc206ed1b")
 		)
 		(fp_line
-			(start -1.0541 1.0541)
-			(end -1.0541 -1.0541)
+			(start -1.0 1.0)
+			(end -1.0 -1.0)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92296,8 +92296,8 @@
 			(uuid "18c6a754-0742-445e-85d8-aef7fd027de7")
 		)
 		(fp_line
-			(start -1.0541 -0.2159)
-			(end 0.2159 1.0541)
+			(start -1.0 -0.2159)
+			(end 0.2159 1.0)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92306,8 +92306,8 @@
 			(uuid "c040fee3-8ad6-46eb-a650-043d9d2f7367")
 		)
 		(fp_line
-			(start -1.0541 -1.0541)
-			(end 1.0541 -1.0541)
+			(start -1.0 -1.0)
+			(end 1.0 -1.0)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92368,7 +92368,7 @@
 		)
 		(pad "1" smd rect
 			(at -0.7625 0.25 90)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+3V3_MCU")
 			(pinfunction "VDDIO_1")
@@ -92377,7 +92377,7 @@
 		)
 		(pad "2" smd rect
 			(at -0.7625 -0.25 90)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/MCU/SPI2.SCLK")
 			(pinfunction "SCK_2")
@@ -92386,7 +92386,7 @@
 		)
 		(pad "3" smd rect
 			(at -0.5 -0.7625 180)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "VSS_3")
@@ -92395,7 +92395,7 @@
 		)
 		(pad "4" smd rect
 			(at 0 -0.7625 180)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/MCU/SPI2.MOSI")
 			(pinfunction "SDI_4")
@@ -92404,7 +92404,7 @@
 		)
 		(pad "5" smd rect
 			(at 0.5 -0.7625 180)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/MCU/SPI2.MISO")
 			(pinfunction "SDO_5")
@@ -92413,7 +92413,7 @@
 		)
 		(pad "6" smd rect
 			(at 0.7625 -0.25 90)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/MCU/SPI2.CS")
 			(pinfunction "CSB_6")
@@ -92422,7 +92422,7 @@
 		)
 		(pad "7" smd rect
 			(at 0.7625 0.25 90)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "INT_7")
@@ -92431,7 +92431,7 @@
 		)
 		(pad "8" smd rect
 			(at 0.5 0.7625 180)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "VSS_8")
@@ -92440,7 +92440,7 @@
 		)
 		(pad "9" smd rect
 			(at 0 0.7625 180)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GND")
 			(pinfunction "VSS_9")
@@ -92449,7 +92449,7 @@
 		)
 		(pad "10" smd rect
 			(at -0.5 0.7625 180)
-			(size 0.3 0.325)
+			(size 0.325 0.3)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "+3V3_SENS")
 			(pinfunction "VDD_10")
@@ -92483,7 +92483,7 @@
 			)
 			(polygon
 				(pts
-					(xy -7.7 -5.9625) (xy -5.7 -5.9625) (xy -5.7 -3.9625) (xy -7.7 -3.9625)
+					(xy -1 -1) (xy 1 -1) (xy 1 1) (xy -1 1)
 				)
 			)
 		)
