@@ -9,110 +9,6 @@
 		(date "2026-09-24")
 	)
 	(lib_symbols
-		(symbol "FC01_Project:ERC__POWER_SOURCE"
-			(power local)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files no)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ERC__POWER_SOURCE_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 3.81) (xy 1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ERC__POWER_SOURCE_1_1"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "Power_source"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FC01_Project:MCU__+3V3"
 			(power global)
 			(pin_numbers
@@ -4851,10 +4747,16 @@
 		(uuid "3b723744-e23e-426e-9526-d9388a7442a4")
 	)
 	(junction
-		(at 137.16 177.8)
+		(at 138.43 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ebce858-83fa-4492-b829-efe80f9e4798")
+	)
+	(junction
+		(at 184.15 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "487afad1-be17-4f4d-b5e7-4431b984c7da")
 	)
 	(junction
 		(at 57.15 148.59)
@@ -4893,7 +4795,7 @@
 		(uuid "8e15f5d9-f3ff-4ae5-8239-3fa0bcea1ddd")
 	)
 	(junction
-		(at 130.81 182.88)
+		(at 132.08 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fa8d41e-3006-4adf-a211-cfc618ba726b")
@@ -4903,6 +4805,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9023ca85-596e-49a0-84f5-a6305f9c95b6")
+	)
+	(junction
+		(at 143.51 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90783ff4-5036-484c-84ef-fece9e56ef50")
 	)
 	(junction
 		(at 133.35 24.13)
@@ -4933,12 +4841,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2608289-898a-44f2-9058-44c3ca3a637a")
-	)
-	(junction
-		(at 143.51 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3ba33e4-c62c-443c-b921-a3150d970a25")
 	)
 	(junction
 		(at 189.23 46.99)
@@ -5635,6 +5537,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 41.91) (xy 189.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018c8947-bd44-40d3-ba22-7e896d116ab3")
+	)
+	(wire
+		(pts
 			(xy 109.22 29.21) (xy 115.57 29.21)
 		)
 		(stroke
@@ -5725,6 +5637,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 44.45) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a481a85-973d-411f-a046-0ffada43b4a2")
+	)
+	(wire
+		(pts
 			(xy 36.83 93.98) (xy 46.99 93.98)
 		)
 		(stroke
@@ -5805,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 177.8) (xy 137.16 177.8)
+			(xy 132.08 167.64) (xy 138.43 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6165,7 +6087,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 177.8) (xy 143.51 177.8)
+			(xy 138.43 167.64) (xy 143.51 167.64)
 		)
 		(stroke
 			(width 0)
@@ -6645,16 +6567,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 44.45) (xy 176.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ac53474-274c-4c99-86ac-5c4d1334324f")
-	)
-	(wire
-		(pts
 			(xy 81.28 177.8) (xy 91.44 177.8)
 		)
 		(stroke
@@ -6775,7 +6687,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 182.88) (xy 130.81 185.42)
+			(xy 132.08 172.72) (xy 132.08 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6785,7 +6697,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 182.88) (xy 137.16 182.88)
+			(xy 132.08 172.72) (xy 138.43 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6802,16 +6714,6 @@
 			(type default)
 		)
 		(uuid "7f0ccbb3-920b-46be-b615-d2ea42412fd6")
-	)
-	(wire
-		(pts
-			(xy 143.51 177.8) (xy 143.51 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f16b58c-8606-4464-9260-c505c0f37f37")
 	)
 	(bus
 		(pts
@@ -7142,6 +7044,16 @@
 			(type default)
 		)
 		(uuid "a1d9daad-8d3a-4616-bfcc-c8c0020adc08")
+	)
+	(wire
+		(pts
+			(xy 184.15 39.37) (xy 184.15 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42f92ae-0e1e-42e9-8062-e9921c7a5736")
 	)
 	(wire
 		(pts
@@ -7895,7 +7807,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 41.91) (xy 189.23 41.91)
+			(xy 181.61 41.91) (xy 184.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9862,7 +9774,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MCU__C_Small")
-		(at 137.16 180.34 0)
+		(at 138.43 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9872,7 +9784,7 @@
 		(dnp no)
 		(uuid "0b5a4a9d-41c1-4871-803c-990e0bbfaef5")
 		(property "Reference" "C10"
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9883,7 +9795,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 138.43 181.61 0)
+			(at 139.7 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9894,7 +9806,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,7 +9817,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/TDK_C.pdf"
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9916,7 +9828,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9927,7 +9839,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +9850,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9949,7 +9861,7 @@
 			)
 		)
 		(property "MPN" "C1005X5R1C225M050BC"
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9960,7 +9872,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 137.16 180.34 0)
+			(at 138.43 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9971,7 +9883,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9982,7 +9894,7 @@
 			)
 		)
 		(property "DigiKey URL" ""
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9993,7 +9905,7 @@
 			)
 		)
 		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,7 +9916,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10015,7 +9927,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" ""
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10026,7 +9938,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +9949,7 @@
 			)
 		)
 		(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee"
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10048,7 +9960,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10059,7 +9971,7 @@
 			)
 		)
 		(property "Footprint Audit" "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +9982,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 138.43 179.07 0)
+			(at 139.7 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +9993,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10004,7 @@
 			)
 		)
 		(property "DigiKey_URL" ""
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10103,7 +10015,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10114,7 +10026,7 @@
 			)
 		)
 		(property "Price_Qty" "10"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10125,7 +10037,7 @@
 			)
 		)
 		(property "Stock_Units" "1310"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10048,7 @@
 			)
 		)
 		(property "Supplier" "Farnell France"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10147,7 +10059,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "2525017"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10158,7 +10070,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://fr.farnell.com/tdk/c1005x5r1c225m050bc/condensateur-2-2-f-16v-20-x5r/dp/2525017"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10169,7 +10081,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.104"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10180,7 +10092,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10191,7 +10103,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/C1005X5R1C225M050BC.pdf"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +10114,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10213,7 +10125,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10224,7 +10136,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10235,7 +10147,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10246,7 +10158,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10257,7 +10169,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,7 +10180,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Minimum et multiple 10; source indexee il y a 5 mois, stock actuel A RECONFIRMER; disponible jusqu a epuisement."
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10279,7 +10191,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10290,7 +10202,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MCU__C_Small"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +10213,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14632,7 +14544,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MCU__C_Small")
-		(at 130.81 180.34 0)
+		(at 132.08 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14642,7 +14554,7 @@
 		(dnp no)
 		(uuid "55e21ed5-5eb6-4039-90d9-3729d5e2bfd3")
 		(property "Reference" "C7"
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14653,7 +14565,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 132.08 181.61 0)
+			(at 133.35 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14664,7 +14576,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14675,7 +14587,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/TDK_C.pdf"
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14686,7 +14598,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14697,7 +14609,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14708,7 +14620,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14719,7 +14631,7 @@
 			)
 		)
 		(property "MPN" "C1005X5R1C225M050BC"
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14730,7 +14642,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 130.81 180.34 0)
+			(at 132.08 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14741,7 +14653,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14752,7 +14664,7 @@
 			)
 		)
 		(property "DigiKey URL" ""
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14763,7 +14675,7 @@
 			)
 		)
 		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14774,7 +14686,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14785,7 +14697,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" ""
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14796,7 +14708,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14807,7 +14719,7 @@
 			)
 		)
 		(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee"
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14818,7 +14730,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14829,7 +14741,7 @@
 			)
 		)
 		(property "Footprint Audit" "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14840,7 +14752,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 132.08 179.07 0)
+			(at 133.35 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14851,7 +14763,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14862,7 +14774,7 @@
 			)
 		)
 		(property "DigiKey_URL" ""
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14873,7 +14785,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14884,7 +14796,7 @@
 			)
 		)
 		(property "Price_Qty" "10"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14895,7 +14807,7 @@
 			)
 		)
 		(property "Stock_Units" "1310"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14906,7 +14818,7 @@
 			)
 		)
 		(property "Supplier" "Farnell France"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14917,7 +14829,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "2525017"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14928,7 +14840,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://fr.farnell.com/tdk/c1005x5r1c225m050bc/condensateur-2-2-f-16v-20-x5r/dp/2525017"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14939,7 +14851,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.104"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,7 +14862,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14961,7 +14873,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/C1005X5R1C225M050BC.pdf"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14972,7 +14884,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14983,7 +14895,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14994,7 +14906,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15005,7 +14917,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15016,7 +14928,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15027,7 +14939,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15038,7 +14950,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Minimum et multiple 10; source indexee il y a 5 mois, stock actuel A RECONFIRMER; disponible jusqu a epuisement."
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15049,7 +14961,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15060,7 +14972,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MCU__C_Small"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15071,7 +14983,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at 1.27 -10.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18506,80 +18418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FC01_Project:ERC__POWER_SOURCE")
-		(at 176.53 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "81d94666-8491-412d-856e-efb5756db143")
-		(property "Reference" "#FLG201"
-			(at 176.53 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 182.88 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fbf5133a-6248-4ead-8cbe-679432ea60d9")
-		)
-		(instances
-			(project "H743_Ardupilot"
-				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
-					(reference "#FLG201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FC01_Project:MCU__C_Small")
 		(at 109.22 72.39 0)
 		(unit 1)
@@ -19053,7 +18891,7 @@
 	)
 	(symbol
 		(lib_id "FC01_Project:MCU__GND")
-		(at 130.81 185.42 0)
+		(at 132.08 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19063,7 +18901,7 @@
 		(dnp no)
 		(uuid "86d8cfd4-aed4-4ba9-86a3-a2be1b9681ff")
 		(property "Reference" "#PWR018"
-			(at 130.81 191.77 0)
+			(at 132.08 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19074,7 +18912,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 189.23 0)
+			(at 132.08 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19084,7 +18922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 185.42 0)
+			(at 132.08 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19095,7 +18933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 185.42 0)
+			(at 132.08 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19106,7 +18944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 185.42 0)
+			(at 132.08 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21040,6 +20878,83 @@
 			(project "MCU"
 				(path "/dac36f26-6ddd-4279-ab20-a26c5ba5f958"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FC01_Project:MCU__+3V3")
+		(at 184.15 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0c1c0cf-581d-45a3-baf3-40cc967a1c16")
+		(property "Reference" "#PWR0128"
+			(at 184.15 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 184.15 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 184.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28de91d7-df5e-44ba-a8d5-364442380054")
+		)
+		(instances
+			(project "H743_Ardupilot"
+				(path "/6b768b36-fce6-4be0-9021-6d41bddc3a70/020f93d0-ab76-4c08-9373-958d923a454f"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)

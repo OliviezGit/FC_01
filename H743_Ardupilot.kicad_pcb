@@ -94,7 +94,7 @@
 	(footprint "H743_Custom:SolderPadArray_1x04_P2.54mm_1x1mm"
 		(layer "F.Cu")
 		(uuid "0365d212-f867-43ac-b3ca-1868ca10cb41")
-		(at 89 121)
+		(at 100 119)
 		(descr "4-pad solder-wire array, 2.54 mm pitch, 1.00 x 1.00 mm square SMD pads, no holes, no paste")
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J8"
@@ -7648,7 +7648,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU/VDDA")
+			(net "VDDA")
 			(pintype "passive")
 			(uuid "001f15d7-1dcf-4478-b474-0ddba65c5dc3")
 		)
@@ -8261,7 +8261,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU/VDDA")
+			(net "VDDA")
 			(pintype "passive")
 			(uuid "e5beadd0-4fef-4f2e-83e4-6af5444b683f")
 		)
@@ -14640,7 +14640,7 @@
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU/VDDA")
+			(net "VDDA")
 			(pinfunction "VREF+_20")
 			(pintype "input")
 			(uuid "157957fb-f884-4c4a-bf0e-dfb958371d94")
@@ -14650,7 +14650,7 @@
 			(size 1.6 0.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU/VDDA")
+			(net "VDDA")
 			(pinfunction "VDDA_21")
 			(pintype "power_in")
 			(uuid "0f1abed8-a98a-4ba9-b5a2-1115b346d50d")
@@ -17104,7 +17104,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5264572e-35d1-4ba5-8cf5-3d60146dc398")
-		(at 109.7 103.75 -90)
+		(at 105.5 103.5 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C40"
@@ -30711,7 +30711,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a97b996a-babc-4df6-9f3f-03ff98f3725d")
-		(at 91.5 113.5 -90)
+		(at 82 112.5 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -32501,7 +32501,7 @@
 			(size 0.59 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU/VDDA")
+			(net "VDDA")
 			(pintype "passive")
 			(uuid "56608ecd-1372-4f22-bde7-0b0ceb69aa0d")
 		)
@@ -35923,7 +35923,7 @@
 	(footprint "H743_Custom:SolderPadArray_1x03_P2.54mm_1x1mm"
 		(layer "F.Cu")
 		(uuid "c1fe576d-248e-45b0-af08-6822bda4bc19")
-		(at 101 119)
+		(at 91.5 119)
 		(descr "3-pad solder-wire array, 2.54 mm pitch, 1.00 x 1.00 mm square SMD pads, no holes, no paste")
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J10"
@@ -40394,12 +40394,6 @@
 		(path "/6670d797-9965-46e5-90bb-ab564d1e1d11/b2d2949c-172f-4372-afb6-b7cacdf6c2cc")
 		(sheetname "/UART_I2C/")
 		(sheetfile "UART_I2C.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42333,7 +42327,7 @@
 	(footprint "H743_Custom:SolderPadArray_1x03_P2.54mm_1x1mm"
 		(layer "F.Cu")
 		(uuid "db858826-ca0e-427f-8315-0c978b7d5be5")
-		(at 93.46 119)
+		(at 90 121)
 		(descr "3-pad solder-wire array, 2.54 mm pitch, 1.00 x 1.00 mm square SMD pads, no holes, no paste")
 		(tags "Matek style solder pads 2.54mm 1mm square wire")
 		(property "Reference" "J11"
@@ -45678,7 +45672,7 @@
 	(footprint "H743_Custom:Murata_CSTNE_3.2x1.3_P1.2mm"
 		(layer "F.Cu")
 		(uuid "f4b8d121-c82f-40b8-8249-b9f6db840409")
-		(at 94.8 93 180)
+		(at 98 93 180)
 		(descr "Murata CSTNE8M00GH5C000R0; JGC42-8858A p3; 0.4 x 1.9 mm lands at 1.2 mm pitch; pin 2 GND.")
 		(property "Reference" "Y1"
 			(at 0 -1.8 0)
@@ -46277,7 +46271,7 @@
 			)
 			(polygon
 				(pts
-					(xy -2 -1.1) (xy 2 -1.1) (xy 2 1.1) (xy -2 1.1)
+					(xy 1.2 -1.1) (xy 5.2 -1.1) (xy 5.2 1.1) (xy 1.2 1.1)
 				)
 			)
 		)
@@ -46308,7 +46302,7 @@
 			)
 			(polygon
 				(pts
-					(xy -2.3 -1.4) (xy 2.3 -1.4) (xy 2.3 1.4) (xy -2.3 1.4)
+					(xy 0.9 -1.4) (xy 5.5 -1.4) (xy 5.5 1.4) (xy 0.9 1.4)
 				)
 			)
 		)
@@ -46328,11 +46322,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f6b1f06f-77fc-4f0d-b112-83c89b629686")
-		(at 97.75 113.85 -90)
+		(at 101.15 112.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "3b979289-9126-47a3-b50b-4028bf84966d")
 			(effects
@@ -46343,7 +46337,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "F.Fab")
 			(uuid "d2b5df93-e4fa-439d-9db0-66558aa61333")
 			(effects
@@ -46354,7 +46348,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/TDK_C.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d2a4477-c4b4-4199-96cb-382545924538")
@@ -46365,7 +46359,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e5ee40dd-c9d1-4087-9fe3-b49d41c80520")
@@ -46376,7 +46370,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2f40364d-c314-4206-aa98-fd72c53957a2")
@@ -46388,7 +46382,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46401,7 +46395,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46414,7 +46408,7 @@
 			)
 		)
 		(property "MPN" "C1005X5R1C225M050BC"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46427,7 +46421,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46440,7 +46434,7 @@
 			)
 		)
 		(property "DigiKey Part Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46453,7 +46447,7 @@
 			)
 		)
 		(property "DigiKey URL" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46466,7 +46460,7 @@
 			)
 		)
 		(property "DigiKey Specs" "2.2 µF ±20%, 16 V, X5R, 0402"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46479,7 +46473,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46492,7 +46486,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46505,7 +46499,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46518,7 +46512,7 @@
 			)
 		)
 		(property "DigiKey Status" "Offre DigiKey France non retenue ou non confirmee"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46531,7 +46525,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46544,7 +46538,7 @@
 			)
 		)
 		(property "Footprint Audit" "TDK C1005: corps 1.0 x 0.5 mm, 2.2 uF 16 V X5R. Deux bornes non polarisées; pads KiCad 0402 conservés."
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46557,7 +46551,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46570,7 +46564,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46583,7 +46577,7 @@
 			)
 		)
 		(property "DigiKey_URL" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46596,7 +46590,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46609,7 +46603,7 @@
 			)
 		)
 		(property "Price_Qty" "10"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46622,7 +46616,7 @@
 			)
 		)
 		(property "Stock_Units" "1310"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46635,7 +46629,7 @@
 			)
 		)
 		(property "Supplier" "Farnell France"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46648,7 +46642,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "2525017"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46661,7 +46655,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://fr.farnell.com/tdk/c1005x5r1c225m050bc/condensateur-2-2-f-16v-20-x5r/dp/2525017"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46674,7 +46668,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.104"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46687,7 +46681,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46700,7 +46694,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/C1005X5R1C225M050BC.pdf"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46713,7 +46707,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46726,7 +46720,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46739,7 +46733,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46752,7 +46746,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46765,7 +46759,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46778,7 +46772,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46791,7 +46785,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Minimum et multiple 10; source indexee il y a 5 mois, stock actuel A RECONFIRMER; disponible jusqu a epuisement."
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46804,7 +46798,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46817,7 +46811,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:MCU__C_Small"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46830,7 +46824,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -46897,7 +46891,7 @@
 			(uuid "f7d92802-fdb6-4479-a96e-62b2ceedaaca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "793135a7-1b37-4ab6-b67a-f3ac2846ed1c")
 			(effects
@@ -46908,7 +46902,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 270)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -46917,7 +46911,7 @@
 			(uuid "f9aaaf40-f232-4489-baac-d3325ffd904f")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 270)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -49364,7 +49358,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/MCU/VDDA")
+			(net "VDDA")
 			(pintype "passive")
 			(uuid "a7013041-6220-40df-bc68-1313360c4c1f")
 		)
@@ -50047,7 +50041,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "0102b095-b3cb-402d-aaa1-3ffb63400696")
-		(at 93 106.5 180)
+		(at 93.75 106.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -53423,7 +53417,7 @@
 	(footprint "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 		(layer "B.Cu")
 		(uuid "109ea37d-a209-4f84-a022-a2c5dde16be7")
-		(at 104.9125 104 90)
+		(at 105.25 103.5 90)
 		(descr "LGA, 14 Pin (https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf)")
 		(tags "LGA NoLead")
 		(property "Reference" "U10"
@@ -56206,11 +56200,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "16d182ec-858a-4ea9-8f49-3eb5ecd64581")
-		(at 102.5 113.1 90)
+		(at 100.5 111.25)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C54"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "B.Fab")
 			(uuid "48c290af-3c94-4e72-ae85-0de913fce4b2")
 			(effects
@@ -56222,7 +56216,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "B.Fab")
 			(uuid "723df187-b3e0-4380-91ee-4b9a6c80cace")
 			(effects
@@ -56234,7 +56228,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8a0c99eb-08e4-455c-bc92-6762778fa040")
@@ -56246,7 +56240,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3bd05c24-5997-45e2-ac5c-23431137a89a")
@@ -56258,7 +56252,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6cef44e0-c34f-4b44-be08-ccafde21df42")
@@ -56271,7 +56265,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56285,7 +56279,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56299,7 +56293,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56313,7 +56307,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56327,7 +56321,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-1001-1-ND"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56341,7 +56335,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56355,7 +56349,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56369,7 +56363,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56383,7 +56377,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56397,7 +56391,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56411,7 +56405,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56425,7 +56419,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56439,7 +56433,7 @@
 			)
 		)
 		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56453,7 +56447,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56467,7 +56461,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56481,7 +56475,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56495,7 +56489,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56509,7 +56503,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56523,7 +56517,7 @@
 			)
 		)
 		(property "Stock_Units" "103052"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56537,7 +56531,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56551,7 +56545,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56565,7 +56559,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56579,7 +56573,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56593,7 +56587,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56607,7 +56601,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56621,7 +56615,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56635,7 +56629,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56649,7 +56643,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56663,7 +56657,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56677,7 +56671,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56691,7 +56685,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56705,7 +56699,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56719,7 +56713,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56733,7 +56727,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__C_Small"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56747,7 +56741,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -56815,7 +56809,7 @@
 			(uuid "dfacb4e6-6ac3-451b-a636-394a1b121100")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "918c8b17-75ca-4ab5-89ac-f01871cbd13d")
 			(effects
@@ -56827,7 +56821,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
+			(at -0.48 0)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -56836,7 +56830,7 @@
 			(uuid "ec42149b-90fe-4472-8247-8da078600c99")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
+			(at 0.48 0)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -57514,7 +57508,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "1a88c8fa-4731-44b6-badc-96b6ceb2b38e")
-		(at 100.5 111.6 180)
+		(at 100.75 118.25)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R38"
@@ -57579,7 +57573,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57593,7 +57587,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57607,7 +57601,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-074K7L"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57621,7 +57615,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57635,7 +57629,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57649,7 +57643,7 @@
 			)
 		)
 		(property "DigiKey Specs" "4.7 kΩ ±1%, 0.063 W, 0402"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57663,7 +57657,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57677,7 +57671,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57691,7 +57685,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57705,7 +57699,7 @@
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57719,7 +57713,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57733,7 +57727,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57747,7 +57741,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57761,7 +57755,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-4.7KLRCT-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57775,7 +57769,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57789,7 +57783,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57803,7 +57797,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57817,7 +57811,7 @@
 			)
 		)
 		(property "Stock_Units" "0"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57831,7 +57825,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57845,7 +57839,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-4.7KLRCT-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57859,7 +57853,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57873,7 +57867,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57887,7 +57881,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57901,7 +57895,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-074K7L.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57915,7 +57909,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57929,7 +57923,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-4.7KLRCT-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57943,7 +57937,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57957,7 +57951,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57971,7 +57965,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57985,7 +57979,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -57999,7 +57993,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -58013,7 +58007,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -58027,7 +58021,7 @@
 			)
 		)
 		(property "Supplier_Status" "Rupture au releve"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -58041,7 +58035,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__R_Small"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -58055,7 +58049,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -58081,16 +58075,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5b114ba0-8e08-4386-870c-b5f8e1c080a8")
-		)
-		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
 			(stroke
@@ -58099,6 +58083,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "3319f072-4a74-419f-91b6-a8d60603b875")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "5b114ba0-8e08-4386-870c-b5f8e1c080a8")
 		)
 		(fp_rect
 			(start -0.93 0.47)
@@ -58135,7 +58129,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 180)
+			(at -0.51 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -58144,7 +58138,7 @@
 			(uuid "cd2bad51-81b4-48e6-95fe-f17d3bb4c1a3")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 180)
+			(at 0.51 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -58760,7 +58754,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2cad24cb-6109-40e8-8080-4dcc173dd5a0")
-		(at 76.5 109.5 180)
+		(at 78.5 109.5 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -60722,7 +60716,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "384cd452-ebe3-4a23-a9ff-e65287855471")
-		(at 102.4125 104.5 90)
+		(at 102.75 104 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C51"
@@ -61376,7 +61370,7 @@
 	(footprint "Package_LGA:Bosch_LGA-16_4.5x3mm_P0.5mm_LayoutBorder7x1y_ClockwisePinNumbering"
 		(layer "B.Cu")
 		(uuid "3c017ac8-682c-4df6-9a88-a14a1291895a")
-		(at 94 109 180)
+		(at 94.25 109.25 180)
 		(descr "Bosch  LGA, 16 Pin (https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf#page=55)")
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U9"
@@ -62435,7 +62429,7 @@
 			)
 			(polygon
 				(pts
-					(xy -6.7 -2.75) (xy -3.7 -2.75) (xy -3.7 1.75) (xy -6.7 1.75)
+					(xy -6.45 -2.5) (xy -3.45 -2.5) (xy -3.45 2) (xy -6.45 2)
 				)
 			)
 		)
@@ -64735,7 +64729,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "69d64989-f10b-4e60-ada1-3b85f9b05028")
-		(at 98.5 111.6 180)
+		(at 100.75 117)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R37"
@@ -64800,7 +64794,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64814,7 +64808,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64828,7 +64822,7 @@
 			)
 		)
 		(property "MPN" "RC0402FR-074K7L"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64842,7 +64836,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64856,7 +64850,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64870,7 +64864,7 @@
 			)
 		)
 		(property "DigiKey Specs" "4.7 kΩ ±1%, 0.063 W, 0402"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64884,7 +64878,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64898,7 +64892,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64912,7 +64906,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64926,7 +64920,7 @@
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64940,7 +64934,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64954,7 +64948,7 @@
 			)
 		)
 		(property "Footprint Audit" "Document fabricant Yageo RC (hébergé DigiKey): famille RC0402, corps 1.0 x 0.5 mm, deux bornes non polarisées. Empreinte KiCad 0402 conservée; suffixe de commande et valeur issus du schéma, disponibilité non recontrôlée."
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64968,7 +64962,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64982,7 +64976,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "311-4.7KLRCT-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64996,7 +64990,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65010,7 +65004,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65024,7 +65018,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65038,7 +65032,7 @@
 			)
 		)
 		(property "Stock_Units" "0"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65052,7 +65046,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65066,7 +65060,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "311-4.7KLRCT-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65080,7 +65074,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/en/products/detail/yageo/RC0402FR-074K7L/2827563"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65094,7 +65088,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65108,7 +65102,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65122,7 +65116,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/RC0402FR-074K7L.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65136,7 +65130,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.mouser.com/datasheet/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65150,7 +65144,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-4.7KLRCT-ND"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65164,7 +65158,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Resistor_SMD.pretty/R_0402_1005Metric.kicad_mod"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65178,7 +65172,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/R_0402_1005Metric.step"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65192,7 +65186,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65206,7 +65200,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65220,7 +65214,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65234,7 +65228,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65248,7 +65242,7 @@
 			)
 		)
 		(property "Supplier_Status" "Rupture au releve"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65262,7 +65256,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__R_Small"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65276,7 +65270,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -65302,16 +65296,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8f69fed2-e381-4a61-bbea-056e25f9c1ae")
-		)
-		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
 			(stroke
@@ -65320,6 +65304,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "70655f6f-41db-4174-928a-e2157cf9d6b3")
+		)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "8f69fed2-e381-4a61-bbea-056e25f9c1ae")
 		)
 		(fp_rect
 			(start -0.93 0.47)
@@ -65356,7 +65350,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 180)
+			(at -0.51 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -65365,7 +65359,7 @@
 			(uuid "aa682d03-192b-48af-859c-9c1b5c5ed4a2")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 180)
+			(at 0.51 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -66043,7 +66037,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "717bbc53-f127-4a0c-aadf-ec0aeaae6fd3")
-		(at 95 102.975 90)
+		(at 99 104 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C53"
@@ -66108,7 +66102,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66122,7 +66116,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66136,7 +66130,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66150,7 +66144,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66164,7 +66158,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66178,7 +66172,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66192,7 +66186,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66206,7 +66200,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66220,7 +66214,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66234,7 +66228,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66248,7 +66242,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66262,7 +66256,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66276,7 +66270,7 @@
 			)
 		)
 		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66290,7 +66284,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66304,7 +66298,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66318,7 +66312,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66332,7 +66326,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66346,7 +66340,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66360,7 +66354,7 @@
 			)
 		)
 		(property "Stock_Units" "103052"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66374,7 +66368,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66388,7 +66382,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66402,7 +66396,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66416,7 +66410,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66430,7 +66424,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66444,7 +66438,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66458,7 +66452,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66472,7 +66466,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66486,7 +66480,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66500,7 +66494,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66514,7 +66508,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66528,7 +66522,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66542,7 +66536,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66556,7 +66550,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66570,7 +66564,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__C_Small"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66584,7 +66578,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -66610,16 +66604,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "9e5b0ca2-81bf-4e5f-8131-6d1aefb18389")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -66628,6 +66612,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "4075bb33-0b84-438a-b414-414861f5ca8a")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9e5b0ca2-81bf-4e5f-8131-6d1aefb18389")
 		)
 		(fp_rect
 			(start -0.91 0.46)
@@ -66664,7 +66658,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -66673,7 +66667,7 @@
 			(uuid "b5a6a709-be97-4348-add0-b4756433aa29")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -70191,7 +70185,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "8678e2d7-4114-4267-aa6d-84c14e9be875")
-		(at 93 105.5 180)
+		(at 93.75 105.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C49"
@@ -75013,7 +75007,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "90e99a2b-37c5-4807-ad82-c293002e4bb8")
-		(at 101.4125 102.5 -90)
+		(at 101.75 102 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
@@ -77004,7 +76998,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9fdadd0a-b043-4a04-a0b3-c002916d2502")
-		(at 96.5 101.975 180)
+		(at 97 102 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C56"
@@ -77658,7 +77652,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "a25616a5-db80-4ec1-a1e4-6513fa671799")
-		(at 103.5 113.1 90)
+		(at 103 113.25 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C55"
@@ -77723,7 +77717,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77737,7 +77731,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77751,7 +77745,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77765,7 +77759,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77779,7 +77773,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-1001-1-ND"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77793,7 +77787,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77807,7 +77801,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77821,7 +77815,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77835,7 +77829,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77849,7 +77843,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77863,7 +77857,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77877,7 +77871,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77891,7 +77885,7 @@
 			)
 		)
 		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77905,7 +77899,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77919,7 +77913,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77933,7 +77927,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77947,7 +77941,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77961,7 +77955,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77975,7 +77969,7 @@
 			)
 		)
 		(property "Stock_Units" "103052"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -77989,7 +77983,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78003,7 +77997,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78017,7 +78011,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78031,7 +78025,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78045,7 +78039,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78059,7 +78053,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78073,7 +78067,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78087,7 +78081,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78101,7 +78095,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78115,7 +78109,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78129,7 +78123,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78143,7 +78137,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78157,7 +78151,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78171,7 +78165,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78185,7 +78179,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__C_Small"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78199,7 +78193,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -78225,16 +78219,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "47739cbb-71fe-4f5b-8499-2f389149e21c")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -78243,6 +78227,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "44920807-cf01-4751-b1bd-54a8cc74c307")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "47739cbb-71fe-4f5b-8499-2f389149e21c")
 		)
 		(fp_rect
 			(start -0.91 0.46)
@@ -78279,7 +78273,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -78288,7 +78282,7 @@
 			(uuid "b5a18949-37c5-4332-b827-cf15e6b0786f")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -82236,11 +82230,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "b2661b3d-9da0-4471-b81a-6ecb47ae52ad")
-		(at 90.5 109 90)
+		(at 93 111.75 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C52"
-			(at 0 1.16 90)
+			(at 0 1.16 0)
 			(layer "B.SilkS")
 			(uuid "2498c7ac-06b1-4f32-87a9-f88df8d0d7ca")
 			(effects
@@ -82252,7 +82246,7 @@
 			)
 		)
 		(property "Value" "100n X7R"
-			(at 0 -1.16 90)
+			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "b7abc600-d004-4649-a533-1becc8f28d59")
 			(effects
@@ -82264,7 +82258,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL05B104KO5NNN.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9369b80c-beff-471e-9328-9e9acd8b6a0e")
@@ -82276,7 +82270,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "47c21ccd-5d2e-4ce9-81b6-a70209f790fa")
@@ -82288,7 +82282,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "129d7e6a-b3e4-4e73-a05a-71651d8516e9")
@@ -82301,7 +82295,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82315,7 +82309,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82329,7 +82323,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KO5NNNC"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82343,7 +82337,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82357,7 +82351,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82371,7 +82365,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82385,7 +82379,7 @@
 			)
 		)
 		(property "DigiKey Specs" "100 nF ±10%, 16 V, X7R, 0402"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82399,7 +82393,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82413,7 +82407,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82427,7 +82421,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82441,7 +82435,7 @@
 			)
 		)
 		(property "DigiKey Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82455,7 +82449,7 @@
 			)
 		)
 		(property "Package" "0402 (1005)"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82469,7 +82463,7 @@
 			)
 		)
 		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82483,7 +82477,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82497,7 +82491,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82511,7 +82505,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82525,7 +82519,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82539,7 +82533,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82553,7 +82547,7 @@
 			)
 		)
 		(property "Stock_Units" "103052"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82567,7 +82561,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82581,7 +82575,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "1276-1001-1-ND"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82595,7 +82589,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL05B104KO5NNNC/3889087"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82609,7 +82603,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "0.09"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82623,7 +82617,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82637,7 +82631,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL05B104KO5NNNC.pdf"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82651,7 +82645,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL05B104KO5NNN&type=specsheet"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82665,7 +82659,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0402_1005Metric.kicad_mod"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82679,7 +82673,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0402_1005Metric.step"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82693,7 +82687,7 @@
 			)
 		)
 		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82707,7 +82701,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82721,7 +82715,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82735,7 +82729,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82749,7 +82743,7 @@
 			)
 		)
 		(property "Supplier_Status" "Stock positif au releve"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82763,7 +82757,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__C_Small"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82777,7 +82771,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -82803,16 +82797,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "af88ed21-3192-4f70-b4f7-5e5ca1cf4e2e")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -82821,6 +82805,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "ac9ccb54-61c7-48da-b84b-0d016665181a")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "af88ed21-3192-4f70-b4f7-5e5ca1cf4e2e")
 		)
 		(fp_rect
 			(start -0.91 0.46)
@@ -82845,7 +82839,7 @@
 			(uuid "2dc00a07-d242-4151-87ff-9d3c936e9f3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "52ec64a2-b908-4264-b15b-1580cc611e48")
 			(effects
@@ -82857,7 +82851,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -82866,7 +82860,7 @@
 			(uuid "2bae5442-5f0b-4213-be37-3db8295b3961")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -87677,7 +87671,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "c083cad4-e6c0-4f5f-9cab-5741a01ca753")
-		(at 102.4125 106 180)
+		(at 102.75 105.5 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R36"
@@ -91625,7 +91619,7 @@
 	(footprint "H743_Custom:QFN10_BMP581_BOS"
 		(layer "B.Cu")
 		(uuid "d22ea7f0-5430-4ef3-b561-4b2196f6024f")
-		(at 97.5 104.2375 180)
+		(at 97 104 180)
 		(tags "BMP581 Bosch-Sensortec manufacturer-recommended-land-pattern BST-BMP581-DS004-13 Fig32")
 		(property "Reference" "U12"
 			(at 0 0 0)
@@ -92266,8 +92260,8 @@
 			(uuid "5c567335-2ea7-45ff-ac94-97b0d95aca8f")
 		)
 		(fp_line
-			(start 1.0 1.0)
-			(end -1.0 1.0)
+			(start 1 1)
+			(end -1 1)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92276,8 +92270,8 @@
 			(uuid "1ef652d1-7af5-4609-81c9-439dcc023597")
 		)
 		(fp_line
-			(start 1.0 -1.0)
-			(end 1.0 1.0)
+			(start 1 -1)
+			(end 1 1)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92286,8 +92280,8 @@
 			(uuid "73684b92-5471-408d-a959-27acc206ed1b")
 		)
 		(fp_line
-			(start -1.0 1.0)
-			(end -1.0 -1.0)
+			(start -1 1)
+			(end -1 -1)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92296,8 +92290,8 @@
 			(uuid "18c6a754-0742-445e-85d8-aef7fd027de7")
 		)
 		(fp_line
-			(start -1.0 -0.2159)
-			(end 0.2159 1.0)
+			(start -1 -0.2159)
+			(end 0.2159 1)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92306,8 +92300,8 @@
 			(uuid "c040fee3-8ad6-46eb-a650-043d9d2f7367")
 		)
 		(fp_line
-			(start -1.0 -1.0)
-			(end 1.0 -1.0)
+			(start -1 -1)
+			(end 1 -1)
 			(stroke
 				(width 0.0254)
 				(type solid)
@@ -92483,7 +92477,7 @@
 			)
 			(polygon
 				(pts
-					(xy -1 -1) (xy 1 -1) (xy 1 1) (xy -1 1)
+					(xy -1.5 -1.2375) (xy 0.5 -1.2375) (xy 0.5 0.7625) (xy -1.5 0.7625)
 				)
 			)
 		)
@@ -95119,10 +95113,10 @@
 	(footprint "H743_Custom:Infineon_DPS368_PG-VLGA-8-2"
 		(layer "B.Cu")
 		(uuid "d91c6191-112f-4fb7-a578-83964c9fc2b7")
-		(at 100 114 180)
+		(at 100.75 113.75 -90)
 		(descr "Infineon DPS368 v1.1 pp40-41; 0.65 mm pitch, 1.45 mm row spacing. SMD openings 0.35 mm square; copper extended 0.05 mm per side; separate circular 0.35 mm stencil openings.")
 		(property "Reference" "U13"
-			(at 0 3 0)
+			(at 0 3 90)
 			(layer "B.Fab")
 			(uuid "c4eb836c-89b1-491c-a3a2-6c558b5fc060")
 			(effects
@@ -95134,7 +95128,7 @@
 			)
 		)
 		(property "Value" "DPS368XTSA1"
-			(at 0 -3 0)
+			(at 0 -3 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "317f0ab3-3a65-4638-a9e9-433be7cbbea3")
@@ -95147,7 +95141,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}/composants/pdf/U13_datasheet.pdf"
-			(at 0 -3 0)
+			(at 0 -3 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "30bf75ba-a46f-4054-93b2-f227ea99a2f7")
@@ -95160,7 +95154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a057b785-5267-4a56-a48e-bea6b8bd7172")
@@ -95172,7 +95166,7 @@
 			)
 		)
 		(property "MPN" "DPS368XTSA1"
-			(at 0 -3 0)
+			(at 0 -3 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "34e84789-c6f5-4a31-b148-aa9cf7473689")
@@ -95185,7 +95179,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon Technologies"
-			(at 0 -3 0)
+			(at 0 -3 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "027cfa19-f594-49de-94b3-3660fc959b61")
@@ -95198,7 +95192,7 @@
 			)
 		)
 		(property "Package" "PG-VLGA-8 2.5x2.0 mm"
-			(at 0 -3 0)
+			(at 0 -3 90)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b6569868-e289-4d7c-bcc9-b3680e241766")
@@ -95211,7 +95205,7 @@
 			)
 		)
 		(property "LCSC Part" "C3232508"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95225,7 +95219,7 @@
 			)
 		)
 		(property "LCSC" "C3232508"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95239,7 +95233,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95253,7 +95247,7 @@
 			)
 		)
 		(property "DigiKey Specs" "Digital pressure sensor, I2C/SPI, 1.7–3.6 V, PG-VLGA-8"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95267,7 +95261,7 @@
 			)
 		)
 		(property "DigiKey Unit Price EUR" "2.31"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95281,7 +95275,7 @@
 			)
 		)
 		(property "DigiKey Price Qty" "1"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95295,7 +95289,7 @@
 			)
 		)
 		(property "Price Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95309,7 +95303,7 @@
 			)
 		)
 		(property "DigiKey Status" "Rupture au releve"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95323,7 +95317,7 @@
 			)
 		)
 		(property "Footprint Audit" "Infineon DPS368 v1.1 pp.6,40–41: PG-VLGA-8-2 2.5 x 2.0, pas 0.65, rangées 1.45. Fig.18: ouvertures masque carrées 0.35, stencil circulaire diamètre 0.35. Cuivre 0.45 carré et marge masque -0.05 sont un choix projet SMD; confirmer avec assembleur. Placement à terminer."
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95337,7 +95331,7 @@
 			)
 		)
 		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95351,7 +95345,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "DPS368XTSA1CT-ND"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95365,7 +95359,7 @@
 			)
 		)
 		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95379,7 +95373,7 @@
 			)
 		)
 		(property "Price_Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95393,7 +95387,7 @@
 			)
 		)
 		(property "Price_Qty" "1"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95407,7 +95401,7 @@
 			)
 		)
 		(property "Stock_Units" "0"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95421,7 +95415,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey France"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95435,7 +95429,7 @@
 			)
 		)
 		(property "Supplier_Order_Code" "DPS368XTSA1CT-ND"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95449,7 +95443,7 @@
 			)
 		)
 		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/infineon-technologies/DPS368XTSA1/10244079"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95463,7 +95457,7 @@
 			)
 		)
 		(property "Unit_Price_EUR" "2.31"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95477,7 +95471,7 @@
 			)
 		)
 		(property "Component_Class" "Composant achete"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95491,7 +95485,7 @@
 			)
 		)
 		(property "Component_PDF" "${KIPRJMOD}/composants/controle/DPS368XTSA1.pdf"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95505,7 +95499,7 @@
 			)
 		)
 		(property "Datasheet_URL" "https://www.infineon.com/dgdl/Infineon-DPS368-DataSheet-v01_01-EN.pdf?fileId=5546d46269e1c019016a0c45105d4b40"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95519,7 +95513,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "DPS368XTSA1CT-ND"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95533,7 +95527,7 @@
 			)
 		)
 		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/footprints.pretty/Infineon_DPS368_PG-VLGA-8-2.kicad_mod"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95547,7 +95541,7 @@
 			)
 		)
 		(property "Model_3D" "${KIPRJMOD}/composants/3d/DPS368_envelope.step"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95561,7 +95555,7 @@
 			)
 		)
 		(property "Model_3D_Type" "ENVELOPPE RECONSTRUITE: volume du boitier uniquement; contacts et tolerances non representes"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95575,7 +95569,7 @@
 			)
 		)
 		(property "Price_Basis" "EUR HT par piece, hors port"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95589,7 +95583,7 @@
 			)
 		)
 		(property "Stock_Checked" "2026-09-27"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95603,7 +95597,7 @@
 			)
 		)
 		(property "Supplier_Notes" "Relevé web; stock et prix variables."
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95617,7 +95611,7 @@
 			)
 		)
 		(property "Supplier_Status" "Rupture au releve"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95631,7 +95625,7 @@
 			)
 		)
 		(property "Symbol_ID" "FC01_Project:SENSORS__DPS368XTSA1_1"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95645,7 +95639,7 @@
 			)
 		)
 		(property "Symbol_Library_File" "${KIPRJMOD}/composants/kicad/FC01_Project.kicad_sym"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95703,55 +95697,55 @@
 			(uuid "5118f2bd-4d2c-48fc-a0d5-f3582c6d904e")
 		)
 		(pad "" smd circle
-			(at -0.975 -0.725 180)
+			(at -0.975 -0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "4226a746-3f7e-45fe-8886-f4d0c840f2b4")
 		)
 		(pad "" smd circle
-			(at -0.975 0.725 180)
+			(at -0.975 0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "5fbbd06c-36cc-455a-a6e4-ac344670e4c5")
 		)
 		(pad "" smd circle
-			(at -0.325 -0.725 180)
+			(at -0.325 -0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "34905d36-5516-4bb6-a5ac-066256c740c1")
 		)
 		(pad "" smd circle
-			(at -0.325 0.725 180)
+			(at -0.325 0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "4293d764-a363-4270-b402-252160a13a34")
 		)
 		(pad "" smd circle
-			(at 0.325 -0.725 180)
+			(at 0.325 -0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "903cefef-b8d7-4416-a40d-e7a7e4b95732")
 		)
 		(pad "" smd circle
-			(at 0.325 0.725 180)
+			(at 0.325 0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "658b35e7-c408-41bb-a85d-1b2e592307dd")
 		)
 		(pad "" smd circle
-			(at 0.975 -0.725 180)
+			(at 0.975 -0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "e6ef41c1-6f89-4df5-98f9-a7f7bea8764e")
 		)
 		(pad "" smd circle
-			(at 0.975 0.725 180)
+			(at 0.975 0.725 270)
 			(size 0.35 0.35)
 			(layers "B.Paste")
 			(uuid "d1f4e303-d467-4545-871a-3aeabe5a4d58")
 		)
 		(pad "1" smd rect
-			(at -0.975 0.725 180)
+			(at -0.975 0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
@@ -95761,7 +95755,7 @@
 			(uuid "524e2375-f485-477d-96f0-d953d6798249")
 		)
 		(pad "2" smd rect
-			(at -0.325 0.725 180)
+			(at -0.325 0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "+3V3_MCU")
@@ -95771,7 +95765,7 @@
 			(uuid "e4a6ca2d-890b-454a-a040-e2b7706b8efd")
 		)
 		(pad "3" smd rect
-			(at 0.325 0.725 180)
+			(at 0.325 0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "/MCU/I2C2.SDA")
@@ -95781,7 +95775,7 @@
 			(uuid "3b920e61-9384-40be-9ef7-86beac908763")
 		)
 		(pad "4" smd rect
-			(at 0.975 0.725 180)
+			(at 0.975 0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "/MCU/I2C2.SCL")
@@ -95791,7 +95785,7 @@
 			(uuid "faa04d46-a422-4b14-8a88-b280521b2b2e")
 		)
 		(pad "5" smd rect
-			(at 0.975 -0.725 180)
+			(at 0.975 -0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "unconnected-(U13-SDO-Pad5)")
@@ -95801,7 +95795,7 @@
 			(uuid "fe72958c-a4a1-4842-99c7-ef9521118dd8")
 		)
 		(pad "6" smd rect
-			(at 0.325 -0.725 180)
+			(at 0.325 -0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "+3V3_MCU")
@@ -95811,7 +95805,7 @@
 			(uuid "6c972e36-7aae-472b-991b-a6add2947c63")
 		)
 		(pad "7" smd rect
-			(at -0.325 -0.725 180)
+			(at -0.325 -0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
@@ -95821,7 +95815,7 @@
 			(uuid "f92502d7-c0eb-4267-a7e4-15ada7544b2b")
 		)
 		(pad "8" smd rect
-			(at -0.975 -0.725 180)
+			(at -0.975 -0.725 270)
 			(size 0.45 0.45)
 			(layers "B.Cu" "B.Mask")
 			(net "+3V3_SENS")
@@ -101233,7 +101227,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "f3a74aaf-85f4-4513-a357-8bae0dfa3bd5")
-		(at 102.4125 102.5 -90)
+		(at 102.75 102 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C48"
