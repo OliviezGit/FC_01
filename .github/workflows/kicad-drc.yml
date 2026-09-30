@@ -1,4 +1,4 @@
-name: KiCad 10 DRC
+name: KiCad 10 DRC + Autoroute
 
 on:
   push:
@@ -10,31 +10,90 @@ on:
       - '.github/workflows/kicad-drc.yml'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   drc:
     runs-on: ubuntu-24.04
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Install KiCad 10
+      - name: Install KiCad 10 and Java
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
           sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends kicad
+          sudo apt-get install --yes --no-install-recommends kicad openjdk-25-jre-headless curl
           kicad-cli --version
+          java -version
 
-      - name: Run PCB DRC
+      - name: Run baseline PCB DRC
         run: |
           set +e
-          kicad-cli pcb drc --output drc_ci.rpt --exit-code-violations H743_Ardupilot.kicad_pcb
-          rc=$?
-          echo "DRC_EXIT_CODE=$rc" >> "$GITHUB_ENV"
-          cat drc_ci.rpt
-          exit 0
+          kicad-cli pcb drc --output drc_before.rpt H743_Ardupilot.kicad_pcb
+          set -e
+          cat drc_before.rpt
 
-      - name: Upload DRC report
+      - name: Download Freerouting 2.4.1
+        run: |
+          curl -L --fail --retry 3 -o freerouting.jar https://github.com/freerouting/freerouting/releases/download/v2.4.1/freerouting-2.4.1.jar
+
+      - name: Export DSN
+        run: |
+          python3 - <<'PY'
+          import pcbnew
+          board = pcbnew.LoadBoard("H743_Ardupilot.kicad_pcb")
+          ok = pcbnew.ExportSpecctraDSN(board, "freerouting.dsn")
+          print("Export DSN:", ok)
+          if not ok:
+              raise SystemExit(2)
+          PY
+
+      - name: Autoroute
+        run: |
+          java -jar freerouting.jar -de freerouting.dsn -do freerouting.ses -host KiCad --gui.enabled=false --api_server.enabled=false --mcp_server.enabled=false
+          test -s freerouting.ses
+
+      - name: Import SES
+        run: |
+          python3 - <<'PY'
+          import pcbnew
+          board = pcbnew.LoadBoard("H743_Ardupilot.kicad_pcb")
+          ok = pcbnew.ImportSpecctraSES(board, "freerouting.ses")
+          print("Import SES:", ok)
+          if not ok:
+              raise SystemExit(3)
+          pcbnew.SaveBoard("H743_Ardupilot.kicad_pcb", board)
+          PY
+
+      - name: Run PCB DRC after route
+        run: |
+          set +e
+          kicad-cli pcb drc --output drc_after.rpt H743_Ardupilot.kicad_pcb
+          set -e
+          cat drc_after.rpt
+
+      - name: Commit routed PCB
+        run: |
+          git config user.name "OliviezGit"
+          git config user.email "35251767+OliviezGit@users.noreply.github.com"
+          git add H743_Ardupilot.kicad_pcb
+          if ! git diff --cached --quiet; then
+            git commit -m "PCB: autoroute with KiCad 10 and Freerouting 2.4.1"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload reports
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: kicad-drc-report
-          path: drc_ci.rpt
+          name: kicad-routing-reports
+          path: |
+            drc_before.rpt
+            drc_after.rpt
+            freerouting.dsn
+            freerouting.ses
