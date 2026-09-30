@@ -1,0 +1,40 @@
+name: KiCad 10 DRC
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'H743_Ardupilot.kicad_pcb'
+      - 'H743_Ardupilot.kicad_pro'
+      - 'H743_Ardupilot.kicad_dru'
+      - '.github/workflows/kicad-drc.yml'
+  workflow_dispatch:
+
+jobs:
+  drc:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install KiCad 10
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends kicad
+          kicad-cli --version
+
+      - name: Run PCB DRC
+        run: |
+          set +e
+          kicad-cli pcb drc --output drc_ci.rpt --exit-code-violations H743_Ardupilot.kicad_pcb
+          rc=$?
+          echo "DRC_EXIT_CODE=$rc" >> "$GITHUB_ENV"
+          cat drc_ci.rpt
+          exit 0
+
+      - name: Upload DRC report
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-drc-report
+          path: drc_ci.rpt
