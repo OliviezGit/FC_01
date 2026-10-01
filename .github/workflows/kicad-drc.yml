@@ -23,13 +23,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install KiCad 10 and Java
+      - name: Install KiCad 10
         run: |
           sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
           sudo apt-get update
-          sudo apt-get install --yes --no-install-recommends kicad openjdk-25-jre-headless curl
+          sudo apt-get install --yes --no-install-recommends kicad curl
           kicad-cli --version
-          java -version
+
+      - name: Set up Java 25
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - name: Verify Java
+        run: java -version
 
       - name: Run baseline PCB DRC
         run: |
