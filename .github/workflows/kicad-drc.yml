@@ -97,3 +97,4 @@ jobs:
             drc_after.rpt
             freerouting.dsn
             freerouting.ses
+# rerun autoroute from c0a602b
