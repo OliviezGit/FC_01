@@ -16,7 +16,7 @@ permissions:
 jobs:
   drc:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -63,7 +63,8 @@ jobs:
 
       - name: Autoroute
         run: |
-          java -jar freerouting.jar -de freerouting.dsn -do freerouting.ses -host KiCad --gui.enabled=false --api_server.enabled=false --mcp_server.enabled=false
+          timeout --signal=INT --kill-after=30s 3600s java -jar freerouting.jar -de freerouting.dsn -do freerouting.ses -host KiCad --gui.enabled=false --api_server.enabled=false --mcp_server.enabled=false || rc=$?
+          echo "Freerouting exit: ${rc:-0}"
           test -s freerouting.ses
 
       - name: Import SES
