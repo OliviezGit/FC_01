@@ -1,5 +1,9 @@
 # Dossier composants FC_01
 
+## Ajout de bibliothèque du 04/10/2026
+
+Le symbole exact `H743_Ardupilot:LMR604305SRAKRQ1`, son empreinte dédiée `H743_Custom:TI_RAK0009A_WQFN-HR-9_2.5x2.0mm_LMR604305` et le STEP RAK0009A fourni sont disponibles dans les bibliothèques actives. [Comparaison du ZIP, corrections et contrôles](kicad/LMR604305SRAKRQ1_IMPORT.md). Cet ajout ne remplace aucun composant placé et ne modifie pas la nomenclature du circuit existant.
+
 Contrôle du 27 septembre 2026. **Le dossier est complet pour la présence des fichiers, mais la fabrication et l'approvisionnement ne sont pas entièrement validés.**
 
 - [Rapport PDF complet](controle/CONTROLE_COMPLET.pdf) : 114 pages, empreintes, vues 3D, variantes de symboles et éléments PCB.
