@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 2,
-    "active_layer_preset": "UP",
+    "active_layer_preset": "Down",
     "auto_track_width": true,
     "hidden_netclasses": [
       "CAN_BUS",
@@ -169,7 +169,9 @@
       "unconnected-(U6-ADJ{slash}NC-Pad3)",
       "unconnected-(U6-NC-Pad6)",
       "unconnected-(U6-NC-Pad7)",
-      "unconnected-(U13-SDO-Pad5)"
+      "unconnected-(U13-SDO-Pad5)",
+      "/MCU/VDDA",
+      "Net-(U4-MODE/SYNC)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -219,12 +221,12 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "00000000_00000000_00000000_82002207",
+    "visible_layers": "00000000_00000000_00000000_aa00880c",
     "zone_display_mode": 0
   },
   "git": {
     "integration_disabled": false,
-    "repo_type": "",
+    "repo_type": "https",
     "repo_username": "",
     "ssh_key": ""
   },

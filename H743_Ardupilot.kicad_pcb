@@ -22162,7 +22162,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "78dcf5a1-1809-45b4-8af8-6a5b43eb4d35")
-		(at 83.25 114.4 90)
+		(at 84 114.5 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C18"
@@ -34789,7 +34789,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "be4904b2-39df-44b0-acd4-a9926407045a")
-		(at 80 113.6 90)
+		(at 79.5 113 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C26"
@@ -43463,7 +43463,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "dda70a37-687e-44a4-8563-0506cadf8bb1")
-		(at 81 114.5 -90)
+		(at 81.5 115.5 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -103316,6 +103316,38 @@
 		(uuid "db8cff74-6526-4775-b861-c58f884936e4")
 	)
 	(segment
+		(start 87.8075 115.2425)
+		(end 88.3375 115.2425)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT")
+		(uuid "1b2b79b7-1b43-4dc0-8203-d37a6292f290")
+	)
+	(segment
+		(start 79.4 98.35)
+		(end 79.6386 98.5886)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT")
+		(uuid "22cf4e76-9e04-4f96-8e01-08968bd00028")
+	)
+	(segment
+		(start 79.6386 98.5886)
+		(end 79.6386 98.9768)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT")
+		(uuid "608e8195-6fa5-48c9-a628-10fdbb06b6df")
+	)
+	(segment
+		(start 87.625 115.425)
+		(end 87.8075 115.2425)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "VBAT")
+		(uuid "877da2fb-eeab-4f87-96a1-0eca91a83d65")
+	)
+	(segment
 		(start 81 106)
 		(end 81 103.3)
 		(width 1.5)
@@ -103346,6 +103378,14 @@
 		(layer "B.Cu")
 		(net "VBAT")
 		(uuid "eca3567d-d1e8-48ce-bf16-0ecf2f272235")
+	)
+	(segment
+		(start 89.25 96.075)
+		(end 88.75 96.075)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "VDDA")
+		(uuid "fa7b14ae-105d-41b1-8a2b-e6c95b686116")
 	)
 	(segment
 		(start 93.5 88)
@@ -103660,6 +103700,22 @@
 		(uuid "e09d9d69-388f-429e-94da-b0de114faa81")
 	)
 	(segment
+		(start 86.8625 115.0125)
+		(end 86.8625 115.6125)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U4-MODE{slash}SYNC)")
+		(uuid "49ee7dfa-79bd-49a4-a55e-9fdb2b199d3f")
+	)
+	(segment
+		(start 86.675 114.825)
+		(end 86.8625 115.0125)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U4-MODE{slash}SYNC)")
+		(uuid "c4303c4f-ce6e-4237-b0cb-ddae9a15f83d")
+	)
+	(segment
 		(start 80 97.5)
 		(end 81.99 97.5)
 		(width 0.15)
@@ -103835,67 +103891,6 @@
 		(net "/USB_OTG.DN")
 		(uuid "c261c54f-9090-4715-9c35-d412e631483d")
 	)
-
-
-
-
-	(segment
-		(start 89.25 96.075)
-		(end 88.75 96.075)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/MCU/VDDA")
-		(uuid "fa7b14ae-105d-41b1-8a2b-e6c95b686116")
-	)
-	(segment
-		(start 79.4 98.35)
-		(end 79.6386 98.5886)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT")
-		(uuid "22cf4e76-9e04-4f96-8e01-08968bd00028")
-	)
-	(segment
-		(start 79.6386 98.5886)
-		(end 79.6386 98.9768)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT")
-		(uuid "608e8195-6fa5-48c9-a628-10fdbb06b6df")
-	)
-	(segment
-		(start 87.625 115.425)
-		(end 87.8075 115.2425)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT")
-		(uuid "877da2fb-eeab-4f87-96a1-0eca91a83d65")
-	)
-	(segment
-		(start 87.8075 115.2425)
-		(end 88.3375 115.2425)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "VBAT")
-		(uuid "1b2b79b7-1b43-4dc0-8203-d37a6292f290")
-	)
-	(segment
-		(start 86.675 114.825)
-		(end 86.8625 115.0125)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(U4-MODE/SYNC)")
-		(uuid "c4303c4f-ce6e-4237-b0cb-ddae9a15f83d")
-	)
-	(segment
-		(start 86.8625 115.0125)
-		(end 86.8625 115.6125)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(U4-MODE/SYNC)")
-		(uuid "49ee7dfa-79bd-49a4-a55e-9fdb2b199d3f")
-	)
-
 	(zone
 		(net "GND")
 		(layer "In1.Cu")
