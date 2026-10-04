@@ -12421,7 +12421,54 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Tension nominale" "35 V"
+			(at 99.06 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectrique" "X7R"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "MPN_Status" "Reference et caracteristiques confirmees sur la fiche Samsung du 24/09/2025"
+			(at 99.06 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 97.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12432,7 +12479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/composants/pdf/CL21A226MAYNNN.pdf"
+		(property "Datasheet" "https://product.samsungsem.com/part/download.do?masterKey=CL32B226KLV6PJ&type=specsheet"
 			(at 97.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12443,7 +12490,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Condensateur ceramique MLCC non polarise, 22 µF ±10%, 35 V, X7R (-55 a +125 °C), 1210 (3.2 x 2.5 mm), AEC-Q200, terminaisons souples a haute tenue en flexion."
 			(at 97.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12476,7 +12523,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A226MAYNNNE"
+		(property "MPN" "CL32B226KLV6PJE"
 			(at 97.79 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12498,7 +12545,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "DigiKey Part Number" ""
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12509,7 +12556,7 @@
 				)
 			)
 		)
-		(property "DigiKey URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL21A226MAYNNNE/10479857"
+		(property "DigiKey URL" ""
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12520,7 +12567,7 @@
 				)
 			)
 		)
-		(property "DigiKey Specs" "22 µF ±20%, 25 V, X5R, 0805"
+		(property "DigiKey Specs" "22 µF ±10%, 35 V, X7R, 1210; caracteristiques confirmees par Samsung"
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12531,7 +12578,7 @@
 				)
 			)
 		)
-		(property "DigiKey Unit Price EUR" "0.27"
+		(property "DigiKey Unit Price EUR" ""
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12589,7 @@
 				)
 			)
 		)
-		(property "DigiKey Price Qty" "1"
+		(property "DigiKey Price Qty" ""
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12553,7 +12600,7 @@
 				)
 			)
 		)
-		(property "Price Checked" "2026-09-27"
+		(property "Price Checked" ""
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12564,7 +12611,7 @@
 				)
 			)
 		)
-		(property "DigiKey Status" "Rupture au releve"
+		(property "DigiKey Status" "Reference identifiee; prix et stock non releves"
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12575,7 +12622,7 @@
 				)
 			)
 		)
-		(property "Package" "0805 (2012), max H 1.45 mm"
+		(property "Package" "1210 (3225 metric), 3.20±0.40 x 2.50+0.35/-0.30 mm, max H 2.85 mm"
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12586,7 +12633,7 @@
 				)
 			)
 		)
-		(property "Footprint Audit" "Fiche famille Samsung: code CL05=0402, CL10=0603, CL21=0805; deux bornes non polarisées. Pads KiCad conservés; plan de sérigraphie/stencil à valider avec assembleur."
+		(property "Footprint Audit" "Samsung CL32B226KLV6PJE: fiche fabricant du 24/09/2025, 22 µF ±10%, 35 V, X7R, 1210. Empreinte KiCad generique 1210, deux bornes non polarisees; plan de soudure et assemblage a valider."
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12597,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Library Audit" "Fichiers locaux; voir Component_PDF et verification/REPORT.md"
+		(property "Library Audit" "Empreinte et STEP generiques 1210 locaux; fiche technique Samsung accessible via Datasheet. Ancien PDF de controle et ancienne offre CL21A226 retires de cette instance."
 			(at 99.06 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12608,7 +12655,7 @@
 				)
 			)
 		)
-		(property "DigiKey_Part_Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "DigiKey_Part_Number" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12619,7 +12666,7 @@
 				)
 			)
 		)
-		(property "DigiKey_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL21A226MAYNNNE/10479857"
+		(property "DigiKey_URL" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12630,7 +12677,7 @@
 				)
 			)
 		)
-		(property "Price_Checked" "2026-09-27"
+		(property "Price_Checked" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12641,7 +12688,7 @@
 				)
 			)
 		)
-		(property "Price_Qty" "1"
+		(property "Price_Qty" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12652,7 +12699,7 @@
 				)
 			)
 		)
-		(property "Stock_Units" "0"
+		(property "Stock_Units" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12663,7 +12710,7 @@
 				)
 			)
 		)
-		(property "Supplier" "DigiKey France"
+		(property "Supplier" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12674,7 +12721,7 @@
 				)
 			)
 		)
-		(property "Supplier_Order_Code" "1276-CL21A226MAYNNNECT-ND"
+		(property "Supplier_Order_Code" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12685,7 +12732,7 @@
 				)
 			)
 		)
-		(property "Supplier_URL" "https://www.digikey.fr/fr/products/detail/samsung-electro-mechanics/CL21A226MAYNNNE/10479857"
+		(property "Supplier_URL" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12696,7 +12743,7 @@
 				)
 			)
 		)
-		(property "Unit_Price_EUR" "0.27"
+		(property "Unit_Price_EUR" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12718,7 +12765,7 @@
 				)
 			)
 		)
-		(property "Component_PDF" "${KIPRJMOD}/composants/controle/CL21A226MAYNNNE.pdf"
+		(property "Component_PDF" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12729,7 +12776,7 @@
 				)
 			)
 		)
-		(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL21A226MAYNNN&type=specsheet"
+		(property "Datasheet_URL" "https://product.samsungsem.com/part/download.do?masterKey=CL32B226KLV6PJ&type=specsheet"
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12740,7 +12787,7 @@
 				)
 			)
 		)
-		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod"
+		(property "Footprint_File" "${KIPRJMOD}/composants/kicad/vendor/Capacitor_SMD.pretty/C_1210_3225Metric.kicad_mod"
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12751,7 +12798,7 @@
 				)
 			)
 		)
-		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_0805_2012Metric.step"
+		(property "Model_3D" "${KIPRJMOD}/composants/3d/C_1210_3225Metric.step"
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12762,7 +12809,7 @@
 				)
 			)
 		)
-		(property "Model_3D_Type" "KiCad, geometrie generique du boitier"
+		(property "Model_3D_Type" "KiCad, geometrie generique du boitier 1210; pas un modele fournisseur du composant"
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12773,7 +12820,7 @@
 				)
 			)
 		)
-		(property "Price_Basis" "EUR HT par piece, hors port"
+		(property "Price_Basis" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12784,7 +12831,7 @@
 				)
 			)
 		)
-		(property "Stock_Checked" "2026-09-27"
+		(property "Stock_Checked" ""
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12795,7 +12842,7 @@
 				)
 			)
 		)
-		(property "Supplier_Notes" "Relevé web; stock et prix variables."
+		(property "Supplier_Notes" "Selection du 04/10/2026 selon 22 µF / 35 V / X7R et plus petit boitier confirme (1210). Source fabricant: https://product.samsungsem.com/mlcc/CL32B226KLV6PJ.do . Prix et stock a consulter avant commande. Anciennes donnees CL21A226 effacees."
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12806,7 +12853,7 @@
 				)
 			)
 		)
-		(property "Supplier_Status" "Rupture au releve"
+		(property "Supplier_Status" "Reference identifiee; prix et stock non releves"
 			(at -63.5 -26.67 0)
 			(hide yes)
 			(show_name no)
